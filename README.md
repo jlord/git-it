@@ -1,5 +1,7 @@
-git-it
+git-it [WIP]
 ======
+
+![ss](git-it-ss.png)
 
 A [workshopper](https://github.com/rvagg/workshopper) module for learning Git and GitHub - Social coding, y'all.
 
