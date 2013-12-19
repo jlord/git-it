@@ -1,0 +1,40 @@
+  Push your repository to GitHub.com for sharing.
+
+  --------------------------------------------------------------------
+
+  The repository you've created so far is just on your computer, which
+  makes it pretty hard to share and get help from others on. That's 
+  what GitHub.com helps with! 
+
+  You want to sync your {bold}local{/bold} version with one stored on GitHub.com,
+  called the {bold}remote{/bold} version.
+
+  - Go to www.github.com, log in, and click a '+' in the top right to
+  create a new repository.
+  - Give it a name that matches your local repository and a short description.
+  - For now, don't add a readme, .gitignore or license file.
+  - Click create!
+
+  Now you've got an empty repository started on GitHub.com. On the 
+  right side of the page, mid way down, you'll find a small bar with
+  labeled 'HTTPS clone URL'. This is the address to your remote
+  repository; copy it.
+
+  {bold}{cyan}
+  Add your remote to your local{/bold}{/cyan}
+  -----------------------------
+
+  Back in your terminal, you want to tell Git the location of the
+  remote version.
+
+  $ git remote origin add <http://urlfromgithub.com>
+
+  Now you want to {bold}push{/bold} everything you've done locally
+  to GitHub on a branch named master (we'll learn more about branches
+  later).
+
+  $ git push origin master
+
+  Go refresh your repository on GitHub.com. WOAH! 
+
+  --------------------------------------------------------------------

@@ -1,0 +1,38 @@
+  Create a file in your new repository, add something to that file and
+  commit those changes to Git.
+
+  --------------------------------------------------------------------
+
+  Now that you've got a repository started, add a file to it. Tell 
+  terminal to open file with the name readme.md.
+
+  $ open readme.md
+
+  This should open up your computer's default text editor. Now write a
+  couple of lines of text, whatever you want. If you know Markdown,
+  jazz it up. Then save.
+
+  {bold}{cyan}
+  Check, Add and Commit Changes{/bold}{/cyan}
+  -----------------------------
+
+  Next check the {bold}status{/bold} of your repository. Then {bold}add{/bold} the file 
+  you just created to the files you'd like to {bold}commit{/bold} (aka save) 
+  to change. Finally, commit those changes to the repository's history 
+  with a short description of the updates.See the command hints below!
+
+
+  **BASIC GIT COMMANDS**
+  ---------------------------
+
+  {bold}git status{/bold} check status of changes to a repository
+  usage: $ git status
+
+  {bold}git add <filename>{/bold} add a file's changes to be commited 
+  usage: $ cd myNewFolder
+
+  {bold}git commit -m "message"{/bold} commit changes to the repository
+  along with a short message describing the change
+  usage: $ git commit -m "updated the readme" 
+
+  --------------------------------------------------------------------
