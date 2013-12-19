@@ -9,7 +9,7 @@ This workshopper takes workshoppees on a journey through Git and GitHub (and wit
 
 - Install and configure git
 - Create repository
-- mkdir, git init
+ - mkdir, git init
 - Add file to repository
 - Check in
  - git status, add, commit, push
