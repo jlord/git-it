@@ -24,15 +24,6 @@
   terminal (which you're in right now!).
 
   {bold}{cyan}
-  Create a GitHub Account{/bold}{/cyan}
-  -----------------------
-  GitHub is a website that alows people everywhere to share what 
-  they're working on with Git and to easily work together.
-
-  - Visit http://www.github.com and sign up for a free account.
-  - High five, welcome!
-
-  {bold}{cyan}
   Configure Git{/bold}{/cyan}
   -------------
   Now that you've got Git installed and your terminal open, you'll 

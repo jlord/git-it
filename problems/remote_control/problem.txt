@@ -6,6 +6,16 @@
   makes it pretty hard to share and get help from others on. That's 
   what GitHub.com helps with! 
 
+  {bold}{cyan}
+  Create a GitHub Account{/bold}{/cyan}
+  -----------------------
+  
+  GitHub is a website that alows people everywhere to share what 
+  they're working on with Git and to easily work together.
+
+  - Visit http://www.github.com and sign up for a free account.
+  - High five, welcome!
+
   You want to sync your {bold}local{/bold} version with one stored on GitHub.com,
   called the {bold}remote{/bold} version.
 
@@ -36,5 +46,13 @@
   $ git push origin master
 
   Go refresh your repository on GitHub.com. WOAH! 
+
+  {yellow}
+  **GIT TIPS**{/yellow}
+  ------------
+
+  Add remote connections:
+
+  $ git remote <REMOTENAME> <URL>
 
   --------------------------------------------------------------------

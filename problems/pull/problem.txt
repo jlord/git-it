@@ -1,0 +1,16 @@
+  Pull changes from upstream.
+
+  --------------------------------------------------------------------
+
+  If you're working on something with someone you need to stay up
+  to date with the latest version. So before you start to work, you'll
+  want to pull in any changes.
+
+  Let's check our forked repository's original:
+
+  $ git pull origin upstream
+
+  If nothing's changed, it will tell you 'Already up to date'. If there
+  are changes, it will pull those changes into your local version.
+
+  --------------------------------------------------------------------
