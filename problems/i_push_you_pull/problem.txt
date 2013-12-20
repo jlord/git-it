@@ -1,0 +1,21 @@
+  Submit a Pull Request.
+
+  --------------------------------------------------------------------
+
+  When you make changes and improvements to a project you've forked,
+  you'll want to send those changes to the maintainer of the original
+  and request that they pull them into the original so that everyone 
+  can benefit from the updates - that's a {bold}pull request{/bold}.
+
+  Once you {bold}push{/bold} changes to a branch on a fork, GitHub.com will
+  recognize this and ask if you want to create a pull request with 
+  the changes in that branch.
+
+  To create a Pull Request
+
+  - visit the original repository you forked on GitHub, in this case
+  http://www.github.com/jlord/REPONAME
+  - Click to create a pull request.
+  - Describe your changes and submit!
+
+  --------------------------------------------------------------------

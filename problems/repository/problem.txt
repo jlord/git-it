@@ -25,17 +25,19 @@
 
   That's it. It will just return you to a new line.
 
-  **BASIC TERMINAL COMMANDS**
-  ---------------------------
+  **BASIC BASH COMMANDS**
+  -----------------------
 
-  {bold}mkdir{/bold} to make a new folder (aka directory)
-  usage: $ mkdir myNewFolder
+  {bold}Make a new folder (aka directory){/bold}
 
-  {bold}cd{/bold} to navigate into an existing folder (aka 
-  change directory)
-  usage: $ cd myNewFolder
+  $ mkdir myNewFolder
 
-  {bold}ls{/bold} to list the items in a folder
-  usage: $ ls 
+  {bold}Navigate into an existing folder (aka change directory){/bold}
+
+  $ cd myNewFolder
+
+  {bold}List the items in a folder{/bold}
+
+  $ ls 
 
   --------------------------------------------------------------------

@@ -22,17 +22,29 @@
   with a short description of the updates.See the command hints below!
 
 
-  **BASIC GIT COMMANDS**
-  ---------------------------
+  {yellow}
+  **GIT TIPS**{/yellow}
+  ------------
 
-  {bold}git status{/bold} check status of changes to a repository
-  usage: $ git status
+  {bold}Check status of changes to a repository{/bold}
 
-  {bold}git add <filename>{/bold} add a file's changes to be commited 
-  usage: $ cd myNewFolder
+  $ git status
 
-  {bold}git commit -m "message"{/bold} commit changes to the repository
-  along with a short message describing the change
-  usage: $ git commit -m "updated the readme" 
+  {bold}Add a file's changes to be commited{/bold}
+
+  $ git add <FILENAME>
+
+  {\e}To add all files' changes{/\e}
+
+  $ git add .
+
+  {bold}To commit (aka save) the changes you've added with a short
+  message describing the changes{/bold}
+
+  $ git commit -m "your message"
+
+  {bold}To push your changes to a remote{/bold}
+
+  $ git push origin <BRANCHNAME>
 
   --------------------------------------------------------------------

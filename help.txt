@@ -1,1 +1,72 @@
-{yellow}{bold}Having trouble with a {appname} exercise?{/bold}{/yellow}
+  {cyan}{bold}
+  HANDY GIT AND BASH COMMANDS{/bold}{/cyan}
+
+  {cyan}
+  GIT COMMANDS{/cyan}
+  ------------
+
+  {bold}Configure your username{/bold}
+
+  $ git config --global user.name "YourGitHubUserName"
+
+  {bold}Configure your email{/bold}
+
+  $ git config --global user.email youremail@example.com
+
+  {bold}Check status of changes to a repository{/bold}
+
+  $ git status
+
+  {bold}Add a file's changes to be commited{/bold}
+
+  $ git add <FILENAME>
+
+  {\e}To add all files' changes{/\e}
+
+  $ git add .
+
+  {bold}To commit (aka save) the changes you've added with a short
+  message describing the changes{/bold}
+
+  $ git commit -m "your message"
+
+  {bold}To push your changes to a remote{/bold}
+
+  $ git push <REMOTENAME> <BRANCHNAME>
+
+  {bold}To pull in changes from remote{/bold}
+
+  $ git pull <REMOTENAME> <REMOTENAME>
+
+  {cyan}
+  BASH COMMANDS{/cyan}
+  -------------
+
+  {bold}Make a new folder (aka directory){/bold}
+
+  $ mkdir <FOLDERNAME>
+
+  {bold}Navigate into an existing folder (aka change directory){/bold}
+
+  $ cd <FOLDERNAME>
+
+  {bold}List the items in a folder{/bold}
+  
+  $ ls 
+
+  {bold}Navigate out of current folder (directory){/bold}
+
+  $ cd ..
+
+  {bold}Navigate your computer's root directory{/bold}
+
+  $ cd
+
+  {bold}Remove (delete) a file{/bold}
+
+  $ rm <FILENAME>
+
+  {bold}Remove (delete) a folder{/bold}
+
+  $ rm -rf <FOLDERNAME>
+ 

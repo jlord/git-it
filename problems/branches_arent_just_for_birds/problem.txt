@@ -17,6 +17,8 @@
 
   $ git checkout <BRANCHNAME>
 
+  Create some changes to _____ and push those changes to the branch.
+
 
   {yellow}
   **GIT TIPS**{/yellow}
@@ -25,5 +27,9 @@
   You can create and switch to a branch in one line:
 
   $ git checkout -b <BRANCHNAME>
+
+  Push changes
+
+  $ git push origin <BRANCHNAME>
 
   --------------------------------------------------------------------
