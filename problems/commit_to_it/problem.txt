@@ -13,8 +13,8 @@
   jazz it up. Then save.
 
   {bold}{cyan}
-  Check, Add and Commit Changes{/bold}{/cyan}
-  -----------------------------
+  Check, Add and Commit Changes{/bold}
+  -----------------------------{/cyan}
 
   Next check the {bold}status{/bold} of your repository. Then {bold}add{/bold} the file 
   you just created to the files you'd like to {bold}commit{/bold} (aka save) 
@@ -23,7 +23,7 @@
 
 
   {yellow}
-  **GIT TIPS**{/yellow}
+  **GIT TIPS**
   ------------
 
   {bold}Check status of changes to a repository{/bold}
@@ -45,6 +45,6 @@
 
   {bold}To push your changes to a remote{/bold}
 
-  $ git push origin <BRANCHNAME>
+  $ git push origin <BRANCHNAME>{/yellow}
 
   --------------------------------------------------------------------

@@ -3,12 +3,12 @@
   --------------------------------------------------------------------
 
   The repository you've created so far is just on your computer, which
-  makes it pretty hard to share and get help from others on. That's 
-  what GitHub.com helps with! 
+  makes it pretty hard to share and get help from others on. No worries,
+  that's what GitHub.com is for! 
 
   {bold}{cyan}
-  Create a GitHub Account{/bold}{/cyan}
-  -----------------------
+  Create a GitHub Account{/bold}
+  -----------------------{/cyan}
   
   GitHub is a website that alows people everywhere to share what 
   they're working on with Git and to easily work together.
@@ -16,12 +16,17 @@
   - Visit http://www.github.com and sign up for a free account.
   - High five, welcome!
 
-  You want to sync your {bold}local{/bold} version with one stored on GitHub.com,
+  {bold}{cyan}
+  Create a Remote Repository{/bold}
+  --------------------------{/cyan}
+
+  You want to sync your {bold}local{/bold} version with one stored on GitHub.com
   called the {bold}remote{/bold} version.
 
   - Go to www.github.com, log in, and click a '+' in the top right to
   create a new repository.
-  - Give it a name that matches your local repository and a short description.
+  - Give it a name that matches your local repository's name and a short 
+  description.
   - For now, don't add a readme, .gitignore or license file.
   - Click create!
 
@@ -31,28 +36,36 @@
   repository; copy it.
 
   {bold}{cyan}
-  Add your remote to your local{/bold}{/cyan}
-  -----------------------------
+  Connect your Local to your Remote{/bold}
+  ---------------------------------{/cyan}
 
   Back in your terminal, you want to tell Git the location of the
-  remote version.
+  remote version. This is commonly named `origin`.
 
-  $ git remote origin add <http://urlfromgithub.com>
+  $ git remote add origin <URLFROMGITHUB>
 
   Now you want to {bold}push{/bold} everything you've done locally
-  to GitHub on a branch named master (we'll learn more about branches
+  to GitHub on a branch named `master` (we'll learn more about branches
   later).
 
   $ git push origin master
 
-  Go refresh your repository on GitHub.com. WOAH! 
+  Go refresh the page ofyour repository on GitHub.com. WOAH! 
 
   {yellow}
-  **GIT TIPS**{/yellow}
+  **GIT TIPS**
   ------------
 
-  Add remote connections:
+  {bold}Add remote connections{/bold}
 
-  $ git remote <REMOTENAME> <URL>
+  $ git remote add <REMOTENAME> <URL>
+
+  {bold}View remote connections{/bold}
+
+  $ git remote -v{/yellow}
+
+  {bold}Push changes{/bold}
+
+  $ git push <REMOTENAME> <URL>{/yellow}
 
   --------------------------------------------------------------------

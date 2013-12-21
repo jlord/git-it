@@ -1,0 +1,52 @@
+  Merge branch for much win!
+
+  --------------------------------------------------------------------
+
+  Your pull request is waiting for review, but meanwhile, since you
+  know that you definitely want those updates in your forked version, 
+  and your branch is in good working order, merge it into the main
+  branch on your forked repository, in this case, `gh-pages`.
+
+  Tidy up and delete the branch you just merge into `gh-pages`.
+
+  {bold}{cyan}
+  Bonus Round{/bold}{/cyan}
+  -----------
+
+  From your newly merged into `gh-pages` branch, open the `index.html`
+  file.
+
+  {yellow}
+  **GIT TIPS**
+  ------------
+
+  {bold}Merge a branch into current branch{/bold}
+
+  $ git merge <BRANCHNAME>
+
+  {bold}Change the branch you're working on{/bold}
+
+  $ git checkout <BRANCHNAME>{/yellow}
+
+  {bold}Delete a local branch{/bold}
+  
+  $ git branch -D <BRANCHNAME>
+
+  {bold}Delete a remote branch{/bold}
+
+  $ git push -D <BRANCHNAME>
+
+  {yellow}
+  **BASH TIPS**
+  -------------
+
+  {bold}Open a folder (directory){/bold}
+
+  $ open .
+
+  {bold}Open a folder (directory){/bold}
+
+
+
+
+  --------------------------------------------------------------------

@@ -1,11 +1,11 @@
-  To begin with Git and GitHub, you'll need to install Git and 
-  configure it with your username and email.
+  Install and configure Git.
 
   --------------------------------------------------------------------
 
   {bold}{cyan}
-  Get Git{/bold}{/cyan}
-  --------
+  Get Git{/bold}
+  --------{/cyan}
+
   Git is {bold}open source software{/bold} (free for anyone to use) 
   written by Linus Torvalds who also wrote the Linux operating system. 
 
@@ -18,14 +18,15 @@
   the operating system that you're using.
   - Follow the installation instructions.
 
-  Git isn't like other programs on your computer; you'll likely not 
-  see an icon on need it on your desktop. It will always be there 
+  Git isn't like other programs on your computer. You'll likely not 
+  see an icon on your desktop, but it will always be there 
   though and you'll be able to access it at anytime from you're 
   terminal (which you're in right now!).
 
   {bold}{cyan}
-  Configure Git{/bold}{/cyan}
-  -------------
+  Configure Git{/bold}
+  -------------{/cyan}
+
   Now that you've got Git installed and your terminal open, you'll 
   want to let Git know who to associate the changes you make to by 
   telling it your GitHub account name and email address.

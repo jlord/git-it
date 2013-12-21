@@ -6,17 +6,17 @@
   as project's folder with all the related files inside of it. In
   fact, that's what it will look like on your computer anyways.
 
-  You just tell Git what your project is and will start tracking all
+  You tell Git what your project is and Git will start tracking all
   of the changes to that folder. Files added or subtracted or even
   a single letter in a single file added -- all of it's tracked and
   time stamped by Git.
 
   {bold}{cyan}
-  Create a Repository{/bold}{/cyan}
-  -------------------
-
+  Create a Repository{/bold}
+  -------------------{/cyan}
+  
   You're going to create a new folder and intitalize it as a Git
-  repository. You'll need some basic terminal commands, which
+  repository*. You'll need some basic terminal (bash) commands, which
   you'll find below.
 
   To create a new Git instance for a project, the command is:
@@ -25,6 +25,7 @@
 
   That's it. It will just return you to a new line.
 
+  {yellow}
   **BASIC BASH COMMANDS**
   -----------------------
 
@@ -38,6 +39,15 @@
 
   {bold}List the items in a folder{/bold}
 
-  $ ls 
+  $ ls {/yellow}
+
+  * If you want, you can create a folder that will contain all of your
+  coding work. You intially start off in your computer's home (root)
+  directory. From there, create a folder for your code and a folder
+  for your first repository:
+
+  $ mkdir myCode
+  $ cd myCode
+  $ mkdir firstRepo
 
   --------------------------------------------------------------------

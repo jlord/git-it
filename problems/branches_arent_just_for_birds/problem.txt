@@ -17,11 +17,14 @@
 
   $ git checkout <BRANCHNAME>
 
-  Create some changes to _____ and push those changes to the branch.
-
+  {red}
+  - add actual repo challenge
+  - what to add to repo, what file...
+  - have user `open index.html` to test branch/changes
+  - mention about 'master' or naming other things{/red}
 
   {yellow}
-  **GIT TIPS**{/yellow}
+  **GIT TIPS**
   ------------
 
   You can create and switch to a branch in one line:
@@ -31,5 +34,9 @@
   Push changes
 
   $ git push origin <BRANCHNAME>
+
+  Verify what branch you're working on
+
+  $ git status{/yellow}
 
   --------------------------------------------------------------------

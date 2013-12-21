@@ -4,13 +4,21 @@
 
   If you're working on something with someone you need to stay up
   to date with the latest version. So before you start to work, you'll
-  want to pull in any changes.
+  want to {bold}pull{/bold} in any changes.
 
-  Let's check our forked repository's original:
+  Pull in any changes that were made to the original:
 
   $ git pull origin upstream
 
-  If nothing's changed, it will tell you 'Already up to date'. If there
+  If nothing's changed, it will tell you 'Already up-to-date'. If there
   are changes, it will pull those changes into your local version.
+
+  {yellow}
+  **GIT TIPS**
+  ------------
+
+  {bold}Pull in changes from a remote branch{/bold}
+
+  $ git pull <REMOTENAME> <REMOTEBRANCH>{/yellow}
 
   --------------------------------------------------------------------

@@ -31,3 +31,9 @@ I also intend on building a bot that listens to events on a repo (the one given 
 ##### Other Things
 
 I want to throw in GitHub Pages into this, too, because it's so great. How nice to end up with your own website at the end of this workshop?
+
+_notes to self_
+- add intro to terminal/bash/shell
+- something about text editors
+- be prescriptive about folder/file names and content?
+- add git diff
