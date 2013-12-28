@@ -17,7 +17,7 @@
     "url": "https://github.com/jlord/git-it/issues"
   },
   "dependencies": {
-    "workshopper": "~0.5.0",
+    "workshopper": "jlord/workshopper#verify",
     "concat-stream": "~1.2.1"
   }
 }

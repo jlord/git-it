@@ -1,1 +1,1 @@
-solution.js
+console.log(true)
