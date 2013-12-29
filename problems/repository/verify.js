@@ -1,9 +1,5 @@
 #!/usr/bin/env node
 
-// should have them type in the path of their
-// repo OR have them create a new folder from 
-// the start.
-
 var spawn = require('child_process').spawn
 var concat = require('concat-stream')
 

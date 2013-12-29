@@ -3,7 +3,7 @@
   --------------------------------------------------------------------
 
   The repository you've created so far is just on your computer, which
-  makes it pretty hard to share and get help from others on. No worries,
+  is handy, but makes it pretty hard to share and get help from others on. No worries,
   that's what GitHub.com is for! 
 
   {bold}{cyan}
@@ -13,7 +13,7 @@
   GitHub is a website that alows people everywhere to share what 
   they're working on with Git and to easily work together.
 
-  - Visit http://www.github.com and sign up for a free account.
+  - Visit {bold}http://www.github.com{/bold} and sign up for a free account.
   - High five, welcome!
 
   {bold}{cyan}
