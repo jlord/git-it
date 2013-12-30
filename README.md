@@ -5,35 +5,32 @@ git-it [WIP]
 
 A [workshopper](https://github.com/rvagg/workshopper) module for learning Git and GitHub - Social coding, y'all.
 
+These modules run a little app in your terminal and users work their way through the challenges. See [nodeschool.io](http://www.nodeschool.io) for more.
+
 ## The Rough Plan
 
-This workshopper takes workshoppees on a journey through Git and GitHub (and with all that, a little basic command line, too):
+This workshopper takes workshoppees on a journey through Git and GitHub (and with all that, a little basic command line, too). The screenshot above shows the current menu.
 
-- Install and configure git
-- Create repository
- - mkdir, git init
-- Add file to repository
-- Check in
- - git status, add, commit, push
-- Fork
-- Clone
-- Add upstream
-- Pull changes 
-- Create branch
-- edit file
-- Check in
-- Submit a PR
+Workshoppees will complete the first few challenges locally with Git on a new repository they create. Then they push that repository to Git. Next they'll fork a repository and learn the bits about setting up remotes and contributing and such. I'd like this forked repository (specifically for this workshopper) to be a little more interactive (see Repo-Bot Future below) and be kind of neat. Each PR would be a needed contribution to something bigger. See [this issue](https://github.com/jlord/git-it/issues/1) for more thoughts on this.
 
 #### Exciting Repo-Bot Future
 
-I also intend on building a bot that listens to events on a repo (the one given as the repo to fork in this workshop) so that workshoppes can do things like pull in changes, or possible handle a merge conflict! Eek!
+I also intend on building a bot that listens to events on a repo (the one given as the repo to fork in this workshop) so that workshops can do things like pull in changes, or possible handle a merge conflict! Eek!
 
 ##### Other Things
 
 I want to throw in GitHub Pages into this, too, because it's so great. How nice to end up with your own website at the end of this workshop?
 
+### To Run
+
+_Note, I'm still working on this so not everything will work until this is no longer a work in progress. It's not even on NPM yet. But it will be and it will work like this:_ 
+
+```bash
+$ npm install -g git-it
+$ git-it
+```
+
 _notes to self_
 - add intro to terminal/bash/shell
 - something about text editors
-- be prescriptive about folder/file names and content?
-- add git diff
+- add git diff in challenge
