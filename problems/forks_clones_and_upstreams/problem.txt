@@ -21,6 +21,10 @@
 
   $ git clone <URL>
 
+  Navigate into that folder
+
+  $ cd ForkedRepoName
+
   Now you've got a copy of the repository on your computer and it is
   automatically connected to the remote one on your GitHub account. 
   

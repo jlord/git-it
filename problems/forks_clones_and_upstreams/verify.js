@@ -3,16 +3,16 @@
 var spawn = require('child_process').spawn
 var concat = require('concat-stream')
 
-var ref = spawn('git', ['reflog', 'show', 'origin/master'])
+var remote = spawn('git', ['remote', '-v'])
 
 
-ref.stdout.pipe(concat(onRef))
+remote.stdout.pipe(concat(onRemote))
 
-function onRef(output) {
-  var ref = output.toString().trim()
-  if (ref.match("update by push"))
+function onRemote(output) {
+  var show = output.toString().trim()
+  if (show.match("upstream") && show.match("github.com/jlord/"))
   console.log(true)
-  else console.log(false)
+  else console.log("no upstream remote")
 }
 
 // check via the github api? would need username

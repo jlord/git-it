@@ -3,16 +3,16 @@
 var spawn = require('child_process').spawn
 var concat = require('concat-stream')
 
-var ref = spawn('git', ['reflog', 'show', 'origin/master'])
+var remote = spawn('git', ['status'])
 
 
-ref.stdout.pipe(concat(onRef))
+remote.stdout.pipe(concat(onRemote))
 
-function onRef(output) {
-  var ref = output.toString().trim()
-  if (ref.match("update by push"))
+function onRemote(output) {
+  var show = output.toString().trim()
+  if (show.match("up to date"))
   console.log(true)
-  else console.log(false)
+  else console.log("There are changes to pull in")
 }
 
 // check via the github api? would need username
