@@ -21,6 +21,32 @@ I also intend on building a bot that listens to events on a repo (the one given 
 
 I want to throw in GitHub Pages into this, too, because it's so great. How nice to end up with your own website at the end of this workshop?
 
+### Requirement
+
+To use you need [Node JS](http://nodejs.org/) install on your computer
+
+### Usage
+
+- Fork this repo
+- Clone the repo in your computer: 
+
+```
+$ git clone git@github.com:jlord/git-it.git
+```
+
+- Go to the git-it directory
+
+```
+$ cd git-it
+```
+
+- Run the module
+
+```
+$ node git-it.js
+```
+
+
 ### To Run
 
 _Note, I'm still working on this so not everything will work until this is no longer a work in progress. It's not even on NPM yet. But it will be and it will work like this:_ 
