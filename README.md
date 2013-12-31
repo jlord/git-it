@@ -1,5 +1,8 @@
-git-it [WIP]
-======
+### Not Finished Yet! Under Construction! Will Exist in Near Future! WIP
+
+_I'm actively working on this and will redo this readme when it's ready to use. For now, below is plan._
+
+# Git-it
 
 ![ss](git-it-ss.png)
 
@@ -23,11 +26,24 @@ I want to throw in GitHub Pages into this, too, because it's so great. How nice 
 
 ### To Run
 
-_Note, I'm still working on this so not everything will work until this is no longer a work in progress. It's not even on NPM yet. But it will be and it will work like this:_ 
+
+
+**Note, I'm still working on this so not everything will work until this is no longer a _work in progress_. It's not even on NPM yet. But it will be and it will work like this:**
+
+You'll need [Node.js](http://www.nodejs.org) and NPM.
 
 ```bash
 $ npm install -g git-it
 $ git-it
+```
+
+Until then, if you want to install it anyway (remember, it doesn't work yet) you can:
+
+```bash
+git clone https://github.com/jlord/git-it.git
+cd git-it
+npm link
+git-it
 ```
 
 _notes to self_
