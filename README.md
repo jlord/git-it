@@ -8,7 +8,7 @@ _I'm actively working on this and will redo this readme when it's ready to use. 
 
 A [workshopper](https://github.com/rvagg/workshopper) module for learning Git and GitHub - Social coding, y'all.
 
-These modules run a little app in your terminal and users work their way through the challenges. See [nodeschool.io](http://www.nodeschool.io) for more.
+These modules run a little app in your terminal and users work their way through the challenges. See [nodeschool.io](http://nodeschool.io) for more.
 
 ## The Rough Plan
 
