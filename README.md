@@ -24,20 +24,9 @@ I also intend on building a bot that listens to events on a repo (the one given 
 
 I want to throw in GitHub Pages into this, too, because it's so great. How nice to end up with your own website at the end of this workshop?
 
-### To Run
+### Running the Under Construction Version Locally
 
-
-
-**Note, I'm still working on this so not everything will work until this is no longer a _work in progress_. It's not even on NPM yet. But it will be and it will work like this:**
-
-You'll need [Node.js](http://www.nodejs.org) and NPM.
-
-```bash
-$ npm install -g git-it
-$ git-it
-```
-
-Until then, if you want to install it anyway (remember, it doesn't work yet) you can:
+Eventually this will run like a global node module and will be available on NPM. Until then, if you want to install it anyway (remember, it doesn't work yet) you can:
 
 ```bash
 git clone https://github.com/jlord/git-it.git
