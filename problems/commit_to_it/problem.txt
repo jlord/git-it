@@ -7,6 +7,8 @@
   terminal to open file with the name readme.md.
 
   $ open readme.md
+  
+  {red}- should they use vim? do i suggest downloading a text editor?{/red}
 
   This should open up your computer's default text editor. Now write a
   couple of lines of text, whatever you want. If you know Markdown,
@@ -16,10 +18,15 @@
   Check, Add and Commit Changes{/bold}
   -----------------------------{/cyan}
 
-  Next check the {bold}status{/bold} of your repository. Then {bold}add{/bold} the file 
-  you just created to the files you'd like to {bold}commit{/bold} (aka save) 
-  to change. Finally, commit those changes to the repository's history 
-  with a short description of the updates.See the command hints below!
+  Next check the {bold}status{/bold} of your repository. Are there changes 
+  listed? View the **diff**erence   between the files now and how they were 
+  before you edited. Then {bold}add{/bold} the file you just created to the 
+  files you'd like to {bold}commit{/bold} (aka save) to change. Finally, 
+  commit those changes to the repository's history with a short description 
+  of the updates.See the command hints below!
+  
+  {red}- since this is an early challenge, maybe I should be more explicit
+  about how to type commands?{/red}
 
 
   {yellow}
@@ -29,12 +36,16 @@
   {bold}Check status of changes to a repository{/bold}
 
   $ git status
+  
+  {bold}View changes to files{/bold}
+
+  $ git diff
 
   {bold}Add a file's changes to be commited{/bold}
 
   $ git add <FILENAME>
 
-  {\e}To add all files' changes{/\e}
+  {bold}To add all files' changes{bold}
 
   $ git add .
 

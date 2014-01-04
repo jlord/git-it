@@ -1,4 +1,4 @@
-  Fork and project on GitHub.com and clone it locally.
+  Fork a project on GitHub.com and add a collaborator.
 
   --------------------------------------------------------------------
 
@@ -16,6 +16,8 @@
   The project we'll work with is github.com/jlord/PROJECTREPO. Go
   to that site and click the fork button at the top right. Once the 
   fork is complete, copy your fork's HTTP URL on the right side.
+  
+  {red}- move cloning to a new challenge with clone and pull{/red}
 
   Now, in terminal, clone the repo.
 
