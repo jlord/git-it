@@ -3,14 +3,14 @@
 var spawn = require('child_process').spawn
 var concat = require('concat-stream')
 
-var remote = spawn('git', ['status'])
+var pull = spawn('git', ['fetch', '--dry-run'])
 
 
-remote.stdout.pipe(concat(onRemote))
+pull.stdout.pipe(concat(onRemote))
 
 function onRemote(output) {
-  var show = output.toString().trim()
-  if (show.match("up to date"))
+  var status = output.toString().trim()
+  if (!status)
   console.log(true)
   else console.log("There are changes to pull in")
 }

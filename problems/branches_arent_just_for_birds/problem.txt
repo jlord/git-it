@@ -2,7 +2,7 @@
 
   --------------------------------------------------------------------
 
-  It's common practice when working on a project or with others on a 
+  It's common practice when working on a project or with others on a
   project to create a {bold}branch{/bold} to put your changes in. This
   way you can do you work while the main, commonly named 'master',
   branch stays stable.
@@ -10,9 +10,9 @@
   When you create a branch, Git copies everything from the current branch
   you're on and places it in the branch you've requested.
 
-  $ git brach <BRANCHNAME>
+  $ git branch <BRANCHNAME>
 
-  To go into that branch and work on it, similar to using `cd` to change 
+  To go into that branch and work on it, similar to using `cd` to change
   directory in terminal, you {bold}checkout{/bold} a branch.
 
   $ git checkout <BRANCHNAME>
