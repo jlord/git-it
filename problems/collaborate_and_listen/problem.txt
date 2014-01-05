@@ -1,25 +1,6 @@
-  Add a collaborator to your fork and pull in their changes.
+  Pull in changes to a repo to stay up to date.
   
   --------------------------------------------------------------------
-  
-  Working with others is one of the best things about GitHub. 
-  
-  
-  {bold}{cyan}
-  Add Collaborators{/bold}
-  -----------------{/cyan}
-  
-  Add collaborators to a project (who will be granted the ability to 
-  edit repository file) by going to your repositories webpage and
-  clicking the 'Settings' icon on the right side menu. Then select 
-  'Security' tab.
-  
-  {bold}{cyan}
-  Hello, Repo Robot!{/bold}
-  ------------------{/cyan}
-  
-  Add 'reporobot' as a collaborator on your fork. RR will join us on
-  this exercise. YAY!
   
   {bold}{cyan}
   Pull in Changes{/bold}
