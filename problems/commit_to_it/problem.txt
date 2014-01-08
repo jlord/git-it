@@ -19,11 +19,14 @@
   -----------------------------{/cyan}
 
   Next check the {bold}status{/bold} of your repository. Are there changes 
-  listed? View the **diff**erence   between the files now and how they were 
-  before you edited. Then {bold}add{/bold} the file you just created to the 
-  files you'd like to {bold}commit{/bold} (aka save) to change. Finally, 
-  commit those changes to the repository's history with a short description 
-  of the updates.See the command hints below!
+  listed? View the {bold}diff{/bold}erence   between the files now and how they 
+  were before you edited. 
+
+  Then {bold}add{/bold} the file you just created 
+  to the files you'd like to {bold}commit{/bold} (aka save) to change. 
+
+  Finally, commit those changes to the repository's history with a short 
+  description of the updates.See the command hints below!
   
   {red}- since this is an early challenge, maybe I should be more explicit
   about how to type commands?{/red}
@@ -45,7 +48,7 @@
 
   $ git add <FILENAME>
 
-  {bold}To add all files' changes{bold}
+  {bold}To add all files' changes{/bold}
 
   $ git add .
 

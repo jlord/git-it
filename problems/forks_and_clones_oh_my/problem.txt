@@ -3,10 +3,13 @@
   --------------------------------------------------------------------
 
   Now you've made a project locally and pushed it to GitHub, but that's
-  only half the fun! The other half is working with other projects.
+  only half the fun! The other half is working with other people and
+  projects.
 
   When you {bold}fork{/bold} a repository, you're creating a copy of
-  it on your GitHub.com account. You can then {bold}clone{/bold} it
+  it on your GitHub.com account. Forks are used for creating your own
+  version of a project or contributing back fixes or features to the 
+  original project. Once a project is forked, you then {bold}clone{/bold} it
   to your computer to work on locally. 
 
   {bold}{cyan}
@@ -16,26 +19,26 @@
   The project we'll work with is github.com/jlord/PROJECTREPO. Go
   to that site and click the fork button at the top right. Once the 
   fork is complete, copy your fork's HTTP URL on the right side. 
-  
-  Working with others is one of the best things about GitHub. 
-  
-  {bold}{cyan}
-  Add Collaborators{/bold}
-  -----------------{/cyan}
-  
-  Add collaborators to a project (who will be granted the ability to 
-  edit repository file) by going to your repositories webpage and
-  clicking the 'Settings' icon on the right side menu. Then select 
-  'Security' tab.
-  
+    
   {bold}{cyan}
   Hello, Repo Robot!{/bold}
   ------------------{/cyan}
+
+  Working with others is one of the best things about GitHub. 
   
-  Add 'reporobot' as a collaborator on your fork. RR will join us on
-  this exercise. YAY!
+  You can add {bold}collaborators{/bold} to a project (who will be granted the 
+  ability to edit repository file) by going to your repositories
+  webpage and clicking the 'Settings' icon on the right side menu. 
+  Then select'Security' tab. Type in their username to add.
   
-  Now, in terminal, clone the repo.
+  Add 'reporobot' as a collaborator on your fork. RR will join us for a
+  few of these exercises. YAY!
+
+  {bold}{cyan}
+  Clone a Repospitory{/bold}
+  -------------------{/cyan}
+  
+  Now, in terminal, clone the repository.
 
   $ git clone <URL>
 
@@ -45,6 +48,10 @@
 
   Now you've got a copy of the repository on your computer and it is
   automatically connected to the remote one on your GitHub account. 
+
+  {bold}{cyan}
+  Connect to the Original Repository/bold}
+  ----------------------------------{/cyan}
   
   But what if the original repository you forked changes? You'll want 
   to be able to {bold}pull{/bold} in those updates too. So let's add a remote 

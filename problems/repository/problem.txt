@@ -16,8 +16,9 @@
   -------------------{/cyan}
   
   You're going to create a new folder and intitalize it as a Git
-  repository*. You'll need some basic terminal (bash) commands, which
-  you'll find below.
+  repository*. You'll need some basic terminal (Bash) commands (below) 
+  for moving around and creating folders (just like you'd do in Finder 
+  or Windows Explorer). 
 
   To create a new Git instance for a project, the command is:
 
@@ -42,7 +43,7 @@
   $ ls {/yellow}
 
   * If you want, you can create a folder that will contain all of your
-  coding work. You intially start off in your computer's home (root)
+  coding work. When you open Terminal you start off in your computer's home (root)
   directory. From there, create a folder for your code and a folder
   for your first repository:
 

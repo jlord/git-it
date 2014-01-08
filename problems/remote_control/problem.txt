@@ -3,8 +3,8 @@
   --------------------------------------------------------------------
 
   The repository you've created so far is just on your computer, which
-  is handy, but makes it pretty hard to share and get help from others on. No worries,
-  that's what GitHub.com is for! 
+  is handy, but makes it pretty hard to share and work with others on. 
+  No worries, that's what GitHub.com is for! 
 
   {bold}{cyan}
   Create a GitHub Account{/bold}
@@ -62,7 +62,7 @@
 
   {bold}View remote connections{/bold}
 
-  $ git remote -v{/yellow}
+  $ git remote -v
 
   {bold}Push changes{/bold}
 
