@@ -11,7 +11,7 @@
   recognize this and ask if you want to create a pull request with 
   the changes in that branch.
 
-  To create a pull request
+  {cyan}To create a pull request{/cyan}
 
   - visit the original repository you forked on GitHub, in this case
   http://www.github.com/jlord/REPONAME

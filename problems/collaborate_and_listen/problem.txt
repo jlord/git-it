@@ -7,11 +7,11 @@
   -----------------{/cyan}
   
   When you are working with someone on a project, you'll both have a copy
-  of the repository on your computer and you'll share the remote
-  repository on GitHub.com. 
+  of the repository on your computer and you'll share the {bold}remote
+  repository{/bold} on GitHub.com. 
   
   This means you need to stay up to date with each others changes. Before
-  you start making changes yourself, you should **pull** in any changes
+  you start making changes yourself, you should {bold}pull{/bold} in any changes
   that may have been made by a collaborator. Check if RR has made updates.
   
   $ git pull origin master

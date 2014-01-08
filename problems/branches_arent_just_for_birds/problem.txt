@@ -21,7 +21,9 @@
   - add actual repo challenge
   - what to add to repo, what file...
   - have user `open index.html` to test branch/changes
-  - mention about 'master' or naming other things{/red}
+  - mention about 'master' or naming other things
+  - talk about CONTRIBUTION docs{/red}
+
 
   {yellow}
   **GIT TIPS**
