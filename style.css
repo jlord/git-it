@@ -1,0 +1,41 @@
+body {font-family: "Helvetica Neue"; margin: 0 auto; color: #333;
+background: #9d62ff; /* Old browsers */
+background: -moz-linear-gradient(top,  #f1f1f1 1%, #fff 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#f1f1f1), color-stop(100%,#fff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #f1f1f1 1%,#fff 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #f1f1f1 1%,#fff 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #f1f1f1 1%,#fff 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #f1f1f1 1%,#fff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f1f1', endColorstr='#fff',GradientType=0 ); /* IE6-9 */
+}
+/* 62ff9d c0f3d4 // e7f7ed fff */
+
+h1, h2, h3, h4, h5, h6 {font-weight: 300;}
+em {font-family: Georgia;}
+a, a:visited, a:active {color: #333; text-decoration: none; transition: color 0.2s ease;}
+a:hover {color: #61f398; padding-bottom: 1px; border-bottom: 1px solid #61f398;}
+h1 {font-size: 64px; text-shadow: 0px 1px 1px rgba(0,0,0,0.4);}
+
+.container {max-width: 800px; margin: 0 auto; padding: 22px;}
+
+#welcome-name {text-align: center; border-bottom: 1px solid #333;}
+#welcome-name h4 {margin: 6px;}
+
+#compatriots {padding: 22px;}
+
+header {text-align: center;}
+header h3 {font-family: Apex New; margin-bottom: 4px;}
+
+ul.nav {list-style: none; padding: 0px; margin: 0px;}
+.nav li {display: inline; padding-right: 8px; font-size: 13px; font-weight: 600;}
+
+.compatriots-list {list-style: none; padding: 0px; font-size: 12px;}
+.compatriots-list li {padding: 2px 0px;}
+
+
+
+
+
+.userdate {font-family: "Andale Mono"}
+.userdetail {font-weight: bold;}
+
