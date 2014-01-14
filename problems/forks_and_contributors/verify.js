@@ -2,8 +2,10 @@
 
 var spawn = require('child_process').spawn
 var concat = require('concat-stream')
+var http = require('request')
 
 var remote = spawn('git', ['remote', '-v'])
+var username = spawn('git', ['config', 'user.name'])
 
 
 remote.stdout.pipe(concat(onRemote))
@@ -14,6 +16,13 @@ function onRemote(output) {
   console.log(true)
   else console.log("no upstream remote")
 }
+
+request('http://reporobot.jlord.us/collab=' + username, function (error, response, body) {
+  if (!error && response.statusCode == 200) {
+    var issueLength = body.issueLength
+    if (issueLength > 1) console.log(true)
+  }
+})
 
 // check via the github api? would need username
 // and repo name (repo name could be assumed/gotten

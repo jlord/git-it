@@ -5,7 +5,6 @@ var concat = require('concat-stream')
 
 var ref = spawn('git', ['reflog', 'show', 'origin/master'])
 
-
 ref.stdout.pipe(concat(onRef))
 
 function onRef(output) {

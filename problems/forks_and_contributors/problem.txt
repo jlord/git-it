@@ -1,24 +1,27 @@
-  Fork a project on GitHub.com and add a collaborator.
+  Fork a project from GitHub.com and add a collaborator.
 
   --------------------------------------------------------------------
 
   Now you've made a project locally and pushed it to GitHub, but that's
-  only half the fun! The other half is working with other people and
+  only half the fun. The other half is working with other people and
   projects.
 
   When you {bold}fork{/bold} a repository, you're creating a copy of
   it on your GitHub.com account. Forks are used for creating your own
   version of a project or contributing back fixes or features to the
-  original project. Once a project is forked, you then {bold}clone{/bold} it
+  original project. 
+  
+  Once a project is forked, you then {bold}clone{/bold} it
   to your computer to work on locally.
 
   {bold}{cyan}
   Fork{/bold}
   ----{/cyan}
 
-  The project we'll work with is github.com/jlord/PROJECTREPO. Go
+  The project we'll work with is {bold}www.github.com/jlord/patchwork{/bold}. Go
   to that site and click the fork button at the top right. Once the
-  fork is complete, copy your fork's HTTP URL on the right side.
+  fork animation is complete, you've got a copy on your account. Copy 
+  your fork's HTTP URL on the right side.
 
   {bold}{cyan}
   Hello, Repo Robot!{/bold}
@@ -27,9 +30,11 @@
   Working with others is one of the best things about GitHub.
 
   You can add {bold}collaborators{/bold} to a project (who will be granted the
-  ability to edit repository file) by going to your repositories
+  ability to edit repository's files) by going to your repository's
   webpage and clicking the 'Settings' icon on the right side menu.
-  Then select'Security' tab. Type in their username to add.
+  Then select 'Security' tab. Type in the username to add.
 
   Add 'reporobot' as a collaborator on your fork. RR will join us for a
-  few of these exercises. YAY!
+  few of these exercises. 
+  
+  When you've added RR, type `git-it verify`
