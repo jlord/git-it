@@ -1,4 +1,4 @@
-  Push your repository to GitHub.com for sharing.
+  Set up GitHub and push your repository to GitHub.com for sharing.
 
   --------------------------------------------------------------------
 
@@ -15,6 +15,21 @@
 
   - Visit {bold}http://www.github.com{/bold} and sign up for a free account.
   - High five, welcome!
+  
+  {bold}{cyan}
+  Configure Git{/bold}
+  -------------{/cyan}
+
+  You'll want to let Git know who to associate the changes you make to 
+  by telling it your GitHub account name and email address.
+
+  Open a new terminal {bold}(CMD + N){/bold} window and set your username:
+
+  $ git config --global user.name "YourGitHubUserName"
+
+  Now set your email:
+
+  $ git config --global user.email youremail@example.com
 
   {bold}{cyan}
   Create a Remote Repository{/bold}

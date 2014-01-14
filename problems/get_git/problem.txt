@@ -1,4 +1,4 @@
-  Install and configure Git.
+  Install Git.
 
   --------------------------------------------------------------------
 
@@ -23,28 +23,9 @@
   and you'll be able to access it at anytime from you're 
   terminal (which you're in right now!) or Git desktop applications.
 
-  {bold}{cyan}
-  Configure Git{/bold}
-  -------------{/cyan}
+  When you're done type into terminal
 
-  Now that you've got Git installed and your terminal open, you'll 
-  want to let Git know who to associate the changes you make to by 
-  telling it your GitHub account name and email address.
-
-  Open a new terminal {bold}(CMD + N){/bold} window and set your username:
-  (You can copy and paste this line or re type it in the new
-  window you opened.)
-
-  $ git config --global user.name "YourGitHubUserName"
-
-  Now set your email:
-
-  $ git config --global user.email youremail@example.com
-
-
-  When you're done run
-
-  {appname} verify git-config
+  $ git-it verify 
 
   PRO TIP: Dollar signs are often used in programming documentation
   to signal that the line is command line code. You don't actually 
