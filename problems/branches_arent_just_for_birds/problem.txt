@@ -1,4 +1,4 @@
-  Create a branch with your changes.
+  Create a new branch for your contribution.
 
   --------------------------------------------------------------------
 
@@ -18,11 +18,12 @@
   $ git checkout <BRANCHNAME>
 
   {red}
-  - add actual repo challenge
-  - what to add to repo, what file...
-  - have user `open index.html` to test branch/changes
-  - mention about 'master' or naming other things
   - talk about CONTRIBUTION docs{/red}
+
+  Create a branch and name it "add-username", where 'username' is 
+  your username. Then move onto that branch.
+  
+  Type `git-it verify` when you're done.
 
 
   {yellow}
@@ -33,9 +34,9 @@
 
   $ git checkout -b <BRANCHNAME>
 
-  Push changes
-
-  $ git push origin <BRANCHNAME>
+  Rename a branch you're currently on:
+  
+  $ git branch -m <NEWBRANCHNAME>
 
   Verify what branch you're working on
 

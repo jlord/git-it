@@ -6,16 +6,37 @@
   know that you definitely want those updates in your forked version, 
   and your branch is in good working order, merge it into the main,
   branch on your forked repository, in this case, `gh-pages`.
+  
+  {cyan}Merge a branch into the one you're currently on{/cyan}
+  
+  First, move into the branch you want to merge into (in this case,
+  branch `gh-pages`).
+  
+  $ git checkout <BRANCHNAME>
+  
+  Now tell Git what branch you want to merge in (in this case,
+  your feature branch that begins with "add").
+  
+  $ git merge <BRANCHNAME>
 
   Tidy up by deleting your feature branch now that it has been merged.
-
+  
+  $ git branch -D <BRANCHNAME>
+  
+  You can also delete the remote copy of it:
+  
+  $ git push --delete <BRANCHNAME>
+  
   {bold}{cyan}
-  Bonus Round{/bold}{/cyan}
-  -----------
-
-  From your newly merged into `gh-pages` branch, open the `index.html`
-  file.
-
+  Congratulations!{/bold}
+  ----------------{/cyan}
+  
+  You've create local repositories, remote repositories, worked with
+  a collaborator, pushed, pulled and joined the millions of others
+  developing and enriching open source!
+  
+  Visit www.__________________ !
+  
   {yellow}
   **GIT TIPS**
   ------------
@@ -34,7 +55,7 @@
 
   {bold}Delete a remote branch{/bold}
 
-  $ git push -D <BRANCHNAME>
+  $ git push --delete <BRANCHNAME>
 
   **BASH TIPS**
   -------------

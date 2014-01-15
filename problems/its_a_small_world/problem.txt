@@ -1,0 +1,38 @@
+  Add a collaborator.
+
+  --------------------------------------------------------------------
+  
+  Working with others is one of the best things about GitHub because 
+  it makes it easy to work from all over the world at any time.
+
+  {bold}{cyan}
+  Hello, Repo Robot!{/bold}
+  ------------------{/cyan}
+
+  You can add {bold}collaborators{/bold} to a project (who will be granted the
+  ability to edit repository's files) by going to your repository's
+  webpage and clicking the 'Settings' icon on the right side menu.
+  Then select 'Security' tab. Type in the username to add.
+
+  Add 'reporobot' as a collaborator on your fork. RR will join us for a
+  few of these exercises. 
+
+  {yellow}
+  **GIT TIPS**
+  ------------
+
+  {bold}Pull in changes from a remote{/bold}
+
+  $ git remote add <REMOTENAME> <BRANCH>
+
+  {bold}Copy a repository to your computer{/bold}
+
+  $ git clone <URL>
+
+  {bold}Add remote connections{/bold}
+
+  $ git remote add <REMOTENAME> <URL>
+
+  {bold}View remote connections{/bold}
+
+  $ git remote -v{/yellow}
