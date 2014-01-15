@@ -16,6 +16,15 @@ function onPull(output) {
   else console.log("There are changes to pull in")
 }
 
-// make sure they have no changes to push
+// check they have no changes to push
 
-var pull = spawn('git', ['status', '--dry-run'])
+var status = spawn('git', ['status'])
+
+function onStatus(output) {
+  var status = output.toString().trim()
+  if (status.match("nothing to commit"))
+  console.log(true)
+  else console.log("There are changes to push")
+}
+
+

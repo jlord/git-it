@@ -37,6 +37,13 @@
   
   Visit www.__________________ !
   
+  And last but not least, if you pull in updates from the original
+  (since it now shows you on the home page) you'll have a version
+  too, live at: yourusername.github.io/patchwork. This because 
+  GitHub serves up all webfiles on a `gh-pages` named branch, for free.
+  
+  $ git pull upstream gh-pages
+  
   {yellow}
   **GIT TIPS**
   ------------
@@ -57,16 +64,8 @@
 
   $ git push --delete <BRANCHNAME>
 
-  **BASH TIPS**
-  -------------
-
-  {bold}Open a folder (directory){/bold}
-
-  $ open .
-
-  {bold}Open a folder (directory){/bold}{/yellow}
-
-
-
+ {bold}Pull from a remote branch{/bold}
+ 
+ $ git pull <REMOTENAME> <BRANCHNAME>
 
   --------------------------------------------------------------------

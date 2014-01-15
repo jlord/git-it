@@ -1,0 +1,37 @@
+  Pull in changes from contributor.
+
+  --------------------------------------------------------------------
+
+  {bold}{cyan}
+  Pull in Changes{/bold}
+  -----------------{/cyan}
+  
+  If you're working on something with someone you need to stay up
+  to date with the latest version. To do so you'll {bold}pull{/bold} in 
+  any changes that may have been made.
+
+  See if Reporobot has made any changes by pulling from the branch:
+
+  $ git pull origin <BRANCHNAME>
+
+  If nothing's changed, it will tell you 'Already up-to-date'. If 
+  there are changes, it will tell you where they were made and merge 
+  those changes into your local version.
+  
+  Now you, Reporobot and GitHub all up-to-date. 
+  
+  Open the file Reporobot edit, it made something for you!
+    
+  {yellow}
+  **GIT TIPS**
+  ------------
+  
+  {bold}Pull in changes from a remote branch{/bold}
+
+  $ git pull <REMOTENAME> <REMOTEBRANCH>
+  
+  {bold}Push changes to a remote branch{/bold}
+
+  $ git push <REMOTENAME> <REMOTEBRANCH>{/yellow}
+
+  --------------------------------------------------------------------

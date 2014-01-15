@@ -1,6 +1,10 @@
   Create a new branch for your contribution.
 
   --------------------------------------------------------------------
+  
+  {bold}{cyan}
+  Branching{/bold}
+  ---------{/cyan}
 
   It's common practice when working on a project or with others on a
   project to create a {bold}branch{/bold} to put your changes in. This
@@ -19,11 +23,31 @@
 
   {red}
   - talk about CONTRIBUTION docs{/red}
+  
+  {bold}{cyan}
+  Create branch and new file{/bold}
+  --------------------------{/cyan}
 
   Create a branch and name it "add-username", where 'username' is 
   your username. Then move onto that branch.
   
+  Now, create a new file named "add-username.json". Just write you 
+  GitHub username in it and save, that's it, and it within the 
+  'contributors' folder.  
+  
+  {bold}{cyan}
+  Check-in{/bold}
+  --------{/cyan}
+  
+  Go through the steps for checking in a project: 
+  
+  $ git status
+  $ git add <filename>
+  $ git commit -m "commit message"
+  
   Type `git-it verify` when you're done.
+  
+  
 
 
   {yellow}

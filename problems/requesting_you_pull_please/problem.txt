@@ -3,16 +3,17 @@
   --------------------------------------------------------------------
 
   When you make changes and improvements to a project you've forked,
-  you'll want to send those changes to the maintainer of the original
-  and request that they {bold}pull{/bold} the changes into the original so that 
+  often you'll want to (and have intended to from the get-go) send 
+  those changes to the maintainer of the original and request that 
+  they {bold}pull{/bold} the changes into the original so that 
   everyone can benefit from the updates - that's a {bold}pull request{/bold}.
   
-  We want to add you to the list of workshop completors, so let's make
+  We want to add you to the list of workshop completors, so make
   a {bold}pull request{/bold} to the original.
 
   Once you {bold}push{/bold} changes to a branch on a fork, GitHub.com will
-  recognize this and ask if you want to create a pull request with 
-  the changes in that branch.
+  recognize this when you visit the original and ask if you want to create 
+  a pull request with the changes in that branch.
 
   {cyan}To create a pull request{/cyan}
 
@@ -21,4 +22,8 @@
   - Click to create a pull request.
   - Describe your changes and submit!
 
+  When you're done, type:
+  
+  $ git-it verify
+  
   --------------------------------------------------------------------
