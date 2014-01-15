@@ -15,3 +15,7 @@ function onPull(output) {
   console.log(true)
   else console.log("There are changes to pull in")
 }
+
+// make sure they have no changes to push
+
+var pull = spawn('git', ['status', '--dry-run'])
