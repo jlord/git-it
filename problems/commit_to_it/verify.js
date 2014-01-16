@@ -7,6 +7,8 @@ var show = spawn('git', ['show'])
 
 show.stdout.pipe(concat(onShow))
 
+// check that they've commited changes
+
 function onShow(output) {
   var show = output.toString().trim()
   if (show.match("new file mode") && show.match("commit"))

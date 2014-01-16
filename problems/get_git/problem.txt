@@ -28,7 +28,7 @@
   $ git-it verify 
 
   PRO TIP: Dollar signs are often used in programming documentation
-  to signal that the line is command line code. You don't actually 
-  type it in, though!
+  to signify that the line is command line code. You don't actually 
+  type it in, though, only type `git-it veryify`.
 
   --------------------------------------------------------------------

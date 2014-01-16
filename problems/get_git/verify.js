@@ -29,8 +29,9 @@ git.stdout.pipe(concat(onGit))
 function onGit(output) {
   var gitOutput = output.toString().trim()
   if (gitOutput.match("git version")) {
-    console.log(true)    
+    console.log(true)   
   }
+  else console.log("There is no Git installed.")
 }
 
 

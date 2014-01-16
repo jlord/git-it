@@ -19,12 +19,24 @@
   repository*. You'll need some basic terminal (Bash) commands (below) 
   for moving around and creating folders (just like you'd do in Finder 
   or Windows Explorer). 
-
-  To create a new Git instance for a project, the command is:
+  
+  To make a new folder:
+  
+  $ mkdir coolRepo
+  
+  To go into that folder:
+  
+  $ cd coolRepo
+  
+  To create a new Git instance for a project:
 
   $ git init
 
   That's it. It will just return you to a new line.
+  
+  When you've intialized a new Git repository in the new folder run:
+  
+  $ git-it verify
 
   {yellow}
   **BASIC BASH COMMANDS**
@@ -49,6 +61,6 @@
 
   $ mkdir myCode
   $ cd myCode
-  $ mkdir firstRepo
+  $ mkdir coolRepo
 
   --------------------------------------------------------------------

@@ -3,23 +3,19 @@
 
   --------------------------------------------------------------------
 
-  Now that you've got a repository started, add a file to it. Tell 
-  terminal to open file with the name readme.md.
-
-  $ open readme.md
+  Now that you've got a repository started, add a file to it. 
   
   {red}- should they use vim? do i suggest downloading a text editor?{/red}
 
-  This should open up your computer's default text editor. Now write a
-  couple of lines of text, whatever you want. If you know Markdown,
-  jazz it up. Then save.
+  Open a text editor. Now write a couple of lines of text and save the
+  file in the folder you created in the last lesson.
 
   {bold}{cyan}
   Check, Add and Commit Changes{/bold}
   -----------------------------{/cyan}
 
   Next check the {bold}status{/bold} of your repository. Are there changes 
-  listed? View the {bold}diff{/bold}erence   between the files now and how they 
+  listed? View the {bold}diff{/bold}erence between the files now and how they 
   were before you edited. 
 
   Then {bold}add{/bold} the file you just created 
@@ -30,7 +26,6 @@
   
   {red}- since this is an early challenge, maybe I should be more explicit
   about how to type commands?{/red}
-
 
   {yellow}
   **GIT TIPS**
