@@ -17,7 +17,6 @@ var username = spawn('git', ['config', 'user.name'])
 var branch = spawn('git', ['status'])
 var ref = spawn('git', ['reflog', 'show', 'origin/master'])
 
-
 username.stdout.pipe(concat(onUsername))
 
 function onUsername(output) {
