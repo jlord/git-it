@@ -31,8 +31,8 @@
   Create a branch and name it "add-username", where 'username' is 
   your username. Then move onto that branch.
   
-  Now, create a new file named "add-username.json". Just write you 
-  GitHub username in it and save, that's it, and it within the 
+  Now, create a new file named "add-username.txt". Just write you 
+  GitHub username in it and save it within the 
   'contributors' folder.  
   
   {bold}{cyan}
@@ -45,11 +45,13 @@
   $ git add <filename>
   $ git commit -m "commit message"
   
+  Now push you update to GitHub:
+  
+  $ git push origin <BRANCHNAME>
+  
   Type `git-it verify` when you're done.
   
   
-
-
   {yellow}
   **GIT TIPS**
   ------------

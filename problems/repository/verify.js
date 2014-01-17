@@ -5,6 +5,9 @@ var concat = require('concat-stream')
 
 var status = spawn('git', ['status'])
 
+// check that the current directory is a git
+// repository
+
 status.stdout.pipe(concat(onStatus))
 
 function onStatus(output) {
