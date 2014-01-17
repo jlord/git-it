@@ -3,16 +3,38 @@
 var spawn = require('child_process').spawn
 var concat = require('concat-stream')
 
-var remote = spawn('git', ['remote', '-v'])
+var ref = spawn('git', ['reflog', '-10'])
+var username = spawn('git', ['config', 'user.name'])
 
-remote.stdout.pipe(concat(onRemote))
+var user = ""
 
-// check that there is no longer a feature branch
-// here is what i added to test branch
+ref.stdout.pipe(concat(onRef))
+username.stdout.pipe(concat(onUser))
 
-function onRemote(output) {
-  var show = output.toString().trim()
-  if (show.match("upstream") && show.match("github.com/jlord/"))
-  console.log(true)
+// check that they performed a merge
+// check there is not username named branch
+
+function onRef(output) {
+  var ref = output.toString().trim()
+  if (ref.match("merge")) 
+    console.log(true)
   else return console.log("no upstream remote")
+}
+
+function onUser(output) {
+  user = output.toString().trim()
+  getBranches(onBranch)
+}
+
+function getBranches(callback) {
+  var branches = spawn('git', ['branch'])
+   branches.stdout.pipe(concat(callback))
+}
+
+function onBranch(output) {
+  var branch = output.toString().trim()
+  if (branch.match(user)) {
+    console.log(false)
+  }
+  else return console.log(true)
 }
