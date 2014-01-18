@@ -18,7 +18,7 @@ function onUser(output) {
 // check that they've added RR as a collaborator
 
 function collaborating(username) {
-  request.post(url + username, function (error, response, body) {
+  request(url + username, {json: true}, function (error, response, body) {
     console.log(body)
     if (!error && response.statusCode == 200) {
       if (body.collab = true) console.log(true)

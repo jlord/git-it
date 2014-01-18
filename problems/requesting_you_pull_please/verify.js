@@ -19,19 +19,11 @@ function onUser(output) {
 // to the original repository jlord/patchwork
 
 function pullrequest(username) {
-  request.post(url + username, function (error, response, body) {
+  request(url + username, {json: true}, function (error, response, body) {
     if (!error && response.statusCode == 200) {
-      if (body.pr = true) console.log(true) 
+      var pr = body.pr
+      if (pr) console.log(true) 
       else console.log("No pull request found for " + username)
     }
   })
 }
-
-// Why doesn't this work:
-// request.post(url + username, function (error, response, body) {
-//     if (!error && response.statusCode == 200) {
-//       var pr = body.pr
-//       console.log(pr)
-//       if (pr) console.log(true) 
-//       else console.log("No pull request found for " + username)
-// }
