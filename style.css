@@ -10,15 +10,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f1f1', end
 }
 /* 62ff9d c0f3d4 // e7f7ed fff */
 
+pre {color: #61f398; text-shadow: 0px 1px 1px rgba(0,0,0,0.4); padding-bottom: 20px; font-size: 11px;}
+
 h1, h2, h3, h4, h5, h6 {font-weight: 300;}
 em {font-family: Georgia;}
 a, a:visited, a:active {color: #333; text-decoration: none; transition: color 0.2s ease;}
 a:hover {color: #61f398; padding-bottom: 1px; border-bottom: 1px solid #61f398;}
-h1 {font-size: 64px; text-shadow: 0px 1px 1px rgba(0,0,0,0.4);}
+h1 {font-size: 54px; text-shadow: 0px 1px 1px rgba(0,0,0,0.4);}
+p {font-size: 14px;}
 
 .container {max-width: 800px; margin: 0 auto; padding: 22px;}
 
-#welcome-name {text-align: center; border-bottom: 1px solid #333;}
+#welcome-name {text-align: center; border-bottom: 1px dashed #333;}
 #welcome-name h4 {margin: 6px;}
 
 #compatriots {padding: 22px;}

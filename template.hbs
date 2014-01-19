@@ -1,0 +1,32 @@
+<html>
+<head>
+  <title>Patchwork: Git, GitHub and the Pursuit of Open Source</title>
+  <link href='style.css' rel='stylesheet'>
+</head>
+  <body>
+   <div class="container">
+    <header>
+      <h3><strong>GitHub</strong> Patchwork</h3>
+      <ul class="nav"><li><a href="#about">About</a></li></ul>
+    </header>
+    <div id="welcome-name">
+      <h1>Congrats, you did it!</h1>
+      <pre><code>{{#featured}}{{username}}{{/featured}}</code></pre>
+      <h3>You now know alternate meanings for <strong>fork</strong> and <strong>branch</strong>. You've <strong>collaborated</strong> someone whose location you're unaware of. You, friend, <strong>pull request</strong> with the best of 'em.</h3>
+    
+      <h3><strong>Your pulling and pushing compatriots (give or take 4 million):</strong></h3>
+    </div>
+    <div id="compatriots">
+      <ul class="compatriots-list">
+        {{#everyone}}
+        <li><span class="userdetail"><a href="#">@{{username}}</a></span> <span class="userdate">{{time}}</span></li>
+        {{/everyone}}
+      </ul>
+    </div>
+    <div id="about">
+      <h3><strong>About</strong></h3>
+      <p>Everyone listed on this page has completed <a href="#">Git-it</a>, a terminal based app for learning Git and GitHub. </p>
+    </div>
+   </div>
+  </body>
+</html>
