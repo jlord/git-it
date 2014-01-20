@@ -28,7 +28,7 @@ function onUsername(output) {
     if (branchOutput.match("add-" + username) {
       ref.stdout.pipe(concat(onRef))
     }
-    else console.log("branch name was not 'add='" + username)
+    else console.log("branch name was not 'add-" + username + "'")
   }
 }
 

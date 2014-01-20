@@ -1,17 +1,15 @@
 {
   "name": "git-it",
   "version": "0.0.0",
-  "description": "git-it ======",
+  "description": "Terminal app for learning Git and GitHub",
   "main": "index.js",
   "bin": "./git-it.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/jlord/git-it.git"
   },
-  "author": "",
+  "author": "Jessica Lord",
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/jlord/git-it/issues"

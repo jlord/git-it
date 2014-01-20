@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+``#!/usr/bin/env node
 
 var spawn = require('child_process').spawn
 var concat = require('concat-stream')
