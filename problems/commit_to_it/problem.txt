@@ -5,9 +5,8 @@
 
   Now that you've got a repository started, add a file to it. 
   
-  {red}- should they use vim? do i suggest downloading a text editor?{/red}
-
-  Open a text editor. Now write a couple of lines of text and save the
+  Open a text editor. Now write a couple of lines of text, perhaps
+  describe the tastiest sandwich you can imagine, and save the
   file in the folder you created in the last lesson.
 
   {bold}{cyan}
@@ -15,19 +14,27 @@
   -----------------------------{/cyan}
 
   Next check the {bold}status{/bold} of your repository. Are there changes 
-  listed? View the {bold}diff{/bold}erence between the files now and how they 
-  were before you edited. 
-
-  Then {bold}add{/bold} the file you just created 
-  to the files you'd like to {bold}commit{/bold} (aka save) to change. 
-
-  Finally, commit those changes to the repository's history with a short 
-  description of the updates.See the command hints below!
+  listed? 
   
-  {red}- since this is an early challenge, maybe I should be more explicit
-  about how to type commands?{/red}
+  $ git status
+  
+  View the {bold}diff{/bold}erence between the files now and how they 
+  were before you edited. 
+  
+  $ git diff
 
-  {yellow}
+  Then {bold}add{/bold} the file you just created to the files you'd 
+  like to {bold}commit{/bold} (aka save) to change (for instance,
+  if youre file is named readme.md, `git add readme.md`). 
+  
+  $ git add <FILENAME>
+
+  Finally, commit those changes to the repository's history with a 
+  short description of the updates.See the command hints below!
+  
+  $ git commit -m <MESSAGE>
+  
+  {cyan}
   **GIT TIPS**
   ------------
 
@@ -50,10 +57,6 @@
   {bold}To commit (aka save) the changes you've added with a short
   message describing the changes{/bold}
 
-  $ git commit -m "your message"
-
-  {bold}To push your changes to a remote{/bold}
-
-  $ git push origin <BRANCHNAME>{/yellow}
+  $ git commit -m "your message"{/cyan}
 
   --------------------------------------------------------------------

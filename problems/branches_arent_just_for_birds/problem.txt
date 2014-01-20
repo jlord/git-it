@@ -9,15 +9,28 @@
   It's common practice when working on a project or with others on a
   project to create a {bold}branch{/bold} to put your changes in. This
   way you can do you work while the main, commonly named 'master',
-  branch stays stable.
+  branch stays stable. 
+  
+  {cyan}GitHub Pages{/cyan}
+  
+  GitHub.com will automatically serve and host static website files in 
+  branches named 'gh-pages'. Since the project you forked creates a 
+  website, its main branch is 'gh-pages'. All sites like this can be 
+  found using this pattern for the URL: 
+  
+  http://githubusername.github.io/repositoryname
+  
+  {bold}{cyan}
+  How to create branches{/bold}
+  ----------------------{/cyan}
 
-  When you create a branch, Git copies everything from the current branch
-  you're on and places it in the branch you've requested.
+  When you create a branch, Git copies everything from the current 
+  branch you're on and places it in the branch you've requested.
 
   $ git branch <BRANCHNAME>
 
-  To go into that branch and work on it, similar to using `cd` to change
-  directory in terminal, you {bold}checkout{/bold} a branch.
+  To go into that branch and work on it, similar to using `cd` to 
+  change directory in terminal, you {bold}checkout{/bold} a branch.
 
   $ git checkout <BRANCHNAME>
 
@@ -31,9 +44,9 @@
   Create a branch and name it "add-username", where 'username' is 
   your username. Then move onto that branch.
   
-  Now, create a new file named "add-username.txt". Just write you 
-  GitHub username in it and save it within the 
-  'contributors' folder.  
+  Now, create a new file named "add-username.txt", where 'username'
+  is your username. Then, just write your username in it (that's it!)
+  and save it within the 'contributors' folder.  
   
   {bold}{cyan}
   Check-in{/bold}

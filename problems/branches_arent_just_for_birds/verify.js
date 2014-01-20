@@ -1,13 +1,13 @@
 #!/usr/bin/env node
 
-var http = require('request')
-
-request('http://reporobot.jlord.us/collab', function (error, response, body) {
-  if (!error && response.statusCode == 200) {
-    var issueLength = body.issueLength
-    if (issueLength > 1) console.log(true)
-  }
-})
+// var http = require('request')
+// 
+// request('http://reporobot.jlord.us/collab', function (error, response, body) {
+//   if (!error && response.statusCode == 200) {
+//     var issueLength = body.issueLength
+//     if (issueLength > 1) console.log(true)
+//   }
+// })
 
 // get their username
 // verify branch matches username
@@ -40,3 +40,5 @@ function onRef(output) {
     console.log(true)
   else console.log("Changes not pushed")
 }
+
+// should we verify the file was added?

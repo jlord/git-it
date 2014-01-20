@@ -4,8 +4,8 @@ var request = require('request')
 var spawn = require('child_process').spawn
 var concat = require('concat-stream')
 
-var url = "http://localhost:5563/pr?username="
-// var url = 'http://reporobot.jlord.us/pr?username='
+// var url = "http://localhost:5563/pr?username="
+var url = 'http://reporobot.jlord.us/pr?username='
 var user = spawn('git', ['config', 'user.name'])
 
 user.stdout.pipe(concat(onUser))

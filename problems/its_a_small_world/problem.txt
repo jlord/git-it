@@ -12,10 +12,12 @@
   You can add {bold}collaborators{/bold} to a project (who will be granted the
   ability to edit repository's files) by going to your repository's
   webpage and clicking the 'Settings' icon on the right side menu.
-  Then select 'Security' tab. Type in the username to add.
+  Then select the 'Security' tab. Type in the username to add.
 
-  Add 'reporobot' as a collaborator on your fork. RR will join us for a
-  few of these exercises. 
+  Add 'reporobot' as a collaborator on your fork. Reprobot will join 
+  us for a bit.
+  
+  When you've added Reporobot, run `git-it verify`. 
 
   {yellow}
   **GIT TIPS**
@@ -36,3 +38,5 @@
   {bold}View remote connections{/bold}
 
   $ git remote -v{/yellow}
+
+  --------------------------------------------------------------------

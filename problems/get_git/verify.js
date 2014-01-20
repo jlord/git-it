@@ -3,7 +3,7 @@
 var spawn = require('child_process').spawn
 var concat = require('concat-stream')
 
-// Change to just check that Git is installed
+// check that Git is installed
 
 var git = spawn('git', ['--version'])
 
@@ -14,7 +14,7 @@ function onGit(output) {
   if (gitOutput.match("git version")) {
     console.log(true)   
   }
-  else console.log("There is no Git installed.")
+  else console.log("Found no Git installed.")
 }
 
 

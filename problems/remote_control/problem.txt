@@ -38,7 +38,7 @@
   You want to sync your {bold}local{/bold} version with one stored on GitHub.com
   called the {bold}remote{/bold} version.
 
-  - Go to www.github.com, log in, and click a '+' in the top right to
+  - Go to {bold}www.github.com{/bold}, log in, and click a '+' in the top right to
   create a new repository.
   - Give it a name that matches your local repository's name and a short 
   description.
@@ -48,7 +48,7 @@
   Now you've got an empty repository started on GitHub.com. On the 
   right side of the page, mid way down, you'll find a small bar with
   labeled 'HTTPS clone URL'. This is the address to your remote
-  repository; copy it.
+  repository, copy it.
 
   {bold}{cyan}
   Connect your Local to your Remote{/bold}
@@ -65,7 +65,7 @@
 
   $ git push origin master
 
-  Go refresh the page ofyour repository on GitHub.com. WOAH! 
+  Go to GitHub and refresh the page of your repository. WOAH! 
 
   {yellow}
   **GIT TIPS**

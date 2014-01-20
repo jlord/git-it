@@ -10,7 +10,7 @@
   of the changes to that folder. Files added or subtracted or even
   a single letter in a single file added -- all of it's tracked and
   time stamped by Git.
-
+  
   {bold}{cyan}
   Create a Repository{/bold}
   -------------------{/cyan}
@@ -37,8 +37,10 @@
   When you've intialized a new Git repository in the new folder run:
   
   $ git-it verify
+  
+  {red}- need to explain that they have to run verify from inside that folder{/red}
 
-  {yellow}
+  {cyan}
   **BASIC BASH COMMANDS**
   -----------------------
 
@@ -52,12 +54,12 @@
 
   {bold}List the items in a folder{/bold}
 
-  $ ls {/yellow}
+  $ ls {/cyan}
 
   * If you want, you can create a folder that will contain all of your
-  coding work. When you open Terminal you start off in your computer's home (root)
-  directory. From there, create a folder for your code and a folder
-  for your first repository:
+  coding work. When you open Terminal you start off in your computer's 
+  home (root) directory. From there, create a folder for your code and 
+  a folder for your first repository:
 
   $ mkdir myCode
   $ cd myCode

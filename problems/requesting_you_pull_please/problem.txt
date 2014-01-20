@@ -4,25 +4,25 @@
 
   When you make changes and improvements to a project you've forked,
   often you'll want to (and have intended to from the get-go) send 
-  those changes to the maintainer of the original and request that 
-  they {bold}pull{/bold} the changes into the original so that 
-  everyone can benefit from the updates - that's a {bold}pull request{/bold}.
+  those changes to the maintainer of the original and {bold}request{/bold} that 
+  they {bold}pull{/bold} the changes into the original so that everyone can 
+  benefit from the updates - that's a {bold}pull request{/bold}.
   
   We want to add you to the list of workshop completors, so make
-  a {bold}pull request{/bold} to the original.
+  a {bold}pull request{/bold} to the original: {bold}www.github.com/jlord/patchwork{/bold}.
 
-  Once you {bold}push{/bold} changes to a branch on a fork, GitHub.com will
-  recognize this when you visit the original and ask if you want to create 
-  a pull request with the changes in that branch.
+  Once changes have been {bold}pushed{/bold} to a branch on a fork, GitHub.com will
+  recognize this and when you visit the original GitHub asks if you 
+  want to create a pull request with the changes on that branch.
 
   {cyan}To create a pull request{/cyan}
 
   - visit the original repository you forked on GitHub, in this case
-  http://www.github.com/jlord/REPONAME
+  {bold}http://www.github.com/jlord/patchwork{/bold}
   - Click to create a pull request.
   - Describe your changes and submit!
 
-  When you're done, type:
+  When you're done, run:
   
   $ git-it verify
   

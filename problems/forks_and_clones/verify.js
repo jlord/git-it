@@ -14,5 +14,5 @@ function onRemote(output) {
   var show = output.toString().trim()
   if (show.match("upstream") && show.match("github.com/jlord/"))
   console.log(true)
-  else return console.log("no upstream remote")
+  else return console.log("No upstream remote")
 }

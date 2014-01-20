@@ -1,4 +1,4 @@
-  Pull in changes from contributor and push your changes.
+  Keep your file up to date, pull in changes from contributors.
 
   --------------------------------------------------------------------
 
@@ -7,42 +7,22 @@
   -----------------{/cyan}
   
   If you're working on something with someone you need to stay up
-  to date with the latest version. So before you start to work, you'll
-  want to {bold}pull{/bold} in any changes that may have been made.
+  to date with the latest version. So you'll want to {bold}pull{/bold} in any 
+  changes that may have been made.
 
   See if Reporobot has made any changes and pull from your branch:
 
   $ git pull origin <BRANCHNAME>
 
-  If nothing's changed, it will tell you 'Already up-to-date' (try it!). 
+  If nothing's changed, it will tell you 'Already up-to-date'. 
   If there are changes, it will merge those changes into your local 
   version.
+  
+  Did Reporobot make changes? Git tells you where changes were made.
+  You can open that file and see Reporobot's updates. Suprise :)
+  
+  When you've pulled, type `git-it verify`.
 
-  {bold}{cyan}
-  Contribute Changes{/bold}
-  ------------------{/cyan}
-  
-  Now that your files are up-to-date; add your contribution.
-  
-  Reporobot added a file, ______. Open that file in a text editor.
-  
-  $ open _____.
-  
-  Type your GitHub username in the file and save. That's it.
-  
-  Now checkin your changes with Git:
-  
-  $ git status
-  $ git add <filename>
-  $ git commit -m "commit message"
-  
-  Push those changes to the branch on GitHub.com:
-  
-  $ git push origin <BRANCHNAME>
-  
-  Pulling in changes and pushing changes will be most of your 
-  actions while developing.
-  
   
   {yellow}
   **GIT TIPS**
@@ -52,20 +32,8 @@
   
   $ git status
   
-  {bold}Add a file to be committed{/bold}
-  
-  $ git add <filename>
-  
-  {bold}Commit your changes with a message{/bold}
-  
-  $ git commit -m "commit message" 
-  
   {bold}Pull in changes from a remote branch{/bold}
 
   $ git pull <REMOTENAME> <REMOTEBRANCH>
-  
-  {bold}Push changes to a remote branch{/bold}
-
-  $ git push <REMOTENAME> <REMOTEBRANCH>{/yellow}
 
   --------------------------------------------------------------------

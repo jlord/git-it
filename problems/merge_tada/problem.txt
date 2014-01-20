@@ -1,4 +1,4 @@
-  Merge branch for much win!
+  Merge branch, tidy up and pull upstream for much win!
 
   --------------------------------------------------------------------
 
@@ -7,15 +7,17 @@
   and your branch is in good working order, merge it into the main,
   branch on your forked repository, in this case, `gh-pages`.
   
-  {cyan}Merge a branch into the one you're currently on{/cyan}
+  {bold}{cyan}
+  Merge a branch{/bold}
+  --------------{/cyan}
   
-  First, move into the branch you want to merge into (in this case,
+  First, move into the branch you want to merge *into* (in this case,
   branch `gh-pages`).
   
   $ git checkout <BRANCHNAME>
   
   Now tell Git what branch you want to merge in (in this case,
-  your feature branch that begins with "add").
+  your feature branch that begins with "add-").
   
   $ git merge <BRANCHNAME>
 
@@ -23,7 +25,7 @@
   
   $ git branch -D <BRANCHNAME>
   
-  You can also delete the remote copy of it:
+  You can also delete the remote copy of it on GitHub:
   
   $ git push --delete <BRANCHNAME>
   
@@ -35,14 +37,16 @@
   a collaborator, pushed, pulled and joined the millions of others
   developing and enriching open source!
   
-  Visit www.__________________ !
+  Visit {bold}jlord.github.io/patchwork{/bold} to see your changes incorporated!
   
   And last but not least, if you pull in updates from the original
-  (since it now shows you on the home page) you'll have a version
-  too, live at: yourusername.github.io/patchwork. This because 
-  GitHub serves up all webfiles on a `gh-pages` named branch, for free.
+  (since it now shows you on the home page) you'll be up to date 
+  and have a version too, live at: yourusername.github.io/patchwork. 
   
   $ git pull upstream gh-pages
+  
+  When you've mereged your branch, deleted it and pulled form the 
+  original, run `git-it verify`.
   
   {yellow}
   **GIT TIPS**
@@ -64,8 +68,8 @@
 
   $ git push --delete <BRANCHNAME>
 
- {bold}Pull from a remote branch{/bold}
+  {bold}Pull from a remote branch{/bold}
  
- $ git pull <REMOTENAME> <BRANCHNAME>
+  $ git pull <REMOTENAME> <BRANCHNAME>{/yellow}
 
   --------------------------------------------------------------------
