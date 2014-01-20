@@ -34,6 +34,6 @@
   
   {bold}Pull in changes from a remote branch{/bold}
 
-  $ git pull <REMOTENAME> <REMOTEBRANCH>
+  $ git pull <REMOTENAME> <REMOTEBRANCH>w
 
   --------------------------------------------------------------------
