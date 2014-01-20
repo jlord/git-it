@@ -6,7 +6,7 @@ var concat = require('concat-stream')
 
 // var url = "http://localhost:5563/collab?username="
 var url = 'http://reporobot.jlord.us/collab?username='
-var user = spawn('git', ['config', 'user.name'])
+var user = spawn('git', ['config', 'user.username'])
 
 user.stdout.pipe(concat(onUser))
 
