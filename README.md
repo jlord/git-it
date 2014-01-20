@@ -4,7 +4,7 @@ _I'm actively working on this and will redo this readme when it's ready to use. 
 
 # Git-it
 
-![ss](https://github.com/jlord/git-it/blob/master/git-it-ss.png)
+![ss](https://raw2.github.com/jlord/git-it/master/git-it-ss.png)
 
 A [workshopper](https://github.com/rvagg/workshopper) module for learning Git and GitHub - Social coding, y'all.
 
