@@ -19,10 +19,11 @@ function onUser(output) {
 
 function collaborating(username) {
   request(url + username, {json: true}, function (error, response, body) {
-    console.log(body)
+    if (error) console.log(error)
     if (!error && response.statusCode == 200) {
       if (body.collab = true) console.log(true)
       else console.log("Reporobot doesn't have access to the fork")
+      if (body.error) console.log(body)
     }
   })
 }
