@@ -20,7 +20,7 @@ function onRef(output) {
 
 child.exec('git config user.email', function(err, stdout, stderr) {
   var email = stdout.trim()
-  child.exec('git config user.name', function(err, stdout, stderr) {
+  child.exec('git config user.username', function(err, stdout, stderr) {
     var user = stdout.trim()
     if (user === "") console.error(false)
     else console.log(true)

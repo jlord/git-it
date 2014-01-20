@@ -23,9 +23,13 @@
   You'll want to let Git know who to associate the changes you make to 
   by telling it your GitHub account name and email address.
 
-  Open a new terminal {bold}(CMD + N){/bold} window and set your username:
+  Open a new terminal {bold}(CMD + N){/bold} window and set your name:
 
-  $ git config --global user.name "YourGitHubUserName"
+  $ git config --global user.name "My Name"
+  
+  Then add your GitHub username:
+  
+  $ git config --global user.username myusername
 
   Now set your email:
 
