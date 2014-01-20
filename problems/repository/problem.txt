@@ -2,7 +2,7 @@
 
   --------------------------------------------------------------------
 
-  A {bold}repository{/bold} is essentialy a project. You can imagine it
+  A {bold}repository{/bold} is essentially a project. You can imagine it
   as project's folder with all the related files inside of it. In
   fact, that's what it will look like on your computer anyways.
 
