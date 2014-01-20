@@ -41,12 +41,12 @@
   Create branch and new file{/bold}
   --------------------------{/cyan}
 
-  Create a branch and name it "add-username", where 'username' is 
-  your username. Then move onto that branch.
+  Create a branch and name it "add-<username>", where 'username' is 
+  your username. For instance, "add-jlord". Then move onto that branch.
   
-  Now, create a new file named "add-username.txt", where 'username'
-  is your username. Then, just write your username in it (that's it!)
-  and save it within the 'contributors' folder.  
+  Now, in the 'contributors' folder, create a new file named 
+  "add-<username>.txt", where 'username' is your username. For instance, 
+  "add-jlord.txt". Then, just write your username in it (that's it!).  
   
   {bold}{cyan}
   Check-in{/bold}
