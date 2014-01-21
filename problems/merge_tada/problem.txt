@@ -2,7 +2,7 @@
 
   --------------------------------------------------------------------
 
-  Your pull request is waiting for review, but meanwhile, since you
+  Your pull request is being mereged! But meanwhile, since you
   know that you definitely want those updates in your forked version, 
   and your branch is in good working order, merge it into the main,
   branch on your forked repository, in this case, `gh-pages`.

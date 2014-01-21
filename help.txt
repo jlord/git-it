@@ -7,7 +7,11 @@
 
   {bold}Configure your username{/bold}
 
-  $ git config --global user.name "YourGitHubUserName"
+  $ git config --global user.name "Your Name"
+  
+  {bold}Configure your username{/bold}
+
+  $ git config --global user.username githubusername
 
   {bold}Configure your email{/bold}
 

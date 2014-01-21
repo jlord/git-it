@@ -25,11 +25,11 @@
 
   Open a new terminal {bold}(CMD + N){/bold} window and set your name:
 
-  $ git config --global user.name "My Name"
+  $ git config --global user.name "Your Name"
   
   Then add your GitHub username:
   
-  $ git config --global user.username myusername
+  $ git config --global user.username githubusername
 
   Now set your email:
 

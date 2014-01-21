@@ -4,7 +4,7 @@ var spawn = require('child_process').spawn
 var concat = require('concat-stream')
 
 var ref = spawn('git', ['reflog', '-10'])
-var username = spawn('git', ['config', 'user.name'])
+var username = spawn('git', ['config', 'user.username'])
 
 var user = ""
 
