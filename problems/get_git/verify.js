@@ -16,6 +16,3 @@ function onGit(output) {
   }
   else console.log("Found no Git installed.")
 }
-
-
-

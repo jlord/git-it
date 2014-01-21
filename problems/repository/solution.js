@@ -1,1 +1,1 @@
-console.log("This is a git repository!")
+console.log("This is a Git repository!")
