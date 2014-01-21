@@ -12,8 +12,8 @@ pull.stdout.pipe(concat(onPull))
 function onPull(output) {
   var status = output.toString().trim()
   if (!status)
-  console.log(true)
-  else console.log("There are changes to pull in")
+  console.log("Up to date!")
+  else console.log("There are changes to pull in.")
 }
 
 // // check they have no changes to push

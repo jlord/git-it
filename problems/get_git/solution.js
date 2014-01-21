@@ -1,1 +1,1 @@
-console.log(true)
+console.log("Found Git installed.") 

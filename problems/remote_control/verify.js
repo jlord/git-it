@@ -12,8 +12,8 @@ ref.stdout.pipe(concat(onRef))
 
 function onRef(output) {
   var ref = output.toString().trim()
-  if (ref.match("update by push")) console.log(true)
-  else console.log(false)
+  if (ref.match("update by push")) console.log("Bingo! Detected a push.")
+  else console.log("No evidence of a push, please try again!")
 }
 
 // verify they set up git config
@@ -22,9 +22,9 @@ child.exec('git config user.email', function(err, stdout, stderr) {
   var email = stdout.trim()
   child.exec('git config user.username', function(err, stdout, stderr) {
     var user = stdout.trim()
-    if (user === "") console.error(false)
-    else console.log(true)
-    if (email === "") console.error(false)
-    else console.log(true)
+    if (user === "") console.error("No username found.")
+    else console.log("Username added!")
+    if (email === "") console.error("No email found.")
+    else console.log("Email added!")
   })
 })

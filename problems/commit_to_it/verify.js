@@ -12,6 +12,6 @@ show.stdout.pipe(concat(onShow))
 function onShow(output) {
   var show = output.toString().trim()
   if (show.match("new file mode") && show.match("commit"))
-  console.log(true)
-  else console.log(false)
+  console.log("Changes have been committed!")
+  else console.log("Seems no changes have been committed.")
 }

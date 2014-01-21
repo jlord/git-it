@@ -1,2 +1,2 @@
-console.log(true)
-console.log(true)
+console.log("Branch has been merged!")
+console.log("Branch deleted!")

@@ -17,8 +17,8 @@ username.stdout.pipe(concat(onUser))
 function onRef(output) {
   var ref = output.toString().trim()
   if (ref.match("merge")) 
-    console.log(true)
-  else return console.log("no upstream remote")
+    console.log("Branch has been merged!")
+  else return console.log("No merge in the history.")
 }
 
 function onUser(output) {
@@ -34,7 +34,7 @@ function getBranches(callback) {
 function onBranch(output) {
   var branch = output.toString().trim()
   if (branch.match(user)) {
-    console.log(false)
+    console.log("Uh oh, branch is still there.")
   }
-  else return console.log(true)
+  else return console.log("Branch deleted!")
 }

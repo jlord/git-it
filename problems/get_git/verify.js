@@ -12,7 +12,7 @@ git.stdout.pipe(concat(onGit))
 function onGit(output) {
   var gitOutput = output.toString().trim()
   if (gitOutput.match("git version")) {
-    console.log(true)   
+    console.log("Found Git installed.")   
   }
   else console.log("Found no Git installed.")
 }

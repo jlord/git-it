@@ -13,6 +13,6 @@ remote.stdout.pipe(concat(onRemote))
 function onRemote(output) {
   var show = output.toString().trim()
   if (show.match("upstream") && show.match("github.com/jlord/"))
-  console.log(true)
+  console.log("Upstream remote set up!")
   else return console.log("No upstream remote")
 }

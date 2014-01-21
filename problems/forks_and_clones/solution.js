@@ -1,1 +1,1 @@
-console.log(true)
+console.log("Upstream remote set up!")
