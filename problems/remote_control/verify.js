@@ -13,7 +13,7 @@ ref.stdout.pipe(concat(onRef))
 function onRef(output) {
   var ref = output.toString().trim()
   if (ref.match("update by push")) console.log("Bingo! Detected a push.")
-  else console.log("No evidence of a push, please try again!")
+  else console.log("No evidence of push.")
 }
 
 // verify they set up git config

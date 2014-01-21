@@ -22,7 +22,7 @@ function pullrequest(username) {
   request(url + username, {json: true}, function (error, response, body) {
     if (!error && response.statusCode == 200) {
       var pr = body.pr
-      if (pr) console.log("Nice! Found your pull request!") 
+      if (pr) console.log("Found your pull request!") 
       else console.log("No pull request found for " + username)
     }
   })

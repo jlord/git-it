@@ -16,7 +16,7 @@ exec('git config user.username', function(err, stdout, stdrr) {
       
       var ref = stdout.trim()
       if (branch.match(branchName)) console.log("Found the branch as expected!")
-      else console.log("branch name was not '" + branchName + "'")
+      else console.log("branch name was not:\n'" + branchName + "'")
       
       if (ref.match("update by push")) console.log("Changes have been pushed!")
       else console.log("Changes not pushed")

@@ -13,5 +13,5 @@ function onShow(output) {
   var show = output.toString().trim()
   if (show.match("new file mode") && show.match("commit"))
   console.log("Changes have been committed!")
-  else console.log("Seems no changes have been committed.")
+  else console.log("Seems no changes \nhave been committed.")
 }
