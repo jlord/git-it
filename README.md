@@ -10,7 +10,7 @@ A [workshopper](https://github.com/rvagg/workshopper) module for learning Git an
 
 This app runs in your Terminal (Mac) or Bash (Windows) and has challenges for learning Git and GitHub. It uses the _real_ terminal (so you'll be learning the awesome command line), it uses _real_ Git and GitHub (instead of emulating the command line Git environment as some online apps do) which means when you finish all of the challenges you'll have _real_ repositories on your GitHub account and green squares on your [contribution chart](https://github.com/blog/1360-introducing-contributions).
 
-![contributions](https://raw2.github.com/jlord/git-it/master/contributionchart.png)
+![contributions](https://raw2.github.com/jlord/git-it/master/ghcc.png)
 
 #### What you'll need to run this:
 
