@@ -1,41 +1,72 @@
-### Not Finished Yet! Under Construction! Will Exist in Near Future! WIP
-
-_I'm actively working on this and will redo this readme when it's ready to use. For now, below is plan._
-
 # Git-it
 
-![ss](https://raw2.github.com/jlord/git-it/master/git-it-ss.png)
+![ss](https://raw2.github.com/jlord/git-it/master/git-it-ss.png) 
 
-A [workshopper](https://github.com/rvagg/workshopper) module for learning Git and GitHub - Social coding, y'all.
+A [workshopper](https://github.com/rvagg/workshopper) module for learning Git and GitHub - Social coding, y'all. These modules run a little app in your terminal and users work their way through the challenges. See [nodeschool.io](http://nodeschool.io) for more.
 
-These modules run a little app in your terminal and users work their way through the challenges. See [nodeschool.io](http://nodeschool.io) for more.
+**For developer documentation, see [dev-doc.md](#).**
 
-## The Rough Plan
+## Hello, future Forkers, Branchers and Pull Requesters! 
 
-This workshopper takes workshoppees on a journey through Git and GitHub (and with all that, a little basic command line, too). The screenshot above shows the current menu.
+This app runs in your Terminal (Mac) or Bash (Windows) and has challenges for learning Git and GitHub. It uses the _real_ terminal (so you'll be learning the awesome command line), it uses _real_ Git and GitHub (instead of emulating the command line Git environment as some online apps do) which means when you finish all of the challenges you'll have _real_ repositories on your GitHub account and green squares on your [contribution chart](https://github.com/blog/1360-introducing-contributions).
 
-Workshoppees will complete the first few challenges locally with Git on a new repository they create. Then they push that repository to Git. Next they'll fork a repository and learn the bits about setting up remotes and contributing and such. I'd like this forked repository (specifically for this workshopper) to be a little more interactive (see Repo-Bot Future below) and be kind of neat. Each PR would be a needed contribution to something bigger. See [this issue](https://github.com/jlord/git-it/issues/1) for more thoughts on this.
+![contributions](https://raw2.github.com/jlord/git-it/master/contributionchart.png)
 
-#### Exciting Repo-Bot Future
+#### What you'll need to run this:
 
-I also intend on building a bot that listens to events on a repo (the one given as the repo to fork in this workshop) so that workshops can do things like pull in changes, or possible handle a merge conflict! Eek!
+_A few development essentials, all are free and/or free and open source._
 
-##### Other Things
+- **Git**, this is your tracker of changes! You can download it [here](http://git-scm.com/downloads).
+- **Node.js**, this is what this app is written in so you'll need this to run it. It's an engine for running JavaScript on servers (your computer is a server!) and will live quietly in the background. You can download it [here](http://nodejs.org/download/).
+- **Editor**, if you don't have one already, you'll need a text editor for editing code. A few options: [Sublime Text](http://www.sublimetext.com/2), [Textmate](http://macromates.com/download), [Brackets](http://brackets.io/).
 
-I want to throw in GitHub Pages into this, too, because it's so great. How nice to end up with your own website at the end of this workshop?
+#### Install Git-it
 
-### Running the Under Construction Version Locally
+Once you have the essentials above, install Git-it. 
 
-Eventually this will run like a global node module and will be available on NPM. Until then, if you want to install it anyway (remember, it doesn't work yet) you can:
+- Open up a terminal window and install Git-it globally on your computer (so that you can run it from anywhere). [NPM](http://www.npmjs.org) delievers Node.js modules (that's what this app is) to your computer from the command line, real easy like (it is included when you install Node.js):
 
 ```bash
-git clone https://github.com/jlord/git-it.git
-cd git-it
-npm link
-git-it
+$ npm install -g git-it
+```
+- Once it's done installing components, you can run it:
+
+```bash
+$ git-it
 ```
 
-_notes to self_
-- add intro to terminal/bash/shell
-- something about text editors
-- add git diff in challenge
+- This should load the menu. You're ready to go! 
+
+#### How it Works
+
+- Use the arrows to select the first challenge and press 'Enter'. 
+- Read the challenge text, do as it says and when you're done type `git-it verify` to see if you've compelted the challenge correctly.
+- If the challenge components were not completed correctly, Git-it returns some text to help you know what went wrong.
+- For some challenges you'll need to open new terminal windows and then run Git-it inside the window you've just opened. Git-it can run from any  (or mutiple) terminal windows and always saves your completed status. You'll need to run it from where you're doing your Git work, so it's OK to move around like that.
+
+**If you have any questions about something, just create a [new issue](https://github.com/jlord/git-it/issues/new).**
+
+#### Tips
+
+**Code snippets** Oftentimes you'll see things like `$ some code-stuff --here`. The dollar sign identifies the line as one a user would enter into the the command line, but you don't actually include it when you type it into terminal. In this case, you'd actually just type `some code-stuff --here`.
+
+**Command line, terminal, bash** All basically mean the same thing, the MS-DOS, Doogie Howser looking screen that you just type commands into. You can do a lot of things from your terminal like delete, rename, copy or create files and folders; run scripts and send things back and forth between servers (like the ones storing things on GitHub.com) and your computer (also a server!).
+
+
+#### Topics Covered in Git-it
+
+- Basic **command line** such as: cd, mkdir
+- Creating a **local repository**
+- Checking **status**, **adding** and **committing** changes
+- Creating **remote repositories** on GitHub.com
+- **Forking** repositories
+- **Connecting local repositories to remote ones** on GitHub.com
+- **Pushing** and **pulling** to sync changes to GitHub.com
+- Creating **branches** for features/changes
+- Adding and working with a **collaborator** (Hi, @reporobot!)
+- Creating a **pull request**
+- **Merging** and **deleting** branches
+
+
+
+
