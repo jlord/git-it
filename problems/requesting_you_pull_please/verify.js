@@ -1,22 +1,18 @@
 #!/usr/bin/env node
 
+var exec = require('child_process').exec
 var request = require('request')
-var spawn = require('child_process').spawn
-var concat = require('concat-stream')
 
 // var url = "http://localhost:5563/pr?username="
 var url = 'http://reporobot.jlord.us/pr?username='
-var user = spawn('git', ['config', 'user.username'])
-
-user.stdout.pipe(concat(onUser))
-
-function onUser(output) {
-  var username = output.toString().trim()
-  pullrequest(username)
-}
 
 // check that they've submitted a pull request
 // to the original repository jlord/patchwork
+
+exec('git config user.username', function(err, stdout, stdrr) {
+  var username = stdout.trim()
+  pullrequest(username)
+})
 
 function pullrequest(username) {
   request(url + username, {json: true}, function (error, response, body) {
