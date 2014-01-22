@@ -26,4 +26,3 @@ git clone https://github.com/jlord/git-it.git
 cd git-it
 npm link
 ```
-

@@ -34,8 +34,12 @@
 
   $ git checkout <BRANCHNAME>
 
-  {red}
-  - talk about CONTRIBUTION docs{/red}
+  {cyan}
+  Contribution, license and readme docs{/cyan}
+  
+  Many open source projects contain contribution, license and readme
+  documents that let users know what they need to know about using
+  and contributing to the project.
   
   {bold}{cyan}
   Create branch and new file{/bold}

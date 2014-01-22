@@ -34,12 +34,13 @@
 
   That's it. It will just return you to a new line.
   
-  When you've intialized a new Git repository in the new folder run:
+  When you've intialized a new Git repository in the new folder run, 
+  re launch Git-it in that folder and select this challenge to verify 
+  (it's ok to have Git-it running it multiple windows):
   
+  $ git-it
   $ git-it verify
   
-  {red}- need to explain that they have to run verify from inside that folder{/red}
-
   {cyan}
   **BASIC BASH COMMANDS**
   -----------------------
