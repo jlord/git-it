@@ -1,27 +1,99 @@
-body {font-family: "Helvetica Neue"; margin: 0 auto; color: #333;
-background: #9d62ff; /* Old browsers */
-background: -moz-linear-gradient(top,  #f1f1f1 1%, #fff 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#f1f1f1), color-stop(100%,#fff)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #f1f1f1 1%,#fff 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #f1f1f1 1%,#fff 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #f1f1f1 1%,#fff 100%); /* IE10+ */
-background: linear-gradient(to bottom,  #f1f1f1 1%,#fff 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f1f1', endColorstr='#fff',GradientType=0 ); /* IE6-9 */
-}
+body {font-family: "Helvetica Neue"; margin: 0 auto; color: #fff; background: #1aa6b1; border: 30px solid #fff;}
 /* 62ff9d c0f3d4 // e7f7ed fff */
 
-pre {color: #61f398; text-shadow: 0px 1px 1px rgba(0,0,0,0.4); padding-bottom: 20px; font-size: 11px;}
+pre {color: #fff; text-shadow: 0px 1px 1px rgba(0,0,0,0.4); padding-bottom: 20px; font-size: 11px;}
+
+/* Animation done by https://github.com/daneden */
+/* https://github.com/daneden/animate.css */
+
+/*#user-name {
+  -webkit-animation: swing 5s infinite;
+}*/
+
+@-webkit-keyframes swing {
+  20% {
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+  }
+
+  40% {
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+
+  60% {
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+  }
+
+  80% {
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes swing {
+  20% {
+    -webkit-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    transform: rotate(15deg);
+  }
+
+  40% {
+    -webkit-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+
+  60% {
+    -webkit-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    transform: rotate(5deg);
+  }
+
+  80% {
+    -webkit-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+.swing {
+  -webkit-transform-origin: top center;
+  -ms-transform-origin: top center;
+  transform-origin: top center;
+  -webkit-animation-name: swing;
+  animation-name: swing;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
 
 h1, h2, h3, h4, h5, h6 {font-weight: 300;}
 em {font-family: Georgia;}
-a, a:visited, a:active {color: #333; text-decoration: none; transition: color 0.2s ease;}
-a:hover {color: #61f398; padding-bottom: 1px; border-bottom: 1px solid #61f398;}
+a, a:visited, a:active {color: #fff; text-decoration: none; transition: color 0.2s ease;}
+a:hover {color: #eee4ee; padding-bottom: 1px; border-bottom: 1px solid #eee4ee;}
 h1 {font-size: 54px; text-shadow: 0px 1px 1px rgba(0,0,0,0.4);}
 p {font-size: 14px;}
 
 .container {max-width: 800px; margin: 0 auto; padding: 22px;}
 
-#welcome-name {text-align: center; border-bottom: 1px dashed #333;}
+#welcome-name {text-align: center; border-bottom: 1px dashed #fff;}
 #welcome-name h4 {margin: 6px;}
 
 #compatriots {padding: 22px;}
