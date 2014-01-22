@@ -8,7 +8,7 @@ A [workshopper](https://github.com/rvagg/workshopper) module for learning Git an
 
 ## Hello, future Forkers, Branchers and Pull Requesters! 
 
-This app runs in your Terminal (Mac) or Bash (Windows) and has challenges for learning Git and GitHub. It uses the _real_ terminal (so you'll be learning the awesome command line), it uses _real_ Git and GitHub (instead of emulating the command line Git environment as some online apps do) which means when you finish all of the challenges you'll have _real_ repositories on your GitHub account and green squares on your [contribution chart](https://github.com/blog/1360-introducing-contributions).
+This app runs in your Terminal (Mac) or Bash (Windows) and has challenges for learning Git and GitHub. It uses the _real_ terminal (so you'll be learning the awesome command line), it uses _real_ Git and GitHub which means when you finish all of the challenges you'll have _real_ repositories on your GitHub account and green squares on your [contribution chart](https://github.com/blog/1360-introducing-contributions).
 
 ![contributions](https://raw2.github.com/jlord/git-it/master/ghcc.png)
 
@@ -48,9 +48,9 @@ $ git-it
 
 #### Tips
 
-**Code snippets** Oftentimes you'll see things like `$ some code-stuff --here`. The dollar sign identifies the line as one a user would enter into the the command line, but you don't actually include it when you type it into terminal. In this case, you'd actually just type `some code-stuff --here`.
+**Code snippets** often times look like `$ some code-stuff --here`. The dollar sign identifies the line as one a user would enter into the the command line, but you don't actually include it when you type it into terminal. In this case, you'd actually just type `some code-stuff --here`.
 
-**Command line, terminal, bash** All basically mean the same thing, the MS-DOS, Doogie Howser looking screen that you just type commands into. You can do a lot of things from your terminal like delete, rename, copy or create files and folders; run scripts and send things back and forth between servers (like the ones storing things on GitHub.com) and your computer (also a server!).
+**Command line, terminal, bash** all basically mean the same thing: the MS-DOS, Doogie Howser looking screen full of words and numbers. It's awesomely powerful. You can do a lot of things from your terminal like delete, rename, copy or create files and folders; run scripts and send things back and forth between servers (like the ones storing things on GitHub.com) and your computer (also a server!).
 
 
 #### Topics Covered in Git-it
@@ -66,7 +66,3 @@ $ git-it
 - Adding and working with a **collaborator** (Hi, @reporobot!)
 - Creating a **pull request**
 - **Merging** and **deleting** branches
-
-
-
-
