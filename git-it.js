@@ -9,7 +9,7 @@ Workshopper({
   appDir: __dirname,
   helpFile: path.join(__dirname, 'help.txt'),
   menu: {
-    bg: 'cyan',
+    bg: 'magenta',
     fg: 'white'
   }
 }).init()
