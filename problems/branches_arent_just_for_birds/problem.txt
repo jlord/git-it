@@ -69,7 +69,7 @@
   Type `git-it verify` when you're done.
   
   
-  {yellow}
+  {cyan}
   **GIT TIPS**
   ------------
 
@@ -83,6 +83,6 @@
 
   Verify what branch you're working on
 
-  $ git status{/yellow}
+  $ git status{/cyan}
 
   --------------------------------------------------------------------

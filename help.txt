@@ -48,7 +48,7 @@
 
   {bold}Change the branch you're working on{/bold}
 
-  $ git checkout <BRANCHNAME>{/yellow}
+  $ git checkout <BRANCHNAME>{/cyan}
 
   {bold}Delete a local branch{/bold}
   
@@ -56,7 +56,7 @@
 
   {bold}Delete a remote branch{/bold}
 
-  $ git push -D <BRANCHNAME>
+  $ git push <REMOTENAME> --delete <BRANCHNAME>
 
   {cyan}
   BASH COMMANDS{/cyan}

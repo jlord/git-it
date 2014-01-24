@@ -50,6 +50,8 @@ $ git-it
 
 **Code snippets** often times look like `$ some code-stuff --here`. The dollar sign identifies the line as one a user would enter into the the command line, but you don't actually include it when you type it into terminal. In this case, you'd actually just type `some code-stuff --here`.
 
+**Variables** are indicated by `<VARIABLENAME>` in code snippets. When you actually use the line of code, replace it, including the <>, with your variable. For instance to make a new folder in terminal the format is, `mkdir <FOLDERNAME>`, so if you wanted to make a folder named 'octocat', you'd type: `mkdir octocat`.
+
 **Command line, terminal, bash** all basically mean the same thing: the MS-DOS, Doogie Howser looking screen full of words and numbers. It's awesomely powerful. You can do a lot of things from your terminal like delete, rename, copy or create files and folders; run scripts and send things back and forth between servers (like the ones storing things on GitHub.com) and your computer (also a server!).
 
 

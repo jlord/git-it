@@ -27,7 +27,7 @@
   
   You can also delete the remote copy of it on GitHub:
   
-  $ git push --delete <BRANCHNAME>
+  $ git push <REMOTENAME> --delete <BRANCHNAME>
   
   {bold}{cyan}
   Congratulations!{/bold}
@@ -48,7 +48,7 @@
   When you've mereged your branch, deleted it and pulled form the 
   original, run `git-it verify`.
   
-  {yellow}
+  {cyan}
   **GIT TIPS**
   ------------
 
@@ -66,10 +66,10 @@
 
   {bold}Delete a remote branch{/bold}
 
-  $ git push --delete <BRANCHNAME>
+  $ git push <REMOTENAME> --delete <BRANCHNAME>
 
   {bold}Pull from a remote branch{/bold}
  
-  $ git pull <REMOTENAME> <BRANCHNAME>{/yellow}
+  $ git pull <REMOTENAME> <BRANCHNAME>{/cyan}
 
   --------------------------------------------------------------------

@@ -5,6 +5,10 @@
 
   Now that you've got a repository started, add a file to it. 
   
+  {bold}{cyan}
+  New File{/bold}
+  --------{/cyan}
+  
   Open a text editor. Now write a couple of lines of text, perhaps
   describe the tastiest sandwich you can imagine, and save the
   file in the folder you created in the last lesson.
@@ -25,7 +29,7 @@
 
   Then {bold}add{/bold} the file you just created to the files you'd 
   like to {bold}commit{/bold} (aka save) to change (for instance,
-  if youre file is named readme.md, `git add readme.md`). 
+  if you're file is named readme.md, `git add readme.md`). 
   
   $ git add <FILENAME>
 

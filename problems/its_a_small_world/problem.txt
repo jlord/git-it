@@ -5,21 +5,25 @@
   Working with others is one of the best things about GitHub because 
   it makes it easy to work from all over the world at any time.
 
+  {cyan}Collaborators{/cyan}
+  
+  {bold}Collaborators{/bold} are other GitHub users who are given permission to
+  make edits to a repository owned by someone else. To add {bold}collaborators{/bold} 
+  to a project, visit the repository's GitHub page and click the 
+  'Settings' icon on the right side menu. Then select the 'Security' 
+  tab. Type in the username to add and click 'Add Collaborator'
+  
   {bold}{cyan}
   Hello, Repo Robot!{/bold}
   ------------------{/cyan}
 
-  You can add {bold}collaborators{/bold} to a project (who will be granted the
-  ability to edit repository's files) by going to your repository's
-  webpage and clicking the 'Settings' icon on the right side menu.
-  Then select the 'Security' tab. Type in the username to add.
-
-  Add 'reporobot' as a collaborator on your fork. Reprobot will join 
-  us for a bit.
+  Go to the your forked Patchwork repository's page on GitHub and 
+  add 'reporobot' as a collaborator.
   
-  When you've added Reporobot, run `git-it verify`. 
+  When you've added Reporobot as a collaborator to your Patchwork fork, 
+  run `git-it verify`. 
 
-  {yellow}
+  {cyan}
   **GIT TIPS**
   ------------
 
@@ -37,6 +41,6 @@
 
   {bold}View remote connections{/bold}
 
-  $ git remote -v{/yellow}
+  $ git remote -v{/cyan}
 
   --------------------------------------------------------------------

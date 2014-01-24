@@ -10,9 +10,10 @@
   to date with the latest version. So you'll want to {bold}pull{/bold} in any 
   changes that may have been made.
 
-  See if Reporobot has made any changes and pull from your branch:
+  See if Reporobot has made any changes to the 'add-' branch by pulling
+  in from the remote named 'origin' on GitHub:
 
-  $ git pull origin <BRANCHNAME>
+  $ git pull <REMOTENAME> <BRANCHNAME>
 
   If nothing's changed, it will tell you 'Already up-to-date'. 
   If there are changes, it will merge those changes into your local 
@@ -24,7 +25,7 @@
   When you've pulled, type `git-it verify`.
 
   
-  {yellow}
+  {cyan}
   **GIT TIPS**
   ------------
   
@@ -34,6 +35,6 @@
   
   {bold}Pull in changes from a remote branch{/bold}
 
-  $ git pull <REMOTENAME> <REMOTEBRANCH>w
+  $ git pull <REMOTENAME> <REMOTEBRANCH>{/cyan}
 
   --------------------------------------------------------------------

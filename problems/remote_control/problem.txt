@@ -42,21 +42,34 @@
   You want to sync your {bold}local{/bold} version with one stored on GitHub.com
   called the {bold}remote{/bold} version.
 
-  - Go to {bold}www.github.com{/bold}, log in, and click a '+' in the top right to
+  - Go to {bold}www.github.com{/bold}, log in, and click the '+' in the top right to
   create a new repository.
   - Give it a name that matches your local repository's name and a short 
   description.
-  - For now, don't add a readme, .gitignore or license file.
-  - Click create!
-
-  Now you've got an empty repository started on GitHub.com. On the 
-  right side of the page, mid way down, you'll find a small bar with
-  labeled 'HTTPS clone URL'. This is the address to your remote
-  repository, copy it.
+  - Make it public.
+  - Initialize with a README.
+  - For now, leave .gitignore and license on 'none'.
+  - Click create repository!
+  
+  {cyan}
+  Readmes, .gitignores and Licenses{/cyan}
+  
+  These are common files in open source projects. A {bold}readme{/bold} explains 
+  what the project is, how to use it, and often times, how to contribute
+  (though sometime there is an extra file, CONTRIBUTING.md, for
+  those details). A {bold}.gitignore{/bold} is a list of files that
+  Git should *not* track (for instance, files with passwords!). A
+  {bold}license{/bold} file is the type of license you put on your
+  project, information on the types is here: {bold}www.choosealicense.com{/bold}.
 
   {bold}{cyan}
   Connect your Local to your Remote{/bold}
   ---------------------------------{/cyan}
+  
+  Now you've got an empty repository started on GitHub.com. On the 
+  right side of the page, mid way down, you'll find a small bar with
+  labeled 'HTTPS clone URL'. This is the address to your remote
+  repository, copy it.
 
   Back in your terminal, you want to tell Git the location of the
   remote version. This is commonly named `origin`.
@@ -71,7 +84,7 @@
 
   Go to GitHub and refresh the page of your repository. WOAH! 
 
-  {yellow}
+  {cyan}
   **GIT TIPS**
   ------------
 
@@ -85,6 +98,6 @@
 
   {bold}Push changes{/bold}
 
-  $ git push <REMOTENAME> <URL>{/yellow}
+  $ git push <REMOTENAME> <URL>{/cyan}
 
   --------------------------------------------------------------------
