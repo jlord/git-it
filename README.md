@@ -30,6 +30,7 @@ Once you have the essentials above, install Git-it.
 $ npm install -g git-it
 ```
 - Once it's done installing components, you can run it:
+- _If you run into trouble with this command it may be due to permissions on your computer, try adding 'sudo:_ `sudo npm install -g git-it`
 
 ```bash
 $ git-it
