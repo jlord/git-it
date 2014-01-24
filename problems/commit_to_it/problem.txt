@@ -21,11 +21,6 @@
   listed? 
   
   $ git status
-  
-  View the {bold}diff{/bold}erence between the files now and how they 
-  were before you edited. 
-  
-  $ git diff
 
   Then {bold}add{/bold} the file you just created to the files you'd 
   like to {bold}commit{/bold} (aka save) to change (for instance,
@@ -37,6 +32,19 @@
   short description of the updates.See the command hints below!
   
   $ git commit -m <MESSAGE>
+  
+  {bold}{cyan}
+  Make More Changes{/bold}
+  -----------------------------{/cyan}
+  
+  Now add another line to your .txt file, perhaps a title, and save.
+  
+  In terminal, you can view the {bold}diff{/bold}erence between the 
+  files now and how they were before you edited. 
+  
+  $ git diff
+  
+  Now with what you just learned above, commit that change.
   
   {cyan}
   **GIT TIPS**
