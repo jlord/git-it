@@ -46,6 +46,13 @@
   remote version. This is commonly named `origin`.
 
   $ git remote add origin <URLFROMGITHUB>
+  
+  Your {bold}local{/bold} version is now connected to the 
+  {bold}remote{/bold} on GitHub.com. But the remote one now has a 
+  readme, but your local one doesn't. You'll want to {bold}pull{bold} that 
+  into your {bold}local{/bold}.
+  
+  $ git pull origin master
 
   Now you want to {bold}push{/bold} everything you've done locally
   to GitHub on a branch named `master` (we'll learn more about branches
@@ -53,7 +60,9 @@
 
   $ git push origin master
 
-  Go to GitHub and refresh the page of your repository. WOAH! 
+  Go to GitHub and refresh the page of your repository. WOAH! Everything
+  is the same locally and remotely. Congrats on your first public 
+  repository!
 
   {cyan}
   **GIT TIPS**
@@ -62,6 +71,10 @@
   {bold}Add remote connections{/bold}
 
   $ git remote add <REMOTENAME> <URL>
+  
+  {bold}Pull in changes{/bold}
+
+  $ git pull <REMOTENAME> <BRANCHNAME>
 
   {bold}View remote connections{/bold}
 
@@ -69,6 +82,6 @@
 
   {bold}Push changes{/bold}
 
-  $ git push <REMOTENAME> <URL>{/cyan}
+  $ git push <REMOTENAME> <BRANCH>{/cyan}
 
   --------------------------------------------------------------------
