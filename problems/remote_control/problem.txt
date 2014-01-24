@@ -1,17 +1,18 @@
-  Set up GitHub and push your repository to GitHub.com for sharing.
+  Connect your local and remote repository and sync changes.
 
   --------------------------------------------------------------------
 
-  The repository you've created so far is just on your computer, which
-  is handy, but makes it pretty hard to share and work with others on. 
-  No worries, that's what GitHub.com is for! 
+  GitHub.com stores the {bold}remote{/bold} copy of your repository. By
+  pushing your {bold}local{/bold} (on your computer) changes to it, you keep 
+  it up to date. That way others can always get the latest, too.   
 
   {bold}{cyan}
   Create a Remote Repository{/bold}
   --------------------------{/cyan}
 
   You want to sync your {bold}local{/bold} version with one stored on GitHub.com
-  called the {bold}remote{/bold} version.
+  called the {bold}remote{/bold} version. So first create an empty 
+  remote repository.
 
   - Go to {bold}www.github.com{/bold}, log in, and click the '+' in the top right to
   create a new repository.
@@ -26,12 +27,13 @@
   Readmes, .gitignores and Licenses{/cyan}
   
   These are common files in open source projects. A {bold}readme{/bold} explains 
-  what the project is, how to use it, and often times, how to contribute
-  (though sometime there is an extra file, CONTRIBUTING.md, for
-  those details). A {bold}.gitignore{/bold} is a list of files that
-  Git should *not* track (for instance, files with passwords!). A
-  {bold}license{/bold} file is the type of license you put on your
-  project, information on the types is here: {bold}www.choosealicense.com{/bold}.
+  what the project is, how to use it, and often times, how to 
+  contribute (though sometimes there is an extra file, 
+  CONTRIBUTING.md, for those details). A {bold}.gitignore{/bold} is 
+  a list of files that Git should *not* track (for instance, files 
+  with passwords!). A {bold}license{/bold} file is the type of license 
+  you put on your project, information on the types is here: 
+  {bold}www.choosealicense.com{/bold}.
 
   {bold}{cyan}
   Connect your Local to your Remote{/bold}
@@ -42,22 +44,25 @@
   labeled 'HTTPS clone URL'. This is the address to your remote
   repository, copy it.
 
-  Back in your terminal, you want to tell Git the location of the
-  remote version. This is commonly named `origin`.
+  Back in your terminal, and inside of the folder that you 
+  initialized as a Git repository in the previous challenge, you 
+  want to tell Git the location of the remote version. This is 
+  commonly named `origin`.
 
   $ git remote add origin <URLFROMGITHUB>
   
   Your {bold}local{/bold} version is now connected to the 
   {bold}remote{/bold} on GitHub.com. But the remote one now has a 
-  readme, but your local one doesn't. You'll want to {bold}pull{bold} that 
+  readme and your local one doesn't. You'll want to {bold}pull{/bold} that 
   into your {bold}local{/bold}.
   
   $ git pull origin master
+  
+  'master' is the branch name by default.
 
   Now you want to {bold}push{/bold} everything you've done locally
-  to GitHub on a branch named `master` (we'll learn more about branches
-  later).
-
+  to GitHub.
+  
   $ git push origin master
 
   Go to GitHub and refresh the page of your repository. WOAH! Everything

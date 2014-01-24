@@ -2,9 +2,10 @@
 
   --------------------------------------------------------------------
 
-  Join the 5 million building things together on GitHub by creating an 
-  account, then configure your Git so that it knows who is doing
-  the editing.
+  The repository you've created so far is just on your computer, which
+  is handy, but makes it pretty hard to share and work with others on. 
+  No worries, that's what GitHub.com is for! In this challenge, 
+  get set up.
 
   {bold}{cyan}
   Create a GitHub Account{/bold}

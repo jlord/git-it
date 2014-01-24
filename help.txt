@@ -20,12 +20,16 @@
   {bold}Check status of changes to a repository{/bold}
 
   $ git status
+  
+  {bold}View changes between commits{/bold}
+
+  $ git diff
 
   {bold}Add a file's changes to be commited{/bold}
 
   $ git add <FILENAME>
 
-  {\e}To add all files' changes{/\e}
+  {bold}To add all files' changes{/bold)
 
   $ git add .
 
@@ -40,7 +44,7 @@
 
   {bold}To pull in changes from remote{/bold}
 
-  $ git pull <REMOTENAME> <REMOTENAME>
+  $ git pull <REMOTENAME> <BRANCHNAME>
 
   {bold}Merge a branch into current branch{/bold}
 
@@ -48,7 +52,7 @@
 
   {bold}Change the branch you're working on{/bold}
 
-  $ git checkout <BRANCHNAME>{/cyan}
+  $ git checkout <BRANCHNAME>
 
   {bold}Delete a local branch{/bold}
   
@@ -69,18 +73,18 @@
   {bold}Navigate into an existing folder (aka change directory){/bold}
 
   $ cd <FOLDERNAME>
+  
+  {bold}Back out of a folder/directory{/bold}
+  
+  $ cd ..
+  
+  {bold}Back out all the way to the root directory{/bold}
+  
+  $ cd
 
   {bold}List the items in a folder{/bold}
   
   $ ls 
-
-  {bold}Navigate out of current folder (directory){/bold}
-
-  $ cd ..
-
-  {bold}Navigate your computer's root directory{/bold}
-
-  $ cd
 
   {bold}Remove (delete) a file{/bold}
 
