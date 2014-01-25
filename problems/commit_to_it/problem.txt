@@ -24,14 +24,14 @@
 
   Then {bold}add{/bold} the file you just created to the files you'd 
   like to {bold}commit{/bold} (aka save) to change (for instance,
-  if you're file is named readme.md, `git add readme.md`). 
+  if your file is named readme.md, `git add readme.md`). 
   
   $ git add <FILENAME>
 
   Finally, commit those changes to the repository's history with a 
   short description of the updates.See the command hints below!
   
-  $ git commit -m <MESSAGE>
+  $ git commit -m "your commit message"
   
   {bold}{cyan}
   Make More Changes{/bold}
@@ -69,6 +69,6 @@
   {bold}To commit (aka save) the changes you've added with a short
   message describing the changes{/bold}
 
-  $ git commit -m "your message"{/cyan}
+  $ git commit -m "your commit message"{/cyan}
 
   --------------------------------------------------------------------

@@ -29,7 +29,7 @@
 
   {bold}Pull in changes from a remote{/bold}
 
-  $ git remote add <REMOTENAME> <BRANCH>
+  $ git pull <REMOTENAME> <BRANCH>
 
   {bold}Copy a repository to your computer{/bold}
 

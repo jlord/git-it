@@ -36,7 +36,7 @@
   {bold}To commit (aka save) the changes you've added with a short
   message describing the changes{/bold}
 
-  $ git commit -m "your message"
+  $ git commit -m "your commit message"
 
   {bold}To push your changes to a remote{/bold}
 
