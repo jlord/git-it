@@ -8,21 +8,39 @@
   they {bold}pull{/bold} the changes into the original so that everyone can 
   benefit from the updates - that's a {bold}pull request{/bold}.
   
-  We want to add you to the list of workshop completors, so make
+  We want to add you to the list of workshop finishers, so make
   a {bold}pull request{/bold} to the original: {bold}www.github.com/jlord/patchwork{/bold}.
 
   Once changes have been {bold}pushed{/bold} to a branch on a fork, GitHub.com will
   recognize this and when you visit the original GitHub asks if you 
   want to create a pull request with the changes on that branch.
 
-  {cyan}To create a pull request{/cyan}
-
+  {cyan}{bold}
+  Create a pull request
+  ---------------------{/bold}{/cyan}
+  
   - visit the original repository you forked on GitHub, in this case
   {bold}http://www.github.com/jlord/patchwork{/bold}
-  - Click to create a pull request.
-  - Describe your changes and submit!
-
-  When you're done, run:
+  
+  Often GitHub will detect if you've pushed a branch to a fork and 
+  display it at the top of the original's website. If you see that, 
+  you can click Create Pull Request. If not:
+  
+  - Click 'Pull request' on the right-side menu, then 'New pull request'.
+  - Select the branch with the changes you want to submit.
+  
+  You'll now see a page with the details of the pull request you're
+  in the process of submitting. The page shows the commits and changes 
+  associated with your pull request. If the original repository has a 
+  contribution documentation, GitHub will link to it. If everything
+  looks as you expect it
+  
+  - click 'Create pull request'
+  - Add a title and description to the changes you're suggest the 
+  original author pull in.
+  - click 'Send pull request'!
+  
+  High five! When you've submitted your pull request, run:
   
   $ git-it verify
   
