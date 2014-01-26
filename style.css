@@ -13,12 +13,17 @@ pre {
   font-size: 11px;
 }
 
+code {
+  margin: 0px;
+  padding: 0px;
+}
+
 /* Animation done by https://github.com/daneden */
 /* https://github.com/daneden/animate.css */
 
-/*#user-name {
-  -webkit-animation: swing 5s infinite;
-}*/
+#user-name {
+ width: 100%;
+}
 
 @-webkit-keyframes swing {
   20% {
@@ -114,7 +119,9 @@ a:hover {
 
 h1 {
   font-size: 54px; 
-  text-shadow: 0px 1px 1px rgba(0,0,0,0.4);
+}
+h3 {
+  text-align: center;
 }
 
 p, .textcontainer {
@@ -127,17 +134,28 @@ p, .textcontainer {
   max-width: 800px; 
   margin: 0 auto;
   overflow: auto; 
-  padding: 22px;
+  display: block;
+}
+
+.large-container {
+  overflow: auto;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
 }
 
 #welcome-name {
   text-align: center; 
-  border-bottom: 1px dashed #fff;
+  
 }
 
 #welcome-name h4 {margin: 6px;}
 
-#compatriots {padding: 22px; border-bottom: 1px dashed #fff;}
+#compatriots {
+  padding: 22px; 
+  border-bottom: 1px dashed #fff;
+  border-top: 1px dashed #fff;
+}
 
 ul.nav {
   list-style: none; padding: 0px; 
