@@ -50,7 +50,8 @@
   
   Now, in the 'contributors' folder, create a new file named 
   "add-<username>.txt", where 'username' is your username. For instance, 
-  "add-jlord.txt". Then, just write your username in it (that's it!).  
+  "add-jlord.txt". Then, just write your GitHub username in it, that's
+  it and that's all. For instance, I'd type 'jlord' and hit save.  
   
   {bold}{cyan}
   Check-in{/bold}
