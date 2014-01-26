@@ -51,6 +51,17 @@
 
   $ git remote add origin <URLFROMGITHUB>
   
+  ---
+  A note:
+  
+  If you have GitHub for Windows on your computer, a remote 
+  named 'origin' is automatically created. In that case, you'll
+  just need to tell it what URL to associate with origin. Use this
+  command instead of the 'add' one above:
+
+  $ git remote set-url origin <URLFROMGITHUB>
+  ---
+  
   Your {bold}local{/bold} version is now connected to the 
   {bold}remote{/bold} on GitHub.com. But the remote one now has a 
   readme and your local one doesn't. You'll want to {bold}pull{/bold} that 
@@ -76,6 +87,10 @@
   {bold}Add remote connections{/bold}
 
   $ git remote add <REMOTENAME> <URL>
+  
+  {bold}Set a URL to a remote{/bold}
+
+  $ git remote set-url <REMOTENAME> <URL>
   
   {bold}Pull in changes{/bold}
 
