@@ -31,7 +31,7 @@
   
   To go into that folder:
   
-  $ cd coolRepo
+  $ cd sandwich
   
   To create a new Git instance for a project:
 
