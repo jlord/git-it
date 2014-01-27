@@ -14,32 +14,32 @@
     <div id="welcome-name">
       <h1>Congrats, you did it!</h1>
       <div id="user-name" class="swing animated" style="display: block;">
-<pre><code>{{#featured}}{{username}}{{/featured}}</code></pre>
+<pre><code>{{#featured}}{{userArt}}{{/featured}}</code></pre>
       </div>
     </div>
   </div>
     <div class="container">
-      <h3>You now know alternate meanings for <strong>fork</strong> and <strong>branch</strong>. You've <strong>collaborated</strong> someone whose location        you're unaware of. You, friend, <strong>pull request</strong> with the best of 'em.</h3>
+      <h3>You now know alternate meanings for <strong>fork</strong> and <strong>branch</strong>. You've <strong>collaborated</strong> someone whose location you're unaware of. You, friend, <strong>pull request</strong> with the best of 'em.</h3>
       <h3><strong>Your pulling and pushing compatriots (give or take 4 million):</strong></h3>
   
       <div id="compatriots">
         <ul class="compatriots-list">
-          {{#everyone}}<li><span class="userdetail"><a href="#">@{{username}}</a></span> <span class="userdate">{{time}}</span></li>{{/everyone}}
+          {{#everyone}}<li><span class="userdetail"><a href="http://www.github.com/{{username}}" target="_blank">@{{username}}</a></span> <span class="userdate">{{time}}</span></li>{{/everyone}}
         </ul>
       </div>
       
       <div class="textcontainer">
         <div id="about" class="halvsies">
           <h4>About</h4>
-          <p>Everyone listed on this page has completed <a href="http://www.github.com/jlord/git-it" target="_blank">Git-it</a>, an open source terminal                app for learning Git and GitHub.</p> <p>The <a href="http://www.github.com/jlord/git-it" target="_blank">Git-it</a> challenges are self directed              so one can do it on their own, but it also makes for a great <a href="http://nodeschool.io/" target="_blank">nodeschool.io</a> type of workshop.              </p> 
+          <p>Everyone listed on this page has completed <a href="http://www.github.com/jlord/git-it" target="_blank">Git-it</a>, an open source terminal app for learning Git and GitHub.</p> <p>The <a href="http://www.github.com/jlord/git-it" target="_blank">Git-it</a> challenges are self directed so one can do it on their own, but it also makes for a great <a href="http://nodeschool.io/" target="_blank">nodeschool.io</a> type of workshop.</p> 
         </div>
     
         <div id="next" class="halvsies">
           <h4>What next?</h4>
           <p>Don't stop now, keep going! Here are some ideas for what to work on next.</p>
           <ul class="what-next-list">
-            <li>Make a repository on GitHub  named `ghusername.github.io` and fill it with web site files -- GitHub will host for free at the same address:               ghusername.github.io</li>
-            <li>Open up an issue in one of your repositories and create a <a href="https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments"                  target="_blank">to-do list</a>.</li>
+            <li>Make a repository on GitHub  named `ghusername.github.io` and fill it with web site files -- GitHub will host for free at the same address: ghusername.github.io</li>
+            <li>Open up an issue in one of your repositories and create a <a href="https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments" target="_blank">to-do list</a>.</li>
             <li>Find interesting open source projects to work with in <a href="http://www.github.com/explore" target="_blank">Explore</a>.</li>
             <li>Get contributing by finding open issues on projects with labels like 'get-started' or 'beginner'.</li>
           </ul>
