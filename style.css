@@ -156,6 +156,10 @@ p, .textcontainer {
   padding: 22px; 
   border-bottom: 1px dashed #fff;
   border-top: 1px dashed #fff;
+  -moz-column-count: 3;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 20px;
 }
 
 ul.nav {
@@ -174,8 +178,9 @@ ul.nav {
   list-style: none; 
   padding: 0px; 
   font-size: 12px;
+  margin: 0px;
 }
-.compatriots-list li {padding: 2px 0px;}
+.compatriots-list li {padding: 4px 0px;}
 
 .userdate {font-family: "Andale Mono"}
 .userdetail {font-weight: bold;}
