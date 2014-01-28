@@ -9,3 +9,4 @@ exec('git reflog show origin/master', function(err, stdout, stderr) {
   
   if (ref.match("update by push")) console.log("Bingo! Detected a push.")
   else console.log("No evidence of push.")
+})
