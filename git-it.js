@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const Workshopper = require('workshopper'),
+const Workshopper = require('workshopper-jlord'),
       path = require('path')
 
 Workshopper({
