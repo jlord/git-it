@@ -1,4 +1,4 @@
-# Git-it (almost ready)
+# Git-it
 
 ![ss](https://raw2.github.com/jlord/git-it/master/git-it-ss.png) 
 
