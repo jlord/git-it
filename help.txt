@@ -1,12 +1,14 @@
   {cyan}{bold}
-  HELPFUL THINGS/bold}{/cyan}
+  HELPFUL THINGS{/bold}{/cyan}
   
   - Get stuck? Find an error? File and issue at:
   {bold}www.github.com/jlord/git-it{/bold}
 
   {cyan}
-  GIT COMMANDS{/cyan}
-  ------------
+  GIT COMMANDS
+  ------------{/cyan}
+  
+  {cyan}Configuration{/cyan}
 
   {bold}Configure your username{/bold}
 
@@ -19,6 +21,8 @@
   {bold}Configure your email{/bold}
 
   $ git config --global user.email youremail@example.com
+  
+  {cyan}Check in{/cyan}
 
   {bold}Check status of changes to a repository{/bold}
 
@@ -32,7 +36,7 @@
 
   $ git add <FILENAME>
 
-  {bold}To add all files' changes{/bold)
+  {bold}To add all files' changes{/bold}
 
   $ git add .
 
@@ -40,6 +44,8 @@
   message describing the changes{/bold}
 
   $ git commit -m "your commit message"
+  
+  {cyan}Remotes{/cyan}
 
   {bold}To push your changes to a remote{/bold}
 
@@ -48,6 +54,16 @@
   {bold}To pull in changes from remote{/bold}
 
   $ git pull <REMOTENAME> <BRANCHNAME>
+  
+  {bold}To set a URL for a remote{/bold}
+
+  $ git remote set-url <REMOTENAME> <BRANCHNAME>
+  
+  {bold}Add a remote{/bold}
+
+  $ git remote add <REMOTENAME> <BRANCHNAME>
+  
+  {cyan}Branches{/cyan}
 
   {bold}Merge a branch into current branch{/bold}
 
@@ -66,8 +82,8 @@
   $ git push <REMOTENAME> --delete <BRANCHNAME>
 
   {cyan}
-  BASH COMMANDS{/cyan}
-  -------------
+  BASH COMMANDS
+  -------------{/cyan}
 
   {bold}Make a new folder (aka directory){/bold}
 
