@@ -17,8 +17,9 @@
   Check, Add and Commit Changes{/bold}
   -----------------------------{/cyan}
 
-  Next check the {bold}status{/bold} of your repository. Are there changes 
-  listed? 
+  Next check the {bold}status{/bold} of your repository. Below in this terminal, 
+  you should still be within the new folder you created. See if there 
+  are changes listed:
   
   $ git status
 
@@ -28,7 +29,7 @@
   
   $ git add <FILENAME>
 
-  Finally, commit those changes to the repository's history with a 
+  Finally, {bold}commit{/bold} those changes to the repository's history with a 
   short description of the updates.See the command hints below!
   
   $ git commit -m "your commit message"
@@ -40,11 +41,13 @@
   Now add another line to your .txt file, perhaps a title, and save.
   
   In terminal, you can view the {bold}diff{/bold}erence between the 
-  files now and how they were before you edited. 
+  file now and how it was at your last commit. 
   
   $ git diff
   
-  Now with what you just learned above, commit that change.
+  Now with what you just learned above, commit this latest change.
+  
+  When all changes are committed, run `git-it verify`.
   
   {cyan}
   **GIT TIPS**

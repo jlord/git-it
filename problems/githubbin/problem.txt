@@ -5,7 +5,7 @@
   The repository you've created so far is just on your computer, which
   is handy, but makes it pretty hard to share and work with others on. 
   No worries, that's what GitHub.com is for! In this challenge, 
-  get set up.
+  get Git and GitHub configured.
 
   {bold}{cyan}
   Create a GitHub Account{/bold}
@@ -24,7 +24,7 @@
   You'll want to let Git know who to associate the changes you make to 
   by telling it your name, GitHub account name and email address.
 
-  Open a new terminal {bold}(CMD + N){/bold} window and set your name:
+  Type these into terminal to configure Git:
 
   $ git config --global user.name "Your Name"
   

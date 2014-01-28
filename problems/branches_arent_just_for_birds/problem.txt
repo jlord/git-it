@@ -1,15 +1,13 @@
   Create a new branch for your contribution.
 
   --------------------------------------------------------------------
-  
-  {bold}{cyan}
-  Branching{/bold}
-  ---------{/cyan}
 
-  It's common practice when working on a project or with others on a
-  project to create a {bold}branch{/bold} to put your changes in. This
-  way you can do you work while the main, commonly named 'master',
-  branch stays stable. 
+
+  Git repositories use branches to isolate work when needed. It's 
+  common practice when working on a project or with others on a 
+  project to create a {bold}branch{/bold} to put your changes in. This 
+  way you can do you work while the main, commonly named 'master', 
+  branch stays stable.
   
   {cyan}GitHub Pages{/cyan}
   
@@ -21,37 +19,36 @@
   http://githubusername.github.io/repositoryname
   
   {bold}{cyan}
-  How to create branches{/bold}
-  ----------------------{/cyan}
+  Create a branch{/bold}
+  ---------------{/cyan}
 
   When you create a branch, Git copies everything from the current 
   branch you're on and places it in the branch you've requested.
+  
+  Type `git status` to see what branch you're currently on (it
+  should be 'gh-pages')
+  
+  Create a branch and name it "add-<username>", where 'username' is 
+  your username. For instance, "add-jlord". 
 
   $ git branch <BRANCHNAME>
-
+  
+  Now you have a branch with a new name identical to 'gh-pages'.
+  
   To go into that branch and work on it, similar to using `cd` to 
   change directory in terminal, you {bold}checkout{/bold} a branch.
 
   $ git checkout <BRANCHNAME>
-
-  {cyan}
-  Contribution, license and readme docs{/cyan}
-  
-  Many open source projects contain contribution, license and readme
-  documents that let users know what they need to know about using
-  and contributing to the project.
   
   {bold}{cyan}
-  Create branch and new file{/bold}
+  Create a new file{/bold}
   --------------------------{/cyan}
-
-  Create a branch and name it "add-<username>", where 'username' is 
-  your username. For instance, "add-jlord". Then move onto that branch.
   
-  Now, in the 'contributors' folder, create a new file named 
-  "add-<username>.txt", where 'username' is your username. For instance, 
-  "add-jlord.txt". Then, just write your GitHub username in it, that's
-  it and that's all. For instance, I'd type 'jlord' and hit save.  
+  Back to the text editor. In the 'contributors' folder, create a 
+  new file named "add-<username>.txt", where 'username' is your 
+  username. For instance, "add-jlord.txt". Then, just write your 
+  GitHub username in it, that's it and that's all. For instance, 
+  I'd type 'jlord' and hit save.  
   
   {bold}{cyan}
   Check-in{/bold}
@@ -63,7 +60,7 @@
   $ git add <filename>
   $ git commit -m "commit message"
   
-  Now push you update to GitHub:
+  Now push your update to your fork on GitHub:
   
   $ git push origin <BRANCHNAME>
   
@@ -77,6 +74,18 @@
   You can create and switch to a branch in one line:
 
   $ git checkout -b <BRANCHNAME>
+  
+  Create a new branch:
+
+  $ git branch <BRANCHNAME>
+  
+  Move onto a branch:
+
+  $ git checkout <BRANCHNAME>
+  
+  List the branches:
+
+  $ git branch
 
   Rename a branch you're currently on:
   

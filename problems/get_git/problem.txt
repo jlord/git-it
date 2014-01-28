@@ -29,5 +29,10 @@
   PRO TIP: Dollar signs are often used in programming documentation
   to signify that the line is command line code. You don't actually 
   type it in, though, only type `git-it verify`.
+  
+  When you finish each challenge, type `git-it` to see the menu and
+  go to the next challenge. Some of the challenges are longer than the
+  screen, so don't forget to scroll up to where it begins after it 
+  loads!
 
   --------------------------------------------------------------------

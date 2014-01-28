@@ -1,16 +1,16 @@
-  Keep your file up to date, pull in changes from contributors.
+  Keep your file up to date, pull in changes from collaborators.
 
   --------------------------------------------------------------------
-
-  {bold}{cyan}
-  Pull in Changes{/bold}
-  -----------------{/cyan}
   
   If you're working on something with someone you need to stay up
   to date with the latest version. So you'll want to {bold}pull{/bold} in any 
   changes that may have been made.
+  
+  {bold}{cyan}
+  Pull in Changes{/bold}
+  -----------------{/cyan}
 
-  See if Reporobot has made any changes to the 'add-' branch by pulling
+  See if Reporobot has made any changes to your 'add-' branch by pulling
   in from the remote named 'origin' on GitHub:
 
   $ git pull <REMOTENAME> <BRANCHNAME>
@@ -20,11 +20,11 @@
   version.
   
   Did Reporobot make changes? Git tells you where changes were made.
-  You can open that file and see Reporobot's updates. Suprise :)
+  You can open that file and see Reporobot's updates. Surprise, 
+  Reporobot is an artist!
   
   When you've pulled, type `git-it verify`.
 
-  
   {cyan}
   **GIT TIPS**
   ------------
@@ -36,5 +36,9 @@
   {bold}Pull in changes from a remote branch{/bold}
 
   $ git pull <REMOTENAME> <REMOTEBRANCH>{/cyan}
+  
+  {bold}See changes to the remote before you pull in{/bold}
+
+  $ git fetch --dry-run{/cyan}
 
   --------------------------------------------------------------------

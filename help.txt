@@ -1,5 +1,8 @@
   {cyan}{bold}
-  HANDY GIT AND BASH COMMANDS{/bold}{/cyan}
+  HELPFUL THINGS/bold}{/cyan}
+  
+  - Get stuck? Find an error? File and issue at:
+  {bold}www.github.com/jlord/git-it{/bold}
 
   {cyan}
   GIT COMMANDS{/cyan}

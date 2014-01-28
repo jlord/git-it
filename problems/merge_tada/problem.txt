@@ -25,7 +25,7 @@
   
   $ git branch -D <BRANCHNAME>
   
-  You can also delete the remote copy of it on GitHub:
+  You can also delete the branch from your fork on GitHub:
   
   $ git push <REMOTENAME> --delete <BRANCHNAME>
   
@@ -33,7 +33,7 @@
   Congratulations!{/bold}
   ----------------{/cyan}
   
-  You've create local repositories, remote repositories, worked with
+  You've created local repositories, remote repositories, worked with
   a collaborator, pushed, pulled and joined the millions of others
   developing and enriching open source!
   

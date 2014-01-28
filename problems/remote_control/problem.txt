@@ -1,10 +1,13 @@
-  Connect your local and remote repository and sync changes.
+  Connect your local and remote repositories and sync changes.
 
   --------------------------------------------------------------------
 
-  GitHub.com stores the {bold}remote{/bold} copy of your repository. By
-  pushing your {bold}local{/bold} (on your computer) changes to it, you keep 
-  it up to date. That way others can always get the latest, too.   
+  GitHub.com stores a {bold}remote{/bold} copy of your repository (it's 
+  'remote' because that copy is not on your computer, but on a server 
+  elsewhere). By {bold}pushing{/bold} your {bold}local{/bold} (on your computer) changes to it, 
+  you keep it up to date. That way others can always get the latest, 
+  too. And everyone can work on a project together without needing 
+  access to your computer where your local copy is stored. 
 
   {bold}{cyan}
   Create a Remote Repository{/bold}
@@ -12,7 +15,7 @@
 
   You want to sync your {bold}local{/bold} version with one stored on GitHub.com
   called the {bold}remote{/bold} version. So first create an empty 
-  remote repository.
+  remote repository on GitHub.com.
 
   - Go to {bold}www.github.com{/bold}, log in, and click the '+' in the top right to
   create a new repository.
@@ -69,16 +72,21 @@
   
   $ git pull origin master
   
-  'master' is the branch name by default.
+  'master' is the branch name by default. You'll learn more about 
+  branches soon!
 
   Now you want to {bold}push{/bold} everything you've done locally
   to GitHub.
   
   $ git push origin master
 
-  Go to GitHub and refresh the page of your repository. WOAH! Everything
-  is the same locally and remotely. Congrats on your first public 
-  repository!
+  Go to GitHub and refresh the page of your repository. WOAH! 
+  Everything is the same locally and remotely. Congrats on your 
+  first public repository!
+  
+  When you're synced locally and on GitHub.com, run:
+  
+  $ git-it verify
 
   {cyan}
   **GIT TIPS**

@@ -16,9 +16,9 @@
   -------------------{/cyan}
   
   You're going to create a new folder and initialize it as a Git
-  repository*. You'll need some basic terminal (Bash) commands (below) 
-  for moving around and creating folders (just like you'd do in Finder 
-  or Windows Explorer). 
+  repository. You'll need some basic terminal (Bash) commands (see 
+  below) for moving around and creating folders (just like you'd do 
+  in Finder or Windows Explorer). 
   
   To make things easier, name your folder what you'd name the project,
   keep it lowercase, no spaces or symbols. How about 'sandwich'.
@@ -37,15 +37,15 @@
 
   $ git init
 
-  That's it. It will just return you to a new line.
+  That's it! It will just return you to a new line.
   
   When you've initialized a new Git repository, run:
   
   $ git-it verify
   
   {cyan}
-  **BASIC BASH COMMANDS**
-  -----------------------
+  **TERMINAL TIPS**
+  -----------------
 
   {bold}Make a new folder (aka directory){/bold}
 
@@ -57,6 +57,10 @@
 
   {bold}List the items in a folder{/bold}
 
-  $ ls {/cyan}
+  $ ls 
+  
+  {bold}Turn Git on for a folder{/bold}
+
+  $ git init{/cyan}
 
   --------------------------------------------------------------------
