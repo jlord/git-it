@@ -19,7 +19,9 @@ function pullrequest(username) {
     if (!error && response.statusCode == 200) {
       var pr = body.pr
       if (pr) console.log("Found your pull request!") 
-      else console.log("No pull request found for " + username)
+      else console.log("No merged pull request found\nfor " + username
+                       + ". If you did make a\npull request, return to "
+                       + "it's\nwebsite to see comments." )
     }
   })
 }

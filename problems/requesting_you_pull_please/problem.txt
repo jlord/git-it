@@ -38,8 +38,16 @@
   original author pull in.
   - click 'Send pull request'!
   
-  High five! When you've submitted your pull request, run:
+  High five! When you've submitted your pull request, take a few 
+  seconds to bask in the moment. Then see if your pull request is
+  merged right before your eyes! If it is, you're golden, run:
   
   $ git-it verify
+  
+  If it's not merged automatically within a few moments, you'll then 
+  likely have some comments from Reporobot on why it couldn't merge
+  it. If so, close your pull request on GitHub.com, make the necessary
+  changes to your branch, push those changes and resubmit your pull
+  request.
   
   --------------------------------------------------------------------
