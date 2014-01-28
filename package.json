@@ -1,6 +1,6 @@
 {
   "name": "git-it",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Terminal app for learning Git and GitHub",
   "main": "index.js",
   "bin": "./git-it.js",
@@ -17,6 +17,7 @@
   "dependencies": {
     "concat-stream": "~1.2.1",
     "github-oauth": "0.0.4",
-    "request": "~2.30.0"
+    "request": "~2.30.0",
+    "workshopper-jlord": "0.0.0"
   }
 }
