@@ -21,6 +21,17 @@
   see an icon on your desktop, but it will always be available to you
   and you'll be able to access it at anytime from you're 
   terminal (which you're in right now!) or Git desktop applications.
+  
+  Once it is installed, open terminal and type the following commands
+  to configure Git so it knows who to associate your changes to:
+  
+  Set your name:
+  
+  $ git config --global user.name "Your Name"
+  
+  Now set your email:
+
+  $ git config --global user.email youremail@example.com
 
   When you're done type into terminal
 

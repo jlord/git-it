@@ -11,7 +11,7 @@
   Create a GitHub Account{/bold}
   -----------------------{/cyan}
   
-  GitHub is a website that alows people everywhere to share what 
+  GitHub is a website that allows people everywhere to share what 
   they're working on with Git and to easily work together.
 
   - Visit {bold}http://www.github.com{/bold} and sign up for a free account.
@@ -23,18 +23,10 @@
 
   You'll want to let Git know who to associate the changes you make to 
   by telling it your name, GitHub account name and email address.
-
-  Type these into terminal to configure Git:
-
-  $ git config --global user.name "Your Name"
   
   Then add your GitHub username:
   
   $ git config --global user.username githubusername
-
-  Now set your email:
-
-  $ git config --global user.email youremail@example.com
   
   When you've set everything up, run `git-it verify`
 

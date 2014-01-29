@@ -7,19 +7,14 @@ var url = "http://www.github.com/"
   
   // verify they set up git config
   
-  exec('git config user.email', function(err, stdout, stderr) {
-    var email = stdout.trim()
-    exec('git config user.username', function(err, stdout, stderr) {
-      var user = stdout.trim()
-      if (user === "") console.error("No username found.")
-      else {
-        console.log("Username added!")
-        checkGitHub(user)
-      }
-      if (email === "") console.error("No email found.")
-      else console.log("Email added!")
-    })
-})
+  exec('git config user.username', function(err, stdout, stderr) {
+    var user = stdout.trim()
+    if (user === "") console.error("No username found.")
+    else {
+      console.log("Username added!")
+      checkGitHub(user)
+    }
+  })
 
 function checkGitHub(user, callback) {
   request(url + user + '.json', {json: true}, function (error, response, body) {
