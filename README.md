@@ -16,7 +16,7 @@ This app runs in your Terminal (Mac) or Bash (Windows) and has challenges for le
 
 _A few development essentials, all are free and/or free and open source._
 
-- **Git**, this is your tracker of changes! You can download it [here](http://git-scm.com/downloads). (Note: on Windows, in the setup wizard, choose "Run Git from the Windows Command Prompt")
+- **Git**, this is your tracker of changes! You can download it [here](http://git-scm.com/downloads). (Note: on Windows, in the setup wizard, choose "Run Git from the Windows Command Prompt") Also, you can download the free [GitHub for Windows](http://windows.github.com) and [GitHub for Mac](http://mac.github.com), which include Git and are easy installs.
 - **Node.js**, this is what this app is written in so you'll need this to run it. It's an engine for running JavaScript on servers (your computer is a server!) and will live quietly in the background. You can download it [here](http://nodejs.org/download/).
 - **Editor**, if you don't have one already, you'll need a text editor for editing code. A few options: [Sublime Text](http://www.sublimetext.com/2), [Textmate](http://macromates.com/download), [Brackets](http://brackets.io/).
 
