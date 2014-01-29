@@ -15,15 +15,25 @@
 
   - Visit {bold}http://git-scm.com/downloads{/bold} and download the version for 
   the operating system that you're using.
-  - Follow the installation instructions.
+  - You can also download GitHub for Windows or Mac, which includes 
+  Git and has an easier installation: {bold}mac.github.com{/bold}, 
+  {bold}windows.github.com{/bold}
+  - Follow the installation instructions (see notes below for more
+  details).
 
   Git isn't like other programs on your computer. You'll likely not 
   see an icon on your desktop, but it will always be available to you
   and you'll be able to access it at anytime from you're 
   terminal (which you're in right now!) or Git desktop applications.
   
-  Once it is installed, open terminal and type the following commands
-  to configure Git so it knows who to associate your changes to:
+  Once it is installed, open terminal. You can verify that it's really
+  there by typing:
+  
+  $ git -v 
+  
+  This will return the version of Git that you're running.
+  
+  Next, configure Git so it knows who to associate your changes to:
   
   Set your name:
   
@@ -33,7 +43,7 @@
 
   $ git config --global user.email youremail@example.com
 
-  When you're done type into terminal
+  When you're done type into terminal:
 
   $ git-it verify 
 
@@ -45,5 +55,9 @@
   go to the next challenge. Some of the challenges are longer than the
   screen, so don't forget to scroll up to where it begins after it 
   loads!
+  
+  Notes: For Windows users installing Git alone (and not the GitHub
+  Desktop version), you'll want to select to run Git from the command
+  prompt and the first option on the next window. 
 
   --------------------------------------------------------------------
