@@ -16,8 +16,10 @@ This app runs in your Terminal (Mac) or Bash (Windows) and has challenges for le
 
 _A few development essentials, all are free and/or free and open source._
 
-- **Git**, this is your tracker of changes! You can download it [here](http://git-scm.com/downloads). (Note: on Windows, in the setup wizard, choose "Run Git from the Windows Command Prompt") Also, you can download the free [GitHub for Windows](http://windows.github.com) and [GitHub for Mac](http://mac.github.com), which include Git and are easy installs.
-- **Node.js**, this is what this app is written in so you'll need this to run it. It's an engine for running JavaScript on servers (your computer is a server!) and will live quietly in the background. You can download it [here](http://nodejs.org/download/).
+- **Git**, this is your tracker of changes! You have a few options:
+ - You can download it alone [here](http://git-scm.com/downloads). But will need extra software to manage credentials if you use Two Factor Auth. There are also a few notes on installation for Windows users: in the setup wizard, choose "Run Git from the Windows Command Prompt" and the first option from the second dialogue.
+ - Alternatively, you can download the free [GitHub for Windows](http://windows.github.com) and [GitHub for Mac](http://mac.github.com), which include Git and are easy installs. For Windows users it also makes having Two Factor Auth easy. You can also have both GitHub and Git version on your computer.
+- **Node.js**, this is what this app is written in so you'll need this to run it. It's an engine for running JavaScript on servers (your computer is a server!) and will live quietly in the background. You can download it [here](http://nodejs.org/download/) (For most, you can just pick the Windows .msi or Mac .pkg option).
 - **Editor**, if you don't have one already, you'll need a text editor for editing code. A few options: [Sublime Text](http://www.sublimetext.com/2), [Textmate](http://macromates.com/download), [Brackets](http://brackets.io/).
 
 #### Install Git-it
