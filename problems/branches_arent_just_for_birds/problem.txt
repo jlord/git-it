@@ -6,7 +6,7 @@
   Git repositories use branches to isolate work when needed. It's 
   common practice when working on a project or with others on a 
   project to create a {bold}branch{/bold} to put your changes in. This 
-  way you can do you work while the main, commonly named 'master', 
+  way you can do your work while the main, commonly named 'master', 
   branch stays stable.
   
   {cyan}GitHub Pages{/cyan}
