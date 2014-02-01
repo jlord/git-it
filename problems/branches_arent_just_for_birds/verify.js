@@ -7,10 +7,10 @@ var exec = require('child_process').exec
 // verify they've pushed
 
 exec('git config user.username', function(err, stdout, stdrr) {
-  var username = stdout.trim()
+  var username = stdout.trim().toLowerCase()
   
   exec('git status', function(err, stdout, stderr) {
-    var branch = stdout.trim()
+    var branch = stdout.trim().toLowerCase()
     var branchName = "add-" + username
     exec('git reflog show origin/' + branchName, function(err, stdout, stderr) {
       
