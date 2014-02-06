@@ -3,30 +3,31 @@
   --------------------------------------------------------------------
 
   The repository you've created so far is just on your computer, which
-  is handy, but makes it pretty hard to share and work with others on. 
-  No worries, that's what GitHub.com is for! In this challenge, 
+  is handy, but makes it pretty hard to share and work with others on.
+  No worries, that's what GitHub.com is for! In this challenge,
   get Git and GitHub configured.
 
   {bold}{cyan}
   Create a GitHub Account{/bold}
   -----------------------{/cyan}
-  
-  GitHub is a website that allows people everywhere to share what 
+
+  GitHub is a website that allows people everywhere to share what
   they're working on with Git and to easily work together.
 
   - Visit {bold}http://www.github.com{/bold} and sign up for a free account.
   - High five, welcome!
-  
+
   {bold}{cyan}
   Configure Git{/bold}
   -------------{/cyan}
 
-  You'll want to let Git know your GitHub account name too:
-  
-  Add your GitHub username:
-  
+  You can also add your GitHub username to your Git configuration,
+  which will be needed in order to verify the upcoming challenges:
+
+  Add your GitHub username to your configuration:
+
   $ git config --global user.username githubusername
-  
+
   When you've set everything up, run `git-it verify`
 
   --------------------------------------------------------------------
