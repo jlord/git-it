@@ -1,91 +1,98 @@
-  Connect your local and remote repositories and sync changes.
+  Connect your local and remote repositories and push changes.
 
   --------------------------------------------------------------------
 
-  GitHub.com stores a {bold}remote{/bold} copy of your repository (it's 
-  'remote' because that copy is not on your computer, but on a server 
-  elsewhere). By {bold}pushing{/bold} your {bold}local{/bold} (on your computer) changes to it, 
-  you keep it up to date. That way others can always get the latest, 
-  too. And everyone can work on a project together without needing 
-  access to your computer where your local copy is stored. 
+  GitHub.com stores a {bold}remote{/bold} copy of your repository (it's
+  'remote' because that copy is not on your computer, but on a server
+  elsewhere). By {bold}pushing{/bold} your {bold}local{/bold} (on your computer) changes to it,
+  you keep it up to date. That way others can always get the latest,
+  too. And everyone can work on a project together without needing
+  access to your computer where your local copy is stored.
 
   {bold}{cyan}
   Create a Remote Repository{/bold}
   --------------------------{/cyan}
 
   You want to sync your {bold}local{/bold} version with one stored on GitHub.com
-  called the {bold}remote{/bold} version. So first create an empty 
+  called the {bold}remote{/bold} version. So first create an empty
   remote repository on GitHub.com.
 
   - Go to {bold}www.github.com{/bold}, log in, and click the '+' in the top right to
   create a new repository.
-  - Give it a name that matches your local repository's name and a short 
+  - Give it a name that matches your local repository's name and a short
   description.
   - Make it public.
-  - Initialize with a README.
-  - For now, leave .gitignore and license on 'none'.
+  - Don't initialize with a README
+  - Leave .gitignore and license on 'none'.
   - Click create repository!
-  
+
   {cyan}
   Readmes, .gitignores and Licenses{/cyan}
-  
-  These are common files in open source projects. A {bold}readme{/bold} explains 
-  what the project is, how to use it, and often times, how to 
-  contribute (though sometimes there is an extra file, 
-  CONTRIBUTING.md, for those details). A {bold}.gitignore{/bold} is 
-  a list of files that Git should *not* track (for instance, files 
-  with passwords!). A {bold}license{/bold} file is the type of license 
-  you put on your project, information on the types is here: 
-  {bold}www.choosealicense.com{/bold}.
+
+  These are common files in open source projects. A {bold}readme{/bold} explains
+  what the project is, how to use it, and often times, how to
+  contribute (though sometimes there is an extra file,
+  CONTRIBUTING.md, for those details). A {bold}.gitignore{/bold} is
+  a list of files that Git should *not* track (for instance, files
+  with passwords!). A {bold}license{/bold} file is the type of license
+  you put on your project, information on the types is here:
+  {bold}www.choosealicense.com{/bold}. We don't need them, however,
+  for this example.
 
   {bold}{cyan}
   Connect your Local to your Remote{/bold}
   ---------------------------------{/cyan}
-  
-  Now you've got an empty repository started on GitHub.com. On the 
-  right side of the page, mid way down, you'll find a small bar with
-  labeled 'HTTPS clone URL'. This is the address to your remote
-  repository, copy it.
 
-  Back in your terminal, and inside of the folder that you 
-  initialized as a Git repository in the previous challenge, you 
-  want to tell Git the location of the remote version. This is 
+  Now you've got an empty repository started on GitHub.com. At the
+  top you'll see 'Quick Setup', make sure the 'HTTP' button is
+  selected and copy the address - this is the location of your
+  repository on GitHub.
+
+  Back in your terminal, and inside of the folder that you
+  initialized as a Git repository in the previous challenge, you
+  want to tell Git the location of the remote version. This is
   commonly named `origin`.
 
   $ git remote add origin <URLFROMGITHUB>
-  
+
   ---
   A note:
-  
-  If you have GitHub for Windows on your computer, a remote 
+
+  If you have GitHub for Windows on your computer, a remote
   named 'origin' is automatically created. In that case, you'll
   just need to tell it what URL to associate with origin. Use this
   command instead of the 'add' one above:
 
   $ git remote set-url origin <URLFROMGITHUB>
   ---
-  
-  Your {bold}local{/bold} version is now connected to the 
-  {bold}remote{/bold} on GitHub.com. But the remote one now has a 
-  readme and your local one doesn't. You'll want to {bold}pull{/bold} that 
-  into your {bold}local{/bold}.
-  
-  $ git pull origin master
-  
-  'master' is the branch name by default. You'll learn more about 
-  branches soon!
 
-  Now you want to {bold}push{/bold} everything you've done locally
+  Your {bold}local{/bold} version is now connected to the
+  {bold}remote{/bold} on GitHub.com.
+
+  {bold}{cyan}
+  Push Work to your Remote{/bold}
+  ---------------------------------{/cyan}
+
+  Next you want to {bold}push{/bold} everything you've done locally
   to GitHub.
-  
+
+  Git has a branching system so that you can work on different
+  parts of a project at different times. By default the first
+  branch is named master. When you push (and later pull) from
+  a project, you tell Git the branch name you want and the
+  name of the remote that it lives on.
+
   $ git push origin master
 
-  Go to GitHub and refresh the page of your repository. WOAH! 
-  Everything is the same locally and remotely. Congrats on your 
+  For a visual on how branches work in a project, see this
+  GitHub Guide: {bold}guides.github.com/overviews/flow/{/bold}
+
+  Now go to GitHub and refresh the page of your repository. WOAH!
+  Everything is the same locally and remotely. Congrats on your
   first public repository!
-  
+
   When you're synced locally and on GitHub.com, run:
-  
+
   $ git-it verify
 
   {cyan}
@@ -95,11 +102,11 @@
   {bold}Add remote connections{/bold}
 
   $ git remote add <REMOTENAME> <URL>
-  
+
   {bold}Set a URL to a remote{/bold}
 
   $ git remote set-url <REMOTENAME> <URL>
-  
+
   {bold}Pull in changes{/bold}
 
   $ git pull <REMOTENAME> <BRANCHNAME>
