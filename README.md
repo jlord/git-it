@@ -24,7 +24,7 @@ _A few development essentials, all are free and/or free and open source._
 
 Once you have the essentials above, install Git-it. 
 
-- Open up a terminal window and install Git-it globally on your computer (so that you can run it from anywhere). [NPM](http://www.npmjs.org) delievers Node.js modules (that's what this app is) to your computer from the command line, real easy like (it is included when you install Node.js):
+- Open up a terminal window and install Git-it globally on your computer (so that you can run it from anywhere). [NPM](http://www.npmjs.org) delivers Node.js modules (that's what this app is) to your computer from the command line, real easy like (it is included when you install Node.js):
 
 ```bash
 $ npm install -g git-it
