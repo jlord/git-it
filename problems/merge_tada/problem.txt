@@ -4,7 +4,7 @@
 
   Your pull request is being merged! But meanwhile, since you
   know that you definitely want those updates in your forked version, 
-  and your branch is in good working order, merge it into the main,
+  and your branch is in good working order, merge it into the main
   branch on your forked repository, in this case, `gh-pages`.
   
   {bold}{cyan}
@@ -45,7 +45,7 @@
   
   $ git pull upstream gh-pages
   
-  When you've mereged your branch, deleted it and pulled form the 
+  When you've merged your branch, deleted it and pulled from the 
   original, run `git-it verify`.
   
   {cyan}

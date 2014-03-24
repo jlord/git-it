@@ -24,7 +24,7 @@
   your fork's HTTP URL on the right side.
   
   {bold}{cyan}
-  Clone a Repospitory{/bold}
+  Clone a Repository{/bold}
   -------------------{/cyan}
 
   Now, in terminal, clone the repository. It will create a new folder

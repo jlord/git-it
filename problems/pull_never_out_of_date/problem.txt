@@ -35,7 +35,7 @@
   
   {bold}Pull in changes from a remote branch{/bold}
 
-  $ git pull <REMOTENAME> <REMOTEBRANCH>{/cyan}
+  $ git pull <REMOTENAME> <REMOTEBRANCH>
   
   {bold}See changes to the remote before you pull in{/bold}
 
