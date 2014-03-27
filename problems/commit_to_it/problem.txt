@@ -11,7 +11,7 @@
   
   Open a text editor. Now write a couple of lines of text, perhaps
   describe the tastiest sandwich you can imagine, and save the
-  file in the folder you created in the last lesson.
+  file as `readme.md` in the folder you created in the last lesson.
 
   {bold}{cyan}
   Check, Add and Commit Changes{/bold}
@@ -24,13 +24,12 @@
   $ git status
 
   Then {bold}add{/bold} the file you just created to the files you'd 
-  like to {bold}commit{/bold} (aka save) to change (for instance,
-  if your file is named readme.md, `git add readme.md`). 
+  like to {bold}commit{/bold} (aka save) to change. 
   
-  $ git add <FILENAME>
+  $ git add readme.md
 
   Finally, {bold}commit{/bold} those changes to the repository's history with a 
-  short description of the updates.See the command hints below!
+  short description of the updates. See the command hints below!
   
   $ git commit -m "your commit message"
   
@@ -38,7 +37,7 @@
   Make More Changes{/bold}
   -----------------------------{/cyan}
   
-  Now add another line to your .txt file, perhaps a title, and save.
+  Now add another line to `readme.md`, perhaps a title, and save.
   
   In terminal, you can view the {bold}diff{/bold}erence between the 
   file now and how it was at your last commit. 
