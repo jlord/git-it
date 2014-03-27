@@ -19,14 +19,14 @@
 
   - Mac: You can also download GitHub for Mac, which includes 
   Git, {bold}mac.github.com{/bold} (from Preferences, select
-  the command line tools instal), or Git by itself: 
+  the command line tools install), or Git by itself: 
   {bold}http://git-scm.com/downloads{/bold}.
   
   - Follow the installation instructions.
   
   Git isn't like other programs on your computer. You'll likely not 
   see an icon on your desktop, but it will always be available to you
-  and you'll be able to access it at anytime from you're 
+  and you'll be able to access it at anytime from your 
   terminal (which you're in right now!) or Git desktop applications.
   
   Once it is installed, open terminal (aka Bash, aka Shell, aka Prompt). 
