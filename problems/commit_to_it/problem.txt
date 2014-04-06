@@ -30,7 +30,7 @@
   $ git add <FILENAME>
 
   Finally, {bold}commit{/bold} those changes to the repository's history with a 
-  short description of the updates.See the command hints below!
+  short description of the updates. See the command hints below!
   
   $ git commit -m "your commit message"
   
@@ -61,7 +61,7 @@
 
   $ git diff
 
-  {bold}Add a file's changes to be commited{/bold}
+  {bold}Add a file's changes to be committed{/bold}
 
   $ git add <FILENAME>
 
