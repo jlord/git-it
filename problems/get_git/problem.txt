@@ -32,7 +32,7 @@
   Once it is installed, open terminal (aka Bash, aka Shell, aka Prompt). 
   You can verify that it's really there by typing:
   
-  $ git -v 
+  $ git --version 
   
   This will return the version of Git that you're running.
   
