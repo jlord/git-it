@@ -20,7 +20,7 @@
   Go to the your forked Patchwork repository's page on GitHub and 
   add 'reporobot' as a collaborator.
   
-  {bold}http://www.github.com/yourusername/patchwork{/bold}
+  {bold}http://www.github.com/yourusername/patchwork/settings/collaboration{/bold}
   
   When you've added Reporobot as a collaborator to your Patchwork fork, 
   run `git-it verify`. 
