@@ -1,0 +1,60 @@
+<p>  Create a new branch for your contribution.</p>
+<hr>
+<p>  Git repositories use branches to isolate work when needed. It&#39;s 
+  common practice when working on a project or with others on a 
+  project to create a {bold}branch{/bold} to put your changes in. This 
+  way you can do your work while the main, commonly named &#39;master&#39;, 
+  branch stays stable.</p>
+<p>  {cyan}GitHub Pages{/cyan}</p>
+<p>  GitHub.com will automatically serve and host static website files in 
+  branches named &#39;gh-pages&#39;. Since the project you forked creates a 
+  website, its main branch is &#39;gh-pages&#39;. All sites like this can be 
+  found using this pattern for the URL: </p>
+<p>  <a href="http://githubusername.github.io/repositoryname">http://githubusername.github.io/repositoryname</a></p>
+<p>  {bold}{cyan}
+  Create a branch{/bold}
+  ---------------{/cyan}</p>
+<p>  When you create a branch, Git copies everything from the current 
+  branch you&#39;re on and places it in the branch you&#39;ve requested.</p>
+<p>  Type <code>git status</code> to see what branch you&#39;re currently on (it
+  should be &#39;gh-pages&#39;)</p>
+<p>  Create a branch and name it &quot;add-<username>&quot;, where &#39;username&#39; is 
+  your username. For instance, &quot;add-jlord&quot;. </p>
+<p>  $ git branch <BRANCHNAME></p>
+<p>  Now you have a branch with a new name identical to &#39;gh-pages&#39;.</p>
+<p>  To go into that branch and work on it, similar to using <code>cd</code> to 
+  change directory in terminal, you {bold}checkout{/bold} a branch.</p>
+<p>  $ git checkout <BRANCHNAME></p>
+<p>  {bold}{cyan}
+  Create a new file{/bold}
+  --------------------------{/cyan}</p>
+<p>  Back to the text editor. In the &#39;contributors&#39; folder, create a 
+  new file named &quot;add-<username>.txt&quot;, where &#39;username&#39; is your 
+  username. For instance, &quot;add-jlord.txt&quot;. Then, just write your 
+  GitHub username in it, that&#39;s it and that&#39;s all. For instance, 
+  I&#39;d type &#39;jlord&#39; and hit save.  </p>
+<p>  {bold}{cyan}
+  Check-in{/bold}
+  --------{/cyan}</p>
+<p>  Go through the steps for checking in a project: </p>
+<p>  $ git status
+  $ git add <filename>
+  $ git commit -m &quot;commit message&quot;</p>
+<p>  Now push your update to your fork on GitHub:</p>
+<p>  $ git push origin <BRANCHNAME></p>
+<p>  Type <code>git-it verify</code> when you&#39;re done.</p>
+<p>  {cyan}</p>
+<h2 id="-git-tips-">  <strong>GIT TIPS</strong></h2>
+<p>  You can create and switch to a branch in one line:</p>
+<p>  $ git checkout -b <BRANCHNAME></p>
+<p>  Create a new branch:</p>
+<p>  $ git branch <BRANCHNAME></p>
+<p>  Move onto a branch:</p>
+<p>  $ git checkout <BRANCHNAME></p>
+<p>  List the branches:</p>
+<p>  $ git branch</p>
+<p>  Rename a branch you&#39;re currently on:</p>
+<p>  $ git branch -m <NEWBRANCHNAME></p>
+<p>  Verify what branch you&#39;re working on</p>
+<p>  $ git status{/cyan}</p>
+<hr>

@@ -1,0 +1,46 @@
+<p>  Create a file in your new repository, add something to that file and
+  commit those changes to Git.</p>
+<hr>
+<p>  Now that you&#39;ve got a repository started, add a file to it. </p>
+<p>  {bold}{cyan}
+  New File{/bold}
+  --------{/cyan}</p>
+<p>  Open a text editor. Now write a couple of lines of text, perhaps
+  describe the tastiest sandwich you can imagine, and save the
+  file as <code>readme.md</code> in the folder you created in the last lesson.</p>
+<p>  {bold}{cyan}
+  Check, Add and Commit Changes{/bold}
+  -----------------------------{/cyan}</p>
+<p>  Next check the {bold}status{/bold} of your repository. Below in this terminal, 
+  you should still be within the new folder you created. See if there 
+  are changes listed:</p>
+<p>  $ git status</p>
+<p>  Then {bold}add{/bold} the file you just created to the files you&#39;d 
+  like to {bold}commit{/bold} (aka save) to change. </p>
+<p>  $ git add readme.md</p>
+<p>  Finally, {bold}commit{/bold} those changes to the repository&#39;s history with a 
+  short description of the updates. See the command hints below!</p>
+<p>  $ git commit -m &quot;your commit message&quot;</p>
+<p>  {bold}{cyan}
+  Make More Changes{/bold}
+  -----------------------------{/cyan}</p>
+<p>  Now add another line to <code>readme.md</code>, perhaps a title, and save.</p>
+<p>  In terminal, you can view the {bold}diff{/bold}erence between the 
+  file now and how it was at your last commit. </p>
+<p>  $ git diff</p>
+<p>  Now with what you just learned above, commit this latest change.</p>
+<p>  When all changes are committed, run <code>git-it verify</code>.</p>
+<p>  {cyan}</p>
+<h2 id="-git-tips-">  <strong>GIT TIPS</strong></h2>
+<p>  {bold}Check status of changes to a repository{/bold}</p>
+<p>  $ git status</p>
+<p>  {bold}View changes to files{/bold}</p>
+<p>  $ git diff</p>
+<p>  {bold}Add a file&#39;s changes to be committed{/bold}</p>
+<p>  $ git add <FILENAME></p>
+<p>  {bold}To add all files&#39; changes{/bold}</p>
+<p>  $ git add .</p>
+<p>  {bold}To commit (aka save) the changes you&#39;ve added with a short
+  message describing the changes{/bold}</p>
+<p>  $ git commit -m &quot;your commit message&quot;{/cyan}</p>
+<hr>
