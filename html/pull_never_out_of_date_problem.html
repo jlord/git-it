@@ -1,31 +1,53 @@
-<h2> Keep your file up to date, pull in changes from collaborators.</h2>
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title></title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<p>If you`re working on something with someone you need to stay up
-  to date with the latest version. So you`ll want to <strong>pull</strong> in any
-  changes that may have been made.</p>
+      <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
 
-<h2>Pull in Changes</h2>
-<p>See if Reporobot has made any changes to your `add-` branch by pulling
-  in from the remote named `origin` on GitHub:</p>
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/main.css">
+      <script src="js/vendor/modernizr-2.8.0.min.js"></script>
+    </head>
+    <body>
+      <!--[if lt IE 8]>
+          <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
 
-<p>$ git pull <REMOTENAME> <BRANCHNAME></p>
+      <h2> Keep your file up to date, pull in changes from collaborators.</h2>
 
-<p>If nothing`s changed, it will tell you `Already up-to-date`.
-  If there are changes, it will merge those changes into your local
-  version.</p>
+      <p>If you`re working on something with someone you need to stay up
+        to date with the latest version. So you`ll want to <strong>pull</strong> in any
+        changes that may have been made.</p>
 
-<p>Did Reporobot make changes? Git tells you where changes were made.
-  You can open that file and see Reporobot`s updates. Surprise,
-  Reporobot is an artist!</p>
+      <h2>Pull in Changes</h2>
+      <p>See if Reporobot has made any changes to your `add-` branch by pulling
+        in from the remote named `origin` on GitHub:</p>
 
-<p>  When you`ve pulled, type <code>git-it verify</code>.</p>
+      <p>$ git pull <REMOTENAME> <BRANCHNAME></p>
 
-<h4 id="-git-tips-">  <strong>GIT TIPS</strong></h4>
-  <ul>
-  <li>  <strong>Check Git status</strong></li>
-  <li>  $ git status</li>
-  <li>  <strong>Pull in changes from a remote branch</strong></li>
-  <li>  $ git pull <REMOTENAME> <REMOTEBRANCH></li>
-  <li>  <strong>See changes to the remote before you pull in</strong></li>
-  <li>  $ git fetch --dry-run</li>
-</ul>
+      <p>If nothing`s changed, it will tell you `Already up-to-date`.
+        If there are changes, it will merge those changes into your local
+        version.</p>
+
+      <p>Did Reporobot make changes? Git tells you where changes were made.
+        You can open that file and see Reporobot`s updates. Surprise,
+        Reporobot is an artist!</p>
+
+      <p>  When you`ve pulled, type <code>git-it verify</code>.</p>
+
+      <h4 id="-git-tips-">  <strong>GIT TIPS</strong></h4>
+        <ul>
+        <li>  <strong>Check Git status</strong></li>
+        <li>  $ git status</li>
+        <li>  <strong>Pull in changes from a remote branch</strong></li>
+        <li>  $ git pull <REMOTENAME> <REMOTEBRANCH></li>
+        <li>  <strong>See changes to the remote before you pull in</strong></li>
+        <li>  $ git fetch --dry-run</li>
+      </ul>
+  </body>
+</html>
