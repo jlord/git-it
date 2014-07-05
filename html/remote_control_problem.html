@@ -1,87 +1,101 @@
-<p>  Connect your local and remote repositories and push changes.</p>
-<hr>
-<p>  GitHub.com stores a <strong>remote</strong> copy of your repository (it`s
+<h2>Connect your local and remote repositories and push changes.</h2>
+
+<p>GitHub.com stores a <strong>remote</strong> copy of your repository (it`s
   `remote` because that copy is not on your computer, but on a server
   elsewhere). By <strong>pushing</strong> your <strong>local</strong> (on your computer)
   changes to it, you keep it up to date. That way others can always get the
   latest, too. And everyone can work on a project together without needing
   access to your computer where your local copy is stored.</p>
-<h2>Create a Remote Repository<h2>
-<p>  You want to sync your <strong>local</strong> version with one stored on GitHub.com
+
+<h4>Create a Remote Repository<h4>
+<p>You want to sync your <strong>local</strong> version with one stored on GitHub.com
   called the <strong>remote</strong> version. So first create an empty
   remote repository on GitHub.com.</p>
+
 <ul>
-<li>Go to <strong>www.github.com</strong>, log in, and click the `+` in the top
+  <li>Go to <strong>www.github.com</strong>, log in, and click the `+` in the top
 right to create a new repository.</li>
-<li>Give it a name that matches your local repository`s name and a short
+  <li>Give it a name that matches your local repository`s name and a short
 description.</li>
-<li>Make it public.</li>
-<li>Don`t initialize with a README because we already have a file named
+  <li>Make it public.</li>
+  <li>Don`t initialize with a README because we already have a file named
 <code>readme.md</code>.</li>
-<li>Leave .gitignore and license on `none`.</li>
-<li><p>Click create repository!</p>
-<p>{cyan}
-Readmes, .gitignores and Licenses{/cyan}</p>
+  <li>Leave .gitignore and license on `none`.</li>
+  <li><p>Click create repository!</p></li>
+</ul>
+
+<h2>Readmes, .gitignores and Licenses</p>
 <p>These are common files in open source projects.</p>
-</li>
-<li><p>A <strong>readme</strong> explains what the project is, how to use it, and often
+
+<p>A <strong>readme</strong> explains what the project is, how to use it, and often
 times, how to contribute (though sometimes there is an extra file,
 CONTRIBUTING.md, for those details).</p>
-</li>
-<li>A <strong>.gitignore</strong> is a list of files that Git should <em>not</em> track
-(for instance, files with passwords!).</li>
-<li><p>A <strong>license</strong> file is the type of license you put on your project,
+
+<p>A <strong>.gitignore</strong> is a list of files that Git should <em>not</em> track
+(for instance, files with passwords!).</p>
+
+<p>A <strong>license</strong> file is the type of license you put on your project,
 information on the types is here:
 <strong>www.choosealicense.com</strong>.</p>
 <p>We don`t need any of them, however, for this example.</p>
-<p><strong>{cyan}
-Connect your Local to your Remote</strong>
----------------------------------{/cyan}</p>
+
+<h4>Connect your Local to your Remote</h4>
 <p>Now you`ve got an empty repository started on GitHub.com. At the
 top you`ll see `Quick Setup`, make sure the `HTTP` button is
 selected and copy the address - this is the location of your
 repository on GitHub.</p>
+
 <p>Back in your terminal, and inside of the folder that you
 initialized as a Git repository in the previous challenge, you
 want to tell Git the location of the remote version. This is
 commonly named <code>origin</code>.</p>
+
 <p>$ git remote add origin <URLFROMGITHUB></p>
-</li>
-</ul>
+
 <hr>
-<p>  A note:</p>
-<p>  If you have GitHub for Windows on your computer, a remote
+<p>A note:</p>
+<p>If you have GitHub for Windows on your computer, a remote
   named `origin` is automatically created. In that case, you`ll
   just need to tell it what URL to associate with origin. Use this
   command instead of the `add` one above:</p>
-<h2 id="-git-remote-set-url-origin-urlfromgithub-">  $ git remote set-url origin <URLFROMGITHUB></h2>
-<p>  Your <strong>local</strong> version is now connected to the
+
+<p>$ git remote set-url origin <URLFROMGITHUB></p>
+
+<p>Your <strong>local</strong> version is now connected to the
   <strong>remote</strong> on GitHub.com.</p>
-<h2>Push Work to your Remote</h2>
+
+<h4>Push Work to your Remote</h4>
 <p>  Next you want to <strong>push</strong> everything you`ve done locally
   to GitHub.</p>
+
 <p>  Git has a branching system so that you can work on different
   parts of a project at different times. By default the first
   branch is named master. When you push (and later pull) from
   a project, you tell Git the branch name you want and the
   name of the remote that it lives on.</p>
+
 <p>  $ git push origin master</p>
+
 <p>  For a visual on how branches work in a project, see this
   GitHub Guide: <strong>guides.github.com/overviews/flow/</strong></p>
+
 <p>  Now go to GitHub and refresh the page of your repository. WOAH!
   Everything is the same locally and remotely. Congrats on your
   first public repository!</p>
+
 <p>  When you`re synced locally and on GitHub.com, run:</p>
 <p>  $ git-it verify</p>
-<h2 id="-git-tips-">  <strong>GIT TIPS</strong></h2>
-<p>  <strong>Add remote connections</strong></p>
-<p>  $ git remote add <REMOTENAME> <URL></p>
-<p>  <strong>Set a URL to a remote</strong></p>
-<p>  $ git remote set-url <REMOTENAME> <URL></p>
-<p>  <strong>Pull in changes</strong></p>
-<p>  $ git pull <REMOTENAME> <BRANCHNAME></p>
-<p>  <strong>View remote connections</strong></p>
-<p>  $ git remote -v</p>
-<p>  <strong>Push changes</strong></p>
-<p>  $ git push <REMOTENAME> <BRANCH></p>
-<hr>
+
+<h4 id="-git-tips-">GIT TIPS</h4>
+<ul>
+  <li>  <strong>Add remote connections</strong></li>
+  <li>  $ git remote add <REMOTENAME> <URL></li>
+  <li>  <strong>Set a URL to a remote</strong></li>
+  <li>  $ git remote set-url <REMOTENAME> <URL></li>
+  <li>  <strong>Pull in changes</strong></li>
+  <li>  $ git pull <REMOTENAME> <BRANCHNAME></li>
+  <li>  <strong>View remote connections</strong></li>
+  <li>  $ git remote -v</li>
+  <li>  <strong>Push changes</strong></li>
+  <li>  $ git push <REMOTENAME> <BRANCH></li>
+</ul>
