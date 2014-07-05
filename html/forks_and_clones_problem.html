@@ -1,50 +1,44 @@
-<p>  Fork a project from GitHub.com and clone it locally.</p>
+<p>Fork a project from GitHub.com and clone it locally.</p>
 <hr>
-<p>  Now you&#39;ve made a project locally and pushed it to GitHub, but that&#39;s
+<p>Now you&#39;ve made a project locally and pushed it to GitHub, but that&#39;s
   only half the fun. The other half is working with other people and
   projects.</p>
-<p>  When you {bold}fork{/bold} a repository, you&#39;re creating a copy of it on 
+<p>When you <strong>fork</strong> a repository, you&#39;re creating a copy of it on
   your GitHub.com account. Forks are used for creating your own
   version of a project or contributing back fixes or features to the
   original project. </p>
-<p>  Once a project is forked, you then {bold}clone{/bold} (aka copy) it from
+<p>Once a project is forked, you then <strong>clone</strong> (aka copy) it from
   GitHub to your computer to work on locally.</p>
-<p>  {bold}{cyan}
-  Fork{/bold}
-  ----{/cyan}</p>
-<p>  The project we&#39;ll work with is {bold}www.github.com/jlord/patchwork{/bold}. Go
+<h2>Fork</h2>
+<p>The project we&#39;ll work with is <strong>www.github.com/jlord/patchwork</strong>. Go
   to that site and click the fork button at the top right. Once the
-  fork animation is complete, you&#39;ve got a copy on your account. Copy 
+  fork animation is complete, you&#39;ve got a copy on your account. Copy
   your fork&#39;s HTTP URL on the right side.</p>
-<p>  {bold}{cyan}
-  Clone a Repository{/bold}
-  -------------------{/cyan}</p>
-<p>  Now, in terminal, clone the repository. It will create a new folder
+<h2>Clone a Repository</h2>
+<p>Now, in terminal, clone the repository. It will create a new folder
   for the repository so no need to create one. But make sure you aren&#39;t
   cloning it inside of another Git repository folder! So, if you&#39;re still
-  inside of the repository you created in the early challenges, 
+  inside of the repository you created in the early challenges,
   back out of that folder: <code>cd ..</code></p>
-<p>  $ git clone <URL></p>
-<p>  Navigate into that folder (in this case, named &#39;patchwork&#39;)</p>
-<p>  $ cd patchwork</p>
-<p>  Now you&#39;ve got a copy of the repository on your computer and it is
-  automatically connected to the remote repository (your forked copy) 
+<p><code>$ git clone <URL></code></p>
+<p>Navigate into that folder (in this case, named &#39;patchwork&#39;)</p>
+<p><code>$ cd patchwork</code></p>
+<p>Now you&#39;ve got a copy of the repository on your computer and it is
+  automatically connected to the remote repository (your forked copy)
   on your GitHub account.</p>
-<p>  {bold}{cyan}
-  Connect to the Original Repository{/bold}
-  ----------------------------------{/cyan}</p>
-<p>  But what if the original repository you forked changes? You&#39;ll want
-  to be able to {bold}pull{/bold} in those changes too. So let&#39;s add a remote
-  connection to the original, {bold}github.com/jlord/patchwork{/bold}, repository 
+<h2>
+  Connect to the Original Repository</h2>
+<p>But what if the original repository you forked changes? You&#39;ll want
+  to be able to <strong>pull</strong> in those changes too. So let&#39;s add a remote
+  connection to the original, <strong>github.com/jlord/patchwork</strong>, repository
   with its URL, found on the right hand side of the original on GitHub.</p>
-<p>  You can name this remote connection anything you want, but often
+<p>You can name this remote connection anything you want, but often
   people use &#39;upstream&#39;, let&#39;s use that for this.</p>
-<p>  $ git remote add upstream <a href="https://github.com/jlord/patchwork.git">https://github.com/jlord/patchwork.git</a></p>
-<p>  When you&#39;ve done these steps, run <code>git-it verify</code>.</p>
-<p>  {cyan}</p>
+<p><code>$ git remote add upstream <a href="https://github.com/jlord/patchwork.git">https://github.com/jlord/patchwork.git</a></code></p>
+<p>When you&#39;ve done these steps, run <code>git-it verify</code>.</p>
 <h2 id="-git-tips-">  <strong>GIT TIPS</strong></h2>
-<p>  {bold}Add remote connections{/bold}</p>
-<p>  $ git remote add <REMOTENAME> <URL></p>
-<p>  {bold}View remote connections{/bold}</p>
-<p>  $ git remote -v{/cyan}</p>
+<p><strong>Add remote connections</strong></p>
+<p><code>$ git remote add <REMOTENAME> <URL></code></p>
+<p><strong>View remote connections</strong></p>
+<p><code>$ git remote -v</code></p>
 <hr>
