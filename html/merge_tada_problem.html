@@ -1,45 +1,40 @@
 <p>  Merge branch, tidy up and pull upstream for much win!</p>
 <hr>
 <p>  Your pull request is being merged! But meanwhile, since you
-  know that you definitely want those updates in your forked version, 
+  know that you definitely want those updates in your forked version,
   and your branch is in good working order, merge it into the main
   branch on your forked repository, in this case, <code>gh-pages</code>.</p>
-<p>  {bold}{cyan}
-  Merge a branch{/bold}
-  --------------{/cyan}</p>
+<h2>Merge a branch</h2>
 <p>  First, move into the branch you want to merge <em>into</em> (in this case,
   branch <code>gh-pages</code>).</p>
 <p>  $ git checkout <BRANCHNAME></p>
 <p>  Now tell Git what branch you want to merge in (in this case,
-  your feature branch that begins with &quot;add-&quot;).</p>
+  your feature branch that begins with "add-").</p>
 <p>  $ git merge <BRANCHNAME></p>
 <p>  Tidy up by deleting your feature branch now that it has been merged.</p>
 <p>  $ git branch -D <BRANCHNAME></p>
 <p>  You can also delete the branch from your fork on GitHub:</p>
 <p>  $ git push <REMOTENAME> --delete <BRANCHNAME></p>
-<p>  {bold}{cyan}
-  Congratulations!{/bold}
-  ----------------{/cyan}</p>
-<p>  You&#39;ve created local repositories, remote repositories, worked with
+<h2>Congratulations!</h2>
+<p>  You've created local repositories, remote repositories, worked with
   a collaborator, pushed, pulled and joined the millions of others
   developing and enriching open source!</p>
-<p>  Visit {bold}jlord.github.io/patchwork{/bold} to see your changes incorporated!</p>
+<p>  Visit <strong>jlord.github.io/patchwork</strong> to see your changes incorporated!</p>
 <p>  And last but not least, if you pull in updates from the original
-  (since it now shows you on the home page) you&#39;ll be up to date 
+  (since it now shows you on the home page) you'll be up to date
   and have a version too, live at: yourusername.github.io/patchwork. </p>
 <p>  $ git pull upstream gh-pages</p>
-<p>  When you&#39;ve merged your branch, deleted it and pulled from the 
+<p>  When you've merged your branch, deleted it and pulled from the
   original, run <code>git-it verify</code>.</p>
-<p>  {cyan}</p>
 <h2 id="-git-tips-">  <strong>GIT TIPS</strong></h2>
-<p>  {bold}Merge a branch into current branch{/bold}</p>
+<p>  <strong>Merge a branch into current branch</strong></p>
 <p>  $ git merge <BRANCHNAME></p>
-<p>  {bold}Change the branch you&#39;re working on{/bold}</p>
+<p>  <strong>Change the branch you're working on</strong></p>
 <p>  $ git checkout <BRANCHNAME></p>
-<p>  {bold}Delete a local branch{/bold}</p>
+<p>  <strong>Delete a local branch</strong></p>
 <p>  $ git branch -D <BRANCHNAME></p>
-<p>  {bold}Delete a remote branch{/bold}</p>
+<p>  <strong>Delete a remote branch</strong></p>
 <p>  $ git push <REMOTENAME> --delete <BRANCHNAME></p>
-<p>  {bold}Pull from a remote branch{/bold}</p>
-<p>  $ git pull <REMOTENAME> <BRANCHNAME>{/cyan}</p>
+<p>  <strong>Pull from a remote branch</strong></p>
+<p>  $ git pull <REMOTENAME> <BRANCHNAME></p>
 <hr>
