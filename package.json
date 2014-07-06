@@ -15,7 +15,7 @@
     "url": "https://github.com/jlord/git-it/issues"
   },
   "scripts": {
-    "build": "node guide/buildpage.js"
+    "build": "node guide/buildpages.js"
   },
   "dependencies": {
     "concat-stream": "~1.2.1",

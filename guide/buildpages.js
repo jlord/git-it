@@ -17,13 +17,14 @@ glob("**/*.html", function (err, files) {
 })
 
 function buildPage(files) {
-  console.log()
+  counter = 0
   files.forEach(function(file) {
     // shouldn't have to do this if my
     // mapping were correct
     if (!file) return
+    var counter = 1
     var content = { 
-      header: "hi", 
+      header: buildHeader(file, counter), 
       footer: fs.readFileSync(__dirname + '/partials/footer.html').toString(), 
       body: fs.readFileSync(file).toString()
     }
@@ -31,13 +32,29 @@ function buildPage(files) {
     var template = Handlebars.compile(layout)
     var final = template(content)
     fs.writeFileSync(__dirname + '/challenges/' + shortname + 'html', final)
+    counter++
   })
+  // hard coded right now because, reasons
+  if (counter === 11) console.log("Built!")
 }
 
 function makeShortname(filename) {
   return filename.split('/')
     .pop().replace('html','')
     .replace('_problem', '')
+}
+
+function makeTitleName(filename) {
+  var short = makeShortname(filename)
+  return short.replace('.', '').replace('_', ' ')
+}
+
+function buildHeader(filename, counter) {
+  var title = makeTitleName(filename)
+  var source = fs.readFileSync(__dirname + '/partials/header.html').toString()
+  var template = Handlebars.compile(source)
+  var content = {challengetitle: title, challengenumber: counter }
+  return template(content)
 }
 
 

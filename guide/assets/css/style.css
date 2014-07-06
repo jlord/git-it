@@ -7,23 +7,72 @@ body {
   margin: 0;
 }
 
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.tar {
+  text-align: right;
+}
+
+li {
+  padding-bottom: 4px;
+}
+
+.nav {
+  text-align: center;
+}
+
 .wrapper {
   width: 600px;
   margin: 30px auto;
 }
 
 .site-header {
-  font-size: 45px;
+  font-size: 20px;
   margin-bottom: 40px;
-  text-align: center;
+  background: #fafafa;
+  padding: 0 0 30px 0;
+  overflow: auto;
+  /*text-align: center;*/
+}
+
+.hand {
+  font-size: 40px;
+  padding: 9px 12px;
+ /* color: #ff00ff;*/
+}
+
+.challenge-band h2, .number-band h2 {
+  text-transform: capitalize;
+  font-weight: 400;
+  color: #427954;
 }
 
 .site-header .gitit {
   border-bottom-width: 3px;
 }
 
-.gitit {
-  margin: 0 3px;
+.filledblock {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #427954;
+  display: inline-block;
+  padding: 4px 8px;
+  color: #f0f6e9;
+}
+
+.site-header .meta {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.site-header h2 {
+  margin-top: 12px;
 }
 
 h1, h2, h3, h4, .gitit, .toc {
@@ -31,7 +80,7 @@ h1, h2, h3, h4, .gitit, .toc {
 }
 
 h1, h2, h3, h4 {
-  text-align: center;
+  /*text-align: center;*/
   margin-top: 50px;
 }
 
@@ -65,6 +114,18 @@ a:hover {
   text-decoration: line-through;
 }
 
+code, .outof {
+  border: 1px solid #C7D1BB;
+  padding: 4px 6px;
+  border-radius: 2px;
+  font-family: Liberation Mono, Monaco, Courier New, monospace;
+}
+
+pre {
+  background-color: #fafafa;
+}
+
+
 footer {
   border-top: 1px dashed #427954;
   margin: 30px 0;
@@ -76,7 +137,21 @@ footer ul {
   padding: 0;
   text-align: center;
 }
+
 footer ul li {
   display: inline-block;
   padding-right: 12px;
 }
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+/*  border: 0;
+  border-bottom: 1px dashed #ccc;
+  background: #999;*/
+}
+
+
+

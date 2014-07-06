@@ -10,18 +10,35 @@
         <link rel="stylesheet" href="../assets/css/style.css">
     </head>
     <body>
-        <!--[if lt IE 8]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+      <!--[if lt IE 8]>
+          <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
 
-        <div class="wrapper">
-          <header class="site-header">
-            <span class="gitit">Git-it</span>
-          </header>
+        <header class="site-header">
+  <div class="nav">
+    <!-- <span class="left hand">☜</span> -->
+    <span class="filledblock">Git-it</span>
+    <!-- <span class="right hand">☞</span> -->
+  </div>
+  
+  <div class="wrapper">
+    <div class="challenge-band left">
+      <span class="meta">CHALLENGE</span>
+      <h2>get git</h2>
+    </div>
+    <div class="number-band right tar">
+      <span class="meta">NUMBER</span>
+      <h2>1 / 10</h2>
+    <div>
+  </div>
+</header>
+      <div class="wrapper">
 
-                  <h2>Install Git.</h2>
+              <h2>The Challenge:</h2>
+      <p>Install Git on your computer and configure your name and email.</p>
+      <hr>
 
-      <h4>Get Git</h4>
+      <h4>Git</h4>
 
       <p>Git is <strong>open source software</strong> (free for anyone to use) written
         by Linus Torvalds who also wrote the Linux operating system. </p>
@@ -29,30 +46,37 @@
         programming as <strong>version control</strong>.</p>
 
       <h4>To install Git</h4>
-      <ul>
-        <li>Windows: It's recommended to download GitHub for Windows,
-        which includes Git and has an easier install:
-        <strong>windows.github.com</strong>.</li>
 
-        <li>Mac: You can also download GitHub for Mac, which includes
-        Git, <strong>mac.github.com</strong> (from Preferences, select
-        the command line tools install), or Git by itself:
-        <strong><a href="http://git-scm.com/downloads">http://git-scm.com/downloads</a></strong>.
-        Follow the installation instructions.</li>
+      <ul>
+        <li><strong>Windows</strong>: It's recommended to download GitHub for Windows,
+        which includes Git and has an easier install:
+        <a href="http://windows.github.com" target="_blank">windows.github.com</a>.</li>
+
+        <li><strong>Mac</strong>: You can also download GitHub for Mac, which includes
+        Git, <a href="http://mac.github.com/" target="_blank">mac.github.com</a> (from Preferences, select
+        the command line tools install), or 
+          <ul>
+            <li>download Git by itself at:
+            <a href="http://git-scm.com/downloads">http://git-scm.com/downloads</a> and follow the installation instructions.</li>
+          </ul>
+        </li>
       </ul>
 
       <p>Git isn't like other programs on your computer. You'll likely not
       see an icon on your desktop, but it will always be available to you
       and you'll be able to access it at anytime from your
-      terminal (which you're in right now!) or Git desktop applications.</p>
+      terminal (which you're using in Git-it!) or Git desktop applications (like GitHub for Mac or Windows).</p>
 
-      <p>Once it is installed, open terminal (aka Bash, aka Shell, aka Prompt).
+      <p>Once it is installed, open <strong>terminal</strong> (aka Bash, aka Shell, aka Prompt).
       You can verify that it's really there by typing:</p>
 
       <p><code>$ git --version </code></p>
 
-      <p>This will return the version of Git that you're running.Next, configure
-        Git so it knows who to associate your changes to:</p>
+      <p>This will return the version of Git that you're running and look something like this:</p>
+
+      <p><code>git version 1.9.1</code></p>
+
+       <p>Next, configure Git so it knows who to associate your changes to:</p>
 
       <p>Set your name:</p>
       <p><code>$ git config --global user.name "Your Name"</code></p>
@@ -69,9 +93,8 @@
       go to the next challenge. Some of the challenges are longer than the
       screen, so don't forget to scroll up to where it begins after it
       loads!</p>
-  
 
-            <footer>
+        <footer>
   <ul>
     <li><a href="/">Table of Contents</a></li>
     <li><a href="../about.html">About</a></li>
@@ -80,15 +103,15 @@
     </li>
   </ul>
 </footer>
-        </div>
+      </div>
  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
+          (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+          function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+          e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+          e.src='//www.google-analytics.com/analytics.js';
+          r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+          ga('create','UA-XXXXX-X');ga('send','pageview');
         </script>
     </body>
 </html>
