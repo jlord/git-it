@@ -1,0 +1,82 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Git-it Guide</title>
+        <meta name="description" content="learn git and github">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        hi
+              <h2>Merge branch, tidy up and pull upstream for much win!</h2>
+
+      <p>Your pull request is being merged! But meanwhile, since you
+        know that you definitely want those updates in your forked version,
+        and your branch is in good working order, merge it into the main
+        branch on your forked repository, in this case, <code>gh-pages</code>.</p>
+
+      <h4>Merge a branch</h4>
+      <p>  First, move into the branch you want to merge <em>into</em> (in this case,
+        branch <code>gh-pages</code>).</p>
+
+      <p>$ git checkout <BRANCHNAME></p>
+
+      <p>Now tell Git what branch you want to merge in (in this case,
+        your feature branch that begins with "add-").</p>
+
+      <p>$ git merge <BRANCHNAME></p>
+
+      <p>Tidy up by deleting your feature branch now that it has been merged.</p>
+      <p>$ git branch -D <BRANCHNAME></p>
+
+      <p>You can also delete the branch from your fork on GitHub:</p>
+      <p>$ git push <REMOTENAME> --delete <BRANCHNAME></p>
+
+      <h4>Congratulations!</h4>
+      <p>You've created local repositories, remote repositories, worked with
+        a collaborator, pushed, pulled and joined the millions of others
+        developing and enriching open source!</p>
+      <p>Visit <strong>jlord.github.io/patchwork</strong> to see your changes incorporated!</p>
+      <p>And last but not least, if you pull in updates from the original
+        (since it now shows you on the home page) you'll be up to date
+        and have a version too, live at: yourusername.github.io/patchwork.</p>
+
+      <p>$ git pull upstream gh-pages</p>
+
+      <p>When you've merged your branch, deleted it and pulled from the
+        original, run <code>git-it verify</code>.</p>
+
+      <h4 id="-git-tips-">  <strong>GIT TIPS</strong></h4>
+      <ul>
+        <li>  <strong>Merge a branch into current branch</strong></li>
+        <li>  $ git merge <BRANCHNAME></li>
+        <li>  <strong>Change the branch you're working on</strong></li>
+        <li>  $ git checkout <BRANCHNAME></li>
+        <li>  <strong>Delete a local branch</strong></li>
+        <li>  $ git branch -D <BRANCHNAME></li>
+        <li>  <strong>Delete a remote branch</strong></li>
+        <li>  $ git push <REMOTENAME> --delete <BRANCHNAME></li>
+        <li>  <strong>Pull from a remote branch</strong></li>
+        <li>  $ git pull <REMOTENAME> <BRANCHNAME></li>
+      </ul>
+  
+
+        bye
+ <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>
