@@ -24,18 +24,20 @@ function buildPage(files) {
     if (!file) return
     var content = { 
       header: "hi", 
-      footer: "bye", 
+      footer: fs.readFileSync(__dirname + '/partials/footer.html').toString(), 
       body: fs.readFileSync(file).toString()
     }
     var shortname = makeShortname(file)
     var template = Handlebars.compile(layout)
     var final = template(content)
-    fs.writeFileSync(__dirname + '/challenges/' + shortname + '.html', final)
+    fs.writeFileSync(__dirname + '/challenges/' + shortname + 'html', final)
   })
 }
 
 function makeShortname(filename) {
-  return filename.split('/').pop().replace('html','')
+  return filename.split('/')
+    .pop().replace('html','')
+    .replace('_problem', '')
 }
 
 

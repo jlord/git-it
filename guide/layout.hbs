@@ -7,16 +7,21 @@
         <meta name="description" content="learn git and github">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
-        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="../assets/css/style.css">
     </head>
     <body>
         <!--[if lt IE 8]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        {{header}}
-        {{{body}}}
-        {{footer}}
+        <div class="wrapper">
+          <header class="site-header">
+            <span class="gitit">Git-it</span>
+          </header>
+
+            {{{body}}}
+            {{{footer}}}
+        </div>
  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=

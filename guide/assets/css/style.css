@@ -64,3 +64,19 @@ a:hover {
 .toc .done a {
   text-decoration: line-through;
 }
+
+footer {
+  border-top: 1px dashed #427954;
+  margin: 30px 0;
+  padding: 12px 0;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+footer ul li {
+  display: inline-block;
+  padding-right: 12px;
+}
