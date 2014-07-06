@@ -1,0 +1,66 @@
+body {
+  font-family: 'Merriweather';
+  line-height: 1.6em;
+  color: #333935;
+  background-color: #f0f6e9;
+  font-size: 15px;
+  margin: 0;
+}
+
+.wrapper {
+  width: 600px;
+  margin: 30px auto;
+}
+
+.site-header {
+  font-size: 45px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.site-header .gitit {
+  border-bottom-width: 3px;
+}
+
+.gitit {
+  margin: 0 3px;
+}
+
+h1, h2, h3, h4, .gitit, .toc {
+  font-family: "Merriweather";
+}
+
+h1, h2, h3, h4 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+a {
+  color: #427954;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #325844;
+}
+
+.toc li {
+  margin-bottom: 10px;
+}
+
+.toc {
+  padding-left: 0;
+  text-align: left;
+  list-style-position: inside;
+}
+
+.toc .done:before {
+  content: 'done!';
+  float: right;
+  color: #aaa;
+  text-decoration: none !important;
+}
+
+.toc .done a {
+  text-decoration: line-through;
+}

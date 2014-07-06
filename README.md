@@ -18,7 +18,7 @@ _A few development essentials, all are free and/or free and open source._
 
 - **Git**, this is your tracker of changes! If you're on Windows, download the free [GitHub for Windows](http://windows.github.com), which includes Git, and use the Git Shell for your terminal. If you're on a Mac you can download [GitHub for Mac](http://mac.github.com) (from Preferences, install the command line tool) or standalone [Git](http://git-scm.com/downloads).
 - **Node.js**, this is what this app is written in so you'll need this to run it. It's an engine for running JavaScript on servers (your computer is a server!) and will live quietly in the background. You can download it [here](http://nodejs.org/download/) (For most, you can just pick the Windows .msi or Mac .pkg option).
-- **Editor**, if you don't have one already, you'll need a text editor for editing code. A few options: [Sublime Text](http://www.sublimetext.com/2), [Textmate](http://macromates.com/download), [Brackets](http://brackets.io/).
+- **Editor**, if you don't have one already, you'll need a text editor for editing code. A few options: [Atom](http://www.atom.io), [Sublime Text](http://www.sublimetext.com/2), [Textmate](http://macromates.com/download), [Brackets](http://brackets.io/).
 
 #### Install Git-it
 
