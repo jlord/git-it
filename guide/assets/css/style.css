@@ -1,6 +1,6 @@
 body {
   font-family: 'Merriweather';
-  line-height: 1.6em;
+  line-height: 1.8em;
   color: #333935;
   background-color: #f0f6e9;
   font-size: 15px;
@@ -119,6 +119,7 @@ code, .outof {
   padding: 4px 6px;
   border-radius: 2px;
   font-family: Liberation Mono, Monaco, Courier New, monospace;
+  white-space: nowrap;
 }
 
 pre {
