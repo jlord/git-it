@@ -24,54 +24,71 @@
   <div class="wrapper">
     <div class="challenge-band left">
       <span class="meta">CHALLENGE</span>
-      <h2>its a small world</h2>
+      <h2>2 repository</h2>
     </div>
     <div class="number-band right tar">
       <span class="meta">NUMBER</span>
-      <h2>7 / 10</h2>
+      <h2>3 / 10</h2>
     <div>
   </div>
 </header>
       <div class="wrapper">
 
-               <h2>The Challenge:</h2>
-      <p>Add a collaborator to your project.</p>
-      <hr>
+            <h2>The Challenge:</h2>
+    <p>Create a new repository on your computer.</p>
+    <hr>
 
-      <h4>Social Coding</h4>
+    <h2>Repositories</h2>
 
-      <p>Working with others is one of the best things about GitHub because
-        it makes it easy to work from all over the world at any time.</p>
+    <p>A <strong>repository</strong> is essentially a project. You can imagine it
+      as a project's folder with all the related files inside of it. In
+      fact, that's what it will look like on your computer anyways.</p>
 
-      <p><strong>Collaborators</strong> are other GitHub users who are given permission to
-        make edits to a repository owned by someone else. To add
-        <strong>collaborators</strong> to a project, visit the repository's GitHub page
-        and click the 'Settings' icon on the right side menu. Then select the
-        'Collaborators' tab. Type in the username to add and click 'Add'.</p>
+    <p>You tell Git what your project is and Git will start tracking all
+      of the changes to that folder. Files added or subtracted or even
+      a single letter in a single file changed -- all of it's tracked and
+      time stamped by Git.</p>
 
-      <h4>Hello, Repo Robot!</h4>
-      <p>Go to the your forked Patchwork repository's page on GitHub and
-        add 'reporobot' as a collaborator.</p>
+    <h2>Using Terminal</h2>
+    <p>Write about that here.</p>
 
-      <code>
-        www.github.com/YOURUSERNAME/patchwork/settings/collaboration</code>
+    <h2>Create a Repository</h2>
+    <p>You're going to create a new folder and initialize it as a Git
+      repository. You'll need some basic terminal (Bash) commands (see
+      tips below) for moving around and creating folders (just like you'd do
+      in Finder or Windows Explorer).</p>
 
-      <p>When you've added Reporobot as a collaborator to your Patchwork fork,
-        run <code>git-it verify</code>.</p>
+    <p>To make things easier, name your folder what you`d name the project,
+      keep it lowercase, no spaces or symbols. How about `sandwich`.</p>
 
-      <div id="terminal-tips">
-        <h4>GIT TIPS</h4>
-        <ul>
-          <li><strong>Pull in changes from a remote</strong></li>
-          <code>$ git pull < REMOTENAME > < BRANCH ></code>
-          <li><strong>Copy a repository to your computer</strong></li>
-          <code>$ git clone < URL ></code>
-          <li><strong>Add remote connections</strong></li>
-          <code>$ git remote add < REMOTENAME > < URL ></code>
-          <li><strong>View remote connections</strong></li>
-          <code>$ git remote -v</code>
-        </ul>
-      </div>
+    <p>You can type all of this here in your terminal window.</p>
+
+    <p>To make a new folder:</p>
+    <code>$ mkdir sandwich</code>
+
+    <p>To go into that folder:</p>
+    <code>$ cd sandwich</code>
+
+    <p>To create a new Git instance for a project:</p>
+    <code>$ git init</code>
+
+    <p>That's it! It will just return you to a new line.</p>
+    <p>When you've initialized a new Git repository, run:</p>
+    <code>$ git-it verify</code>
+
+    <div id="terminal-tips">
+      <h4>TERMINAL TIPS</h4>
+      <ul>
+        <li><strong>Make a new folder (aka directory)</strong></li>
+        <code>$ mkdir <FOLDERNAME></code>
+        <li><strong>Navigate into an existing folder (aka change directory)</strong></li>
+        <code>$ cd <FOLDERNAME></code>
+        <li><strong>List the items in a folder</strong></li>
+        <code>$ ls </code>
+        <li><strong>Turn Git on for a folder</strong></li>
+        <code>$ git init</code>
+      </ul>
+    </div>
 
         <footer>
   <ul>

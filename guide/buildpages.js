@@ -17,13 +17,12 @@ glob("**/*.html", function (err, files) {
 })
 
 function buildPage(files) {
-  counter = 1
   files.forEach(function(file) {
     // shouldn't have to do this if my
     // mapping were correct
     if (!file) return
     var content = { 
-      header: buildHeader(file, counter), 
+      header: buildHeader(file), 
       footer: fs.readFileSync(__dirname + '/partials/footer.html').toString(), 
       body: fs.readFileSync(file).toString()
     }
@@ -31,16 +30,16 @@ function buildPage(files) {
     var template = Handlebars.compile(layout)
     var final = template(content)
     fs.writeFileSync(__dirname + '/challenges/' + shortname + 'html', final)
-    counter++
   })
   // hard coded right now because, reasons
-  if (counter === 12) console.log("Built!")
+  console.log("Built!")
 }
 
 function makeShortname(filename) {
-  return filename.split('/')
-    .pop().replace('html','')
-    .replace('_problem', '')
+  // FROM guide/raw-content/10_merge_tada.html
+  // TO merge_tada.
+    return filename.split('/').pop().split('_')
+      .slice(1).join('_').replace('html', '')
 }
 
 function makeTitleName(filename) {
@@ -49,11 +48,12 @@ function makeTitleName(filename) {
   // what about 'arnt'?
 }
 
-function buildHeader(filename, counter) {
+function buildHeader(filename) {
+  var num = filename.split('/').pop().split('_')[0]
   var title = makeTitleName(filename)
   var source = fs.readFileSync(__dirname + '/partials/header.html').toString()
   var template = Handlebars.compile(source)
-  var content = {challengetitle: title, challengenumber: counter }
+  var content = {challengetitle: title, challengenumber: num }
   return template(content)
 }
 

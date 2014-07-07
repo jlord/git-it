@@ -14,24 +14,7 @@
           <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
       <![endif]-->
 
-        <header class="site-header">
-  <div class="nav">
-    <!-- <span class="left hand">☜</span> -->
-    <span class="filledblock">Git-it</span>
-    <!-- <span class="right hand">☞</span> -->
-  </div>
-  
-  <div class="wrapper">
-    <div class="challenge-band left">
-      <span class="meta">CHALLENGE</span>
-      <h2>requesting you pull please</h2>
-    </div>
-    <div class="number-band right tar">
-      <span class="meta">NUMBER</span>
-      <h2>9 / 10</h2>
-    <div>
-  </div>
-</header>
+        hi
       <div class="wrapper">
 
               <h2>The Challenge:</h2>

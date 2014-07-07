@@ -24,52 +24,50 @@
   <div class="wrapper">
     <div class="challenge-band left">
       <span class="meta">CHALLENGE</span>
-      <h2>its a small world</h2>
+      <h2>8 pull never out of date</h2>
     </div>
     <div class="number-band right tar">
       <span class="meta">NUMBER</span>
-      <h2>7 / 10</h2>
+      <h2>10 / 10</h2>
     <div>
   </div>
 </header>
       <div class="wrapper">
 
-               <h2>The Challenge:</h2>
-      <p>Add a collaborator to your project.</p>
+             <h2>The Challenge:</h2>
+      <p>Keep your file up to date, pull in changes from collaborators.</p>
       <hr>
 
-      <h4>Social Coding</h4>
+      <h4>Pull in Changes</h4>
+      <p>If you're working on something with someone you need to stay up
+        to date with the latest version. So you'll want to <strong>pull</strong> in any
+        changes that may have been made.</p>
 
-      <p>Working with others is one of the best things about GitHub because
-        it makes it easy to work from all over the world at any time.</p>
+      <h4>What has Reporobot been up to?</h4>
+      <p>See if Reporobot has made any changes to your 'add-' branch by pulling
+        in from the remote named 'origin' on GitHub:</p>
 
-      <p><strong>Collaborators</strong> are other GitHub users who are given permission to
-        make edits to a repository owned by someone else. To add
-        <strong>collaborators</strong> to a project, visit the repository's GitHub page
-        and click the 'Settings' icon on the right side menu. Then select the
-        'Collaborators' tab. Type in the username to add and click 'Add'.</p>
+      <p><code>$ git pull < REMOTENAME > < BRANCHNAME ></code></p>
 
-      <h4>Hello, Repo Robot!</h4>
-      <p>Go to the your forked Patchwork repository's page on GitHub and
-        add 'reporobot' as a collaborator.</p>
+      <p>If nothing's changed, it will tell you 'Already up-to-date'.
+        If there are changes, it will merge those changes into your local
+        version.</p>
 
-      <code>
-        www.github.com/YOURUSERNAME/patchwork/settings/collaboration</code>
+      <p>Did Reporobot make changes? Git tells you where changes were made.
+        You can open that file and see Reporobot's updates. Surprise,
+        Reporobot is an artist!</p>
 
-      <p>When you've added Reporobot as a collaborator to your Patchwork fork,
-        run <code>git-it verify</code>.</p>
+      <p>  When you've pulled, type <code>git-it verify</code>.</p>
 
       <div id="terminal-tips">
         <h4>GIT TIPS</h4>
-        <ul>
-          <li><strong>Pull in changes from a remote</strong></li>
-          <code>$ git pull < REMOTENAME > < BRANCH ></code>
-          <li><strong>Copy a repository to your computer</strong></li>
-          <code>$ git clone < URL ></code>
-          <li><strong>Add remote connections</strong></li>
-          <code>$ git remote add < REMOTENAME > < URL ></code>
-          <li><strong>View remote connections</strong></li>
-          <code>$ git remote -v</code>
+          <ul>
+          <li><strong>Check Git status</strong></li>
+          <code>$ git status</code>
+          <li><strong>Pull in changes from a remote branch</strong></li>
+          <code>$ git pull <REMOTENAME> <REMOTEBRANCH></code>
+          <li><strong>See changes to the remote before you pull in</strong></li>
+          <code>$ git fetch --dry-run</code>
         </ul>
       </div>
 
