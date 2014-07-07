@@ -17,12 +17,11 @@ glob("**/*.html", function (err, files) {
 })
 
 function buildPage(files) {
-  counter = 0
+  counter = 1
   files.forEach(function(file) {
     // shouldn't have to do this if my
     // mapping were correct
     if (!file) return
-    var counter = 1
     var content = { 
       header: buildHeader(file, counter), 
       footer: fs.readFileSync(__dirname + '/partials/footer.html').toString(), 
@@ -35,7 +34,7 @@ function buildPage(files) {
     counter++
   })
   // hard coded right now because, reasons
-  if (counter === 11) console.log("Built!")
+  if (counter === 12) console.log("Built!")
 }
 
 function makeShortname(filename) {
@@ -45,8 +44,9 @@ function makeShortname(filename) {
 }
 
 function makeTitleName(filename) {
-  var short = makeShortname(filename)
-  return short.replace('.', '').replace('_', ' ')
+  var short = makeShortname(filename).split('_')
+  return short.join(' ').replace('.', '')
+  // what about 'arnt'?
 }
 
 function buildHeader(filename, counter) {
