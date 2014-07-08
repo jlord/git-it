@@ -99,6 +99,10 @@ a:hover {
   margin-bottom: 10px;
 }
 
+.toc li a {
+  font-weight: 700;
+}
+
 .toc {
   padding-left: 0;
   text-align: left;
@@ -211,4 +215,12 @@ blockquote {
   color: #acacac;
 }
 
+.weehero {
+  background-color: #02B7FF;
+  padding: 30px;
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 900;
+}
 
