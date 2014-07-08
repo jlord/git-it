@@ -44,8 +44,8 @@ function makeShortname(filename) {
 
 function makeTitleName(filename) {
   var short = makeShortname(filename).split('_')
-  return short.join(' ').replace('.', '')
-  // what about 'arnt'?
+    .join(' ').replace('.', '')
+  return grammarize(short)
 }
 
 function buildHeader(filename) {
@@ -55,6 +55,19 @@ function buildHeader(filename) {
   var template = Handlebars.compile(source)
   var content = {challengetitle: title, challengenumber: num }
   return template(content)
+}
+
+function grammarize(name) {
+  var correct = name
+  var wrongWords = ['arent', 'githubbin', 'its']
+  var rightWords = ["aren't", "GitHubbin", "it's"]
+
+  wrongWords.forEach(function(word, i) {
+    if (name.match(word)) {
+      correct = name.replace(word, rightWords[i])
+    }
+  })
+  return correct
 }
 
 

@@ -65,6 +65,7 @@ li {
   padding: 4px 10px;
   color: #333935;
   font-family: Source Sans Pro;
+  font-weight: 900;
 }
 
 .site-header .meta, footer .meta {
@@ -196,16 +197,22 @@ hr {
   padding: 18px 18px 5px;
 }
 
-.challenge code, .verify code {
+.verify code {
   border-color: #fff;
+  display: inline-block;
 }
 
 .verify {
   margin-top: 30px;
 }
 
-.challenge h2, .verify h2, #git-tips h2 {
+.challenge h2, .verify h3, #git-tips h2 {
   margin-top: 0;
+}
+
+.verify h3 {
+  display: inline-block;
+  padding-right: 12px;
 }
 
 blockquote {
