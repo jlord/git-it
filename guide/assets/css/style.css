@@ -66,6 +66,15 @@ li {
   color: #333935;
   font-family: Source Sans Pro;
   font-weight: 900;
+  -webkit-transition: background 2s;
+  -webkit-transition: color 2s;
+}
+
+.filledblock:hover{
+    background: #83DCFF;
+    color: #fff;
+    -webkit-transition: background 2s;
+    -webkit-transition: color 2s;
 }
 
 .site-header .meta, footer .meta, .prenext .meta {
@@ -154,6 +163,7 @@ footer ul li {
 .pre, .next {
   text-transform: capitalize;
   display: inline-block;
+  color: #02B7FF;
 }
 
 .prenext {
