@@ -60,15 +60,17 @@ li {
 .filledblock {
   margin: 0 auto;
   text-align: center;
-  background-color: #427954;
+  background-color: #f0f6e9;
   display: inline-block;
-  padding: 4px 8px;
-  color: #f0f6e9;
+  padding: 4px 10px;
+  color: #333935;
+  font-family: Source Sans Pro;
 }
 
 .site-header .meta, footer .meta {
   font-size: 12px;
   text-transform: uppercase;
+  font-family: Source Sans Pro;
 }
 
 .site-header h2 {
