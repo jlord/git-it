@@ -3,10 +3,12 @@ var fs = require('fs')
 var glob = require('glob')
 
 var layout = fs.readFileSync(__dirname + '/layout.hbs').toString()
+var thefiles = []
 
 // I can probably use glob better to avoid
 // finding the right files within the files
 glob("**/*.html", function (err, files) {
+  thefiles = files
   if (err) return console.log(err)
   var matches = files.map(function(file) {
     if (file.match('guide/raw-content/')) {
@@ -23,7 +25,7 @@ function buildPage(files) {
     if (!file) return
     var content = { 
       header: buildHeader(file), 
-      footer: fs.readFileSync(__dirname + '/partials/footer.html').toString(), 
+      footer: buildFooter(file), 
       body: fs.readFileSync(file).toString()
     }
     var shortname = makeShortname(file)
@@ -70,5 +72,42 @@ function grammarize(name) {
   return correct
 }
 
+function buildFooter(file) {
+  var num = file.split('/').pop().split('_')[0]
+  var data = getPrevious(num)
+  var source = fs.readFileSync(__dirname + '/partials/footer.html').toString()
+  var template = Handlebars.compile(source)
+  // console.log(data)
+  // console.log(template(data))
+  return template(data)
+}
 
+function getPrevious(num) {
+  var pre = parseInt(num) - 1
+  var next = parseInt(num) + 1
+  var preurl = ''
+  var prename = ''
+  var nexturl = ''
+  var nextname = ''
+  thefiles.forEach(function(file) {
+    if (pre === 0) {
+      prename = "All Challenges"
+      preurl = "/"
+    } else if (file.match(pre)) {
+      prename = makeTitleName(file)
+      var getridof = 'guide/raw-content/' + pre + '_'
+      preurl = file.replace(getridof, '')
+    }
+    if (next === 12) {
+      nextname = "Done!"
+      nexturl = ''
+    } else if (file.match(next)) {
+      nextname = makeTitleName(file) || 'Done!'
+      var getridof = 'guide/raw-content/' + next + '_'
+      nexturl = file.replace(getridof, '') || ''
+    }
+  })
+  return {prename: prename, preurl: preurl, 
+      nextname: nextname, nexturl: nexturl}
+}
 
