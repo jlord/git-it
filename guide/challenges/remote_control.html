@@ -28,17 +28,18 @@
     </div>
     <div class="number-band right tar">
       <span class="meta">NUMBER</span>
-      <h2>4 / 10</h2>
+      <h2>6 / 11</h2>
     <div>
   </div>
 </header>
       <div class="wrapper">
 
-            <h2>The Challenge:</h2>
-    <p>Connect your local and remote repositories and push changes.</p>
-    <hr>
+              <div class="challenge">
+      <h2>The Challenge:</h2>
+      <p>Connect your local and remote repositories and push changes.</p>
+      </div>
 
-    <h4>Remotes</h4>
+    <h2>Remotes</h2>
 
     <p>GitHub.com stores a <strong>remote</strong> copy of your repository (it's
       "remote" because that copy is not on your computer, but on a server
@@ -47,7 +48,7 @@
       latest, too. And everyone can work on a project together without needing
       access to your computer where your local copy is stored.</p>
 
-    <h4>Create a Remote Repository</h4>
+    <h2>Step: Create a Remote Repository</h2>
     <p>You want to sync your <strong>local</strong> version with one stored on GitHub.com
       called the <strong>remote</strong> version. So first create an empty
       remote repository on GitHub.com.</p>
@@ -64,7 +65,7 @@
       <li>Click create repository!</li>
     </ul>
 
-    <h4>Readmes, .gitignores and Licenses</h4>
+    <h2>Readmes, .gitignores and Licenses</h2>
     <p>These are common files in open source projects.</p>
 
     <p>A <strong>readme</strong> explains what the project is, how to use it, and often
@@ -78,7 +79,7 @@
     <a href="http://www.choosealicense.com" target="_blank">www.choosealicense.com</a>.</p>
     <p>We don`t need any of them, however, for this example.</p>
 
-    <h4>Connect your Local to your Remote</h4>
+    <h2>Step: Connect your Local to your Remote</h2>
     <p>Now you've got an empty repository started on GitHub.com. At the
     top you'll see 'Quick Setup', make sure the 'HTTP' button is
     selected and copy the address - this is the location of your
@@ -89,24 +90,25 @@
     want to tell Git the location of the remote version. This is
     commonly named <code>origin</code>.</p>
 
-    <code>$ git remote add origin <URLFROMGITHUB></code>
-    <br><br>
+    <code>$ git remote add origin &#60;URLFROMGITHUB&#62;</code>
+
+    <p>Your <strong>local</strong> version is now connected to the
+      <strong>remote</strong> on GitHub.com.</p>
+
     <blockquote>
     <p><strong>A note:</strong></p>
     <p>If you have GitHub for Windows on your computer, a remote
       named 'origin' is automatically created. In that case, you'll
       just need to tell it what URL to associate with origin. Use this
       command instead of the 'add' one above:</p>
-      
 
-    <code>$ git remote set-url origin <URLFROMGITHUB></code>
+    <code>$ git remote set-url origin &#60;URLFROMGITHUB&#62;</code>
     </blockquote>
-    <br><br>
-    <p>Your <strong>local</strong> version is now connected to the
-      <strong>remote</strong> on GitHub.com.</p>
 
-    <h4>Push Work to your Remote</h4>
-    <p>Next you want to <strong>push</strong> everything you`ve done locally
+
+
+    <h2>Step: Push Work to your Remote</h2>
+    <p>Next you want to <strong>push</strong> everything you've done locally
       to GitHub.</p>
 
     <p>Git has a branching system so that you can work on different
@@ -124,22 +126,24 @@
       Everything is the same locally and remotely. Congrats on your
       first public repository!</p>
 
-    <p>When you're synced locally and on GitHub.com, run:</p>
-    <code>$ git-it verify</code>
+      <div class="verify">
+        <h2>Verify</h2>
+        <p>When you're done, run <code>git-it verify</code></p>
+      </div>
 
-    <div id="terminal-tips">
-      <h4>GIT TIPS</h4>
+    <div id="git-tips">
+      <h2>Tips</h2>
       <ul>
         <li><strong>Add remote connections</strong></li>
-        <code>$ git remote add <REMOTENAME> <URL></code>
+        <code>$ git remote add &#60;REMOTENAME&#62; <URL></code>
         <li><strong>Set a URL to a remote</strong></li>
-        <code>$ git remote set-url <REMOTENAME> <URL></code>
+        <code>$ git remote set-url &#60;REMOTENAME&#62; <URL></code>
         <li><strong>Pull in changes</strong></li>
-        <code>$ git pull <REMOTENAME> <BRANCHNAME></code>
+        <code>$ git pull &#60;REMOTENAME&#62; &#60;BRANCHNAME&#62;</code>
         <li><strong>View remote connections</strong></li>
         <code>$ git remote -v</code>
         <li><strong>Push changes</strong></li>
-        <code>$ git push <REMOTENAME> <BRANCH></code>
+        <code>$ git push &#60;REMOTENAME&#62; <BRANCH></code>
       </ul>
     </div>
 

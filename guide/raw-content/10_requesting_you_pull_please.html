@@ -1,8 +1,4 @@
-      <h2>The Challenge:</h2>
-      <p>Submit a Pull Request to the Patchwork repository.</p>
-      <hr>
-
-      <h4>Pull Requests</h4>
+      <h2>Pull Requests</h2>
 
       <p>When you make changes and improvements to a project you've forked,
         often you'll want to (and have intended to from the get-go) send
@@ -13,18 +9,19 @@
       <p>We want to add you to the list of workshop finishers, so make
         a <strong>pull request</strong> to the original: <a href="www.github.com/jlord/patchwork" target="_blank">www.github.com/jlord/patchwork</a>.</p>
 
-      <h2>Create a pull request</h3>
-      <p>visit the original repository you forked on GitHub, in this case
+      <h2>Step: Create a pull request</h3>
+      <p>Visit the original repository you forked on GitHub, in this case
       <a href="http://www.github.com/jlord/patchwork">http://www.github.com/jlord/patchwork</a>.</p>
 
       <p>Often GitHub will detect if you've pushed a branch to a fork and
       display it at the top of the original's website. If you see that,
       you can click Create Pull Request. If not:</p>
 
-      <p>Click 'Pull request' on the right-side menu, then 'New pull request'.</p>
-
-      <p>Select the branch with the changes you want to submit (it should be
-      the one with 'add-' and your username).</p>
+      <ul>
+        <li>Click 'Pull request' on the right-side menu, then 'New pull request'.</li>
+        <li>Select the branch with the changes you want to submit (it should be
+      the one with 'add-' and your username).</li>
+      </ul>
 
       <p>You'll now see a page with the details of the pull request you're
       in the process of submitting. The page shows the commits and changes
@@ -33,20 +30,23 @@
 
       <p>If everything good, and as you expect it:</p>
 
-      <p>Click 'Create pull request'</p>
+      <ul>
+        <li>Click 'Create pull request'</li>
+        <li>Add a title and description to the changes you're suggesting the
+        original author pull in.</li>
+        <li>Click 'Send pull request'!</li>
+      </ul>
 
-      Add a title and description to the changes you're suggesting the
-      original author pull in.
+      <p><strong>High five! You've submitted your pull request, take a few
+      seconds to bask in the moment.</strong>
 
-      <p>click 'Send pull request'!</p>
-
-      <p>High five! When you've submitted your pull request, take a few
-      seconds to bask in the moment. Then see if your pull request is
-      merged right before your eyes! If it is, you're golden, run:</p>
-      <p><code>$ git-it verify</code></p>
-
-      <p>If it's not merged automatically within a few moments, you'll then
+      <p>If all is well with your pull request, it will be merged within moments. If it's not merged automatically within a few moments, you'll then
       likely have some comments from Reporobot on why it couldn't merge
       it. If so, close your pull request on GitHub.com, make the necessary
       changes to your branch, push those changes and resubmit your pull
       request.</p>
+
+      <div class="verify">
+        <h2>Verify</h2>
+        <p>When you're done, run <code>git-it verify</code> in terminal.</p>
+      </div>

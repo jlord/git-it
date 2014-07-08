@@ -28,85 +28,89 @@
     </div>
     <div class="number-band right tar">
       <span class="meta">NUMBER</span>
-      <h2>6 / 10</h2>
+      <h2>7 / 11</h2>
     <div>
   </div>
 </header>
       <div class="wrapper">
 
+              <div class="challenge">
         <h2>The Challenge:</h2>
-      <p>Create a new branch for your contribution.</p>
-      <hr>
+        <p>Create a new branch for your contribution.</p>
+      </div>
 
-      <h4>Branches</h4>
+      <h2>Branches</h2>
 
-      <p>Git repositories use branches to isolate work when needed. It`s
+      <p>Git repositories use branches to isolate work when needed. It's
         common practice when working on a project or with others on a
         project to create a <strong>branch</strong> to put your changes in. This
         way you can do your work while the main, commonly named 'master',
         branch stays stable.</p>
 
-      <h4>GitHub Pages</h4>
+      <h2>GitHub Pages</h2>
       <p>GitHub.com will automatically serve and host static website files in
-        branches named `gh-pages`. Since the project you forked creates a
-        website, its main branch is `gh-pages`. All sites like this can be
+        branches named 'gh-pages'. Since the project you forked creates a
+        website, its main branch is 'gh-pages'. All sites like this can be
         found using this pattern for the URL: </p>
 
       <code>http://githubusername.github.io/repositoryname</code>
 
-      <h4>Create a branch</h4>
+      <h2>Step: Create a branch</h2>
       <p>When you create a branch, Git copies everything from the current
         branch you`re on and places it in the branch you`ve requested.</p>
 
       <p>Type <code>git status</code> to see what branch you're currently on (it
-        should be <code>gh-pages</code>)</p>
+        should be 'gh-pages')</p>
 
       <p>Create a branch and name it "add-<username>", where `username` is
         your username. For instance, "add-jlord". <strong>Branches are case-sensitive so name your branch exactly the way your GitHub name appears</strong>.</p>
 
-      <p><code>$ git branch < BRANCHNAME ></code></p>
+      <p><code>$ git branch &#60;BRANCHNAME&#62;</code></p>
 
       <p>Now you have a branch with a new name identical to `gh-pages`.</p>
 
       <p>To go into that branch and work on it, similar to using <code>cd</code> to
         change directory in terminal, you <strong>checkout</strong> a branch.</p>
 
-      <p><code>$ git checkout < BRANCHNAME ></code></p>
+      <p><code>$ git checkout &#60;BRANCHNAME&#62;</code></p>
 
-      <h4>Create a new file</h4>
+      <h2>Step: Create a new file</h2>
       <p>Back to the text editor. In the 'contributors' folder, create a
-        new file named "add-< username >.txt", where 'username' is your
+        new file named "add-&#60;USERNAME&#62;.txt", where 'username' is your
         username. For instance, "add-jlord.txt". Then, just write your
         GitHub username in it, that's it and that's all. For instance,
         I`d type `jlord` and hit save.</p>
 
-      <h4>Check-in</h4>
+      <h2>Step: Check-in</h2>
       <p>Go through the steps for checking in a project: </p>
 
       <p><code>$ git status
-        $ git add < FILENAME >
+        $ git add &#60;FILENAME&#62;
         $ git commit -m 'commit message'</code></p>
 
       <p>Now push your update to your fork on GitHub:</p>
 
-      <p><code>$ git push origin < BRANCHNAME ></code></p>
+      <p><code>$ git push origin &#60;BRANCHNAME&#62;</code></p>
 
-      <p>Type <code>git-it verify</code> when you`re done.</p>
+      <div class="verify">
+        <h2>Verify</h2>
+        <p>When you're done, run <code>git-it verify</code> in terminal.</p>
+      </div>
 
-      <div id="terminal-tips">
-        <h4>GIT TIPS</h4>
+      <div id="git-tips">
+        <h2>Tips</h2>
         <ul>
           <li>You can create and switch to a branch in one line:</li>
-          <li><code>$ git checkout -b <BRANCHNAME></code></li>
+          <li><code>$ git checkout -b &#60;BRANCHNAME&#62;</code></li>
           <li>Create a new branch:</li>
-          <li><code>$ git branch <BRANCHNAME></code></li>
+          <li><code>$ git branch &#60;BRANCHNAME&#62;</code></li>
           <li>Move onto a branch:</li>
-          <li><code>$ git checkout <BRANCHNAME></code></li>
+          <li><code>$ git checkout &#60;BRANCHNAME&#62;</code></li>
           <li>List the branches:</li>
           <li><code>$ git branch</code></li>
-          <li>Rename a branch you`re currently on:</li>
-          <li><code>$ git branch -m < NEWBRANCHNAME ></code></li>
-          <li>Verify what branch you`re working on</li>
+          <li>Rename a branch you're currently on:</li>
+          <li><code>$ git branch -m &#60;NEWBRANCHNAME&#62;</code></li>
+          <li>Verify what branch you're working on</li>
           <li><code>$ git status</code></li>
         </ul>
       </div>

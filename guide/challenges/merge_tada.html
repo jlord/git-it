@@ -28,66 +28,73 @@
     </div>
     <div class="number-band right tar">
       <span class="meta">NUMBER</span>
-      <h2>10 / 10</h2>
+      <h2>11 / 11</h2>
     <div>
   </div>
 </header>
       <div class="wrapper">
 
-              <h2>The Challenge:</h2>
-      <p>Merge branch, tidy up and pull upstream for much win!</p>
-      <hr>
+              <div class="challenge">
+        <h2>The Challenge:</h2>
+        <p>Merge your branch locally, delete old branch and pull from upstream for much win!</p>
+       </div>
 
-      <h4>Merge Locally</h4>
+      <h2>Step: Merge Locally</h2>
 
-      <p>Your pull request is being merged! But meanwhile, since you
+      <p>Your pull request has been merged! Now, since you
         know that you definitely want those updates in your forked version,
         and your branch is in good working order, merge it into the main
-        branch on your forked repository, in this case, <code>gh-pages</code>.</p>
+        branch on your forked repository, in this case, 'gh-pages'.</p>
 
       <p>First, move into the branch you want to merge <em>into</em> - in this case,
-        branch <code>gh-pages</code>.</p>
+        branch 'gh-pages'.</p>
 
       <p><code>$ git checkout gh-pages</code></p>
 
       <p>Now tell Git what branch you want to merge in - in this case,
         your feature branch that begins with "add-".</p>
 
-      <p><code>$ git merge < BRANCHNAME ></code></p>
+      <p><code>$ git merge &#60;BRANCHNAME&#62;</code></p>
 
       <p>Tidy up by deleting your feature branch now that it has been merged.</p>
-      <p><code>$ git branch -D < BRANCHNAME ></code></p>
+      <p><code>$ git branch -D &#60;BRANCHNAME&#62;</code></p>
 
       <p>You can also delete the branch from your fork on GitHub:</p>
-      <p><code>$ git push < REMOTENAME > --delete < BRANCHNAME ></code></p>
+      <p><code>$ git push &#60;REMOTENAME&#62; --delete &#60;BRANCHNAME&#62;</code></p>
 
-      <h4>Congratulations!</h4>
+      <h2>Congratulations!</h2>
       <p>You've created local repositories, remote repositories, worked with
         a collaborator, pushed, pulled and joined the millions of others
         developing and enriching open source!</p>
       <p>Visit <a href="jlord.github.io/patchwork" target="_blank">jlord.github.io/patchwork</a> to see your name incorporated!</p>
+
+      <h2>Step: Pull from Upstream</h2>
       <p>And last but not least, if you pull in updates from the original
         (since it now shows you on the home page) you'll be up to date
         and have a version too, live at: yourusername.github.io/patchwork.</p>
 
+      <p>To pull from the original upstream:</p>
+
       <p><code>$ git pull upstream gh-pages</code></p>
 
-      <p>When you've merged your branch, deleted it and pulled from the
-        original, run <code>git-it verify</code>.</p>
+      <div class="verify">
+        <h2>Verify</h2>
+        <p>When you're done, run <code>git-it verify</code> in terminal.</p>
+      </div>
 
-      <div id="terminal-tips">
-        <h4>GIT TIPS</h4>
+      <div id="git-tips">
+        <h2>Tips</h2>
         <ul>
           <li><strong>Merge a branch into current branch</strong></li>
-          <code>$ git merge < BRANCHNAME ></code>
+          <code>$ git merge &#60;BRANCHNAME&#62;</code>
           <li><strong>Change the branch you're working on</strong></li>
-          <code>$ git checkout < BRANCHNAME ></code>
+          <code>$ git checkout &#60;BRANCHNAME&#62;</code>
           <li><strong>Delete a local branch</strong></li>
-          <code>$ git branch -D < BRANCHNAME ></code>
+          <code>$ git branch -D &#60;BRANCHNAME&#62;</code>
           <li><strong>Delete a remote branch</strong></li>
-          <code>$ git push < REMOTENAME > --delete < BRANCHNAME ></code>
+          <code>$ git push &#60;REMOTENAME&#62; --delete &#60;BRANCHNAME&#62;</code>
           <li><strong>Pull from a remote branch</strong></li>
-          <code>$ git pull < REMOTENAME > < BRANCHNAME ></code>
+          <code>$ git pull &#60;REMOTENAME&#62; &#60;BRANCHNAME&#62;</code>
         </ul>
       </div>
 
