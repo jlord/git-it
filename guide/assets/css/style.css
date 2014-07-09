@@ -70,11 +70,15 @@ li {
   -webkit-transition: color 2s;
 }
 
-.filledblock:hover{
+.filledblock:hover {
     background: #83DCFF;
-    color: #fff;
     -webkit-transition: background 2s;
     -webkit-transition: color 2s;
+}
+
+.filledblock a:hover {
+  color: #fff;
+  text-shadow: rgb(255, 255, 255) 0px 0px 5px;
 }
 
 .site-header .meta, footer .meta, .prenext .meta {
