@@ -24,6 +24,6 @@
     "handlebars": "^2.0.0-alpha.4",
     "marked": "^0.3.2",
     "request": "~2.30.0",
-    "workshopper-jlord": "0.0.0"
+    "workshopper-jlord": "^0.0.0"
   }
 }
