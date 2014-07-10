@@ -18,7 +18,7 @@
         <header class="site-header">
   <div class="nav">
     <!-- <span class="left hand">☜</span> -->
-    <span class="filledblock"><a href="/">Git-it</a></span>
+    <span class="filledblock"><a href="../index.html">Git-it</a></span>
     <!-- <span class="right hand">☞</span> -->
   </div>
   
@@ -35,22 +35,27 @@
 </header>
       <div class="wrapper">
 
-              <h2>Pull Requests</h2>
+              <div class="challenge">
+        <h2>The Challenge:</h2>
+        <p>Submit a Pull Request on the original Patchwork repository.</p>
+      </div>
+
+      <h2>Pull Requests</h2>
 
       <p>When you make changes and improvements to a project you've forked,
-        often you'll want to (and have intended to from the get-go) send
+        often you'll want to send
         those changes to the maintainer of the original and <strong>request</strong> that
         they <strong>pull</strong> the changes into the original so that everyone can
         benefit from the updates - that's a <strong>pull request</strong>.</p>
 
       <p>We want to add you to the list of workshop finishers, so make
-        a <strong>pull request</strong> to the original: <a href="www.github.com/jlord/patchwork" target="_blank">www.github.com/jlord/patchwork</a>.</p>
+        a <strong>pull request</strong> to the original: <a href="https://www.github.com/jlord/patchwork" target="_blank">github.com/jlord/patchwork</a>.</p>
 
       <img src="../assets/imgs/pullrequest.png" width="600">
 
       <h2>Step: Create a pull request</h3>
       <p>Visit the original repository you forked on GitHub, in this case
-      <a href="http://www.github.com/jlord/patchwork">http://www.github.com/jlord/patchwork</a>.</p>
+      <a href="https://www.github.com/jlord/patchwork">http://www.github.com/jlord/patchwork</a>.</p>
 
       <p>Often GitHub will detect if you've pushed a branch to a fork and
       display it at the top of the original's website. If you see that,
@@ -64,8 +69,10 @@
 
       <p>You'll now see a page with the details of the pull request you're
       in the process of submitting. The page shows the commits and changes
-      associated with your pull request. If the original repository has a
-      <strong>contribution documentation</strong>, GitHub will link to it. </p>
+      associated with your pull request as compared to the 'gh-pages' branch of the original.</p>
+
+      <p>If the original repository has a
+      <strong>contribution documentation</strong>, GitHub will link to it. This is documentation from repository owners on how to best make contributions to that project. </p>
 
       <p>If everything is good, and as you expect it:</p>
 
@@ -81,7 +88,7 @@
 
       <p>If all is well with your pull request, it will be merged within moments. If it's not merged automatically within a few moments, you'll then
       likely have some comments from Reporobot on why it couldn't merge
-      it. If so, close your pull request on GitHub.com, make the necessary
+      it. If so, close your pull request on GitHub, make the necessary
       changes to your branch, push those changes and resubmit your pull
       request.</p>
 
@@ -101,7 +108,7 @@
 </div>
 <footer>
   <ul>
-    <li class="meta"><a href="/"><strong>Git-it Challenges</strong></a></li>
+    <li class="meta"><a href="../index.html"><strong>Git-it Challenges</strong></a></li>
     <li class="meta"><a href="../about.html">About</a></li>
     <li class="meta"><a href="../dictionary.html">Dictionary</a></li>
     <li class="meta"><a href="../resources.html">Resources</a></li>
@@ -111,14 +118,15 @@
   </ul>
 </footer>
       </div>
- <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-          (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-          function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-          e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-          e.src='//www.google-analytics.com/analytics.js';
-          r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-          ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-52690821-1', 'auto');
+        ga('send', 'pageview');
+
+      </script>
     </body>
 </html>

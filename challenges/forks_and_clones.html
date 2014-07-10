@@ -18,7 +18,7 @@
         <header class="site-header">
   <div class="nav">
     <!-- <span class="left hand">☜</span> -->
-    <span class="filledblock"><a href="/">Git-it</a></span>
+    <span class="filledblock"><a href="../index.html">Git-it</a></span>
     <!-- <span class="right hand">☞</span> -->
   </div>
   
@@ -47,7 +47,7 @@
         projects.</p>
 
       <p>When you <strong>fork</strong> a repository, you're creating a copy of it on
-        your GitHub.com account. Forks are used for creating your own
+        your GitHub account. Your fork begins it's life as a <strong>remote</strong> repository. Forks are used for creating your own
         version of a project or contributing back fixes or features to the
         original project. </p>
 
@@ -59,14 +59,14 @@
       <h2>Step: Fork Patchwork Repository</h2>
       <p>The project we'll work with is <a href="http://www.github.com/jlord/patchwork" target="_blank">github.com/jlord/patchwork</a>. Go to that site and click the fork button at the top right. Once the
         fork animation is complete, you've got a copy on your account. Copy
-        your fork's HTTP URL on the right side.</p>
+        your fork's HTTP URL on the right sidebar.</p>
 
       <h2>Step: Clone Fork Locally</h2>
       <p>Now, in terminal, clone the repository onto your computer. It will create a new folder
-        for the repository so no need to create one. But make sure you aren`t
-        cloning it inside of another Git repository folder! So, if you`re still
-        inside of the repository you created in the early challenges,
-        back out of that folder with the next command: 
+        for the repository so no need to create one. But make sure you aren't
+        cloning it inside of another Git repository folder! So, if you're still
+        inside of the 'hello-world' repository you worked in on the earlier challenges,
+        back out of that folder. You can leave the folder you're in (and be in the folder that it was inside of) by 'changing directory' with two dots: 
 
       <p><code>$ cd ..</code></p>
 
@@ -74,7 +74,7 @@
 
       <p><code>$ git clone &#60;URLFROMGITHUB&#62;</code></p>
 
-      <p>Navigate into that folder (in this case, named 'patchwork')</p>
+      <p>Go into the folder for the fork it created (in this case, named 'patchwork')</p>
       <p><code>$ cd patchwork</code></p>
 
       <p>Now you've got a copy of the repository on your computer and it is
@@ -119,7 +119,7 @@
 </div>
 <footer>
   <ul>
-    <li class="meta"><a href="/"><strong>Git-it Challenges</strong></a></li>
+    <li class="meta"><a href="../index.html"><strong>Git-it Challenges</strong></a></li>
     <li class="meta"><a href="../about.html">About</a></li>
     <li class="meta"><a href="../dictionary.html">Dictionary</a></li>
     <li class="meta"><a href="../resources.html">Resources</a></li>
@@ -129,14 +129,15 @@
   </ul>
 </footer>
       </div>
- <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-          (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-          function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-          e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-          e.src='//www.google-analytics.com/analytics.js';
-          r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-          ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-52690821-1', 'auto');
+        ga('send', 'pageview');
+
+      </script>
     </body>
 </html>
