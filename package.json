@@ -4,7 +4,9 @@
   "description": "Terminal app for learning Git and GitHub",
   "main": "index.js",
   "bin": "./git-it.js",
-  "scripts": {},
+  "scripts": {
+    "build": "node guide/buildpages.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/jlord/git-it.git"
@@ -16,8 +18,12 @@
   },
   "dependencies": {
     "concat-stream": "~1.2.1",
+    "ecstatic": "^0.5.4",
     "github-oauth": "0.0.4",
+    "glob": "^3.2.11",
+    "handlebars": "^2.0.0-alpha.4",
+    "marked": "^0.3.2",
     "request": "~2.30.0",
-    "workshopper-jlord": "0.0.0"
+    "workshopper-jlord": "^0.0.1"
   }
 }
