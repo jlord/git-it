@@ -1,16 +1,16 @@
 body {
-  font-family: "Helvetica Neue", Arial, sans-serif; 
-  margin: 0 auto; 
+  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  margin: 0 auto;
   padding: 30px 0px;
-  color: #fff; 
-  background: #0087ff; 
+  color: #fff;
+  background: #0087ff;
   border: 30px solid #fff;
 }
 
 pre {
-  color: #fff; 
-  text-shadow: 0px 1px 1px rgba(0,0,0,0.4); 
-  padding-bottom: 20px; 
+  color: #fff;
+  text-shadow: 0px 1px 1px rgba(0,0,0,0.4);
+  padding-bottom: 20px;
   font-size: 11px;
 }
 
@@ -100,42 +100,43 @@ code {
   animation-fill-mode: both;
 }
 
-h1, h2, h3, h5, h6 {font-weight: 300;}
+h1, h2, h3, h5, h6 {font-weight: 300; line-height: 1.2em;}
 h4 {font-weight: 700;}
 
 em {font-family: Georgia;}
 
 a, a:visited, a:active {
-  color: #fff; 
-  text-decoration: none; 
+  color: #fff;
+  text-decoration: none;
   transition: color 0.2s ease;
   font-weight: 700;
 }
 
 a:hover {
-  color: #eee4ee; 
-  padding-bottom: 1px; 
+  color: #eee4ee;
+  padding-bottom: 1px;
   border-bottom: 1px solid #eee4ee;
 }
 
 h1 {
-  font-size: 54px; 
+  font-size: 54px;
 }
 h3 {
   text-align: center;
 }
 
 p, .textcontainer {
-  font-size: 14px; 
+  font-size: 14px;
   line-height: 20px;
   font-weight: 300;
 }
 
 .container {
-  max-width: 800px; 
+  max-width: 800px;
   margin: 0 auto;
-  overflow: auto; 
+  overflow: auto;
   display: block;
+  line-height: 1.2em;
 }
 
 .large-container {
@@ -146,14 +147,14 @@ p, .textcontainer {
 }
 
 #welcome-name {
-  text-align: center; 
-  
+  text-align: center;
+
 }
 
 #welcome-name h4 {margin: 6px;}
 
 #compatriots {
-  padding: 22px; 
+  padding: 22px 0;
   border-bottom: 1px dashed #fff;
   border-top: 1px dashed #fff;
   -moz-column-count: 3;
@@ -163,29 +164,29 @@ p, .textcontainer {
 }
 
 ul.nav {
-  list-style: none; padding: 0px; 
+  list-style: none; padding: 0px;
   margin: 0px;
 }
 
 .nav li {
-  display: inline; 
-  padding-right: 8px; 
-  font-size: 13px; 
+  display: inline;
+  padding-right: 8px;
+  font-size: 13px;
   font-weight: 600;
 }
 
 .compatriots-list {
-  list-style: none; 
-  padding: 0px; 
+  list-style: none;
+  padding: 0px;
   font-size: 12px;
   margin: 0px;
 }
 .compatriots-list li {padding: 4px 0px;}
 
-.userdate {font-family: "Andale Mono"}
+.userdate {font-family: "Andale Mono"; white-space: nowrap;}
 .userdetail {font-weight: bold;}
 
-.textcontainer { 
+.textcontainer {
   float: left;
   display: inline-block;
 }
@@ -206,5 +207,5 @@ ul.what-next-list {
 .what-next-list li {
   padding-bottom: 6px;
   padding-left: 0px;
-  
+
 }
