@@ -1,6 +1,8 @@
 # Contributing
 
-Some useful info on how the app works:
+The app and the guide —
+
+## The App
 
 - Git-it is a terminal app built in the [nodeschoo.io](http://www.nodeschool.io) style with a branch on my [fork](https://github.com/jlord/workshopper/tree/verify) of the [workshopper module](https://github.com/rvagg/workshopper). I've forked it to make changes due to the fact that unlike the other workshopper apps, users aren't creating code to be tested. They are, instead, doing things with Git which can be verified through Git.
 
@@ -28,3 +30,9 @@ git clone https://github.com/jlord/git-it.git
 cd git-it
 npm link
 ```
+
+## The Guide
+
+- The guide is a static site within /guide in the repository.
+- Edits to the text for challenges should be made to the files within `/raw-content`, as those are turned into `/challenges` by the build script.
+- Build the site by running `npm run build` from within `/git-it`
