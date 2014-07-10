@@ -46,7 +46,7 @@ $ git-it
 #### How it Works
 
 - Use the arrows ↑↓ to select the first challenge and press 'enter'.
-- Open the guide with challenge instructions by using the options listed at the bototm of the challenge.
+- Open the guide with challenge instructions by using the options listed at the bottom of the challenge.
 
 ![img](https://raw.githubusercontent.com/jlord/git-it/master/guide-ss.png)
 
