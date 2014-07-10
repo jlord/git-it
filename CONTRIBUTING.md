@@ -37,7 +37,15 @@ npm link
 - Edits to the text for challenges should be made to the files within `/raw-content`, as those are turned into `/challenges` by the build script.
 - Right now I copy the `/guide` folder and move it to the 'gh-pages' branch. (plans to automate that at some point).
 - **So all guide edits should be made off of master and in `/raw-content`**
-- You can test your edits by building the site locally: run `npm run build` from within `/git-it` then open `/guide/index.html` or run `git-it server`.
 
+### To Build the Site
+
+```bash
+$ cd git-it
+$ npm run build
+$ git-it server
+# or open files
+$ open guide/index.html
+```
 
 ### Thank you!! :octocat:
