@@ -50,7 +50,7 @@ li {
 .challenge-band h2, .number-band h2 {
   text-transform: capitalize;
   font-weight: 900;
-  color: #02B7FF;
+  color: #0087ff;
 }
 
 .site-header .gitit {
@@ -71,7 +71,7 @@ li {
 }
 
 .filledblock:hover {
-    background: #83DCFF;
+    background: #4BABFF;
     -webkit-transition: background 2s;
     -webkit-transition: color 2s;
 }
@@ -101,12 +101,12 @@ h1, h2, h3, h4 {
 }
 
 a {
-  color: #02B7FF;
+  color: #0087ff;
   text-decoration: none;
 }
 
 a:hover {
-  color: #83DCFF;
+  color: #4BABFF;
 }
 
 .toc li {
@@ -135,7 +135,7 @@ a:hover {
 }
 
 code, .outof {
-  border: 1px solid #AFAFAF;
+  border: 1px solid #9DA6B3;
   padding: 4px 6px;
   border-radius: 2px;
   font-family: Liberation Mono, Monaco, Courier New, monospace;
@@ -148,7 +148,7 @@ pre {
 
 
 footer {
-  border-top: 3px solid #02B7FF;
+  border-top: 3px solid #0087ff;
   margin: 20px 0;
   padding: 12px 0;
 }
@@ -167,7 +167,7 @@ footer ul li {
 .pre, .next {
   text-transform: capitalize;
   display: inline-block;
-  color: #02B7FF;
+  color: #0087ff;
 }
 
 .prenext {
@@ -190,10 +190,10 @@ hr {
 }
 
 #git-tips {
-  background: #DAF4FF;
+  background: #BADFFF;
   padding: 18px;
   margin: 18px 0;
-  color: #02B7FF;
+  color: #0087ff;
 }
 
 #git-tips ul {
@@ -203,7 +203,7 @@ hr {
 }
 
 #git-tips code {
-  border-color: #02B7FF;
+  border-color: #0087ff;
 }
 
 #git-tips h4 {
@@ -215,7 +215,7 @@ hr {
 }
 
 .challenge, .verify {
-  background-color: #02B7FF;
+  background-color: #0087ff;
   color: #fff;
   padding: 18px 18px 5px;
 }
@@ -247,7 +247,7 @@ blockquote {
 }
 
 .weehero {
-  background-color: #02B7FF;
+  background-color: #0087ff;
   padding: 30px;
   text-align: center;
   color: #fff;

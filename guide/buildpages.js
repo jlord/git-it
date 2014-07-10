@@ -100,7 +100,7 @@ function getPrevious(num) {
     }
     if (next === 12) {
       nextname = "Done!"
-      nexturl = ''
+      nexturl = '/'
     } else if (file.match(next)) {
       nextname = makeTitleName(file) || 'Done!'
       var getridof = 'guide/raw-content/' + next + '_'
