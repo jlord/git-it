@@ -44,9 +44,9 @@
 
       <p>Git repositories use branches to isolate work when needed. It's
         common practice when working on a project or with others on a
-        project to create a <strong>branch</strong> to put your changes in. This
+        project to create a <strong>branch</strong> to keep your changes in until they are ready. This
         way you can do your work while the main, commonly named 'master',
-        branch stays stable.</p>
+        branch stays stable. When your branch is ready, you merge it back into 'master'.</p>
 
       <img src="../assets/imgs/branches.png" width="600">
 
@@ -55,9 +55,9 @@
       GitHub Guide: <a href="http://guides.github.com/overviews/flow/" target="_blank">guides.github.com/overviews/flow</a></p>
 
       <h2>GitHub Pages</h2>
-      <p>GitHub.com will automatically serve and host static website files in
+      <p>GitHub will automatically serve and host static website files in
         branches named 'gh-pages'. Since the project you forked creates a
-        website, its main branch is 'gh-pages'. All sites like this can be
+        website, its main branch is 'gh-pages' instead of 'master'. All sites like this can be
         found using this pattern for the URL: </p>
 
       <code>http://githubusername.github.io/repositoryname</code>
@@ -67,7 +67,7 @@
         branch you're on and places it in the branch you've requested.</p>
 
       <p>Type <code>git status</code> to see what branch you're currently on (it
-        should be 'gh-pages')</p>
+        should be 'gh-pages').</p>
 
       <p>Create a branch and name it "add-&#60;username&#62;", where 'username' is
         your username. For instance, "add-jlord". <strong>Branches are case-sensitive so name your branch exactly the way your GitHub name appears</strong>.</p>
@@ -77,7 +77,7 @@
       <p>Now you have a branch with a new name identical to 'gh-pages'.</p>
 
       <p>To go into that branch and work on it, similar to using <code>cd</code> to
-        change directory in terminal, you <strong>checkout</strong> a branch.</p>
+        change directory in terminal, you <strong>checkout</strong> a branch. Go onto your new branch:</p>
 
       <p><code>$ git checkout &#60;BRANCHNAME&#62;</code></p>
 
@@ -86,7 +86,7 @@
         new file named <span style="white-space: nowrap;">"add-&#60;USERNAME&#62;.txt"</span>, where 'username' is your
         username. For instance, "add-jlord.txt". Then, just write your
         GitHub username in it, that's it and that's all. For instance,
-        I`d type `jlord` and hit save.</p>
+        I'd type 'jlord' and hit save.</p>
 
       <h2>Step: Check-in</h2>
       <p>Go through the steps for checking in a project: </p>
