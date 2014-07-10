@@ -7,7 +7,7 @@ A [workshopper](https://github.com/rvagg/workshopper) module for learning Git an
 
 These modules run a little app in your terminal and users work their way through the challenges. See [nodeschool.io](http://nodeschool.io) for more.
 
-**For developer documentation, see [dev-doc.md](#).**
+**For developer documentation, see [CONTRIBUTING.md](#).**
 
 ## Hello, future Forkers, Branchers and Pull Requesters!
 
