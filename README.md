@@ -48,10 +48,14 @@ $ git-it
 
 - Use the arrows ↑↓ to select the first challenge and press 'enter'.
 - Open the guide with challenge instructions by using the options listed at the bototm of the challenge.
-- Read the challenge text, do as it says and when you're done type `git-it verify` to see if you've completed the challenge correctly.
+
+![img](guide-ss.png)
+
+- Read the instructions in the guide and use your terminal to complete the tasks.
+- When you're done with a challenge, type 'git-it verify' in terminal.
 - If the challenge components were not completed correctly, Git-it returns some text to help you know what went wrong.
 - For some challenges you'll need to open new terminal windows and then run Git-it inside the window you've just opened. Git-it can run from any  (or mutiple) terminal windows and always saves your completed status. You'll need to run it from where you're doing your Git work, so it's OK to move around like that.
-- Scroll up! When the challenge loads, it scrolls to the bottom. Scroll up to the top of the challenge to not miss steps.
+
 
 **If you have any questions about something, just create a [new issue](https://github.com/jlord/git-it/issues/new).**
 
