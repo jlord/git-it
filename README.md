@@ -1,12 +1,15 @@
 # Git-it
 
-![ss](https://raw2.github.com/jlord/git-it/master/git-it-ss.png) 
+<!-- ![ss](https://raw2.github.com/jlord/git-it/master/git-it-ss.png) -->
+![ss](git-it-ss.png)
 
-A [workshopper](https://github.com/rvagg/workshopper) module for learning Git and GitHub - Social coding, y'all. These modules run a little app in your terminal and users work their way through the challenges. See [nodeschool.io](http://nodeschool.io) for more.
+A [workshopper](https://github.com/rvagg/workshopper) module for learning Git and GitHub - Social coding, y'all.
+
+These modules run a little app in your terminal and users work their way through the challenges. See [nodeschool.io](http://nodeschool.io) for more.
 
 **For developer documentation, see [dev-doc.md](#).**
 
-## Hello, future Forkers, Branchers and Pull Requesters! 
+## Hello, future Forkers, Branchers and Pull Requesters!
 
 This app runs in your Terminal (Mac) or Bash (Windows) and has challenges for learning Git and GitHub. It uses the _real_ terminal (so you'll be learning the awesome command line), it uses _real_ Git and GitHub which means when you finish all of the challenges you'll have _real_ repositories on your GitHub account and green squares on your [contribution chart](https://github.com/blog/1360-introducing-contributions).
 
@@ -16,30 +19,35 @@ This app runs in your Terminal (Mac) or Bash (Windows) and has challenges for le
 
 _A few development essentials, all are free and/or free and open source._
 
-- **Git**, this is your tracker of changes! If you're on Windows, download the free [GitHub for Windows](http://windows.github.com), which includes Git, and use the Git Shell for your terminal. If you're on a Mac you can download [GitHub for Mac](http://mac.github.com) (from Preferences, install the command line tool) or standalone [Git](http://git-scm.com/downloads).
-- **Node.js**, this is what this app is written in so you'll need this to run it. It's an engine for running JavaScript on servers (your computer is a server!) and will live quietly in the background. You can download it [here](http://nodejs.org/download/) (For most, you can just pick the Windows .msi or Mac .pkg option).
-- **Editor**, if you don't have one already, you'll need a text editor for editing code. A few options: [Atom](http://www.atom.io), [Sublime Text](http://www.sublimetext.com/2), [Textmate](http://macromates.com/download), [Brackets](http://brackets.io/).
+- **Git**, this is your tracker of changes!
+ - If you're on Windows, download the free [GitHub for Windows](http://windows.github.com), which includes Git, and use the **Git Shell** for your terminal.
+ - If you're on a Mac you can download [GitHub for Mac](http://mac.github.com) (from Preferences, install the command line tool), which comes with Git or you can download  [Git](http://git-scm.com/downloads) by itself.
+- **Node.js**, this is what this app is written in so you'll need this to run it. It's an engine for running JavaScript on servers (your computer is a server!) and will live quietly in the background. You can download it [here](http://nodejs.org/download/) (For most, you can just pick the Windows `.msi` or Mac `.pkg` option).
+- **Text Editor**, if you don't have one already, you may want one for editing code*. A few options: [Atom](http://www.atom.io), [Sublime Text](http://www.sublimetext.com/2), [Textmate](http://macromates.com/download), [Brackets](http://brackets.io/).
+
+_*There actually isn't code in this workshop so you're fine to use the default Notepad or TextEdit that come with Mac/PC_
 
 #### Install Git-it
 
-Once you have the essentials above, install Git-it. 
+Once you have the essentials above, install Git-it.
 
-- Open up a terminal window and install Git-it globally on your computer (so that you can run it from anywhere). [NPM](http://www.npmjs.org) delivers Node.js modules (that's what this app is) to your computer from the command line, real easy like (it is included when you install Node.js):
+- Open up a terminal window and install Git-it globally on your computer (so that you can run it from anywhere). [NPM](http://www.npmjs.org) (which comes with Node.js) delivers Node.js modules (that's what this app is) to your computer from the command line, real easy like:
 
 ```bash
 $ npm install -g git-it
 ```
-- Once it's done installing components, you can run it:
 - _If you run into trouble with this command it may be due to permissions on your computer, try adding 'sudo':_ `sudo npm install -g git-it`
+- Once it's done installing components, you can run it:
 
 ```bash
 $ git-it
 ```
-- This should load the menu. You're ready to go! 
+- This should load the menu. You're ready to go! Select the first challenge, hit enter and you're on your way!
 
 #### How it Works
 
-- Use the arrows to select the first challenge and press 'Enter'. 
+- Use the arrows ↑↓ to select the first challenge and press 'enter'.
+- Open the guide with challenge instructions by using the options listed at the bototm of the challenge.
 - Read the challenge text, do as it says and when you're done type `git-it verify` to see if you've completed the challenge correctly.
 - If the challenge components were not completed correctly, Git-it returns some text to help you know what went wrong.
 - For some challenges you'll need to open new terminal windows and then run Git-it inside the window you've just opened. Git-it can run from any  (or mutiple) terminal windows and always saves your completed status. You'll need to run it from where you're doing your Git work, so it's OK to move around like that.
