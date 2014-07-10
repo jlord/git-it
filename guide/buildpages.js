@@ -7,15 +7,15 @@ var thefiles = []
 
 // I can probably use glob better to avoid
 // finding the right files within the files
-glob("**/*.html", function (err, files) {
+glob("*.html", {cwd: __dirname + '/raw-content'}, function (err, files) {
   thefiles = files
   if (err) return console.log(err)
-  var matches = files.map(function(file) {
-    if (file.match('guide/raw-content/')) {
-      return file
-    }
-  })
-  buildPage(matches)
+  // var matches = files.map(function(file) {
+  //   if (file.match('guide/raw-content/')) {
+  //     return file
+  //   }
+  // })
+  buildPage(files)
 })
 
 function buildPage(files) {
@@ -26,7 +26,7 @@ function buildPage(files) {
     var content = { 
       header: buildHeader(file), 
       footer: buildFooter(file), 
-      body: fs.readFileSync(file).toString()
+      body: fs.readFileSync(__dirname + '/raw-content/' + file).toString()
     }
     var shortname = makeShortname(file)
     var template = Handlebars.compile(layout)
@@ -95,16 +95,16 @@ function getPrevious(num) {
       preurl = "../index.html"
     } else if (file.match(pre)) {
       prename = makeTitleName(file)
-      var getridof = 'guide/raw-content/' + pre + '_'
+      var getridof = pre + '_'
       preurl = file.replace(getridof, '')
     }
     if (next === 12) {
       nextname = "Done!"
       nexturl = '../index.html'
     } else if (file.match(next)) {
-      nextname = makeTitleName(file) || 'Done!'
-      var getridof = 'guide/raw-content/' + next + '_'
-      nexturl = file.replace(getridof, '') || ''
+      nextname = makeTitleName(file)
+      var getridof = next + '_'
+      nexturl = file.replace(getridof, '')
     }
   })
   return {prename: prename, preurl: preurl, 
