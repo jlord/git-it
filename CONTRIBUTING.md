@@ -1,6 +1,6 @@
 # Contributing
 
-The app and the guide —
+Details on the [app](https://github.com/jlord/git-it/blob/master/CONTRIBUTING.md#the-guide) and the [guide](https://github.com/jlord/git-it/blob/master/CONTRIBUTING.md#the-app) —
 
 ## The App
 
@@ -33,6 +33,11 @@ npm link
 
 ## The Guide
 
-- The guide is a static site within /guide in the repository.
+- The guide is a static site within `/guide` in the repository on the **master** branch.
 - Edits to the text for challenges should be made to the files within `/raw-content`, as those are turned into `/challenges` by the build script.
-- Build the site by running `npm run build` from within `/git-it`
+- Right now I copy the `/guide` folder and move it to the 'gh-pages' branch. (plans to automate that at some point).
+- **So all guide edits should be made off of master and in `/raw-content`**
+- You can test your edits by building the site locally: run `npm run build` from within `/git-it` then open `/guide/index.html` or run `git-it server`.
+
+
+### Thank you!! :octocat:
