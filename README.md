@@ -1,7 +1,6 @@
 # Git-it
 
-<!-- ![ss](https://raw2.github.com/jlord/git-it/master/git-it-ss.png) -->
-![ss](git-it-ss.png)
+![ss](https://raw2.github.com/jlord/git-it/master/git-it-ss.png)
 
 A [workshopper](https://github.com/rvagg/workshopper) module for learning Git and GitHub - Social coding, y'all.
 
@@ -49,7 +48,7 @@ $ git-it
 - Use the arrows ↑↓ to select the first challenge and press 'enter'.
 - Open the guide with challenge instructions by using the options listed at the bototm of the challenge.
 
-![img](guide-ss.png)
+![img](https://raw.githubusercontent.com/jlord/git-it/master/guide-ss.png)
 
 - Read the instructions in the guide and use your terminal to complete the tasks.
 - When you're done with a challenge, type 'git-it verify' in terminal.
