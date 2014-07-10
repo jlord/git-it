@@ -92,7 +92,7 @@ function getPrevious(num) {
   thefiles.forEach(function(file) {
     if (pre === 0) {
       prename = "All Challenges"
-      preurl = "/"
+      preurl = "../index.html"
     } else if (file.match(pre)) {
       prename = makeTitleName(file)
       var getridof = 'guide/raw-content/' + pre + '_'
