@@ -209,3 +209,46 @@ ul.what-next-list {
   padding-left: 0px;
 
 }
+
+
+#user-name span {
+ color: #c5d6f1;
+  -webkit-animation: blink 1s infinite linear;
+}
+
+@-webkit-keyframes blink {
+  0% { text-shadow: none; }
+  79% { text-shadow: none; }
+  80% {
+  text-shadow: 0 0 5px #c5d6f1,
+    0 0 5px #c5d6f1,
+    0 0 5px #c5d6f1,
+    0 0 5px #c5d6f1,
+    0 0 5px #c5d6f1,
+    0 0 5px #c5d6f1,
+    0 0 10px #c5d6f1,
+    0 0 10px #c5d6f1,
+    0 0 15px #c5d6f1,
+    0 0 15px #c5d6f1,
+    0 0 15px #c5d6f1,
+    0 0 15px #c5d6f1,
+    0 0 15px #c5d6f1,
+    0 0 15px #c5d6f1;
+  }
+  100% {
+  text-shadow: 0 0 5px #c5d6f1,
+    0 0 5px #c5d6f1,
+    0 0 5px #c5d6f1,
+    0 0 5px #c5d6f1,
+    0 0 5px #c5d6f1,
+    0 0 5px #c5d6f1,
+    0 0 10px #c5d6f1,
+    0 0 10px #c5d6f1,
+    0 0 15px #c5d6f1,
+    0 0 15px #c5d6f1,
+    0 0 15px #c5d6f1,
+    0 0 15px #c5d6f1,
+    0 0 15px #c5d6f1,
+    0 0 15px #c5d6f1;
+  }
+}
