@@ -29,75 +29,70 @@ code {
 @-webkit-keyframes swing {
   20% {
     -webkit-transform: rotate(15deg);
-    transform: rotate(15deg);
+            transform: rotate(15deg);
   }
 
   40% {
     -webkit-transform: rotate(-10deg);
-    transform: rotate(-10deg);
+            transform: rotate(-10deg);
   }
 
   60% {
     -webkit-transform: rotate(5deg);
-    transform: rotate(5deg);
+            transform: rotate(5deg);
   }
 
   80% {
     -webkit-transform: rotate(-5deg);
-    transform: rotate(-5deg);
+            transform: rotate(-5deg);
   }
 
   100% {
     -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
+            transform: rotate(0deg);
   }
 }
 
 @keyframes swing {
   20% {
     -webkit-transform: rotate(15deg);
-    -ms-transform: rotate(15deg);
-    transform: rotate(15deg);
+            transform: rotate(15deg);
   }
 
   40% {
     -webkit-transform: rotate(-10deg);
-    -ms-transform: rotate(-10deg);
-    transform: rotate(-10deg);
+            transform: rotate(-10deg);
   }
 
   60% {
     -webkit-transform: rotate(5deg);
-    -ms-transform: rotate(5deg);
-    transform: rotate(5deg);
+            transform: rotate(5deg);
   }
 
   80% {
     -webkit-transform: rotate(-5deg);
-    -ms-transform: rotate(-5deg);
-    transform: rotate(-5deg);
+            transform: rotate(-5deg);
   }
 
   100% {
     -webkit-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg);
+            transform: rotate(0deg);
   }
 }
 
 .swing {
   -webkit-transform-origin: top center;
-  -ms-transform-origin: top center;
-  transform-origin: top center;
+      -ms-transform-origin: top center;
+          transform-origin: top center;
   -webkit-animation-name: swing;
-  animation-name: swing;
+          animation-name: swing;
 }
 
 .animated {
   -webkit-animation-duration: 1s;
-  animation-duration: 1s;
+          animation-duration: 1s;
   -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
+          animation-fill-mode: both;
 }
 
 h1, h2, h3, h5, h6 {font-weight: 300; line-height: 1.2em;}
@@ -108,7 +103,8 @@ em {font-family: Georgia;}
 a, a:visited, a:active {
   color: #fff;
   text-decoration: none;
-  transition: color 0.2s ease;
+  -webkit-transition: color 0.2s ease;
+          transition: color 0.2s ease;
   font-weight: 700;
 }
 
@@ -157,10 +153,12 @@ p, .textcontainer {
   padding: 22px 0;
   border-bottom: 1px dashed #fff;
   border-top: 1px dashed #fff;
-  -moz-column-count: 3;
-  -moz-column-gap: 20px;
   -webkit-column-count: 3;
+     -moz-column-count: 3;
+          column-count: 3;
   -webkit-column-gap: 20px;
+     -moz-column-gap: 20px;
+          column-gap: 20px;
 }
 
 ul.nav {
@@ -210,13 +208,50 @@ ul.what-next-list {
 
 }
 
-
 #user-name span {
  color: #c5d6f1;
-  -webkit-animation: blink 1s infinite linear;
+ -webkit-animation: blink 1s infinite linear;
+         animation: blink 1s infinite linear;
 }
 
 @-webkit-keyframes blink {
+  0% { text-shadow: none; }
+  79% { text-shadow: none; }
+  80% {
+  text-shadow: 0 0 5px #c5d6f1,
+    0 0 5px #c5d6f1,
+    0 0 5px #c5d6f1,
+    0 0 5px #c5d6f1,
+    0 0 5px #c5d6f1,
+    0 0 5px #c5d6f1,
+    0 0 10px #c5d6f1,
+    0 0 10px #c5d6f1,
+    0 0 15px #c5d6f1,
+    0 0 15px #c5d6f1,
+    0 0 15px #c5d6f1,
+    0 0 15px #c5d6f1,
+    0 0 15px #c5d6f1,
+    0 0 15px #c5d6f1;
+  }
+  100% {
+  text-shadow: 0 0 5px #c5d6f1,
+    0 0 5px #c5d6f1,
+    0 0 5px #c5d6f1,
+    0 0 5px #c5d6f1,
+    0 0 5px #c5d6f1,
+    0 0 5px #c5d6f1,
+    0 0 10px #c5d6f1,
+    0 0 10px #c5d6f1,
+    0 0 15px #c5d6f1,
+    0 0 15px #c5d6f1,
+    0 0 15px #c5d6f1,
+    0 0 15px #c5d6f1,
+    0 0 15px #c5d6f1,
+    0 0 15px #c5d6f1;
+  }
+}
+
+@keyframes blink {
   0% { text-shadow: none; }
   79% { text-shadow: none; }
   80% {
