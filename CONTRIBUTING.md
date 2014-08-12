@@ -8,13 +8,13 @@ Details on the [app](https://github.com/jlord/git-it/blob/master/CONTRIBUTING.md
 
 - For the most part, challenges are verified using Git itself and comparing the output to the expected output.
 
-- The verifiying of some challenges (that require the GitHub API) and the similated collaborator parts of Git-it are done via @reporobot, who lives on a server running this code: [jlord/reporobot](http://www.github.com/jlord/reporobot).
+- The verifiying of some challenges (that require the GitHub API) and the similated collaborator parts of Git-it are done via @reporobot, who lives on a server running this code: [jlord/reporobot](http://github.com/jlord/reporobot).
 
-- The some of the challenges require users to work with a repository that they fork and pull request against. That repository is [jlord/patchwork](http://www.github.com/jlord/patchwork) (named after [teaching night](https://github.com/blog/1747-introducing-patchwork) I host at GitHub HQ with Git-it.).
+- The some of the challenges require users to work with a repository that they fork and pull request against. That repository is [jlord/patchwork](http://github.com/jlord/patchwork) (named after [teaching night](https://github.com/blog/1747-introducing-patchwork) I host at GitHub HQ with Git-it.).
 
-- The [jlord/patchwork](http://www.github.com/jlord/patchwork) is a site hosted through [GitHub Pages](pages.github.com) that is rebuilt by @reporobot each time a new user completes the challenges with their pull request merged. The site: [jlord.github.io/patchwork](http://jlord.github.io/patchwork)
+- The [jlord/patchwork](http://github.com/jlord/patchwork) is a site hosted through [GitHub Pages](pages.github.com) that is rebuilt by @reporobot each time a new user completes the challenges with their pull request merged. The site: [jlord.github.io/patchwork](http://jlord.github.io/patchwork)
 
-- The [jlord/patchwork](http://jlord.github.io/patchwork) repo has backups of the template and contributors.json, but what actually matters are the versions on the server with @reporobot, so changes to that should be made on [jlord/reporobot](https://www.github.com/jlord/reporobot)
+- The [jlord/patchwork](http://jlord.github.io/patchwork) repo has backups of the template and contributors.json, but what actually matters are the versions on the server with @reporobot, so changes to that should be made on [jlord/reporobot](https://github.com/jlord/reporobot)
 
 ### To Install
 
