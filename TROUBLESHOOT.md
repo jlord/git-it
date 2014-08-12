@@ -31,4 +31,12 @@ _Common bumps in the road for users - helpful to know as a mentor!_
 ## Remotes
 
 - Check that the `origin` remote connects to the **user's fork** and the `upstream` remote connects to **jlord/patchwork** and not vise vera or another way.
--
+
+## Pull Requests
+
+- If @reporobot says a pull request wasn't as expected, the user should do the following to correct their submission and re-trigger @reporobot to evaluate the pull request again:
+  1. 'close' the pull request on GitHub.com,
+  2. Make the changes,
+   - They may even need to remove and then re-add @reporobot as a contributor to their fork to re-trigger his artwork edits.
+  2. Push those changes to their branch on their fork,
+  3. Re-open their pull request (from the same page the closed it on) which will trigger @reporobot again.
