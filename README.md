@@ -34,7 +34,7 @@ _A few development essentials, all are free and/or free and open source._
 - **Node.js**, this is what this app is written in so you'll need this to run it. It's an engine for running JavaScript on servers (your computer is a server!) and will live quietly in the background. You can **download Node [here](http://nodejs.org/download/)** (For most, you can just pick the **Windows `.msi`** or **Mac `.pkg`** option).
 - **Text Editor**, if you don't have one already, you may want one for editing code*. A few options: [Atom](http://www.atom.io), [Sublime Text](http://www.sublimetext.com/2), [Textmate](http://macromates.com/download), [Brackets](http://brackets.io/).
 
-_*There actually isn't code in this workshop so you're fine to use the default Notepad or TextEdit that come with Mac/PC_
+_*There actually isn't "coding" required to complete Git-it so you're fine to use the default Notepad or TextEdit that comes with Mac/PC._
 
 #### Install Git-it
 
@@ -65,6 +65,8 @@ $ git-it
 - If the challenge components were not completed correctly, Git-it returns some text to help you know what went wrong.
 
 **If you have any questions about something, just create a [new issue](https://github.com/jlord/git-it/issues/new) or visit the [troubleshooting doc](https://github.com/jlord/git-it/blob/master/TROUBLESHOOT.md).**
+
+---
 
 #### Tips For Getting Started
 
