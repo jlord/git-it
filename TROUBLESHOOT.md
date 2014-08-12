@@ -1,0 +1,34 @@
+# Troubleshooting Git-it
+_Common bumps in the road for users - helpful to know as a mentor!_
+
+
+## Node.js
+
+- Users should use `sudo` if Node commands are not working (also stated in [readme](https://github.com/jlord/git-it#install-git-it)).
+
+## Operating Systems
+
+- Windows users are suggested to download [GitHub for Windows](http:windows.github.com) as it installs Git along with it in an easier way than Git does by itself and things work more as expected. (stated in [readme](https://github.com/jlord/git-it#what-youll-need-to-run-this))
+
+## Passwords / 2FA
+
+- Without a credentials manager (which seemed like a little too much to require for this) users will need to **enter their username and password** when pushing/pulling to GitHub.
+- If someone happens to already have a GitHub account _and_ happens to have enabled 2FA _and_ doesn't have a credential manager, they'll need to [create and use](https://help.github.com/articles/creating-an-access-token-for-command-line-use) a **access token** instead of a password.
+
+## Git Directories
+
+- Check a user **hasn't `git init` inside of Dropbox** or another **Git repository**.
+- Check a user **hasn't `git init` their entire system**.
+
+## Branch names and Filenames
+
+- Check that the branch name **includes `add-`**
+- Check that **user names are spelled correctly** and with matching **capitialization** to their GitHub.com account.
+- Filenames should **include `add-`** and have the user's GitHub account name with matching **capitalization**.
+- Files should be **added to the `/contributors` directory** and not the root in their `/patchwork` fork.
+
+
+## Remotes
+
+- Check that the `origin` remote connects to the **user's fork** and the `upstream` remote connects to **jlord/patchwork** and not vise vera or another way.
+-
