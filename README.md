@@ -29,8 +29,8 @@ See what topics are covered in Git-it on the [challenge table of contents](http:
 _A few development essentials, all are free and/or free and open source._
 
 - **Git**, this is your tracker of changes!
- - If you're on **Windows, download the free [GitHub for Windows](http://windows.github.com)**, which includes Git, and use the **Git Shell** for your terminal.
- - If you're on a **Mac you can download  [Git](http://git-scm.com/downloads) by itself** or, the GitHub for [Mac Desktop](http://mac.github.com) app if you would like.
+ - If you're on **Windows, download [GitHub for Windows](http://windows.github.com)**, which includes Git, and use the **Git Shell** for your terminal.
+ - If you're on a **Mac, download [GitHub for Mac](http://mac.github.com)**, which includes Git, and select Preferences > Advanced > Install Command Line Tools.
 - **Node.js**, this is what this app is written in so you'll need this to run it. It's an engine for running JavaScript on servers (your computer is a server!) and will live quietly in the background. You can **download Node [here](http://nodejs.org/download/)** (For most, you can just pick the **Windows `.msi`** or **Mac `.pkg`** option).
 - **Text Editor**, if you don't have one already, you may want one for editing code*. A few options: [Atom](http://www.atom.io), [Sublime Text](http://www.sublimetext.com/2), [Textmate](http://macromates.com/download), [Brackets](http://brackets.io/).
 
