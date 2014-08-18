@@ -1,1 +1,1 @@
-hidetree
+tree
