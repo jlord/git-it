@@ -7,7 +7,7 @@ var thefiles = []
 
 // I can probably use glob better to avoid
 // finding the right files within the files
-glob("*.html", {cwd: __dirname + '/raw-content'}, function (err, files) {
+glob("*.html", {cwd: __dirname + '/raw-content-zhtw'}, function (err, files) {
   thefiles = files
   if (err) return console.log(err)
   // var matches = files.map(function(file) {
@@ -23,10 +23,10 @@ function buildPage(files) {
     // shouldn't have to do this if my
     // mapping were correct
     if (!file) return
-    var content = { 
-      header: buildHeader(file), 
-      footer: buildFooter(file), 
-      body: fs.readFileSync(__dirname + '/raw-content/' + file).toString()
+    var content = {
+      header: buildHeader(file),
+      footer: buildFooter(file),
+      body: fs.readFileSync(__dirname + '/raw-content-zhtw/' + file).toString()
     }
     var shortname = makeShortname(file)
     var template = Handlebars.compile(layout)
@@ -107,7 +107,7 @@ function getPrevious(num) {
       nexturl = file.replace(getridof, '')
     }
   })
-  return {prename: prename, preurl: preurl, 
+  return {prename: prename, preurl: preurl,
       nextname: nextname, nexturl: nexturl}
 }
 
