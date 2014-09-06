@@ -2,7 +2,7 @@
   HELPFUL THINGS{/bold}{/cyan}
   
   - Get stuck? Find an error? File and issue at:
-  {bold}www.github.com/jlord/git-it{/bold}
+  {bold}github.com/jlord/git-it{/bold}
 
   {cyan}
   GIT COMMANDS

@@ -3,7 +3,7 @@
 var exec = require('child_process').exec
 var request = require('request')
 
-var url = "http://www.github.com/"
+var url = "http://github.com/"
   
   // verify they set up git config
   
