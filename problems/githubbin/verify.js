@@ -3,9 +3,9 @@
 var exec = require('child_process').exec
 var request = require('request')
 
-// var url = "https://api.github.com/users/"
-
 // verify they set up git config
+// verify that user exists on GitHub (not case sensitve)
+// compare the two to make sure cases match
 
 exec('git config user.username', function(err, stdout, stderr) {
   var user = stdout.trim()
@@ -16,7 +16,7 @@ exec('git config user.username', function(err, stdout, stderr) {
   }
 })
 
-function checkGitHub(user, callback) {
+function checkGitHub(user) {
   var options = {
         url: "https://api.github.com/users/" + user,
         json: true,
@@ -37,7 +37,6 @@ function checkGitHub(user, callback) {
 
 function checkCapitals(githubUsername, configUsername) {
   if (configUsername.match(githubUsername)) {
-    console.log("Username is same on GitHub and in Git config!")
-  } else console.log("GitHub username doesn't match\nthe one set in Git config\n"
-      + githubUsername +" on GitHub, " + configUsername + " in Git Config" )
+    console.log("Username same on GitHub and\nGit config!")
+  } else console.log("GitHub & Git config usernames\ndo not match")
 }
