@@ -32,6 +32,7 @@ _A few development essentials, all are free and/or free and open source._
  - If you're on **Windows, download [GitHub for Windows](http://windows.github.com)**, which includes Git, and use the **Git Shell** for your terminal.
  - If you're on a **Mac, download [GitHub for Mac](http://mac.github.com)**, which includes Git, and select Preferences > Advanced > Install Command Line Tools.
 - **Node.js**, this is what this app is written in so you'll need this to run it. It's an engine for running JavaScript on servers (your computer is a server!) and will live quietly in the background. You can **download Node [here](http://nodejs.org/download/)** (For most, you can just pick the **Windows `.msi`** or **Mac `.pkg`** option).
+ - If you already have Node and npm, make sure you have updated versions with at least v 1.4.3 for npm.
 - **Text Editor**, if you don't have one already, you may want one for editing code*. A few options: [Atom](http://www.atom.io), [Sublime Text](http://www.sublimetext.com/2), [Textmate](http://macromates.com/download), [Brackets](http://brackets.io/).
 
 _*There actually isn't "coding" required to complete Git-it so you're fine to use the default Notepad or TextEdit that comes with Mac/PC._
