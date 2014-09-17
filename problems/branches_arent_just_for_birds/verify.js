@@ -11,9 +11,11 @@ var username = ""
 // check the file is in contributors directory
 
 exec('git config user.username', function(err, stdout, stdrr) {
+  if (err) return console.log(err)
   username = stdout.trim()
 
   exec('git rev-parse --abbrev-ref HEAD', function(err, stdout, stderr) {
+    if (err) return console.log(err)
     var actualBranch = stdout.trim()
     var expectedBranch = "add-" + username
     if (actualBranch.match(expectedBranch)) {
@@ -28,6 +30,7 @@ exec('git config user.username', function(err, stdout, stdrr) {
 
 function checkPush(branchname) {
   exec('git reflog show origin/' + branchname, function(err, stdout, stderr) {
+    if (err) return console.log(err)
     if (stdout.match("update by push")) console.log("Changes have been pushed!")
     else console.log("Changes not pushed")
     findFile()
@@ -36,6 +39,7 @@ function checkPush(branchname) {
 
 function findFile() {
   fs.readdir(path.join(process.cwd(), "/contributors/"), function(err, files) {
+    if (err) return console.log(err)
     var allFiles = files.join()
     if (allFiles.match(username)) console.log("File in contributors folder!")
     else console.log("File NOT in contribs.. folder!")
