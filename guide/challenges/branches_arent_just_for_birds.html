@@ -112,11 +112,9 @@
         <h2>Didn't Pass?</h2>
 
         <h4>File NOT in contributors folder</h4>
-        <p> The file you create should inside the existing 'contributors' folder in the Patchwork repository. If you put it somewhere else, simply use Finder or Windows Explorer to move your file into the folder. You can check <code>git status</code> again and you'll find it sees your change. Add and then commit this update and verify the challenge again.</p>
-        <p>
-        <code>$ git add &#60;FILEPATH&#62;</code>
-        <code>$ git commit -m "move file into contributors folder"</code>
-        </p>
+        <p> The file you create should inside the existing 'contributors' folder in the Patchwork repository. If you put it somewhere else, simply use Finder or Windows Explorer to move your file into the folder. You can check <code>git status</code> again and you'll find it sees your changes. Stage and then commit "all" (-A) of these changes (additions and deletions) with the commands below.</p>
+        <p><code>$ git add -A</code></p>
+        <p><code>$ git commit -m "move file into contributors folder"</code></p>
 
         <h4>Branch name expected: _____</h4>
         <p>The branch name should match your user name exactly. To change your branch name:</p>
