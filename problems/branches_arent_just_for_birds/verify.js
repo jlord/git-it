@@ -1,19 +1,23 @@
 #!/usr/bin/env node
 
 var exec = require('child_process').exec
+var fs = require('fs')
+var path = require('path')
+var username = ""
 
 // get their username
 // verify branch matches username, case too.
 // verify they've pushed
+// check the file is in contributors directory
 
 exec('git config user.username', function(err, stdout, stdrr) {
-  var username = stdout.trim()
+  username = stdout.trim()
 
   exec('git rev-parse --abbrev-ref HEAD', function(err, stdout, stderr) {
     var actualBranch = stdout.trim()
     var expectedBranch = "add-" + username
     if (actualBranch.match(expectedBranch)) {
-      return console.log("Found branch as expected!")
+      console.log("Found branch as expected!")
       checkPush(actualBranch)
     } else {
       console.log("Branch name expected: " + expectedBranch)
@@ -26,5 +30,14 @@ function checkPush(branchname) {
   exec('git reflog show origin/' + branchname, function(err, stdout, stderr) {
     if (stdout.match("update by push")) console.log("Changes have been pushed!")
     else console.log("Changes not pushed")
+    findFile()
+  })
+}
+
+function findFile() {
+  fs.readdir(path.join(process.cwd(), "/contributors/"), function(err, files) {
+    var allFiles = files.join()
+    if (allFiles.match(username)) console.log("File in contributors folder!")
+    else console.log("File NOT in contribs.. folder!")
   })
 }
