@@ -189,7 +189,7 @@ hr {
   font-style: italic;
 }
 
-#git-tips {
+#git-tips, .didnt-pass {
   background: #BADFFF;
   padding: 18px;
   margin: 18px 0;
@@ -202,11 +202,11 @@ hr {
   padding: 0;
 }
 
-#git-tips code {
+#git-tips code, .didnt-pass code {
   border-color: #0087ff;
 }
 
-#git-tips h4 {
+#git-tips h4, .didnt-pass h4 {
   margin-top: 0;
 }
 
@@ -230,8 +230,16 @@ hr {
   margin-bottom: 30px;
 }
 
-.challenge h2, .verify h3, #git-tips h2 {
+.challenge h2, .verify h3, #git-tips h2, .didnt-pass h2 {
   margin-top: 0;
+}
+
+.didnt-pass {
+  background: #E3EEF8;
+}
+
+.didnt-pass p + h4 {
+  padding-top: 30px;
 }
 
 .verify h3 {
@@ -258,5 +266,3 @@ blockquote {
 img {
   margin: 30px 0 18px;
 }
-
-
