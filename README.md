@@ -56,14 +56,15 @@ $ git-it
 
 #### How it Works
 
-- Use the arrows ↑↓ to select the first challenge and press 'enter'.
-- Open the guide, which is built into Git-it, with the instructions listed at the bottom of a challenge. _Preview a web hosted version of the guide [here](http://jlord.github.io/git-it)._
+- Once you've ran `git-it` and the menu has loaded, use the arrows ↑↓ to select the first challenge and press 'enter'.
+- With the challenge loaded, follow the instructions at the bottom of the input to open the guide. _Preview a web hosted version of the guide [here](http://jlord.github.io/git-it)._
 
 ![img](https://raw.githubusercontent.com/jlord/git-it/master/guide-ss.png)
 
 - Read the instructions in the guide and use your terminal to complete the tasks.
 - When you're done with a challenge, type `git-it verify` in terminal.
 - If the challenge components were not completed correctly, Git-it returns some text to help you know what went wrong.
+- Run `git-it` again to load the menu and select the next challenge! 
 
 **If you have any questions about something, just create a [new issue](https://github.com/jlord/git-it/issues/new) or visit the [troubleshooting doc](https://github.com/jlord/git-it/blob/master/TROUBLESHOOT.md).**
 
