@@ -35,7 +35,7 @@
 </header>
       <div class="wrapper">
 
-              <div class="challenge">
+        <div class="challenge">
         <h2>The Challenge:</h2>
         <p>Create a new branch on your fork for your contribution.</p>
       </div>
@@ -50,7 +50,7 @@
 
       <img src="../assets/imgs/branches.png" width="600">
 
-      
+
     <p>For a great visualization on how branches work in a project, see this
       GitHub Guide: <a href="http://guides.github.com/overviews/flow/" target="_blank">guides.github.com/overviews/flow</a></p>
 
@@ -82,11 +82,15 @@
       <p><code>$ git checkout &#60;BRANCHNAME&#62;</code></p>
 
       <h2>Step: Create a new file</h2>
-      <p>Back to the text editor. In the 'contributors' folder, create a
-        new file named <span style="white-space: nowrap;">"add-&#60;USERNAME&#62;.txt"</span>, where 'username' is your
-        username. For instance, "add-jlord.txt". Then, just write your
+      <p>Back to the text editor:</p>
+        <ul>
+          <li>Create a new file named <span style="white-space: nowrap;">"add-&#60;USERNAME&#62;.txt"</span>, where 'username' is your username. For instance, "add-jlord.txt".</li>
+          <li>Then, just write your
         GitHub username in it, that's it and that's all. For instance,
-        I'd type 'jlord' and hit save.</p>
+        I'd type 'jlord'.</li>
+          <li>Save this file in the 'contributors' folder in Patchwork: <strong>Patchwork/contributors/add-yourusername.txt</strong></li>
+          <li>Next, check in your changes!</li>
+        </ul>
 
       <h2>Step: Check-in</h2>
       <p>Go through the steps for checking in a project: </p>
@@ -100,7 +104,22 @@
       <p><code>$ git push origin &#60;BRANCHNAME&#62;</code></p>
 
       <div class="verify">
-        <h3>Verify with </h3> <code>git-it verify </code>
+        <h3>Verify with </h3> <code>git-it verify </code><br>
+        <h3>Go to the next challenge </h3> <code>git-it</code>
+      </div>
+
+      <div class="didnt-pass">
+        <h2>Didn't Pass?</h2>
+
+        <h4>File NOT in contributors folder</h4>
+        <p> The file you create should inside the existing 'contributors' folder in the Patchwork repository. If you put it somewhere else, simply use Finder or Windows Explorer to move your file into the folder. You can check <code>git status</code> again and you'll find it sees your changes. Stage and then commit "all" (-A) of these changes (additions and deletions) with the commands below.</p>
+        <p><code>$ git add -A</code></p>
+        <p><code>$ git commit -m "move file into contributors folder"</code></p>
+
+        <h4>Branch name expected: _____</h4>
+        <p>The branch name should match your user name exactly. To change your branch name:</p>
+        <p><code>$ git branch -M &#60;NEWBRANCHNAME&#62;</code></p>
+        <p>When you've made your updates, verify again!</p>
       </div>
 
       <div id="git-tips">
@@ -121,6 +140,7 @@
         </ul>
       </div>
 
+
         <div class="prenext">
   <div class="pre lef meta">
     <a href="forks_and_clones.html">forks and clones</a>
@@ -138,7 +158,7 @@
     <li class="meta"><a href="../dictionary.html">Dictionary</a></li>
     <li class="meta"><a href="../resources.html">Resources</a></li>
     <li class="meta">
-      <a href="http://www.github.com/jlord/git-it/issues/new" target="_blank">Open an Issue</a>
+      <a href="http://github.com/jlord/git-it/issues/new" target="_blank">Open an Issue</a>
     </li>
   </ul>
 </footer>

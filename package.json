@@ -1,6 +1,6 @@
 {
   "name": "git-it",
-  "version": "1.3.7",
+  "version": "1.5.0",
   "description": "Terminal app for learning Git and GitHub",
   "main": "index.js",
   "bin": "./git-it.js",
