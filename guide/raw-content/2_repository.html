@@ -16,25 +16,25 @@
 
     <p>除了瀏覽你的電腦，你也可以在終端機裏使用具有<strong>終端機界面（command-line interface, CLI）</strong>的程式，這類的程式可藉由輸入鍵盤指令來運行。Git-it 便是其中之一，你現在正透過終端機使用它！而 Git 也是另一個例子。你可以在終端機裏藉由指令來存取與操控 Git，不久後你便會這麼做了！</p>
 
-    <p>在 Git-it 裏你將學會一些終端機的基本操作，並以步驟描述。</p> 
+    <p>在 Git-it 裏你將學會一些基本操作的指令，而在每個步驟中將會解釋這些指令的功用。</p> 
 
     <h2>步驟：建立一個新的 <n>repository</n></h2>
     <p>你將建立一個新的資料夾，並把它設定成一個 Git <n>repository</n>。</p>
 
-    <p>為了讓整件事容易一些, 把你的資料夾取名為與專案同名。就叫 'hello-world' 好了。</p>
+    <p>為了讓整件事容易一些，把你的資料夾取名為與專案同名。就叫 'hello-world' 好了。</p>
 
     <p>你可以將下列指令一一輸入至終端機。</p>
 
     <p>建立新資料夾：</p>
     <code>$ mkdir hello-world</code>
 
-    <p>將目錄切換至此資料夾：</p>
+    <p>進入這個資料夾：</p>
     <code>$ cd hello-world</code>
 
     <p>把這個資料夾設定成一個 Git 專案資料夾</p>
     <code>$ git init</code>
 
-    <p>就是這樣！終端機會回應並切換到下一行。如果你想要確認此資料夾是否已經是個 Git <n>repository</n>，輸入 <code>git status</code>，如果它沒有回傳 'fatal: Not a git repository...'，那你便完成了！</p>
+    <p>就是這樣！終端機會回應並切換到下一行。如果你想要確認此資料夾是否已經是個 Git <n>repository</n>，輸入 <code>git status</code>，只要不是顯示 'fatal: Not a git repository...'，那就對了！</p>
 
     <div class="verify">
       <h3>確認你完成了所有的步驟：</h3> <code>git-it verify </code>
@@ -45,7 +45,7 @@
       <ul>
         <li><strong>建立一個新資料夾 (或稱做目錄)</strong></li>
         <code>$ mkdir &#60;FOLDERNAME&#62;</code>
-        <li><strong>瀏覽至某一目錄 (或稱做切換目錄)</strong></li>
+        <li><strong>進入一個資料夾 (或稱做切換目錄)</strong></li>
         <code>$ cd &#60;FOLDERNAME&#62;</code>
         <li><strong>列出資料夾內容</strong></li>
         <code>$ ls </code>
