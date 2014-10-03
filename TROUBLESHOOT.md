@@ -47,5 +47,5 @@ _Common bumps in the road for users - helpful to know as a mentor!_
 
 **Setup for Debian-based systems**
 
-1. Run `dpkg-reconfigure locales` as root and add an English locale, e.g. `en_US.UTF-8`.
-2. Set up an alias for *git-it* to be used with this locale by adding the following line to `~/.bashrc`: `alias git-it="LANG=en_US.UTF-8"`.
+Set up an alias for *git-it* to be used with this locale by adding the following line to `~/.bashrc`: `alias git-it="LANG=en_US.UTF-8"`.
+You should be fine once the alias is set up. In case the locale is not available, you may run `dpkg-reconfigure locales` as root and add an English locale manually, e.g. `en_US.UTF-8`.
