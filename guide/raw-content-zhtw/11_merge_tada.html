@@ -1,63 +1,54 @@
       <div class="challenge">
-        <h2>The Challenge:</h2>
-        <p>Merge your branch locally, delete old branch and pull from upstream for much win!</p>
+        <h2>關卡內容：</h2>
+        <p>在本機上 <v>Merge</v> 你的 <n>branch</n>，刪除舊的 <n>branch</n>，從 <n>upstream</n> 獲得更新來獲得最終勝利！</p>
        </div>
 
-      <h2>Step: Merge Locally</h2>
+      <h2>步驟：從本機 <v>Merge</v></h2>
 
-      <p>Your pull request has been merged! Now, since you
-        know that you definitely want those updates in your forked version,
-        and your branch is in good working order, merge it into the main
-        branch on your forked repository, in this case, 'gh-pages'.</p>
+      <p>你的 <n>pull request</n> 已經被 <v>merged</v> 了！現在來將 <adj>forked</adj> 的 <n>repository</n> 更新吧。因為你的 <n>branch</n> 內容順序正確，在 <adj>forked</adj> <n>repository</n> 的主要 <n>branch</n>（這個情況下是 'gh-pages'）把 <n>branch</n> <v>merge</v> 進來就可以了哦。</p>
 
-      <p>First, move into the branch you want to merge <em>into</em> — in this case,
-        branch 'gh-pages'.</p>
+      <p>首先，切換到想要 <v>merge</v> <strong>進來</strong>的 <n>branch</n>，也就是 'gh-pages'。</p>
 
       <p><code>$ git checkout gh-pages</code></p>
 
-      <p>Now tell Git what branch you want to merge <em>in</em> — in this case,
-        your feature branch that begins with "add-".</p>
+      <p>告訴 Git 你想要 <v>merge</v> 那個 <n>branch</n> <strong>進來</strong>，也就是你的 <n>feature branch</n>，名字是 'add-' 開頭的 <n>branch</n>。</p>
 
       <p><code>$ git merge &#60;BRANCHNAME&#62;</code></p>
 
-      <p>Tidy up by deleting your feature branch now that it has been merged.</p>
+      <p>整理一下吧，刪除掉已經 <v>merged</v> 的 <n>feature branch</n>。</p>
       <p><code>$ git branch -D &#60;BRANCHNAME&#62;</code></p>
 
-      <p>You can also delete the branch from your fork on GitHub:</p>
+      <p>也可以從 GitHub 上的 <n>fork</n> 刪除 <n>branch</n> 哦：</p>
       <p><code>$ git push &#60;REMOTENAME&#62; --delete &#60;BRANCHNAME&#62;</code></p>
 
-      <h2>Step: Pull from Upstream</h2>
-      <p>And last but not least, if you pull in updates from the original
-        (since it now shows you on the home page) you'll be up to date
-        and have a version too, live at: yourusername.github.io/patchwork.</p>
+      <h2>步驟： 從 <n>Upstream</n> <v>Pull</v></h2>
+      <p>最後一步，但也是很重要的一步，若從原專案（現在首頁已經有你的名字了哦）<v>pull</v> 更新回來，你也會有一個相同的網頁，位置在 yourusername.github.io/patchwork。</p>
 
-      <p>To pull from the original upstream:</p>
+      <p>從原本的 <n>upstream</n> <v>pull</v> 回來：</p>
 
       <p><code>$ git pull upstream gh-pages</code></p>
 
-      <h2>Congratulations!</h2>
-      <p>You've created local repositories, remote repositories, worked with
-        a collaborator, pushed, pulled and joined the millions of others
-        developing and enriching open source!</p>
-      <p>Visit <a href="https://jlord.github.io/patchwork" target="_blank">jlord.github.io/patchwork</a> to see your name incorporated!</p>
+      <h2>恭喜恭喜！</h2>
+      <p>你在本機建立了 <n>repositories</n>，與一名 <n>collaborator</n> 協作、<v>pushed</v>、<v>pulled</v>，加入了百萬開發者所處的開源世界，是你，豐富了開源世界！</p>
+      <p>去 <a href="https://jlord.github.io/patchwork" target="_blank">jlord.github.io/patchwork</a> 這裡看，你的名字已經被收錄進來了呢！</p>
 
       <div class="verify">
-        <h3>Verify with </h3> <code>git-it verify</code><br>
-        <h3>Go to the next challenge </h3> <code>git-it</code>
+        <h3>確認你完成了所有的步驟：</h3> <code>git-it verify </code>
+        <h3>前往下一關：</h3> <code>git-it</code>
       </div>
 
       <div id="git-tips">
-        <h2>Tips</h2>
+        <h2>撇步</h2>
         <ul>
-          <li><strong>Merge a branch into current branch</strong></li>
+          <li><strong><v>Merge</v> <n>branch</n> 到目前的 <n>branch</n></strong></li>
           <code>$ git merge &#60;BRANCHNAME&#62;</code>
-          <li><strong>Change the branch you're working on</strong></li>
+          <li><strong>切換正在工作的 <n>branch</n></strong></li>
           <code>$ git checkout &#60;BRANCHNAME&#62;</code>
-          <li><strong>Delete a local branch</strong></li>
+          <li><strong>刪除本機的 <n>branch</n></strong></li>
           <code>$ git branch -D &#60;BRANCHNAME&#62;</code>
-          <li><strong>Delete a remote branch</strong></li>
+          <li><strong>>刪除 <n>remote branch</n></strong></li>
           <code>$ git push &#60;REMOTENAME&#62; --delete &#60;BRANCHNAME&#62;</code>
-          <li><strong>Pull from a remote branch</strong></li>
+          <li><strong>從 <n>remote branch</n> <v>Pull</v></strong></li>
           <code>$ git pull &#60;REMOTENAME&#62; &#60;BRANCHNAME&#62;</code>
         </ul>
       </div>
