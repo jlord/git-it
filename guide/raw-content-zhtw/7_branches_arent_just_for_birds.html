@@ -15,18 +15,18 @@
     <p>在 GitHub Guide 中我們有提供解釋 <n>branches</n> 運作方式的示意圖：<a href="http://guides.github.com/overviews/flow/" target="_blank">guides.github.com/overviews/flow</a></p>
 
       <h2>GitHub Pages</h2>
-      <p>GitHub 會自動發佈你放在 'gh-pages' <n>branches</n> 裡的靜態檔案，並架設一個網站。由於你 <v>forked</v>
-       的專案內容是一個網站，所以這個專案的主要 <n>branch</n> 是 'gh-pages' 而不是
-       'master'。而你會發現所有這樣的網站，網址都會長得像這樣：</p>
+      <p>GitHub 會自動發佈你放在 'gh-pages' <n>branch</n> 裡的靜態檔案，並架設一個網站。由於你 <v>forked</v>
+       的專案內容是一個網站，所以它的預設 <n>branch</n> 是 'gh-pages' 而不是
+       'master'。而你會發現這些網站，網址都長得像這樣：</p>
 
       <code>http://githubusername.github.io/repositoryname</code>
 
       <h2>步驟：新增 <n>branch</n></h2>
       <p>當你新增 <n>branch</n> 的時候，Git 會拷貝目前 <n>branch</n> 上所有的檔案到新的 <n>branch</n>。</p>
 
-      <p>在終端機輸入 <code>git status</code> 可以知道目前你在哪個 <n>branch</n>（目前應該在 'gh-pages'）。</p>
+      <p>在終端機輸入 <code>git status</code> 可以知道目前你在哪個 <n>branch</n>（應該會在 'gh-pages'）。</p>
 
-      <p>新增一個 <n>branch</n> 並命名為 「add-&#60;username&#62;」，請用你的帳號名稱替換掉 'username'。例如「add-jlord」。<strong><n>Branches</n> 的名字有分大小寫，所以請確定輸入的帳號跟 GitHub 顯示的一模一樣。 </strong></p>
+      <p>新增一個 <n>branch</n> 並命名為 「add-&#60;username&#62;」，請用你的帳號名稱替換掉 'username'。例如「add-jlord」。<strong><n>Branches</n> 的名字有分大小寫，所以請確定輸入的帳號名稱跟 GitHub 上顯示的一模一樣。 </strong></p>
 
       <p><code>$ git branch &#60;BRANCHNAME&#62;</code></p>
 
@@ -40,10 +40,10 @@
       <h2>步驟：新增檔案</h2>
       <p>接下來我們回到文字編輯器：</p>
         <ul>
-          <li>新增一個檔案並命名為 <span style="white-space: nowrap;">「add-&#60;USERNAME&#62;.txt」</span>，請用你的帳號替換 'username'，像這樣，「add-jlord.txt」。</li>
-          <li>接下來在檔案裡寫下你的 GitHub 帳號。例如，我就會寫 'jlord'。</li>
+          <li>新增一個檔案並命名為 <span style="white-space: nowrap;">「add-&#60;USERNAME&#62;.txt」</span>，請用你的帳號名稱替換 'username'，像這樣，「add-jlord.txt」。</li>
+          <li>在檔案裡寫下你的 GitHub 帳號名稱。例如，我就會寫 'jlord'。</li>
           <li>將檔案存到在 Patchwork 裡的 'contributors' 資料夾： <strong>Patchwork/contributors/add-yourusername.txt</strong></li>
-          <li>接下來，把你的修改記錄下來！</li>
+          <li>接著，把你的修改記錄下來！</li>
         </ul>
 
       <h2>步驟：紀錄</h2>
@@ -74,7 +74,7 @@
         <p><code>$ git commit -m "move file into contributors folder"</code></p>
 
         <h4><n>Branch</n> 的名字應該要是： _____</h4>
-        <p><n>branch</n> 的名字應該要跟你的帳號一模一樣。用以下的指令修改 <n>branch</n> 的名字：</p>
+        <p><n>branch</n> 的名字應該要跟你的帳號名稱一模一樣。用以下的指令修改 <n>branch</n> 的名字：</p>
         <p><code>$ git branch -M &#60;NEWBRANCHNAME&#62;</code></p>
         <p>完成以上的動作之後，再執行一次 <code>git-it verify </code>！</p>
       </div>
