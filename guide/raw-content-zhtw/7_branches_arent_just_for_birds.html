@@ -1,23 +1,18 @@
-<div class="challenge">
+      <div class="challenge">
         <h2>關卡內容：</h2>
         <p>在你的 <n>fork</n> 新增 <n>branch</n>。</p>
       </div>
 
       <h2><n>Branches</n></h2>
 
-      <p><n>Git</n> <n>repositories</n> 用 <n>branches</n> 來隔離進度。當需要跟其他人一起進行專案時，在你完成負責的部份之前，經常需要利用
-        <strong><n>branch</n></strong> 來保護你對程式所做的修改。如此，你就可以讓主要的 'master' <n>branch</n>
-        保持穩定，不被未完成的修改影響。等到你完成在 <n>branch</n> 上的修改，就可以把它 <v>merge</v> 回 'master' <n>branch</n>。</p>
+      <p><n>Git</n> <n>repositories</n> 用 <n>branches</n> 來隔離進度。當需要跟其他人一起進行專案時，在你完成負責的部份之前，經常需要利用 <strong><n>branch</n></strong> 來保護你對程式所做的修改。如此，你就可以讓主要的 'master' <n>branch</n> 保持穩定，不被未完成的修改影響。等到你完成在 <n>branch</n> 上的修改，就可以把它 <v>merge</v> 回 'master' <n>branch</n>。</p>
 
       <img src="../assets/imgs/branches.png" width="600">
 
-
-    <p>在 GitHub Guide 中我們有提供解釋 <n>branches</n> 運作方式的示意圖：<a href="http://guides.github.com/overviews/flow/" target="_blank">guides.github.com/overviews/flow</a></p>
+      <p>在 GitHub Guide 中我們有提供解釋 <n>branches</n> 運作方式的示意圖：<a href="https://guides.github.com/overviews/flow/" target="_blank">guides.github.com/overviews/flow</a></p>
 
       <h2>GitHub Pages</h2>
-      <p>GitHub 會自動發佈你放在 'gh-pages' <n>branch</n> 裡的靜態檔案，並架設一個網站。由於你 <v>forked</v>
-       的專案內容是一個網站，所以它的預設 <n>branch</n> 是 'gh-pages' 而不是
-       'master'。而你會發現這些網站，網址都長得像這樣：</p>
+      <p>GitHub 會自動發佈你放在 'gh-pages' <n>branch</n> 裡的靜態檔案，並架設一個網站。由於你 <v>forked</v> 的專案內容是一個網站，所以它的預設 <n>branch</n> 是 'gh-pages' 而不是 'master'。而你會發現這些網站，網址都長得像這樣：</p>
 
       <code>http://githubusername.github.io/repositoryname</code>
 
@@ -26,7 +21,7 @@
 
       <p>在終端機輸入 <code>git status</code> 可以知道目前你在哪個 <n>branch</n>（應該會在 'gh-pages'）。</p>
 
-      <p>新增一個 <n>branch</n> 並命名為 「add-&#60;username&#62;」，請用你的帳號名稱替換掉 'username'。例如「add-jlord」。<strong><n>Branches</n> 的名字有分大小寫，所以請確定輸入的帳號名稱跟 GitHub 上顯示的一模一樣。 </strong></p>
+      <p>新增一個 <n>branch</n> 並命名為「add-&#60;username&#62;」，請用你的帳號名稱替換掉 'username'。例如「add-jlord」。<strong><n>Branches</n> 的名字有分大小寫，所以請確定輸入的帳號名稱跟 GitHub 上顯示的一模一樣。</strong></p>
 
       <p><code>$ git branch &#60;BRANCHNAME&#62;</code></p>
 
@@ -53,13 +48,13 @@
       <p><code>$ git add &#60;FILENAME&#62;</code></p>
       <p><code>$ git commit -m 'commit message'</code></p>
 
-      <p><v>Push</v> 剛才記錄好的修改到 GitHub 上，你的 <adj>forked</adj> <n>repository</n> 裡頭：</p>
+      <p><v>Push</v> 剛才記錄好的修改到 GitHub 上，你 <adj>forked</adj> 的 <n>repository</n> 裡頭：</p>
 
       <p><code>$ git push origin &#60;BRANCHNAME&#62;</code></p>
 
       <div class="verify">
-        <h3>確認你完成了所有的步驟：</h3> <code>git-it verify</code><br>
-        <h3>前往下一關：</h3> <code>git-it</code>
+        <h3>確認你完成了所有步驟：</h3><code>git-it verify</code><br>
+        <h3>前往下一關：</h3><code>git-it</code>
       </div>
 
       <div class="didnt-pass">
@@ -68,8 +63,7 @@
         <h4>File NOT in contributors folder</h4>
         <p>剛才新增的檔案應該要放到 Patchwork <n>repository</n> 的 'contributors'
           資料夾裡。如果不小心放到別的地方，請打開 Finder 或是 Windows 的檔案總管將該檔案移到
-          'contributors' 資料夾，然後可以用 <code>git status</code> 看你剛才移動檔案之後所造成的結果。用以下的指令
-          <v>Stage</v> 並且 <v>commit</v> 全部的修改（加上 -A，會將新增檔案跟刪除檔案的動作一起記錄下來）：</p>
+          'contributors' 資料夾，然後可以用 <code>git status</code> 看你剛才移動檔案之後所造成的結果。用以下的指令 <v>Stage</v> 並且 <v>commit</v> 全部的修改（加上 -A，會將新增檔案跟刪除檔案的動作一起記錄下來）：</p>
         <p><code>$ git add -A</code></p>
         <p><code>$ git commit -m "move file into contributors folder"</code></p>
 
@@ -79,14 +73,19 @@
         <p>完成以上的動作之後，再執行一次 <code>git-it verify </code>！</p>
       </div>
 
+      <div class="verify">
+        <h3>確認你完成了所有步驟：</h3><code>git-it verify</code>
+        <h3>前往下一個關卡</h3><code>git-it</code>
+      </div>
+
       <div id="git-tips">
         <h2>撇步</h2>
         <ul>
-          <li>只用一個指令就新增並切換到新的 <n>branch</n>：</li>
+          <li>只用一個指令就新增並切換到新的 <n>branch</n></li>
           <li><code>$ git checkout -b &#60;BRANCHNAME&#62;</code></li>
-          <li>新增 <n>branch</n>：</li>
+          <li>新增 <n>branch</n></li>
           <li><code>$ git branch &#60;BRANCHNAME&#62;</code></li>
-          <li>切換到另一個 <n>branch</n>：</li>
+          <li>切換到另一個 <n>branch</n></li>
           <li><code>$ git checkout &#60;BRANCHNAME&#62;</code></li>
           <li>列出所有的 <n>branches</n></li>
           <li><code>$ git branch</code></li>
