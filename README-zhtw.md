@@ -2,15 +2,13 @@
 
 ![ss](https://raw2.github.com/jlord/git-it/master/git-it-ss.png)
 
-一個帶領你學習 Git 和 GitHub 的 [workshopper](https://github.com/rvagg/workshopper) 程式。
-
-這個程式是在終端機中執行，會帶領使用者經過一個一個的關卡。[nodeschool.io](http://nodeschool.io) 有更多相關的資訊。
+Git-it 是一個帶領你學習 Git 和 GitHub 的 [workshopper](https://github.com/rvagg/workshopper) 程式。在終端機中執行，帶領使用者經過一個一個的關卡。[nodeschool.io](http://nodeschool.io) 有更多相關的資訊。
 
 ---
 
 **開發者文件在請看 [CONTRIBUTING.md](https://github.com/jlord/git-it/blob/master/CONTRIBUTING.md)。**
 
-**將要在一個使用 Git-it 的活動當教練嗎？ 先用用看 Git-it，然後到 [TROUBLESHOOT.md](https://github.com/jlord/git-it/blob/master/TROUBLESHOOT.md) 可以看到一些學員們常會碰到的問題。
+**將要在一個使用 Git-it 的活動當教練嗎？ 先用用看 Git-it，然後到 [TROUBLESHOOT.md](https://github.com/jlord/git-it/blob/master/TROUBLESHOOT.md) 可以看到一些學員們常會碰到的問題。**
 
 ---
 
