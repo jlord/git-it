@@ -6,7 +6,14 @@
   "bin": "./git-it.js",
   "scripts": {
     "build": "node guide/buildpages.js",
-    "build-zhtw": "node guide/buildpages.js zhtw"
+    "build-zhtw": "node guide/buildpages.js zhtw",
+    "copy-guide": "cp -r ./guide ./.guide",
+    "git-co": "git checkout gh-pages && git reset --hard origin/gh-pages",
+    "paste-guide": "mv ./.guide/* . && rm -rf ./.guide",
+    "git-stage": "npm run copy-guide && npm run git-co && npm run paste-guide",
+    "git-commit": "git add -A . && git commit -a -m 'gh-pages update'",
+    "git-push": "git push origin gh-pages --force && git checkout master",
+    "deploy": "npm run git-co && npm run prep && npm run git-commit && npm run git-push"
   },
   "repository": {
     "type": "git",
