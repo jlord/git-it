@@ -5,7 +5,8 @@
   "main": "index.js",
   "bin": "./git-it.js",
   "scripts": {
-    "build": "node guide/buildpages.js"
+    "build": "node guide/buildpages.js",
+    "build-zhtw": "node guide/buildpages.js zhtw"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
     "handlebars": "^2.0.0-alpha.4",
     "marked": "^0.3.2",
     "request": "~2.30.0",
-    "workshopper-jlord": "^0.0.1"
+    "workshopper-jlord": "^0.0.1",
+    "cheerio": "~0.17.0"
   }
 }
