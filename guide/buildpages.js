@@ -100,7 +100,7 @@ function getPrevious(num) {
   thefiles.forEach(function(file) {
     if (pre === 0) {
       prename = "All Challenges"
-      preurl = "../index.html"
+      preurl = lang ? '../index-' + lang + '.html' : '../index.html'
     } else if (file.match(pre)) {
       prename = makeTitleName(file)
       var getridof = pre + '_'
@@ -108,7 +108,7 @@ function getPrevious(num) {
     }
     if (next === 12) {
       nextname = "Done!"
-      nexturl = '../index.html'
+      nexturl = lang ? '../index-' + lang + '.html' : '../index.html'
     } else if (file.match(next)) {
       nextname = makeTitleName(file)
       var getridof = next + '_'
