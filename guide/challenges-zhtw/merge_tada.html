@@ -18,7 +18,7 @@
         <header class="site-header">
   <div class="nav">
     <!-- <span class="left hand">☜</span> -->
-    <span class="filledblock"><a href="../index.html">Git-it</a></span>
+    <span class="filledblock"><a href="../index-zhtw.html">Git-it</a></span>
     <!-- <span class="right hand">☞</span> -->
   </div>
   
@@ -36,57 +36,57 @@
       <div class="wrapper">
 
               <div class="challenge">
-        <h2>關卡內容：</h2>
-        <p>在本機上 <v>Merge</v> 你的 <n>branch</n>，刪除舊的 <n>branch</n>，從 <n>upstream</n> 獲得更新來獲得最終勝利！</p>
+        <h2>&#x95DC;&#x5361;&#x5167;&#x5BB9;&#xFF1A;</h2>
+        <p>&#x5728;&#x672C;&#x6A5F;&#x4E0A; <v>Merge</v> &#x4F60;&#x7684; <n>branch</n>&#xFF0C;&#x522A;&#x9664;&#x820A;&#x7684; <n>branch</n>&#xFF0C;&#x5F9E; <n>upstream</n> &#x7372;&#x5F97;&#x66F4;&#x65B0;&#x4F86;&#x7372;&#x5F97;&#x6700;&#x7D42;&#x52DD;&#x5229;&#xFF01;</p>
        </div>
 
-      <h2>步驟：從本機 <v>Merge</v></h2>
+      <h2>&#x6B65;&#x9A5F;&#xFF1A;&#x5F9E;&#x672C;&#x6A5F; <v>Merge</v></h2>
 
-      <p>你的 <n>pull request</n> 已經被 <v>merged</v> 了！現在來把 <adj>forked</adj> 和原始的 <n>repository</n> 做個同步吧！因為你的 <n>branch</n> 內容順序正確，現在只要把你的 <n>branch</n> <v>merge</v> 進主要的 <n>branch</n>（'gh-pages'）就可以了哦。</p>
+      <p>&#x4F60;&#x7684; <n>pull request</n> &#x5DF2;&#x7D93;&#x88AB; <v>merged</v> &#x4E86;&#xFF01;&#x73FE;&#x5728;&#x4F86;&#x628A; <adj>forked</adj> &#x548C;&#x539F;&#x59CB;&#x7684; <n>repository</n> &#x505A;&#x500B;&#x540C;&#x6B65;&#x5427;&#xFF01;&#x56E0;&#x70BA;&#x4F60;&#x7684; <n>branch</n> &#x5167;&#x5BB9;&#x9806;&#x5E8F;&#x6B63;&#x78BA;&#xFF0C;&#x73FE;&#x5728;&#x53EA;&#x8981;&#x628A;&#x4F60;&#x7684; <n>branch</n> <v>merge</v> &#x9032;&#x4E3B;&#x8981;&#x7684; <n>branch</n>&#xFF08;&apos;gh-pages&apos;&#xFF09;&#x5C31;&#x53EF;&#x4EE5;&#x4E86;&#x54E6;&#x3002;</p>
 
-      <p>首先，切換到想要 <v>merge</v> <strong>進去</strong>的 <n>branch</n>，也就是 'gh-pages'。</p>
+      <p>&#x9996;&#x5148;&#xFF0C;&#x5207;&#x63DB;&#x5230;&#x60F3;&#x8981; <v>merge</v> <strong>&#x9032;&#x53BB;</strong>&#x7684; <n>branch</n>&#xFF0C;&#x4E5F;&#x5C31;&#x662F; &apos;gh-pages&apos;&#x3002;</p>
 
       <p><code>$ git checkout gh-pages</code></p>
 
-      <p>告訴 Git 你想要 <v>merge</v> 那個 <n>branch</n> <strong>進來</strong>，也就是你的 <n>feature branch</n>，名字是 'add-username'。</p>
+      <p>&#x544A;&#x8A34; Git &#x4F60;&#x60F3;&#x8981; <v>merge</v> &#x90A3;&#x500B; <n>branch</n> <strong>&#x9032;&#x4F86;</strong>&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x4F60;&#x7684; <n>feature branch</n>&#xFF0C;&#x540D;&#x5B57;&#x662F; &apos;add-username&apos;&#x3002;</p>
 
-      <p><code>$ git merge &#60;BRANCHNAME&#62;</code></p>
+      <p><code>$ git merge &lt;BRANCHNAME&gt;</code></p>
 
-      <p>整理一下吧，現在把剛剛已經 <v>merged</v> 的 <n>feature branch</n> 刪掉。</p>
-      <p><code>$ git branch -D &#60;BRANCHNAME&#62;</code></p>
+      <p>&#x6574;&#x7406;&#x4E00;&#x4E0B;&#x5427;&#xFF0C;&#x73FE;&#x5728;&#x628A;&#x525B;&#x525B;&#x5DF2;&#x7D93; <v>merged</v> &#x7684; <n>feature branch</n> &#x522A;&#x6389;&#x3002;</p>
+      <p><code>$ git branch -D &lt;BRANCHNAME&gt;</code></p>
 
-      <p>也可以把 <n>branch</n> 從 GitHub 上的 <adj>forked</adj> <n>repository</n> 中刪除哦：</p>
-      <p><code>$ git push &#60;REMOTENAME&#62; --delete &#60;BRANCHNAME&#62;</code></p>
+      <p>&#x4E5F;&#x53EF;&#x4EE5;&#x628A; <n>branch</n> &#x5F9E; GitHub &#x4E0A;&#x7684; <adj>forked</adj> <n>repository</n> &#x4E2D;&#x522A;&#x9664;&#x54E6;&#xFF1A;</p>
+      <p><code>$ git push &lt;REMOTENAME&gt; --delete &lt;BRANCHNAME&gt;</code></p>
 
-      <h2>步驟： 從 <n>Upstream</n> <v>Pull</v></h2>
-      <p>最後一步，但也是很重要的一步，若從原專案（現在首頁已經有你的名字了哦）<v>pull</v> 回來，你也會有一個相同的網頁，位置在 yourusername.github.io/patchwork。</p>
+      <h2>&#x6B65;&#x9A5F;&#xFF1A; &#x5F9E; <n>Upstream</n> <v>Pull</v></h2>
+      <p>&#x6700;&#x5F8C;&#x4E00;&#x6B65;&#xFF0C;&#x4F46;&#x4E5F;&#x662F;&#x5F88;&#x91CD;&#x8981;&#x7684;&#x4E00;&#x6B65;&#xFF0C;&#x82E5;&#x5F9E;&#x539F;&#x5C08;&#x6848;&#xFF08;&#x73FE;&#x5728;&#x9996;&#x9801;&#x5DF2;&#x7D93;&#x6709;&#x4F60;&#x7684;&#x540D;&#x5B57;&#x4E86;&#x54E6;&#xFF09;<v>pull</v> &#x56DE;&#x4F86;&#xFF0C;&#x4F60;&#x4E5F;&#x6703;&#x6709;&#x4E00;&#x500B;&#x76F8;&#x540C;&#x7684;&#x7DB2;&#x9801;&#xFF0C;&#x4F4D;&#x7F6E;&#x5728; yourusername.github.io/patchwork&#x3002;</p>
 
-      <p>從原本的 <n>upstream</n> <v>pull</v> 回來：</p>
+      <p>&#x5F9E;&#x539F;&#x672C;&#x7684; <n>upstream</n> <v>pull</v> &#x56DE;&#x4F86;&#xFF1A;</p>
 
       <p><code>$ git pull upstream gh-pages</code></p>
 
-      <h2>恭喜恭喜！</h2>
-      <p>你在本機建立了 <n>repositories</n>，與一名 <n>collaborator</n> 協作、<v>pushed</v>、<v>pulled</v>，加入了百萬開發者所處的開源世界，是你，豐富了開源世界！</p>
-      <p>去 <a href="https://jlord.github.io/patchwork" target="_blank">jlord.github.io/patchwork</a> 這裡看，你的名字已經被收錄進來了呢！</p>
+      <h2>&#x606D;&#x559C;&#x606D;&#x559C;&#xFF01;</h2>
+      <p>&#x4F60;&#x5728;&#x672C;&#x6A5F;&#x5EFA;&#x7ACB;&#x4E86; <n>repositories</n>&#xFF0C;&#x8207;&#x4E00;&#x540D; <n>collaborator</n> &#x5354;&#x4F5C;&#x3001;<v>pushed</v>&#x3001;<v>pulled</v>&#xFF0C;&#x52A0;&#x5165;&#x4E86;&#x767E;&#x842C;&#x958B;&#x767C;&#x8005;&#x6240;&#x8655;&#x7684;&#x958B;&#x6E90;&#x4E16;&#x754C;&#xFF0C;&#x662F;&#x4F60;&#xFF0C;&#x8C50;&#x5BCC;&#x4E86;&#x958B;&#x6E90;&#x4E16;&#x754C;&#xFF01;</p>
+      <p>&#x53BB; <a href="https://jlord.github.io/patchwork" target="_blank">jlord.github.io/patchwork</a> &#x9019;&#x88E1;&#x770B;&#xFF0C;&#x4F60;&#x7684;&#x540D;&#x5B57;&#x5DF2;&#x7D93;&#x88AB;&#x6536;&#x9304;&#x9032;&#x4F86;&#x4E86;&#x5462;&#xFF01;</p>
 
       <div class="verify">
-        <h3>確認你完成了所有步驟：</h3><code>git-it verify</code>
-        <h3>前往下一關：</h3><code>git-it</code>
+        <h3>&#x78BA;&#x8A8D;&#x4F60;&#x5B8C;&#x6210;&#x4E86;&#x6240;&#x6709;&#x6B65;&#x9A5F;&#xFF1A;</h3><code>git-it verify</code>
+        <h3>&#x524D;&#x5F80;&#x4E0B;&#x4E00;&#x95DC;&#xFF1A;</h3><code>git-it</code>
       </div>
 
       <div id="git-tips">
-        <h2>撇步</h2>
+        <h2>&#x6487;&#x6B65;</h2>
         <ul>
-          <li><strong><v>Merge</v> <n>branch</n> 到目前的 <n>branch</n></strong></li>
-          <code>$ git merge &#60;BRANCHNAME&#62;</code>
-          <li><strong>切換正在工作的 <n>branch</n></strong></li>
-          <code>$ git checkout &#60;BRANCHNAME&#62;</code>
-          <li><strong>刪除本機的 <n>branch</n></strong></li>
-          <code>$ git branch -D &#60;BRANCHNAME&#62;</code>
-          <li><strong>>刪除 <n>remote</n> <n>branch</n></strong></li>
-          <code>$ git push &#60;REMOTENAME&#62; --delete &#60;BRANCHNAME&#62;</code>
-          <li><strong>從 <n>remote</n> <n>branch</n> <v>Pull</v></strong></li>
-          <code>$ git pull &#60;REMOTENAME&#62; &#60;BRANCHNAME&#62;</code>
+          <li><strong><v>Merge</v> <n>branch</n> &#x5230;&#x76EE;&#x524D;&#x7684; <n>branch</n></strong></li>
+          <code>$ git merge &lt;BRANCHNAME&gt;</code>
+          <li><strong>&#x5207;&#x63DB;&#x6B63;&#x5728;&#x5DE5;&#x4F5C;&#x7684; <n>branch</n></strong></li>
+          <code>$ git checkout &lt;BRANCHNAME&gt;</code>
+          <li><strong>&#x522A;&#x9664;&#x672C;&#x6A5F;&#x7684; <n>branch</n></strong></li>
+          <code>$ git branch -D &lt;BRANCHNAME&gt;</code>
+          <li><strong>&gt;&#x522A;&#x9664; <n>remote</n> <n>branch</n></strong></li>
+          <code>$ git push &lt;REMOTENAME&gt; --delete &lt;BRANCHNAME&gt;</code>
+          <li><strong>&#x5F9E; <n>remote</n> <n>branch</n> <v>Pull</v></strong></li>
+          <code>$ git pull &lt;REMOTENAME&gt; &lt;BRANCHNAME&gt;</code>
         </ul>
       </div>
 
@@ -97,7 +97,7 @@
     <div>⤶ </div>
   </div>
   <div class="next tar right meta">
-    <a href="../index.html">Done!</a>
+    <a href="../index-zhtw.html">Done!</a>
     <div>⤷</div>
   </div>
 </div>

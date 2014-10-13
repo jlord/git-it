@@ -12,7 +12,7 @@ In `/git-it` in terminal, run `npm run build`.
 
 #### Traditional Chinese
 
-To build the Chinese version, run `npm run build zhtw`.
+To build the Chinese version, run `npm run build-zhtw`.
 
 ### To Edit Styles and Layouts
 

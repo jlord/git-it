@@ -18,7 +18,7 @@
         <header class="site-header">
   <div class="nav">
     <!-- <span class="left hand">☜</span> -->
-    <span class="filledblock"><a href="../index.html">Git-it</a></span>
+    <span class="filledblock"><a href="../index-zhtw.html">Git-it</a></span>
     <!-- <span class="right hand">☞</span> -->
   </div>
   
@@ -36,59 +36,59 @@
       <div class="wrapper">
 
               <div class="challenge">
-        <h2>關卡內容：</h2>
-        <p>在自己的電腦上建立一個新的 <n>repository</n></p>
+        <h2>&#x95DC;&#x5361;&#x5167;&#x5BB9;&#xFF1A;</h2>
+        <p>&#x5728;&#x81EA;&#x5DF1;&#x7684;&#x96FB;&#x8166;&#x4E0A;&#x5EFA;&#x7ACB;&#x4E00;&#x500B;&#x65B0;&#x7684; <n>repository</n></p>
       </div>
 
       <h2><n>Repository</n></h2>
 
-      <p>一個 <strong><n>repository</n></strong> 其實就是一個專案。你可以將它想像成一個專案資料夾，其中包含了所有跟專案相關的檔案。事實上，它在電腦裏的樣子就像下面這樣：</p>
+      <p>&#x4E00;&#x500B; <strong><n>repository</n></strong> &#x5176;&#x5BE6;&#x5C31;&#x662F;&#x4E00;&#x500B;&#x5C08;&#x6848;&#x3002;&#x4F60;&#x53EF;&#x4EE5;&#x5C07;&#x5B83;&#x60F3;&#x50CF;&#x6210;&#x4E00;&#x500B;&#x5C08;&#x6848;&#x8CC7;&#x6599;&#x593E;&#xFF0C;&#x5176;&#x4E2D;&#x5305;&#x542B;&#x4E86;&#x6240;&#x6709;&#x8DDF;&#x5C08;&#x6848;&#x76F8;&#x95DC;&#x7684;&#x6A94;&#x6848;&#x3002;&#x4E8B;&#x5BE6;&#x4E0A;&#xFF0C;&#x5B83;&#x5728;&#x96FB;&#x8166;&#x88CF;&#x7684;&#x6A23;&#x5B50;&#x5C31;&#x50CF;&#x4E0B;&#x9762;&#x9019;&#x6A23;&#xFF1A;</p>
 
       <img src="../assets/imgs/repos.png" width="600">
 
-      <p>告訴 Git 你要指定哪個資料夾，然後 Git 就會開始記錄這資料夾裏的一切更動。新增、刪除檔案，甚至只是改變檔案中的一個字，全都會被 Git 追蹤並加上時間標記。這就是<strong>版本控制</strong>。</p>
+      <p>&#x544A;&#x8A34; Git &#x4F60;&#x8981;&#x6307;&#x5B9A;&#x54EA;&#x500B;&#x8CC7;&#x6599;&#x593E;&#xFF0C;&#x7136;&#x5F8C; Git &#x5C31;&#x6703;&#x958B;&#x59CB;&#x8A18;&#x9304;&#x9019;&#x8CC7;&#x6599;&#x593E;&#x88CF;&#x7684;&#x4E00;&#x5207;&#x66F4;&#x52D5;&#x3002;&#x65B0;&#x589E;&#x3001;&#x522A;&#x9664;&#x6A94;&#x6848;&#xFF0C;&#x751A;&#x81F3;&#x53EA;&#x662F;&#x6539;&#x8B8A;&#x6A94;&#x6848;&#x4E2D;&#x7684;&#x4E00;&#x500B;&#x5B57;&#xFF0C;&#x5168;&#x90FD;&#x6703;&#x88AB; Git &#x8FFD;&#x8E64;&#x4E26;&#x52A0;&#x4E0A;&#x6642;&#x9593;&#x6A19;&#x8A18;&#x3002;&#x9019;&#x5C31;&#x662F;<strong>&#x7248;&#x672C;&#x63A7;&#x5236;</strong>&#x3002;</p>
 
-      <h2>使用終端機</h2>
+      <h2>&#x4F7F;&#x7528;&#x7D42;&#x7AEF;&#x6A5F;</h2>
 
-      <p><strong>終端機</strong>（或是 Bash）是一種只利用鍵盤輸入指令來操控電腦的方式。你可以重新命名檔案、開啟檔案、建立新資料夾、並在不同目錄（資料夾）之間切換，全都利用鍵盤輸入指令完成。你甚至不需離開終端機便可以在終端機裏運行文字編輯器（例如 <a href="http://en.wikipedia.org/wiki/Vim_(text_editor)" target="_blank"> Vim</a>）。</p>
+      <p><strong>&#x7D42;&#x7AEF;&#x6A5F;</strong>&#xFF08;&#x6216;&#x662F; Bash&#xFF09;&#x662F;&#x4E00;&#x7A2E;&#x53EA;&#x5229;&#x7528;&#x9375;&#x76E4;&#x8F38;&#x5165;&#x6307;&#x4EE4;&#x4F86;&#x64CD;&#x63A7;&#x96FB;&#x8166;&#x7684;&#x65B9;&#x5F0F;&#x3002;&#x4F60;&#x53EF;&#x4EE5;&#x91CD;&#x65B0;&#x547D;&#x540D;&#x6A94;&#x6848;&#x3001;&#x958B;&#x555F;&#x6A94;&#x6848;&#x3001;&#x5EFA;&#x7ACB;&#x65B0;&#x8CC7;&#x6599;&#x593E;&#x3001;&#x4E26;&#x5728;&#x4E0D;&#x540C;&#x76EE;&#x9304;&#xFF08;&#x8CC7;&#x6599;&#x593E;&#xFF09;&#x4E4B;&#x9593;&#x5207;&#x63DB;&#xFF0C;&#x5168;&#x90FD;&#x5229;&#x7528;&#x9375;&#x76E4;&#x8F38;&#x5165;&#x6307;&#x4EE4;&#x5B8C;&#x6210;&#x3002;&#x4F60;&#x751A;&#x81F3;&#x4E0D;&#x9700;&#x96E2;&#x958B;&#x7D42;&#x7AEF;&#x6A5F;&#x4FBF;&#x53EF;&#x4EE5;&#x5728;&#x7D42;&#x7AEF;&#x6A5F;&#x88CF;&#x904B;&#x884C;&#x6587;&#x5B57;&#x7DE8;&#x8F2F;&#x5668;&#xFF08;&#x4F8B;&#x5982; <a href="http://en.wikipedia.org/wiki/Vim_(text_editor)" target="_blank"> Vim</a>&#xFF09;&#x3002;</p>
 
-      <p>除了瀏覽你的電腦，你也可以在終端機裏使用具有<strong>終端機界面（command-line interface，CLI）</strong>的程式，這類的程式可藉由輸入鍵盤指令來運行。Git-it 便是其中之一，你現在正透過終端機使用它！而 Git 也是另一個例子。你可以在終端機裏藉由指令來存取與操控 Git，不久後你便會這麼做了！</p>
+      <p>&#x9664;&#x4E86;&#x700F;&#x89BD;&#x4F60;&#x7684;&#x96FB;&#x8166;&#xFF0C;&#x4F60;&#x4E5F;&#x53EF;&#x4EE5;&#x5728;&#x7D42;&#x7AEF;&#x6A5F;&#x88CF;&#x4F7F;&#x7528;&#x5177;&#x6709;<strong>&#x7D42;&#x7AEF;&#x6A5F;&#x754C;&#x9762;&#xFF08;command-line interface&#xFF0C;CLI&#xFF09;</strong>&#x7684;&#x7A0B;&#x5F0F;&#xFF0C;&#x9019;&#x985E;&#x7684;&#x7A0B;&#x5F0F;&#x53EF;&#x85C9;&#x7531;&#x8F38;&#x5165;&#x9375;&#x76E4;&#x6307;&#x4EE4;&#x4F86;&#x904B;&#x884C;&#x3002;Git-it &#x4FBF;&#x662F;&#x5176;&#x4E2D;&#x4E4B;&#x4E00;&#xFF0C;&#x4F60;&#x73FE;&#x5728;&#x6B63;&#x900F;&#x904E;&#x7D42;&#x7AEF;&#x6A5F;&#x4F7F;&#x7528;&#x5B83;&#xFF01;&#x800C; Git &#x4E5F;&#x662F;&#x53E6;&#x4E00;&#x500B;&#x4F8B;&#x5B50;&#x3002;&#x4F60;&#x53EF;&#x4EE5;&#x5728;&#x7D42;&#x7AEF;&#x6A5F;&#x88CF;&#x85C9;&#x7531;&#x6307;&#x4EE4;&#x4F86;&#x5B58;&#x53D6;&#x8207;&#x64CD;&#x63A7; Git&#xFF0C;&#x4E0D;&#x4E45;&#x5F8C;&#x4F60;&#x4FBF;&#x6703;&#x9019;&#x9EBC;&#x505A;&#x4E86;&#xFF01;</p>
 
-      <p>在 Git-it 裏你將學會一些基本操作的指令，而在每個步驟中將會解釋這些指令的功用。</p>
+      <p>&#x5728; Git-it &#x88CF;&#x4F60;&#x5C07;&#x5B78;&#x6703;&#x4E00;&#x4E9B;&#x57FA;&#x672C;&#x64CD;&#x4F5C;&#x7684;&#x6307;&#x4EE4;&#xFF0C;&#x800C;&#x5728;&#x6BCF;&#x500B;&#x6B65;&#x9A5F;&#x4E2D;&#x5C07;&#x6703;&#x89E3;&#x91CB;&#x9019;&#x4E9B;&#x6307;&#x4EE4;&#x7684;&#x529F;&#x7528;&#x3002;</p>
 
-      <h2>步驟：建立一個新的 <n>repository</n></h2>
-      <p>你將建立一個新的資料夾，並把它設定成一個 Git <n>repository</n>。</p>
+      <h2>&#x6B65;&#x9A5F;&#xFF1A;&#x5EFA;&#x7ACB;&#x4E00;&#x500B;&#x65B0;&#x7684; <n>repository</n></h2>
+      <p>&#x4F60;&#x5C07;&#x5EFA;&#x7ACB;&#x4E00;&#x500B;&#x65B0;&#x7684;&#x8CC7;&#x6599;&#x593E;&#xFF0C;&#x4E26;&#x628A;&#x5B83;&#x8A2D;&#x5B9A;&#x6210;&#x4E00;&#x500B; Git <n>repository</n>&#x3002;</p>
 
-      <p>為了讓整件事容易一些，把你的資料夾取名為與專案同名。就叫 'hello-world' 好了。</p>
+      <p>&#x70BA;&#x4E86;&#x8B93;&#x6574;&#x4EF6;&#x4E8B;&#x5BB9;&#x6613;&#x4E00;&#x4E9B;&#xFF0C;&#x628A;&#x4F60;&#x7684;&#x8CC7;&#x6599;&#x593E;&#x53D6;&#x540D;&#x70BA;&#x8207;&#x5C08;&#x6848;&#x540C;&#x540D;&#x3002;&#x5C31;&#x53EB; &apos;hello-world&apos; &#x597D;&#x4E86;&#x3002;</p>
 
-      <p>你可以將下列指令一一輸入至終端機。</p>
+      <p>&#x4F60;&#x53EF;&#x4EE5;&#x5C07;&#x4E0B;&#x5217;&#x6307;&#x4EE4;&#x4E00;&#x4E00;&#x8F38;&#x5165;&#x81F3;&#x7D42;&#x7AEF;&#x6A5F;&#x3002;</p>
 
-      <p>建立新資料夾：</p>
+      <p>&#x5EFA;&#x7ACB;&#x65B0;&#x8CC7;&#x6599;&#x593E;&#xFF1A;</p>
       <code>$ mkdir hello-world</code>
 
-      <p>進入這個資料夾：</p>
+      <p>&#x9032;&#x5165;&#x9019;&#x500B;&#x8CC7;&#x6599;&#x593E;&#xFF1A;</p>
       <code>$ cd hello-world</code>
 
-      <p>把這個資料夾設定成一個 Git 專案資料夾</p>
+      <p>&#x628A;&#x9019;&#x500B;&#x8CC7;&#x6599;&#x593E;&#x8A2D;&#x5B9A;&#x6210;&#x4E00;&#x500B; Git &#x5C08;&#x6848;&#x8CC7;&#x6599;&#x593E;</p>
       <code>$ git init</code>
 
-      <p>就是這樣！終端機會回應並切換到下一行。如果你想要確認此資料夾是否已經是個 Git <n>repository</n>，輸入 <code>git status</code>，只要不是顯示 'fatal: Not a git repository...'，那就對了！</p>
+      <p>&#x5C31;&#x662F;&#x9019;&#x6A23;&#xFF01;&#x7D42;&#x7AEF;&#x6A5F;&#x6703;&#x56DE;&#x61C9;&#x4E26;&#x5207;&#x63DB;&#x5230;&#x4E0B;&#x4E00;&#x884C;&#x3002;&#x5982;&#x679C;&#x4F60;&#x60F3;&#x8981;&#x78BA;&#x8A8D;&#x6B64;&#x8CC7;&#x6599;&#x593E;&#x662F;&#x5426;&#x5DF2;&#x7D93;&#x662F;&#x500B; Git <n>repository</n>&#xFF0C;&#x8F38;&#x5165; <code>git status</code>&#xFF0C;&#x53EA;&#x8981;&#x4E0D;&#x662F;&#x986F;&#x793A; &apos;fatal: Not a git repository...&apos;&#xFF0C;&#x90A3;&#x5C31;&#x5C0D;&#x4E86;&#xFF01;</p>
 
       <div class="verify">
-        <h3>確認你完成了所有步驟：</h3><code>git-it verify</code>
-        <h3>前往下一關：</h3><code>git-it</code>
+        <h3>&#x78BA;&#x8A8D;&#x4F60;&#x5B8C;&#x6210;&#x4E86;&#x6240;&#x6709;&#x6B65;&#x9A5F;&#xFF1A;</h3><code>git-it verify</code>
+        <h3>&#x524D;&#x5F80;&#x4E0B;&#x4E00;&#x95DC;&#xFF1A;</h3><code>git-it</code>
       </div>
 
       <div id="git-tips">
-        <h2>撇步</h2>
+        <h2>&#x6487;&#x6B65;</h2>
         <ul>
-          <li><strong>建立一個新資料夾 (或稱做目錄)</strong></li>
-          <code>$ mkdir &#60;FOLDERNAME&#62;</code>
-          <li><strong>進入一個資料夾 (或稱做切換目錄)</strong></li>
-          <code>$ cd &#60;FOLDERNAME&#62;</code>
-          <li><strong>列出資料夾內容</strong></li>
+          <li><strong>&#x5EFA;&#x7ACB;&#x4E00;&#x500B;&#x65B0;&#x8CC7;&#x6599;&#x593E; (&#x6216;&#x7A31;&#x505A;&#x76EE;&#x9304;)</strong></li>
+          <code>$ mkdir &lt;FOLDERNAME&gt;</code>
+          <li><strong>&#x9032;&#x5165;&#x4E00;&#x500B;&#x8CC7;&#x6599;&#x593E; (&#x6216;&#x7A31;&#x505A;&#x5207;&#x63DB;&#x76EE;&#x9304;)</strong></li>
+          <code>$ cd &lt;FOLDERNAME&gt;</code>
+          <li><strong>&#x5217;&#x51FA;&#x8CC7;&#x6599;&#x593E;&#x5167;&#x5BB9;</strong></li>
           <code>$ ls </code>
-          <li><strong>為一個資料夾加上 Git 功能</strong></li>
+          <li><strong>&#x70BA;&#x4E00;&#x500B;&#x8CC7;&#x6599;&#x593E;&#x52A0;&#x4E0A; Git &#x529F;&#x80FD;</strong></li>
           <code>$ git init</code>
         </ul>
       </div>
