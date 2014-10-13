@@ -7,7 +7,7 @@
   "scripts": {
     "build": "node guide/buildpages.js",
     "build-zhtw": "node guide/buildpages.js zhtw",
-    "copy-guide": "cp -r ./guide ./.guide && cp package.json ",
+    "copy-guide": "cp -r ./guide ./.guide",
     "git-co": "git checkout gh-pages && git reset --hard origin/gh-pages",
     "paste-guide": "mv ./.guide/* . && rm -rf ./.guide",
     "git-stage": "npm run copy-guide && npm run git-co && npm run paste-guide",
