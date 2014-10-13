@@ -4,14 +4,14 @@ var glob = require('glob')
 
 var layout = fs.readFileSync(__dirname + '/layout.hbs').toString()
 var thefiles = []
+
+// Take in a language type if any
 var lang = process.argv[2]
+var rawFiles = __dirname + (lang ? '/raw-content-' + lang + '/' : '/raw-content/')
+var builtContent = __dirname + (lang ? '/challenges-' + lang + '/' : '/challenges/')
 
 // I can probably use glob better to avoid
 // finding the right files within the files
-var rawFiles = __dirname + (lang ? '/raw-content-' + lang + '/' : '/raw-content/')
-var builtContent = __dirname + (lang ? '/challenges-' + lang + '/' : '/challenges/')
-console.log(rawFiles, builtContent)
-
 glob("*.html", {cwd: rawFiles}, function (err, files) {
   thefiles = files
   if (err) return console.log(err)
