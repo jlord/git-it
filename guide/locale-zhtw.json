@@ -1,0 +1,33 @@
+{
+  "n": {
+    "repository": "程式庫",
+    "repositories": "程式庫",
+    "branch": "分支",
+    "branches": "分支",
+    "fork": "複本",
+    "pull request": "收取要求",
+    "commit": "提要",
+    "commits": "提要",
+    "upstream": "上游",
+    "feature": "功能",
+    "status": "現況",
+    "diff": "差異",
+    "readme": "讀我檔案",
+    "collaborator": "夥伴",
+    "collaborators": "夥伴們",
+    "add": "新增"
+  },
+  "v": {
+    "fork": "建立複本",
+    "clone": "複製",
+    "push": "推送",
+    "pull": "收取",
+    "commit": "保證",
+    "merge": "合併"
+  },
+  "adj": {
+    "merged": "合併了的",
+    "forked": "複本的",
+    "remote": "遠端的"
+  }
+}
