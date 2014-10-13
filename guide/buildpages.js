@@ -60,7 +60,11 @@ function buildHeader(filename) {
   var title = makeTitleName(filename)
   var source = fs.readFileSync(__dirname + '/partials/header.html').toString()
   var template = Handlebars.compile(source)
-  var content = {challengetitle: title, challengenumber: num }
+  var content = { 
+    challengetitle: title, 
+    challengenumber: num 
+    lang: lang ? '-' + lang : ''
+  }
   return template(content)
 }
 
