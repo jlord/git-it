@@ -13,7 +13,7 @@
     "git-stage": "npm run copy-guide && npm run git-co && npm run paste-guide",
     "git-commit": "git add -A . && git commit -a -m 'gh-pages update'",
     "git-push": "git push origin gh-pages --force && git checkout master",
-    "deploy": "npm run stage && npm run git-commit && npm run git-push"
+    "deploy": "npm run git-stage && npm run git-commit && npm run git-push"
   },
   "repository": {
     "type": "git",
