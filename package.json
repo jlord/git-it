@@ -1,0 +1,38 @@
+{
+  "name": "git-it",
+  "version": "1.5.0",
+  "description": "Terminal app for learning Git and GitHub",
+  "main": "index.js",
+  "bin": "./git-it.js",
+  "scripts": {
+    "build": "node guide/buildpages.js",
+    "build-zhtw": "node guide/buildpages.js zhtw",
+    "copy-guide": "cp -r ./guide ./.guide && cp package.json ",
+    "git-co": "git checkout gh-pages && git reset --hard origin/gh-pages",
+    "paste-guide": "mv ./.guide/* . && rm -rf ./.guide",
+    "git-stage": "npm run copy-guide && npm run git-co && npm run paste-guide",
+    "git-commit": "git add -A . && git commit -a -m 'gh-pages update'",
+    "git-push": "git push origin gh-pages --force && git checkout master",
+    "deploy": "npm run git-co && npm run prep && npm run git-commit && npm run git-push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jlord/git-it.git"
+  },
+  "author": "Jessica Lord",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/jlord/git-it/issues"
+  },
+  "dependencies": {
+    "concat-stream": "~1.2.1",
+    "ecstatic": "^0.5.4",
+    "github-oauth": "0.0.4",
+    "glob": "^3.2.11",
+    "handlebars": "^2.0.0-alpha.4",
+    "marked": "^0.3.2",
+    "request": "~2.30.0",
+    "workshopper-jlord": "^0.0.1",
+    "cheerio": "~0.17.0"
+  }
+}
