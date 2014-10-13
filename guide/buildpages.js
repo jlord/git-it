@@ -2,6 +2,8 @@ var Handlebars = require('handlebars')
 var fs = require('fs')
 var glob = require('glob')
 
+var translateLocale = require('./translate-locale.js')
+
 var layout = fs.readFileSync(__dirname + '/layout.hbs').toString()
 var thefiles = []
 
@@ -28,11 +30,21 @@ function buildPage(files) {
     // shouldn't have to do this if my
     // mapping were correct
     if (!file) return
+
+    // if language, run the noun and verb
+    // translations
+
+
     var content = {
       header: buildHeader(file),
       footer: buildFooter(file),
       body: fs.readFileSync(rawFiles + file).toString()
     }
+
+    if (lang) {
+      content.body = translateLocale(content.body, lang)
+    }
+    
     var shortname = makeShortname(file)
     var template = Handlebars.compile(layout)
     var final = template(content)
@@ -60,9 +72,9 @@ function buildHeader(filename) {
   var title = makeTitleName(filename)
   var source = fs.readFileSync(__dirname + '/partials/header.html').toString()
   var template = Handlebars.compile(source)
-  var content = { 
-    challengetitle: title, 
-    challengenumber: num 
+  var content = {
+    challengetitle: title,
+    challengenumber: num,
     lang: lang ? '-' + lang : ''
   }
   return template(content)
