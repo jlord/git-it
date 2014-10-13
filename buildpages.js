@@ -5,9 +5,14 @@ var glob = require('glob')
 var layout = fs.readFileSync(__dirname + '/layout.hbs').toString()
 var thefiles = []
 
+// Take in a language type if any
+var lang = process.argv[2]
+var rawFiles = __dirname + (lang ? '/raw-content-' + lang + '/' : '/raw-content/')
+var builtContent = __dirname + (lang ? '/challenges-' + lang + '/' : '/challenges/')
+
 // I can probably use glob better to avoid
 // finding the right files within the files
-glob("*.html", {cwd: __dirname + '/raw-content'}, function (err, files) {
+glob("*.html", {cwd: rawFiles}, function (err, files) {
   thefiles = files
   if (err) return console.log(err)
   // var matches = files.map(function(file) {
@@ -23,15 +28,15 @@ function buildPage(files) {
     // shouldn't have to do this if my
     // mapping were correct
     if (!file) return
-    var content = { 
-      header: buildHeader(file), 
-      footer: buildFooter(file), 
-      body: fs.readFileSync(__dirname + '/raw-content/' + file).toString()
+    var content = {
+      header: buildHeader(file),
+      footer: buildFooter(file),
+      body: fs.readFileSync(rawFiles + file).toString()
     }
     var shortname = makeShortname(file)
     var template = Handlebars.compile(layout)
     var final = template(content)
-    fs.writeFileSync(__dirname + '/challenges/' + shortname + 'html', final)
+    fs.writeFileSync(builtContent + shortname + 'html', final)
   })
   // hard coded right now because, reasons
   console.log("Built!")
@@ -75,10 +80,9 @@ function grammarize(name) {
 function buildFooter(file) {
   var num = file.split('/').pop().split('_')[0]
   var data = getPrevious(num)
+  data.lang = lang ? '-' + lang : ''
   var source = fs.readFileSync(__dirname + '/partials/footer.html').toString()
   var template = Handlebars.compile(source)
-  // console.log(data)
-  // console.log(template(data))
   return template(data)
 }
 
@@ -107,7 +111,6 @@ function getPrevious(num) {
       nexturl = file.replace(getridof, '')
     }
   })
-  return {prename: prename, preurl: preurl, 
+  return {prename: prename, preurl: preurl,
       nextname: nextname, nexturl: nexturl}
 }
-
