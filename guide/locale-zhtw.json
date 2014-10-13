@@ -7,6 +7,7 @@
     "branches": "分支",
     "fork": "複本",
     "forks": "複本",
+    "request": "要求",
     "pull request": "收取要求",
     "pull requests": "收取要求",
     "commit": "提要",
@@ -18,13 +19,13 @@
     "readme": "讀我檔案",
     "collaborator": "夥伴",
     "collaborators": "夥伴們",
-    "add": "新增",
     "remote": "遠端",
     "remotes": "遠端",
     "contributing": "貢獻",
     "connections": "連結"
   },
   "v": {
+    "add": "新增",
     "fork": "複製",
     "forked": "複製",
     "clone": "下載",
