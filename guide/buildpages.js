@@ -9,7 +9,7 @@ var lang = process.argv[2]
 // I can probably use glob better to avoid
 // finding the right files within the files
 var rawFiles = __dirname + (lang ? '/raw-content-' + lang + '/' : '/raw-content/')
-var builtContent = __dirname + (lang ? '/chalenges-' + lang + '/' : '/challenges/')
+var builtContent = __dirname + (lang ? '/challenges-' + lang + '/' : '/challenges/')
 console.log(rawFiles, builtContent)
 
 glob("*.html", {cwd: rawFiles}, function (err, files) {
@@ -83,8 +83,6 @@ function buildFooter(file) {
   data.lang = lang ? '-' + lang : ''
   var source = fs.readFileSync(__dirname + '/partials/footer.html').toString()
   var template = Handlebars.compile(source)
-  // console.log(data)
-  // console.log(template(data))
   return template(data)
 }
 
