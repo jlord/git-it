@@ -28,11 +28,11 @@ _這是一些程式開發的必需品，全部都是免費的，並且大部分�
 
 - **Git**，記錄下所有的修改！
  - 如果你用的是 **Windows，下載 [GitHub for Windows](http://windows.github.com)**，它裡頭就包含了 Git。你可以用 **Git Shell** 作為你的終端機。
- - 如果你用的是 **Mac，下載 [GitHub for Mac](http://mac.github.com)**，它裡頭就包含了 Git，另外你需要到 Preferences > Advanced > Install Command Line Tools。
+ - 如果你用的是 **Mac，下載 [GitHub for Mac](http://mac.github.com)**，它裡頭就包含了 Git，另外你需要到 Preferences > Advanced > 點選 Install Command Line Tools 來安裝指令程式。
 - **Node.js** 是 Git-it 程式撰寫所使用的語言，所以必須要安裝了它才有辦法使用 Git-it。Node.js 是一個伺服端的 JavaScript 引擎（你的電腦就是一個伺服器！），而且它會默默的在背景執行，不需要特別啟動。你可以**[在這裡下載 Node](http://nodejs.org/download/)**（直接選擇 **Windows `.msi`** 或是 **Mac `.pkg`** 的選項）。
  - 如果你本來就有安裝 Node 和 npm，記得要把 npm 更新到 v1.4.3 以上的版本。
 - **文字編輯器** 如果你還沒有這樣的程式，最好安裝一個特別用來寫程式的文字編輯器。這邊提供大家一些選項：[Atom](http://www.atom.io)、[Sublime Text 2](http://www.sublimetext.com/2)、[Textmate](http://macromates.com/download)、[Brackets](http://brackets.io/)。
-- **English 設定**，因為 Git-it 內容目前還是以英文為主，如果沒有特別設定為英文可能造成程式無法運行。如果你電腦的設定不是英文，請到 [TROUBLESHOOT.md](https://github.com/jlord/git-it/blob/master/TROUBLESHOOT.md)，頁面最下方有說明該如何設定 Git-it 的語言為英文。
+- **英文設定**，因為 Git-it 內容目前還是以英文為主，如果沒有特別設定為英文可能造成程式無法運行。如果你電腦的設定不是英文，請到 [TROUBLESHOOT.md](https://github.com/jlord/git-it/blob/master/TROUBLESHOOT.md)，頁面最下方有說明該如何設定 Git-it 的語言為英文。
 
 _*Git-it 其實沒有任何關卡需要你「寫程式」，所以如果不想安裝文字編輯器也是沒關係的。每台電腦都有的 TextEdit（Mac）或 Nodepad（Windows）就很足夠了。_
 
