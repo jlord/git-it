@@ -1,0 +1,112 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Git-it Guide</title>
+        <meta name="description" content="learn git and github">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="../assets/imgs/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="../assets/css/style.css">
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+      <!--[if lt IE 8]>
+          <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+
+        <header class="site-header">
+  <div class="nav">
+    <!-- <span class="left hand">☜</span> -->
+    <span class="filledblock"><a href="../index.html">Git-it</a></span>
+    <!-- <span class="right hand">☞</span> -->
+  </div>
+  
+  <div class="wrapper">
+    <div class="challenge-band left">
+      <span class="meta">CHALLENGE</span>
+      <h2>it&#x27;s a small world</h2>
+    </div>
+    <div class="number-band right tar">
+      <span class="meta">NUMBER</span>
+      <h2>8 / 11</h2>
+    <div>
+  </div>
+</header>
+      <div class="wrapper">
+
+              <div class="challenge">
+        <h2>關卡內容：</h2>
+        <p>幫專案新增 <n>collaborator</n>。</p>
+      </div>
+
+      <h2>寫程式邊交朋友</h2>
+
+      <p>和別人一起在 GitHub 上合作寫程式是最棒的事情了，因為 GitHub 讓來自世界各地的人一起工作變得超簡單。</p>
+
+      <p><strong><n>Collaborators</n></strong> 是被賦予特定 <n>repository</n> 編輯權限的使用者。專案要新增 <n>collaborators</n>，先到 <n>repository</n> 的 GitHub 頁面，按下右邊側欄的 'Settings'（板手和螺絲起子的圖示）。選擇 'Collaborators' 分頁。輸入帳號，按 Enter 或是用滑鼠按 'Add' 就完成了喔。</p>
+
+      <img src="../assets/imgs/reporobot.png" width="600">
+
+      <h2>步驟： 嗨！Reporobot！</h2>
+
+      <p>去第六關 <adj>forked</adj> Patchwork <n>repository</n> 的 GitHub 頁面，新增一位協作者：'reporobot'。網址看起來會像是下面這樣，但 'YOURUSERNAME' 會換成你的帳號哦。</p>
+
+      <code>
+        github.com/YOURUSERNAME/patchwork/settings/collaboration</code>
+
+      <div class="verify">
+        <h3>確認你完成了所有步驟：</h3><code>git-it verify</code>
+        <h3>前往下一關：</h3><code>git-it</code>
+      </div>
+
+      <div id="git-tips">
+        <h2>撇步</h2>
+        <ul>
+          <li><strong>從 <n>remote</n> <v>pull</v> 更新回來</strong></li>
+          <code>$ git pull &#60;REMOTENAME&#62; &#60;BRANCH&#62;</code>
+          <li><strong>複製 <n>repository</n> 到自己的電腦裡</strong></li>
+          <code>$ git clone &#60;URL&#62;</code>
+          <li><strong>新增 <n>remote</n> <n>connections</n></strong></li>
+          <code>$ git remote add &#60;REMOTENAME&#62; &#60;URL&#62;</code>
+          <li><strong>檢視現有的 <n>remote</n> <n>connections</n></strong></li>
+          <code>$ git remote -v</code>
+        </ul>
+      </div>
+
+
+        <div class="prenext">
+  <div class="pre lef meta">
+    <a href="branches_arent_just_for_birds.html">branches aren&#x27;t just for birds</a>
+    <div>⤶ </div>
+  </div>
+  <div class="next tar right meta">
+    <a href="pull_never_out_of_date.html">pull never out of date</a>
+    <div>⤷</div>
+  </div>
+</div>
+<footer>
+  <ul>
+    <li class="meta"><a href="../index-zhtw.html"><strong>Git-it Challenges</strong></a></li>
+    <li class="meta"><a href="../about.html">About</a></li>
+    <li class="meta"><a href="../dictionary.html">Dictionary</a></li>
+    <li class="meta"><a href="../resources.html">Resources</a></li>
+    <li class="meta">
+      <a href="http://github.com/jlord/git-it/issues/new" target="_blank">Open an Issue</a>
+    </li>
+  </ul>
+</footer>
+
+      </div>
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-52690821-1', 'auto');
+        ga('send', 'pageview');
+
+      </script>
+    </body>
+</html>
