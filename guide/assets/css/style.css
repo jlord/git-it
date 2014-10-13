@@ -266,3 +266,17 @@ blockquote {
 img {
   margin: 30px 0 18px;
 }
+
+n, v, adj {
+  position: relative;
+}
+
+.superscript {
+  font-size: 0.6em;
+  position: absolute;
+  top: -18%;
+  line-height: 0.6em;
+  font-weight: normal;
+  white-space: nowrap;
+  opacity: 0.8;
+}

@@ -32,7 +32,7 @@
     "push": "推送",
     "close": "關閉",
     "pull": "收取",
-    "commit": "保證",
+    "commit": "提交",
     "merge": "合併",
     "merged": "合併",
     "checkout": "結帳",
