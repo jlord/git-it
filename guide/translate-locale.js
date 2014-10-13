@@ -23,7 +23,6 @@ module.exports = function translateLocale(fileContent, lang) {
         return console.log("Didn't find trasnlation for ", type, word)
       } else {
         translation = translations[type][word]
-        return translation
       }
 
       var span = "<span class='superscript'>" + translation + "</span>"
