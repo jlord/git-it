@@ -274,9 +274,11 @@ n, v, adj {
 .superscript {
   font-size: 0.6em;
   position: absolute;
-  top: -20%;
+  bottom: 1.3em;
   line-height: 0.6em;
   font-weight: normal;
   white-space: nowrap;
   opacity: 0.8;
+  width: 100%
+  text-align: center;
 }
