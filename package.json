@@ -32,7 +32,7 @@
     "handlebars": "^2.0.0-alpha.4",
     "marked": "^0.3.2",
     "request": "~2.30.0",
-    "workshopper-jlord": "^0.0.1",
+    "workshopper-jlord": "^0.0.5",
     "cheerio": "~0.17.0"
   }
 }
