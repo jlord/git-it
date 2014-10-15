@@ -56,7 +56,7 @@ $ git-it
 #### 運作方式
 
 - 執行 `git-it` 後，就會出現關卡列表，按上下鍵頭 ↑↓ 來選擇關卡，然後按 'enter' 進入關卡。
-- 關卡內容出現後，可以看到視窗最下面有個提示可以把教學網頁打開。 _也有一個網頁版本的[教學網頁](http://jlord.github.io/git-it)._
+- 關卡內容出現後，可以看到視窗最下面有個提示可以把教學網頁打開。 _也有一個網頁版本的[教學網頁](http://jlord.github.io/git-it/index-zhtw.html)._
 
 ![img](https://raw.githubusercontent.com/jlord/git-it/master/guide-ss.png)
 
