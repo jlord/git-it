@@ -17,8 +17,8 @@ _Common bumps in the road for users - helpful to know as a mentor!_
 
 ## Git Directories
 
-- Check a user **hasn't `git init` inside of Dropbox** or another **Git repository**.
-- Check a user **hasn't `git init` their entire system**.
+- Check a user **`git init` in an empty directory**.
+- Check a user **hasn't `git init` inside of another Git repository**.
 
 ## Branch names and Filenames
 
