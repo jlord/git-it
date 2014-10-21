@@ -17,8 +17,8 @@ _Common bumps in the road for users - helpful to know as a mentor!_
 
 ## Git Directories
 
-- Check a user **hasn't `git init` inside of Dropbox** or another **Git repository**.
-- Check a user **hasn't `git init` their entire system**.
+- Check a user **`git init` in an empty directory**.
+- Check a user **hasn't `git init` inside of another Git repository**.
 
 ## Branch names and Filenames
 
@@ -39,3 +39,13 @@ _Common bumps in the road for users - helpful to know as a mentor!_
   2. Make the changes (They may even need to remove and then re-add @reporobot as a contributor to their fork to re-trigger his artwork edits);
   2. Push those changes to their branch on their fork;
   3. Re-open their pull request (from the same page the closed it on) which will trigger @reporobot again.
+
+## System with Non-English Locale
+
+1. Make sure you have an English locale available on your system, e.g. `en_US.UTF-8`. If it is not available yet, you need to install it.
+2. Enforce the English locale to be used when calling *git-it*. In case of Unix-based systems, you can conveniently set up an `alias`.
+
+**Setup for Debian-based systems**
+
+Set up an alias for *git-it* to be used with this locale by adding the following line to `~/.bashrc`: `alias git-it="LANG=en_US.UTF-8 git-it"`.
+You should be fine once the alias is set up. In case the locale is not available, you may run `dpkg-reconfigure locales` as root and add an English locale manually, e.g. `en_US.UTF-8`.

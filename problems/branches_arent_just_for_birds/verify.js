@@ -38,10 +38,19 @@ function checkPush(branchname) {
 }
 
 function findFile() {
-  fs.readdir(path.join(process.cwd(), "/contributors/"), function(err, files) {
-    if (err) return console.log(err)
-    var allFiles = files.join()
-    if (allFiles.match(username)) console.log("File in contributors folder!")
-    else console.log("File NOT in contribs.. folder!")
-  })
+  // see if user is already within /contributors
+  if (process.cwd().match("contributors")) {
+    check(process.cwd())
+  } else {
+    check(path.join(process.cwd(), "/contributors/"))
+  }
+
+  function check(userspath) {
+    fs.readdir(userspath, function(err, files) {
+      if (err) return console.log(err)
+      var allFiles = files.join()
+      if (allFiles.match(username)) console.log("File in contributors folder!")
+      else console.log("File NOT in contribs.. folder!")
+    })
+  }
 }

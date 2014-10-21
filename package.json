@@ -1,11 +1,19 @@
 {
   "name": "git-it",
-  "version": "1.5.0",
+  "version": "1.6.1",
   "description": "Terminal app for learning Git and GitHub",
   "main": "index.js",
   "bin": "./git-it.js",
   "scripts": {
-    "build": "node guide/buildpages.js"
+    "build": "node guide/buildpages.js",
+    "build-zhtw": "node guide/buildpages.js zhtw",
+    "copy-guide": "cp -r ./guide ./.guide",
+    "git-co": "git checkout gh-pages && git reset --hard origin/gh-pages",
+    "paste-guide": "cp -r ./.guide/* .. && rm -rf ./.guide",
+    "git-stage": "npm run copy-guide && npm run git-co && npm run paste-guide",
+    "git-commit": "git add -A . && git commit -a -m 'gh-pages update'",
+    "git-push": "git push origin gh-pages --force && git checkout master",
+    "deploy": "npm run git-stage && npm run git-commit && npm run git-push"
   },
   "repository": {
     "type": "git",
@@ -24,6 +32,7 @@
     "handlebars": "^2.0.0-alpha.4",
     "marked": "^0.3.2",
     "request": "~2.30.0",
-    "workshopper-jlord": "^0.0.1"
+    "workshopper-jlord": "^0.0.6",
+    "cheerio": "~0.17.0"
   }
 }
