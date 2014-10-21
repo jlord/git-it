@@ -1,115 +1,113 @@
   {cyan}{bold}
   HELPFUL THINGS{/bold}{/cyan}
-  
-  - Get stuck? Find an error? File and issue at:
+
+  - バグを見つけた、どう進めたらいいかわからない場合ここへissueを作成してください！:
   {bold}github.com/jlord/git-it{/bold}
 
   {cyan}
-  GIT COMMANDS
+  GITコマンド
   ------------{/cyan}
-  
-  {cyan}Configuration{/cyan}
 
-  {bold}Configure your username{/bold}
+  {cyan}おめでとうございます{/cyan}
+
+  {bold}ユーザ名を設定{/bold}
 
   $ git config --global user.name "Your Name"
-  
-  {bold}Configure your username{/bold}
+
+  {bold}ユーザ名を設定{/bold}
 
   $ git config --global user.username githubusername
 
-  {bold}Configure your email{/bold}
+  {bold}メールアドレスを設定{/bold}
 
   $ git config --global user.email youremail@example.com
-  
-  {cyan}Check in{/cyan}
 
-  {bold}Check status of changes to a repository{/bold}
+  {cyan}チェックイン関連{/cyan}
+
+  {bold}リポジトリの状況を確認する{/bold}
 
   $ git status
-  
-  {bold}View changes between commits{/bold}
+
+  {bold}変更の差分を表示する{/bold}
 
   $ git diff
 
-  {bold}Add a file's changes to be commited{/bold}
+  {bold}ファイルをコミットに追加する{/bold}
 
   $ git add <FILENAME>
 
-  {bold}To add all files' changes{/bold}
+  {bold}すべてのファイルをコミットに追加する{/bold}
 
   $ git add .
 
-  {bold}To commit (aka save) the changes you've added with a short
-  message describing the changes{/bold}
+  {bold}変更をコメントを付けてコミット（保存）する{/bold}
 
   $ git commit -m "your commit message"
-  
-  {cyan}Remotes{/cyan}
 
-  {bold}To push your changes to a remote{/bold}
+  {cyan}リモート関連{/cyan}
+
+  {bold}リモートにPushする{/bold}
 
   $ git push <REMOTENAME> <BRANCHNAME>
 
-  {bold}To pull in changes from remote{/bold}
+  {bold}リモートから変更をPullする{/bold}
 
   $ git pull <REMOTENAME> <BRANCHNAME>
-  
-  {bold}To set a URL for a remote{/bold}
+
+  {bold}リモートにURLを設定する{/bold}
 
   $ git remote set-url <REMOTENAME> <BRANCHNAME>
-  
-  {bold}Add a remote{/bold}
+
+  {bold}リモートを追加(Add)する{/bold}
 
   $ git remote add <REMOTENAME> <BRANCHNAME>
-  
-  {cyan}Branches{/cyan}
 
-  {bold}Merge a branch into current branch{/bold}
+  {cyan}ブランチ関連{/cyan}
+
+  {bold}ブランチを、現在使っているブランチにマージする{/bold}
 
   $ git merge <BRANCHNAME>
 
-  {bold}Change the branch you're working on{/bold}
+  {bold}ブランチを変更する{/bold}
 
   $ git checkout <BRANCHNAME>
 
-  {bold}Delete a local branch{/bold}
-  
+  {bold}ローカルのブランチを削除する{/bold}
+
   $ git branch -D <BRANCHNAME>
 
-  {bold}Delete a remote branch{/bold}
+  {bold}リモートのブランチを削除する{/bold}
 
   $ git push <REMOTENAME> --delete <BRANCHNAME>
 
   {cyan}
-  BASH COMMANDS
+  BASHコマンド
   -------------{/cyan}
 
-  {bold}Make a new folder (aka directory){/bold}
+  {bold}新しいフォルダ（ディレクトリ）を作成する{/bold}
 
   $ mkdir <FOLDERNAME>
 
-  {bold}Navigate into an existing folder (aka change directory){/bold}
+  {bold}ディレクトリを移動する(Change Directory){/bold}
 
   $ cd <FOLDERNAME>
-  
-  {bold}Back out of a folder/directory{/bold}
-  
+
+  {bold}一つ前のディレクトリに移動する{/bold}
+
   $ cd ..
-  
-  {bold}Back out all the way to the root directory{/bold}
-  
+
+  {bold}ホームディレクトリに移動する{/bold}
+
   $ cd
 
-  {bold}List the items in a folder{/bold}
-  
-  $ ls 
+  {bold}フォルダ内のファイルのリストを表示する{/bold}
 
-  {bold}Remove (delete) a file{/bold}
+  $ ls
+
+  {bold}ファイルを削除する{/bold}
 
   $ rm <FILENAME>
 
-  {bold}Remove (delete) a folder{/bold}
+  {bold}フォルダを削除する{/bold}
 
   $ rm -rf <FOLDERNAME>
- 
