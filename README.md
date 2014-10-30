@@ -57,7 +57,7 @@ $ git-it
 
 #### How it Works
 
-- Once you've ran `git-it` and the menu has loaded, use the arrows ↑↓ to select the first challenge and press 'enter'.
+- Once you've run `git-it` and the menu has loaded, use the arrows ↑↓ to select the first challenge and press 'enter'.
 - With the challenge loaded, follow the instructions at the bottom of the input to open the guide. _Preview a web hosted version of the guide [here](http://jlord.github.io/git-it)._
 
 ![img](https://raw.githubusercontent.com/jlord/git-it/master/guide-ss.png)
