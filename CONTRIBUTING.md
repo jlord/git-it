@@ -4,7 +4,7 @@ Details on the [app](https://github.com/jlord/git-it/blob/master/CONTRIBUTING.md
 
 ## The App
 
-- Git-it is a terminal app built in the [nodeschoo.io](http://www.nodeschool.io) style with a branch on my [fork](https://github.com/jlord/workshopper/tree/verify) of the [workshopper module](https://github.com/rvagg/workshopper). I've forked it to make changes due to the fact that unlike the other workshopper apps, users aren't creating code to be tested. They are, instead, doing things with Git which can be verified through Git.
+- Git-it is a terminal app built in the [nodeschool.io](http://www.nodeschool.io) style with a branch on my [fork](https://github.com/jlord/workshopper/tree/verify) of the [workshopper module](https://github.com/rvagg/workshopper). I've forked it to make changes due to the fact that unlike the other workshopper apps, users aren't creating code to be tested. They are, instead, doing things with Git which can be verified through Git.
 
 - For the most part, challenges are verified using Git itself and comparing the output to the expected output.
 
