@@ -1,6 +1,6 @@
 # Git-it
 
-![ss](https://raw2.github.com/jlord/git-it/master/git-it-ss.png)
+![ss](https://raw.githubusercontent.com/jlord/git-it/master/git-it-ss.png)
 
 A [workshopper](https://github.com/rvagg/workshopper) module for learning Git and GitHub - Social coding, y'all.
 
@@ -18,7 +18,7 @@ These modules run a little app in your terminal and users work their way through
 
 This app runs in your Terminal (Mac) or Bash (Windows) and has challenges for learning Git and GitHub. It uses the _real_ terminal (so you'll be learning the awesome command line), it uses _real_ Git and GitHub which means when you finish all of the challenges you'll have _real_ repositories on your GitHub account and green squares on your [contribution chart](https://github.com/blog/1360-introducing-contributions).
 
-![contributions](https://raw2.github.com/jlord/git-it/master/ghcc.png)
+![contributions](https://raw.githubusercontent.com/jlord/git-it/master/ghcc.png)
 
 See what topics are covered in Git-it on the [challenge table of contents](http://jlord.github.io/git-it) within the Git-it guide.
 
@@ -65,7 +65,7 @@ $ git-it
 - Read the instructions in the guide and use your terminal to complete the tasks.
 - When you're done with a challenge, type `git-it verify` in terminal.
 - If the challenge components were not completed correctly, Git-it returns some text to help you know what went wrong.
-- Run `git-it` again to load the menu and select the next challenge! 
+- Run `git-it` again to load the menu and select the next challenge!
 
 **If you have any questions about something, just create a [new issue](https://github.com/jlord/git-it/issues/new) or visit the [troubleshooting doc](https://github.com/jlord/git-it/blob/master/TROUBLESHOOT.md).**
 
