@@ -280,3 +280,7 @@ n, v, adj {
   white-space: nowrap;
   opacity: 0.8;
 }
+
+.u-inline-block {
+  display: inline-block;
+}
