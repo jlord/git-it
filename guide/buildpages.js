@@ -69,13 +69,16 @@ function makeTitleName(filename) {
 
 function buildHeader(filename) {
   var num = filename.split('/').pop().split('_')[0]
+  var data = getPrevious(num)
   var title = makeTitleName(filename)
   var source = fs.readFileSync(__dirname + '/partials/header.html').toString()
   var template = Handlebars.compile(source)
   var content = {
     challengetitle: title,
     challengenumber: num,
-    lang: lang ? '-' + lang : ''
+    lang: lang ? '-' + lang : '',
+    preurl: data.preurl,
+    nexturl: data.nexturl
   }
   return template(content)
 }
