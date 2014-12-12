@@ -1,6 +1,6 @@
 # Contributing
 
-Details on the [app](https://github.com/jlord/git-it/blob/master/CONTRIBUTING.md#the-guide) and the [guide](https://github.com/jlord/git-it/blob/master/CONTRIBUTING.md#the-app) —
+Details on the [app](https://github.com/jlord/git-it/blob/master/CONTRIBUTING.md#the-app) and the [guide](https://github.com/jlord/git-it/blob/master/CONTRIBUTING.md#the-guide) —
 
 ## The App
 
