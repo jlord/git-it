@@ -23,8 +23,23 @@ body {
   text-align: right;
 }
 
+.u-posFixed {
+  position: fixed;
+}
+
 li {
   padding-bottom: 4px;
+}
+
+.nav {
+  width: 100%;
+  background-color: #fafafa;
+  top: 0;
+}
+
+.wrap-width {
+  width: 600px;
+  margin: auto;
 }
 
 .wrapper {
@@ -34,20 +49,17 @@ li {
 
 .site-header {
   font-size: 20px;
-  margin-bottom: 40px;
   background: #fafafa;
-  padding: 0 0 30px 0;
   overflow: auto;
-  /*text-align: center;*/
 }
 
 .hand {
   font-size: 40px;
-  padding: 9px 12px;
+  padding: 4px 0;
   color: #0087ff;
 }
 
-.challenge-band h2, .number-band h2 {
+.challenge-name {
   text-transform: capitalize;
   font-weight: 900;
   color: #0087ff;
@@ -81,7 +93,7 @@ li {
   text-shadow: rgb(255, 255, 255) 0px 0px 5px;
 }
 
-.site-header .meta, footer .meta, .prenext .meta {
+.all-caps {
   font-size: 12px;
   text-transform: uppercase;
   font-family: Source Sans Pro;
@@ -96,7 +108,6 @@ h1, h2, h3, h4, .gitit, .toc {
 }
 
 h1, h2, h3, h4 {
-  /*text-align: center;*/
   margin-top: 50px;
 }
 
@@ -142,11 +153,6 @@ code, .outof {
   white-space: nowrap;
 }
 
-pre {
-  background-color: #fafafa;
-}
-
-
 footer {
   border-top: 3px solid #0087ff;
   margin: 20px 0;
@@ -161,27 +167,11 @@ footer ul {
 
 footer ul li {
   display: inline-block;
-  padding-right: 12px;
-}
-
-.pre, .next {
-  text-transform: capitalize;
-  display: inline-block;
-  color: #0087ff;
+  padding: 0 6px;
 }
 
 .prenext {
   overflow: auto;
-}
-
-hr {
-  border: 0;
-  height: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-/*  border: 0;
-  border-bottom: 1px dashed #ccc;
-  background: #999;*/
 }
 
 .challenge-desc {
@@ -206,10 +196,6 @@ hr {
   border-color: #0087ff;
 }
 
-#git-tips h4, .didnt-pass h4 {
-  margin-top: 0;
-}
-
 #git-tips li {
   margin-top: 12px;
 }
@@ -226,11 +212,15 @@ hr {
 }
 
 .verify {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin: 30px 0;
 }
 
-.challenge h2, .verify h3, #git-tips h2, .didnt-pass h2 {
+#git-tips h2,
+#git-tips h4,
+.didnt-pass h2,
+.didnt-pass h4,
+.challenge h2,
+.verify h3 {
   margin-top: 0;
 }
 
