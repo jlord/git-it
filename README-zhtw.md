@@ -18,7 +18,7 @@ Git-it 是一個帶領你學習 Git 和 GitHub 的 [workshopper](https://github.
 
 ![contributions](https://raw.githubusercontent.com/jlord/git-it/master/ghcc.png)
 
-你可以到 [Git-it 的挑戰列表](http://jlord.github.io/git-it)中看到全部的關卡以及說明。
+你可以到 [Git-it 的挑戰列表](http://jlord.github.io/git-it/index-zhtw.html)中看到全部的關卡以及說明。
 
 ---
 
