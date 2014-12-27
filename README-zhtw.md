@@ -1,6 +1,6 @@
 # Git-it
 
-![ss](https://raw2.github.com/jlord/git-it/master/git-it-ss.png)
+![ss](https://raw.githubusercontent.com/jlord/git-it/master/git-it-ss.png)
 
 Git-it 是一個帶領你學習 Git 和 GitHub 的 [workshopper](https://github.com/rvagg/workshopper) 程式。在終端機中執行，帶領使用者經過一個一個的關卡。[nodeschool.io](http://nodeschool.io) 有更多相關的資訊。
 
@@ -16,7 +16,7 @@ Git-it 是一個帶領你學習 Git 和 GitHub 的 [workshopper](https://github.
 
 這個程式會在你的終端機（Mac）或提示指令字元（Windows）中執行。Git-it 中包含很多關卡，每一個關卡會一步步帶領你學習 Git 和 GitHub。這個程式用的是真正現實生活中在寫程式時會用到的「終端機指令」、「Git」、和「GitHub」，中間完全沒有「模擬器」，代表你過程中安裝的軟體、學到的指令、開啟的專案，都將會是立刻就可以使用的技術，而且讓你的[貢獻圖表](https://github.com/blog/1360-introducing-contributions)上真的有個小綠方塊！
 
-![contributions](https://raw2.github.com/jlord/git-it/master/ghcc.png)
+![contributions](https://raw.githubusercontent.com/jlord/git-it/master/ghcc.png)
 
 你可以到 [Git-it 的挑戰列表](http://jlord.github.io/git-it)中看到全部的關卡以及說明。
 
