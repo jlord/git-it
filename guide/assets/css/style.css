@@ -65,39 +65,32 @@ li {
   color: #0087ff;
 }
 
-.site-header .gitit {
+.site-header {
   border-bottom-width: 3px;
 }
 
 .filledblock {
-  margin: 0 auto;
-  text-align: center;
   display: inline-block;
   padding: 4px 10px;
-  font-family: Source Sans Pro;
   font-weight: 900;
 }
 
 .filledblock:hover {
   background: #4BABFF;
-}
-
-.filledblock:hover a{
   color: #fff;
-  text-shadow: rgb(255, 255, 255) 0px 0px 5px;
+  text-shadow: #fff 0px 0px 5px;
 }
 
 .all-caps {
   font-size: 12px;
   text-transform: uppercase;
-  font-family: Source Sans Pro;
 }
 
 .site-header h2 {
   margin-top: 12px;
 }
 
-h1, h2, h3, h4, .gitit, .toc {
+h1, h2, h3, h4, .toc {
   font-family: "Source Sans Pro";
 }
 
