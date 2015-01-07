@@ -7,24 +7,24 @@ body {
   margin: 0;
 }
 
-.right {
+.u-floatRight {
   float: right;
 }
 
-.left {
+.u-floatLeft {
   float: left;
 }
 
-.tar {
+.u-textCenter {
+  text-align: center;
+}
+
+.u-textRight {
   text-align: right;
 }
 
 li {
   padding-bottom: 4px;
-}
-
-.nav {
-  text-align: center;
 }
 
 .wrapper {
@@ -44,7 +44,7 @@ li {
 .hand {
   font-size: 40px;
   padding: 9px 12px;
- /* color: #ff00ff;*/
+  color: #0087ff;
 }
 
 .challenge-band h2, .number-band h2 {
@@ -281,6 +281,6 @@ n, v, adj {
   opacity: 0.8;
 }
 
-.u-inline-block {
+.u-inlineBlock {
   display: inline-block;
 }
