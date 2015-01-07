@@ -6,13 +6,17 @@ _First, make sure once you've cloned `git-it` that you run `npm-install` to fetc
 
 Edit `.html` files in /raw-content.
 
-### To Rebuild Pages
+### To Rebuild all pages
 
 In `/git-it` in terminal, run `npm run build`.
 
-#### Traditional Chinese
+#### English only
 
-To build the Chinese version, run `npm run build-zhtw`.
+In `/git-it` in terminal, run `npm run build-english`.
+
+#### Traditional Chinese only
+
+In `/git-it` in terminal, run `npm run build-zhtw`.
 
 ### To Edit Styles and Layouts
 
