@@ -75,7 +75,7 @@
 
   {bold}Delete a local branch{/bold}
   
-  $ git branch -D <BRANCHNAME>
+  $ git branch -d <BRANCHNAME>
 
   {bold}Delete a remote branch{/bold}
 
