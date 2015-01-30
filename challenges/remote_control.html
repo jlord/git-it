@@ -16,21 +16,27 @@
       <![endif]-->
 
         <header class="site-header">
-  <div class="nav">
-    <!-- <span class="left hand">☜</span> -->
-    <span class="filledblock"><a href="../index.html">Git-it</a></span>
-    <!-- <span class="right hand">☞</span> -->
+  <div class="nav u-posFixed">
+    <div class="wrap-width u-textCenter">
+      <a href="githubbin.html"
+        <span class="u-floatLeft hand">☜</span>
+      </a>
+      <a class="filledblock" href="../index.html">Git-it</a>
+      <a href="forks_and_clones.html"
+        <span class="u-floatRight hand">☞</span>
+      </a>
+    </div>
   </div>
   
   <div class="wrapper">
-    <div class="challenge-band left">
-      <span class="meta">CHALLENGE</span>
-      <h2>remote control</h2>
+    <div class="u-floatLeft">
+      <span class="all-caps">CHALLENGE</span>
+      <h2 class="challenge-name">remote control</h2>
     </div>
-    <div class="number-band right tar">
-      <span class="meta">NUMBER</span>
-      <h2>5 / 11</h2>
-    <div>
+    <div class="u-floatRight u-textRight">
+      <span class="all-caps">NUMBER</span>
+      <h2 class="challenge-name">5 / 11</h2>
+    </div>
   </div>
 </header>
       <div class="wrapper">
@@ -92,7 +98,7 @@
     initialized as a Git repository in the earlier challenge, you
     want to tell Git the location of the remote version on GitHub's servers. You can have multiple remotes so each requires a name. For your main one, this is commonly named <code>origin</code>.</p>
 
-    <code>$ git remote add origin &#60;URLFROMGITHUB&#62;</code>
+    <code>$ git remote add origin &lt;URLFROMGITHUB&gt;</code>
 
     <p>Your <strong>local</strong> repository now knows where your <strong>remote</strong> one named 'origin' lives on GitHub's servers. Think of it as adding a name and address on speed dial — now when you need to send something there, you can.</p>
 
@@ -103,7 +109,7 @@
       just need to tell it what URL to associate with origin. Use this
       command instead of the 'add' one above:</p>
 
-    <code>$ git remote set-url origin &#60;URLFROMGITHUB&#62;</code>
+    <code>$ git remote set-url origin &lt;URLFROMGITHUB&gt;</code>
     </blockquote>
 
     <h2>Step: Push Work to your Remote</h2>
@@ -133,36 +139,38 @@
       <h2>Tips</h2>
       <ul>
         <li><strong>Add remote connections</strong></li>
-        <code>$ git remote add &#60;REMOTENAME&#62; <URL></code>
+        <code>$ git remote add &lt;REMOTENAME&gt; &lt;URL&gt;</code>
         <li><strong>Set a URL to a remote</strong></li>
-        <code>$ git remote set-url &#60;REMOTENAME&#62; <URL></code>
+        <code>$ git remote set-url &lt;REMOTENAME&gt; &lt;URL&gt;</code>
         <li><strong>Pull in changes</strong></li>
-        <code>$ git pull &#60;REMOTENAME&#62; &#60;BRANCHNAME&#62;</code>
+        <code>$ git pull &lt;REMOTENAME&gt; &lt;BRANCHNAME&gt;</code>
         <li><strong>View remote connections</strong></li>
         <code>$ git remote -v</code>
         <li><strong>Push changes</strong></li>
-        <code>$ git push &#60;REMOTENAME&#62; <BRANCH></code>
+        <code>$ git push &lt;REMOTENAME&gt; &lt;BRANCH&gt;</code>
       </ul>
     </div>
 
 
         <div class="prenext">
-  <div class="pre lef meta">
-    <a href="githubbin.html">GitHubbin</a>
+  <div class="u-floatLeft">
+    <a href="githubbin.html" class="u-inline-block all-caps">GitHubbin
     <div>⤶ </div>
+    </a>
   </div>
-  <div class="next tar right meta">
-    <a href="forks_and_clones.html">forks and clones</a>
+  <div class="u-textRight u-floatRight">
+    <a href="forks_and_clones.html" class="u-inlineBlock all-caps">forks and clones
     <div>⤷</div>
+    </a>
   </div>
 </div>
 <footer>
   <ul>
-    <li class="meta"><a href="../index.html"><strong>Git-it Challenges</strong></a></li>
-    <li class="meta"><a href="../about.html">About</a></li>
-    <li class="meta"><a href="../dictionary.html">Dictionary</a></li>
-    <li class="meta"><a href="../resources.html">Resources</a></li>
-    <li class="meta">
+    <li class="all-caps"><a href="../index.html"><strong>Git-it Challenges</strong></a></li>
+    <li class="all-caps"><a href="../about.html">About</a></li>
+    <li class="all-caps"><a href="../dictionary.html">Dictionary</a></li>
+    <li class="all-caps"><a href="../resources.html">Resources</a></li>
+    <li class="all-caps">
       <a href="http://github.com/jlord/git-it/issues/new" target="_blank">Open an Issue</a>
     </li>
   </ul>
