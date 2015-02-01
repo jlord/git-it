@@ -10,7 +10,7 @@
   
   {cyan}Configuration{/cyan}
 
-  {bold}Configure your username{/bold}
+  {bold}Configure your name{/bold}
 
   $ git config --global user.name "Your Name"
   
