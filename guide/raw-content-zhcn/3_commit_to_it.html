@@ -1,0 +1,54 @@
+      <div class="challenge">
+        <h2>关卡內容：</h2>
+        <p>在你的 <n>repository</n> 中建立一个新文件，新增一些内容到那个文件并且将那些修改 <v>commit</v> 到 Git 中。
+      </div>
+
+      <h2>步骤：建立一个新文件</h2>
+
+      <p>现在你有了一个 <n>repository</n> 了，新增一个文件到里头吧！</p>
+
+      <p>打开一个文本编辑器。现在开始写几行文字，说声Hi之类的，并将文件存储为 <code>readme.txt</code> 到你在上个挑战中所建立的 'hello-world' 文件夹。</p>
+
+      <h2>步骤：<n>status</n>、<v>add</v> 及 <v>commit</v> 修改</h2>
+      <p>接着检查你的 <n>repository</n> 的 <strong><n>status</n></strong>，看看是否在里头有任何修改。回到你的终端，应该还在你刚刚所建立的 'hello-world' 文件夹里头，直接用这个命令查看状态：</p>
+
+      <p><code>$ git status</code></p>
+
+      <p>接着将刚刚建立的文件，<v>add</v> 进你想 <strong><v>commit</v></strong>（或存储）的修改。
+
+      <p><code>$ git add readme.txt</code></p>
+
+      <p>最后，将那些修改 <v><strong>commit</strong></v> 到 <n>repository</n> 的历史记录当中，并随附上一个简短的改动说明。</p>
+
+      <p><code>$ git commit -m "&#60;your commit message&#62;"</code></p>
+
+      <h2>步骤：进行更多修改</h2>
+
+      <p>现在再多写一行文字到 <code>readme.txt</code> 之中并存储。</p>
+
+      <p>在终端里你可以查看有哪些 <strong><n>diff</n></strong> 存在与现在的文件以及上次你所 <v>commit</v> 的文件之间。</p>
+
+      <p><code>$ git diff</code></p>
+
+      <p>利用你刚刚所学到的知识，<v>commit</v> 这个最新的修改。</p>
+
+      <div class="verify">
+        <h3>确认你完成了所有步骤：</h3><code>git-it verify</code>
+        <h3>前往下一关：</h3><code>git-it</code>
+      </div>
+
+      <div id="git-tips">
+        <h2>提示</h2>
+        <ul>
+          <li><strong>检查 <n>repository</n> 中的修改 <n>status</n></strong></li>
+          <li><code>$ git status</code></li>
+          <li><strong>查看对文件的修改</strong></li>
+          <li><code>$ git diff</code></li>
+          <li><strong>准备 <v>commit</v> 对于一个文件的修改</strong></li>
+          <li><code>$ git add &#60;FILENAME&#62;</code></li>
+          <li><strong>准备 <v>commit</v> 对于所有文件的修改</strong></li>
+          <li><code>$ git add .</code></li>
+          <li><strong><v>commit</v>(或存储）您所准备好的修改并附上一个简短的改动说明</strong></li>
+          <li><code>$ git commit -m "&#60;your commit message&#62;"</code></li>
+        <ul>
+      </div>

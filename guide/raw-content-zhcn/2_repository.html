@@ -1,0 +1,57 @@
+      <div class="challenge">
+        <h2>关卡内容：</h2>
+        <p>在自己的电脑上建立一个新的 <n>repository</n></p>
+      </div>
+
+      <h2><n>Repository</n></h2>
+
+      <p>一个 <strong><n>repository</n></strong> 其实就是一个项目。你可以将它想像成一个项目文件夹，其中包含了所有跟项目相关的文件。事实上，它在电脑里的样子就像下面这样：</p>
+
+      <img src="../assets/imgs/repos.png" width="600">
+
+      <p>告诉 Git 你要指定哪个文件夹，然后 Git 就会开始记录这文件夹里面的一切变更。新增、删除文件，甚至只是改变文件中的一个字，全都会被 Git 追踪并加上时间标记。这就是<strong>版本控制</strong>。</p>
+
+      <h2>使用终端</h2>
+
+      <p><strong>终端</strong>（或是 Bash）是一种只利用键盘输入命令来操控电脑的方式。你可以重新命名文件、打开文件、建立新文件夹、并在不同目录（文件夹）之间切换，全都利用键盘输入命令完成。你甚至不需离开终端便可以在终端里运行文本编辑器（例如 <a href="http://en.wikipedia.org/wiki/Vim_(text_editor)" target="_blank"> Vim</a>）。</p>
+
+      <p>除了浏览你的电脑，你也可以在终端里使用具有<strong>终端界面（command-line interface，CLI）</strong>的程序，这类的程序可通过输入键盘命令来运行。Git-it 便是其中之一，你现在正通过终端使用它！而 Git 也是另一个例子。你可以在终端里通过命令来存取与操控 Git，不久后你便会这么做了！</p>
+
+      <p>在 Git-it 里你将学会一些基本操作的指令，而在每个步骤中将会解释这些指令的作用。</p>
+
+      <h2>步骤：建立一个新的 <n>repository</n></h2>
+      <p>你将建立一个新的文件夹，并把它设置成一个 Git <n>repository</n>。</p>
+
+      <p>为了让整件事容易一些，把你的文件夹取名为与项目同名。就叫 'hello-world' 好了。</p>
+
+      <p>你可以将下列指令一一输入至终端。</p>
+
+      <p>建立新文件夹：</p>
+      <code>$ mkdir hello-world</code>
+
+      <p>假如这个文件夹：</p>
+      <code>$ cd hello-world</code>
+
+      <p>把这个文件夹设置成一个 Git 项目文件夹</p>
+      <code>$ git init</code>
+
+      <p>就是这样！终端会回应并切换到下一行。如果你想要确认此文件夹是否已经是个 Git <n>repository</n>，输入 <code>git status</code>，只要不是显示 'fatal: Not a git repository...'，那就对了！</p>
+
+      <div class="verify">
+        <h3>确认你完成了所有步骤：</h3><code>git-it verify</code>
+        <h3>前往下一关：</h3><code>git-it</code>
+      </div>
+
+      <div id="git-tips">
+        <h2>提示</h2>
+        <ul>
+          <li><strong>建立一个新文件夹 (或称作目录)</strong></li>
+          <code>$ mkdir &#60;FOLDERNAME&#62;</code>
+          <li><strong>进入一个文件夹 (或称作切换目录)</strong></li>
+          <code>$ cd &#60;FOLDERNAME&#62;</code>
+          <li><strong>列出文件夹内容</strong></li>
+          <code>$ ls </code>
+          <li><strong>为一个文件夹加上 Git 功能</strong></li>
+          <code>$ git init</code>
+        </ul>
+      </div>
