@@ -6,6 +6,9 @@ A [workshopper](https://github.com/rvagg/workshopper) module for learning Git an
 
 These modules run a little app in your terminal and users work their way through the challenges. See [nodeschool.io](http://nodeschool.io) for more.
 
++ [正體中文版本的文檔](README-zhtw.md)
++ [简体中文版本的文档](README-zhcn.md)
+
 ---
 
 **For developer documentation, see [CONTRIBUTING.md](https://github.com/jlord/git-it/blob/master/CONTRIBUTING.md).**
