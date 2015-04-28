@@ -1,0 +1,3 @@
+Hey Guys this is a test text.
+M trying to learn git with git-it..
+:wq
