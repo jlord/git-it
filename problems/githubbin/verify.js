@@ -10,7 +10,7 @@ var user = ""
 
 exec('git config user.username', function(err, stdout, stderr) {
   if (err) return console.log(err)
-  var user = stdout.trim()
+  user = stdout.trim()
   if (user === "") console.error("No username found.")
   else {
     console.log("Username added to Git config!")
