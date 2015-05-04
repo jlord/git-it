@@ -2,13 +2,15 @@
 
 var exec = require('child_process').exec
 var request = require('request')
+var user = ""
 
 // verify they set up git config
 // verify that user exists on GitHub (not case sensitve)
 // compare the two to make sure cases match
 
 exec('git config user.username', function(err, stdout, stderr) {
-  var user = stdout.trim()
+  if (err) return console.log(err)
+  user = stdout.trim()
   if (user === "") console.error("No username found.")
   else {
     console.log("Username added to Git config!")
