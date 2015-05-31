@@ -17,8 +17,9 @@ exec('git reflog -10', function(err, stdout, stdrr) {
     
     exec('git branch', function(err, stdout, stdrr) {
       branches = stdout.trim()
-      
-      if (branches.match(user)) console.log("Uh oh, branch is still there.")
+      branchName = "add-"+user
+     
+      if (branches.match(branchName)) console.log("Uh oh, branch is still there.")
       else return console.log("Branch deleted!")
     })
   })
