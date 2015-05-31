@@ -10,7 +10,7 @@ var username = ""
 // verify they've pushed
 // check the file is in contributors directory
 
-exec('git config user.username', function(err, stdout, stdrr) {
+exec('git config user.username', function(err, stdout, stderr) {
   if (err) return console.log(err)
   username = stdout.trim()
 
