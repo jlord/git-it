@@ -1,0 +1,55 @@
+      <div class="challenge">
+        <h2>关卡内容：</h2>
+        <p>从 GitHub.com 建立项目 <n>fork</n>，并 <v>clone</v> 到电脑上。</p>
+      </div>
+
+      <h2><n>Forks</n></h2>
+
+      <p>你已经在电脑上建立了一个项目并且 <v>push</v> 到 GitHub 上，但有趣的不仅如此，更重要的是与人们在不同的项目中合作。</p>
+
+      <p>当你 <strong><v>fork</v></strong> 一个 <n>repository</n> 时，实际上是复制了一份 <n>repository</n> 到自己的 GitHub 账号下，换句话说，你的 </n>fork</n> 成为了一个 <strong><n>remote</n></strong> <n>repository</n>。通常我们通过 <n>forks</n> 用来建立自己所需使用的修改版本，或是协助原始项目修正错误、新增功能。</p>
+
+      <p>当你成功 <v>forked</v> 项目后，便可以从 GitHub 将它 <strong><v>clone</v></strong> 到你的电脑上。这样一来就可以在没有网络连接的情况下，修改电脑里的项目内容。</p>
+
+      <img src="../assets/imgs/clone.png" width="600">
+
+      <h2>步骤：<v>Fork</v> Patchwork <n>Repository</n></h2>
+
+      <p>我们接下来要使用的项目是 <a href="https://github.com/jlord/patchwork" target="_blank">github.com/jlord/patchwork</a>。到页面上点击右上方的 <v>fork</v> 按钮，当 <n>fork</n> 的动画完成时，你的账号中就会出现一份 Patchwork 项目的副本。接下来，把在右边侧栏的 HTTPS clone URL 复制起来。</p>
+
+      <h2>步骤：在电脑上 <v>Clone</v> <n>Fork</n></h2>
+      <p>现在，在终端 <v>clone</v> <n>repository</n> 到你的电脑上，他会自动替 <n>repository</n> 建立一个新的文件夹，所以你不需要自己建立一个。但请注意不要在另一个 Git <n>repository</n> 文件夹中 <v>clone</v>！所以，如果你还在先前挑战所使用的 'hello-world' <n>repository</n> 中，请先离开那个文件夹。你可以通过切换文件夹之类以及两个点来移动到文件夹的上一层：
+
+      <p><code>$ cd ..</code></p>
+
+      然后 <v>clone</v>：
+
+      <p><code>$ git clone &#60;URLFROMGITHUB&#62;</code></p>
+
+      <p>切换到刚刚建立的 <n>fork</n> 文件夹（在这个例子中叫做 'patchwork'）：</p>
+      <p><code>$ cd patchwork</code></p>
+
+      <p>现在你已经在电脑上得到了一份 <n>repository</n> 的副本，并且被自动连接到你 GitHub 账号下的 <n>remote</n> <n>repository</n>（你的 <n>fork</n> 副本）。</p>
+
+      <h2>步骤：连接到原始的 <n>Repository</n></h2>
+
+      <p>但如果原始项目的内容有改变了呢？你会希望能够 <strong><v>pull</v></strong> 这些变更。所以让我们来新增另外一个 <n>remote</n> 链接到原始的项目 <a href="https://github.com/jlord/patchwork" target="_blank">github.com/jlord/patchwork</a>，<n>repository</n> 的 URL 可以在 GitHub 原始项目的侧边栏下方找到。</p>
+
+      <p>你可以随意替这个 <n>remote</n> 链接命名，但大家通常用 'upstream'，让我们也用这个名字：</p>
+
+      <p><code>$ git remote add upstream https://github.com/jlord/patchwork.git</code></p>
+
+      <div class="verify">
+        <h3>确认你完成了所有步骤：</h3><code>git-it verify</code>
+        <h3>前往下一个关卡</h3><code>git-it</code>
+      </div>
+
+      <div id="git-tips">
+        <h2>提示</h2>
+        <ul>
+          <li><strong>新增 <n>remote</n> 链接</strong></li>
+          <li><code>$ git remote add &#60;REMOTENAME&#62; &#60;URL&#62;</code></li>
+          <li><strong>查看 <n>remote</n> 链接</strong></li>
+          <li><code>$ git remote -v</code></li>
+        </ul>
+      </div>

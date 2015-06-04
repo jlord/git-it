@@ -1,0 +1,92 @@
+      <div class="challenge">
+        <h2>关卡内容：</h2>
+        <p>在你的 <n>fork</n> 新增 <n>branch</n>。</p>
+      </div>
+
+      <h2><n>Branches</n></h2>
+
+      <p>Git <n>repositories</n> 用 <n>branches</n> 来隔离进度。当需要跟其他人一起进行项目时，在你完成负责的部份之前，经常需要利用 <strong><n>branch</n></strong> 来保护你对程序所做的修改。如此，你就可以让主要的 'master' <n>branch</n> 保持稳定，不被未完成的修改影响。等到你完成在 <n>branch</n> 上的修改，就可以把它 <v>merge</v> 回 'master' <n>branch</n>。</p>
+
+      <img src="../assets/imgs/branches.png" width="600">
+
+      <p>在 GitHub Guide 中我们有提供解释 <n>branches</n> 运作方式的示意图：<a href="https://guides.github.com/overviews/flow/" target="_blank">guides.github.com/overviews/flow</a></p>
+
+      <h2>GitHub Pages</h2>
+      <p>GitHub 会自动发布你放在 'gh-pages' <n>branch</n> 里的静态文件，并架设一个网站。由于你 <v>forked</v> 的项目内容是一个网站，所以它的预设 <n>branch</n> 是 'gh-pages' 而不是 'master'。而你会发现这些网站，网址都长的像这样：</p>
+
+      <code>http://githubusername.github.io/repositoryname</code>
+
+      <h2>步骤：新增 <n>branch</n></h2>
+      <p>当你新增 <n>branch</n> 的时候，Git 会拷贝目前 <n>branch</n> 上所有的文件到新的 <n>branch</n>。</p>
+
+      <p>在终端输入 <code>git status</code> 可以知道目前你在哪个 <n>branch</n>（应该会在 'gh-pages'）。</p>
+
+      <p>新增一个 <n>branch</n> 并命名为「add-&#60;username&#62;」，请用你的账号名称替换掉 'username'。例如「add-jlord」。<strong><n>Branches</n> 的名字有分大小写，所以请确定输入的账号名称跟 GitHub 上显示的一模一样。</strong></p>
+
+      <p><code>$ git branch &#60;BRANCHNAME&#62;</code></p>
+
+      <p>你拥有了一个全新、内容跟 'gh-pages' 一模一样的 <n>branch</n>！</p>
+
+      <p>就像终端去另一个文件夹的指令 <code>cd</code> 一样，请 <strong><v>checkout</v></strong>
+        到刚才新增的 <n>branch</n>：</p>
+
+      <p><code>$ git checkout &#60;BRANCHNAME&#62;</code></p>
+
+      <h2>步骤：新增文件</h2>
+      <p>接下来我们回到文本编辑器：</p>
+        <ul>
+          <li>新增一个文件并命名为 <span style="white-space: nowrap;">「add-&#60;USERNAME&#62;.txt」</span>，请用你的账号名称替换 'username'，像这样，「add-jlord.txt」。</li>
+          <li>在文件里写下你的 GitHub 账号名称。例如，我就会写 'jlord'。</li>
+          <li>将文件存到在 Patchwork 里的 'contributors' 文件夹： <strong>Patchwork/contributors/add-yourusername.txt</strong></li>
+          <li>接着，把你的修改记录下来！</li>
+        </ul>
+
+      <h2>步骤：记录</h2>
+      <p>按照以下的步骤，把刚才的修改用 Git 记录下来：</p>
+
+      <p><code>$ git status</code></p>
+      <p><code>$ git add &#60;FILENAME&#62;</code></p>
+      <p><code>$ git commit -m "&#60;commit message&#62;"</code></p>
+
+      <p><v>Push</v> 刚才记录好的修改到 GitHub 上，你 <adj>forked</adj> 的 <n>repository</n> 里头：</p>
+
+      <p><code>$ git push origin &#60;BRANCHNAME&#62;</code></p>
+
+      <div class="verify">
+        <h3>确认你完成了所有步骤：</h3><code>git-it verify</code>
+        <h3>前往下一个关卡</h3><code>git-it</code>
+      </div>
+
+      <div class="didnt-pass">
+        <h2><code>git-it verify</code> 的时候没有通过？</h2>
+
+        <h4>File NOT in contributors folder</h4>
+        <p>刚才新增的文件应该要放到 Patchwork <n>repository</n> 的 'contributors'
+          文件夹里。如果不小心放到別的地方，请打开 Finder 或是 Windows 的文件管理器将该文件移到
+          'contributors' 文件夹，然后可以用 <code>git status</code> 看你刚才移动文件之后所造成的结果。用以下的命令 <v>Stage</v> 并且 <v>commit</v> 全部的修改（加上 -A，会将新增文件跟删除文件的动作一起记录下来）：</p>
+        <p><code>$ git add -A</code></p>
+        <p><code>$ git commit -m "move file into contributors folder"</code></p>
+
+        <h4><n>Branch</n> name expected: _____</h4>
+        <p><n>Branch</n> 的名字应该要跟你的账号名称一模一样。用以下的命令修改 <n>branch</n> 的名字：</p>
+        <p><code>$ git branch -M &#60;NEWBRANCHNAME&#62;</code></p>
+        <p>完成以上的动作之后，再执行一次 <code>git-it verify</code>！</p>
+      </div>
+
+      <div id="git-tips">
+        <h2>提示</h2>
+        <ul>
+          <li>只用一个指令就新增并切换到新的 <n>branch</n></li>
+          <li><code>$ git checkout -b &#60;BRANCHNAME&#62;</code></li>
+          <li>新增 <n>branch</n></li>
+          <li><code>$ git branch &#60;BRANCHNAME&#62;</code></li>
+          <li>切换到另一个 <n>branch</n></li>
+          <li><code>$ git checkout &#60;BRANCHNAME&#62;</code></li>
+          <li>列出所有的 <n>branches</n></li>
+          <li><code>$ git branch</code></li>
+          <li>重新命名目前所在的 <n>branch</n></li>
+          <li><code>$ git branch -m &#60;NEWBRANCHNAME&#62;</code></li>
+          <li>看目前正在哪个 <n>branch</n></li>
+          <li><code>$ git status</code></li>
+        </ul>
+      </div>

@@ -1,0 +1,38 @@
+      <div class="challenge">
+        <h2>关卡內容：</h2>
+        <p>建立一个 GitHub 账号，并在 Git 设定中加入使用者账号。</p>
+      </div>
+
+      <h2>团结力量大</h2>
+
+      <p>目前为止你建立的 <n>repository</n> 只存在你自己的电脑上，虽然方便，但若想要与別人分享或合作时就先得困难许多了。別担心，这就是为什么我们需要 GitHub！</p>
+
+      <h2>步骤：建立一个 GitHub 账号</h2>
+
+      <p>GitHub 是一个让大家不论在哪里都可以上传他们的 Git 项目，并轻松合作的网站。</p>
+
+      <p>前往 <a href="https://www.github.com" target="_blank">github.com</a> 并注册一个免费的账号。
+      <strong>欢迎欢迎！</strong></p>
+
+      <h2>步骤：告诉 Git 你的 GitHub 账号</h2>
+      <p>告诉 Git 你的 GitHub 账号，这个 GitHub 账号将会在之后的关卡中用到。注意输入时必须与你在 GitHub 上建立的完全一致──<strong>大小写必须一致</strong>。</p>
+
+      <p>告诉 Git 你的 GitHub 账号：</p>
+
+      <code>$ git config --global user.username &#60;USerNamE&#62;</code>
+      <br><br>
+
+      <div class="verify">
+        <h3>确认你完成了所有步骤：</h3><code>git-it verify</code>
+        <h3>前往下一个关卡</h3><code>git-it</code>
+      </div>
+
+      <div class="didnt-pass">
+        <h2><code>git-it verify</code> 的时候没有通过？</h2>
+
+        <h4>GitHub & Git config usernames do not match</h4>
+        <p>常见的错误是 GitHub 账号跟 <code>git config</code> 设定的账号没有一致。譬如 'jlord' 跟 'JLord' 是不一样的哦。</p>
+        <p>要修改 Git 设定的账号，只要再用一次上面教的指令，大小写打对就可以了：</p>
+        <p><code>$ git config --global user.username &#60;USerNamE&#62;</code></p>
+        <p>更新完之后，再检查一次看看吧！</p>
+      </div>
