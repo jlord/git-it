@@ -1,3 +1,0 @@
-﻿Hello Git
-Hello Git, again!
-Hello branch add-peixianli!
