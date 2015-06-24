@@ -4,8 +4,6 @@
 | --- | --- |
 | ![ss](https://raw.githubusercontent.com/jlord/git-it/master/git-it-ss.png) | A [workshopper](https://github.com/rvagg/workshopper) module for learning Git and GitHub - Social coding, y'all. <br><br> These modules run a little app in your terminal and users work their way through the challenges. See [nodeschool.io](http://nodeschool.io) for more.
 
----
-
 ## Hello, future Forkers, Branchers and Pull Requesters!
 
 This app runs in your Terminal (Mac) or Bash (Windows) and has challenges for learning Git and GitHub. It uses the _real_ terminal (so you'll be learning the awesome command line), it uses _real_ Git and GitHub which means when you finish all of the challenges you'll have _real_ repositories on your GitHub account and green squares on your [contribution chart](https://github.com/blog/1360-introducing-contributions).
