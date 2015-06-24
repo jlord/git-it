@@ -12,6 +12,8 @@ These modules run a little app in your terminal and users work their way through
 
 **Mentoring at an event with Git-it? Run through Git-it yourself and review [TROUBLESHOOT.md](https://github.com/jlord/git-it/blob/master/TROUBLESHOOT.md) for common things users run into**.
 
+**News: I'm working on a new and improved version of Git-it, checkout the progress [here](http://github.com/jlord/git-it-electron).**
+
 ---
 
 ## Hello, future Forkers, Branchers and Pull Requesters!
