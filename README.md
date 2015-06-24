@@ -1,18 +1,8 @@
 # Git-it
 
-![ss](https://raw.githubusercontent.com/jlord/git-it/master/git-it-ss.png)
-
-A [workshopper](https://github.com/rvagg/workshopper) module for learning Git and GitHub - Social coding, y'all.
-
-These modules run a little app in your terminal and users work their way through the challenges. See [nodeschool.io](http://nodeschool.io) for more.
-
----
-
-**For developer documentation, see [CONTRIBUTING.md](https://github.com/jlord/git-it/blob/master/CONTRIBUTING.md).**
-
-**Mentoring at an event with Git-it? Run through Git-it yourself and review [TROUBLESHOOT.md](https://github.com/jlord/git-it/blob/master/TROUBLESHOOT.md) for common things users run into**.
-
-**News: I'm working on a new and improved version of Git-it, checkout the progress [here](http://github.com/jlord/git-it-electron).**
+| :computer: | What is this? |
+| --- | --- |
+| ![ss](https://raw.githubusercontent.com/jlord/git-it/master/git-it-ss.png) | A [workshopper](https://github.com/rvagg/workshopper) module for learning Git and GitHub - Social coding, y'all. <br><br> These modules run a little app in your terminal and users work their way through the challenges. See [nodeschool.io](http://nodeschool.io) for more.
 
 ---
 
@@ -24,9 +14,15 @@ This app runs in your Terminal (Mac) or Bash (Windows) and has challenges for le
 
 See what topics are covered in Git-it on the [challenge table of contents](http://jlord.github.io/git-it) within the Git-it guide.
 
+Developer or workshop host? Useful links: [Contributing](https://github.com/jlord/git-it/blob/master/CONTRIBUTING.md) //  [Troubleshooting](https://github.com/jlord/git-it/blob/master/TROUBLESHOOT.md) //  [New Version in Progress!](http://github.com/jlord/git-it-electron)
+
+### Get Started
+
+Sections: [Install these first](https://github.com/jlord/git-it/blob/master/README.md#what-youll-need-to-run-git-it) // [Install Git-it](https://github.com/jlord/git-it/blob/master/README.md#install-git-it) // [Using Git-it ](https://github.com/jlord/git-it/blob/master/README.md#how-it-works) // [Tips](https://github.com/jlord/git-it/blob/master/README.md#tips-for-getting-started)
+
 ---
 
-#### What you'll need to run Git-it:
+### What you'll need to run Git-it:
 
 _A few development essentials, all are free and/or free and open source._
 
@@ -40,7 +36,7 @@ _A few development essentials, all are free and/or free and open source._
 
 _*There actually isn't "coding" required to complete Git-it so you're fine to use the default Notepad or TextEdit that comes with Mac/PC._
 
-#### Install Git-it
+### Install Git-it
 
 Once you have the essentials above, install Git-it.
 
@@ -57,7 +53,7 @@ $ git-it
 ```
 - This should load the menu. You're ready to go! Select the first challenge, hit enter and you're on your way!
 
-#### How it Works
+### How it Works
 
 - Once you've run `git-it` and the menu has loaded, use the arrows ↑↓ to select the first challenge and press 'enter'.
 - With the challenge loaded, follow the instructions at the bottom of the input to open the guide. _Preview a web hosted version of the guide [here](http://jlord.github.io/git-it)._
@@ -73,7 +69,7 @@ $ git-it
 
 ---
 
-#### Tips For Getting Started
+### Tips For Getting Started
 
 **Code snippets** often times look like `$ some code-stuff --here`. The dollar sign identifies the line as one a user would enter into the the command line, but you don't actually include it when you type it into terminal. In this case, you'd actually just type `some code-stuff --here`.
 
