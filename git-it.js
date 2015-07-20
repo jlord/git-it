@@ -3,7 +3,7 @@
 const Workshopper = require('workshopper-jlord'),
       path = require('path')
 
-process.env.LANG = 'en_US.UTF-8'
+process.env.LANG = 'C'
 
 Workshopper({
   name: 'git-it',
