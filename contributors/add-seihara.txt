@@ -1,8 +1,3 @@
-study git-it
-add
-add
-
-abc
-abc
-
-def
+sei
+sei
+seihara
