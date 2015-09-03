@@ -136,7 +136,7 @@ p, .textcontainer {
 }
 
 .large-container {
-  overflow: auto;
+  overflow: hidden;
   display: block;
   text-align: center;
   margin: 0 auto;
