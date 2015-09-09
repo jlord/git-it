@@ -1,3 +1,5 @@
+:wave: Hi! I've been working on a desktop version of Git-it over here: [github.com/jlord/git-it-electron](http://www.github.com/jlord/git-it-electron). Maybe give it a try. Eventually it will replace this terminal based version of Git-it :pizza:
+
 # Git-it
 
 | :computer: | What is this? |
