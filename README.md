@@ -1,4 +1,4 @@
-:wave: Hi! I've been working on a desktop version of Git-it over here: [github.com/jlord/git-it-electron](http://www.github.com/jlord/git-it-electron). Maybe give it a try. Eventually it will replace this terminal based version of Git-it :pizza:
+:wave: Hi! I've been working on a desktop version of Git-it—same challenges, same result, just as its own app rather than something that runs in your terminal. You could give it a try if you'd like, download the one for your operating system here: [github.com/jlord/git-it-electron/releases](http://www.github.com/jlord/git-it-electron/releases). Eventually it will replace this terminal based version of Git-it :pizza:
 
 # Git-it
 
