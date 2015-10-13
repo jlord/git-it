@@ -30,7 +30,7 @@ _Common bumps in the road for users - helpful to know as a mentor!_
 
 ## Remotes
 
-- Check that the `origin` remote connects to the **user's fork** and the `upstream` remote connects to **jlord/patchwork** and not vise vera or another way.
+- Check that the `origin` remote connects to the **user's fork** and the `upstream` remote connects to **jlord/patchwork** and not vice versa or another way.
 
 ## Pull Requests
 
