@@ -1,0 +1,2 @@
+Me:  I know little bit the Git! ^_^
+You: Make 'git rebase' NOW! :D
