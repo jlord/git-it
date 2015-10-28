@@ -27,8 +27,8 @@ Sections: [Install these first](https://github.com/jlord/git-it/blob/master/READ
 _A few development essentials, all are free and/or free and open source._
 
 - **Git**, this is your tracker of changes!
- - If you're on **Windows, download [GitHub for Windows](http://windows.github.com)**, which includes Git, and use the **Git Shell** for your terminal.
- - If you're on a **Mac, download [GitHub for Mac](http://mac.github.com)**, which includes Git, and select Preferences > Advanced > Install Command Line Tools.
+ - If you're on **Windows, download [GitHub Desktop](http://desktop.github.com)**, which includes Git, and use the **Git Shell** for your terminal.
+ - If you're on a **Mac**, you can install Git automatically. To do this, open the Terminal application from spotlight and type `git`. This will prompt Git to install the rest of the command line tools for Git. This should only take a few minutes. It will ask if you would like to download Xcode, which you can ignore.
 - **Node.js**, this is what this app is written in so you'll need this to run it. It's an engine for running JavaScript on servers (your computer is a server!) and will live quietly in the background. You can **download Node [here](http://nodejs.org/en/download/)** (For most, you can just pick the **Windows `.msi`** or **Mac `.pkg`** option).
  - If you already have Node and npm, make sure you have updated versions with at least v 1.4.3 for npm.
 - **Text Editor**, if you don't have one already, you may want one for editing code*. A few options: [Atom](http://www.atom.io), [Sublime Text](http://www.sublimetext.com/2), [Textmate](http://macromates.com/download), [Brackets](http://brackets.io/).
