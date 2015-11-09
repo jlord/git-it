@@ -1,10 +1,10 @@
-:wave: Hi! I've been working on a desktop version of Git-it—same challenges, same result, just as its own app rather than something that runs in your terminal. You could give it a try if you'd like, download the one for your operating system here: [github.com/jlord/git-it-electron/releases](http://www.github.com/jlord/git-it-electron/releases). Eventually it will replace this terminal based version of Git-it :pizza:
+:wave: Hi! I've been working on a desktop version of Git-it—same challenges, same result, just as its own app rather than something that runs in your terminal. You could give it a try if you'd like, download the one for your operating system here: [github.com/jlord/git-it-electron/releases](https://github.com/jlord/git-it-electron/releases). Eventually it will replace this terminal based version of Git-it :pizza:
 
 # Git-it
 
 | :computer: | What is this? |
 | --- | --- |
-| ![ss](https://raw.githubusercontent.com/jlord/git-it/master/git-it-ss.png) | A [workshopper](https://github.com/rvagg/workshopper) module for learning Git and GitHub - Social coding, y'all. <br><br> These modules run a little app in your terminal and users work their way through the challenges. See [nodeschool.io](http://nodeschool.io) for more.
+| ![ss](https://raw.githubusercontent.com/jlord/git-it/master/git-it-ss.png) | A [workshopper](https://github.com/workshopper/workshopper) module for learning Git and GitHub - Social coding, y'all. <br><br> These modules run a little app in your terminal and users work their way through the challenges. See [nodeschool.io](http://nodeschool.io) for more.
 
 ## Hello, future Forkers, Branchers and Pull Requesters!
 
@@ -14,7 +14,7 @@ This app runs in your Terminal (Mac) or Bash (Windows) and has challenges for le
 
 See what topics are covered in Git-it on the [challenge table of contents](http://jlord.github.io/git-it) within the Git-it guide.
 
-Developer or workshop host? Useful links: [Contributing](https://github.com/jlord/git-it/blob/master/CONTRIBUTING.md) //  [Troubleshooting](https://github.com/jlord/git-it/blob/master/TROUBLESHOOT.md) //  [New Version in Progress!](http://github.com/jlord/git-it-electron)
+Developer or workshop host? Useful links: [Contributing](https://github.com/jlord/git-it/blob/master/CONTRIBUTING.md) //  [Troubleshooting](https://github.com/jlord/git-it/blob/master/TROUBLESHOOT.md) //  [New Version in Progress!](https://github.com/jlord/git-it-electron)
 
 ### Get Started
 
@@ -29,9 +29,9 @@ _A few development essentials, all are free and/or free and open source._
 - **Git**, this is your tracker of changes!
  - If you're on **Windows, download [GitHub Desktop](http://desktop.github.com)**, which includes Git, and use the **Git Shell** for your terminal.
  - If you're on a **Mac**, you can install Git automatically. To do this, open the Terminal application from spotlight and type `git`. This will prompt Git to install the rest of the command line tools for Git. This should only take a few minutes. It will ask if you would like to download Xcode, which you can ignore.
-- **Node.js**, this is what this app is written in so you'll need this to run it. It's an engine for running JavaScript on servers (your computer is a server!) and will live quietly in the background. You can **download Node [here](http://nodejs.org/en/download/)** (For most, you can just pick the **Windows `.msi`** or **Mac `.pkg`** option).
+- **Node.js**, this is what this app is written in so you'll need this to run it. It's an engine for running JavaScript on servers (your computer is a server!) and will live quietly in the background. You can **download Node [here](https://nodejs.org/en/download/)** (For most, you can just pick the **Windows `.msi`** or **Mac `.pkg`** option).
  - If you already have Node and npm, make sure you have updated versions with at least v 1.4.3 for npm.
-- **Text Editor**, if you don't have one already, you may want one for editing code*. A few options: [Atom](http://www.atom.io), [Sublime Text](http://www.sublimetext.com/2), [Textmate](http://macromates.com/download), [Brackets](http://brackets.io/).
+- **Text Editor**, if you don't have one already, you may want one for editing code*. A few options: [Atom](https://atom.io/), [Sublime Text](http://www.sublimetext.com/2), [Textmate](http://macromates.com/download), [Brackets](http://brackets.io/).
 - **English locales**, since the backend is English only at the moment. If you are using different language on your system, please refer to the corresponding section in the file [TROUBLESHOOT.md](https://github.com/jlord/git-it/blob/master/TROUBLESHOOT.md).
 
 _*There actually isn't "coding" required to complete Git-it so you're fine to use the default Notepad or TextEdit that comes with Mac/PC._
@@ -40,7 +40,7 @@ _*There actually isn't "coding" required to complete Git-it so you're fine to us
 
 Once you have the essentials above, install Git-it.
 
-- Open up a terminal window and install Git-it globally on your computer (so that you can run it from anywhere). [NPM](http://www.npmjs.org) (**which is included when you download Node.js**) delivers Node.js modules (that's what this app is) to your computer from the command line, real easy like:
+- Open up a terminal window and install Git-it globally on your computer (so that you can run it from anywhere). [NPM](https://www.npmjs.com/) (**which is included when you download Node.js**) delivers Node.js modules (that's what this app is) to your computer from the command line, real easy like:
 
 ```bash
 $ npm install -g git-it
