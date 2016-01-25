@@ -1,3 +1,12 @@
+---
+### NOTICE
+
+When you complete Git-it your name is added to the long list of others who have completed it at [jlord.us/patchwork](http://jlord.us/patchwork). Recently the site became too large to edit with the regular GitHub API so it is currently not being upated. **Git-it it still works and you can complete all the challenges**, you just won't see your name on the site right now until I update things. I'll try and get to it soon :sparkles:.
+
+If you want to help update @reporobot to use the [Git Data API](https://developer.github.com/v3/git/), mosey over to [jlord/reporobot](https://github.com/jlord/reporobot/blob/master/buildpage.js).
+
+---
+
 :wave: Hi! I've been working on a desktop version of Git-it—same challenges, same result, just as its own app rather than something that runs in your terminal. You could give it a try if you'd like, download the one for your operating system here: [github.com/jlord/git-it-electron/releases](https://github.com/jlord/git-it-electron/releases). Eventually it will replace this terminal based version of Git-it :pizza:
 
 # Git-it
