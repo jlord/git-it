@@ -1,4 +1,3 @@
-MUHAHAHAHAHA
 ---
 ### NOTICE
 
