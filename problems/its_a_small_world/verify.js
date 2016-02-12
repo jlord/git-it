@@ -16,10 +16,16 @@ exec('git config user.username', function(err, stdout, stdrr) {
 function collaborating(username) {
   request(url + username, {json: true}, function (error, response, body) {
     if (error) console.log(error)
-    if (!error && response.statusCode == 200) {
-      if (body.collab = true) console.log("Reporobot has been added!")
-      else console.log("Reporobot doesn't have access to the fork")
-      if (body.error) console.log(body)
+    if (!error) {
+      if (response.statusCode == 200) {
+        if (body.collab = true) console.log("Reporobot has been added!")
+        else console.log("Reporobot doesn't have access to the fork")
+        if (body.error) console.log(body)
+      }
+      else {
+        console.log("Unexpected HTTP status code accessing Reporobot server: " +
+          response.statusCode)
+      }
     }
   })
 }
