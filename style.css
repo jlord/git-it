@@ -208,6 +208,12 @@ ul.what-next-list {
 
 }
 
+.totalwow {
+  font-size: 88px;
+  font-weight: 600;
+  padding: 28px 0;
+}
+
 #user-name span {
  color: #c5d6f1;
  -webkit-animation: blink 1s infinite linear;
