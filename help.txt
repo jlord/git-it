@@ -97,7 +97,7 @@
 
   $ cd ..
 
-  {bold}Back out all the way to the root directory{/bold}
+  {bold}Back out all the way to the home directory{/bold}
 
   $ cd
 
@@ -112,4 +112,3 @@
   {bold}Remove (delete) a folder{/bold}
 
   $ rm -rf <FOLDERNAME>
-
