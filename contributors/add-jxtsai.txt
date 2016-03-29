@@ -1,0 +1,5 @@
+dd-<USERNAME>.txt」，請用你的帳號名稱替換 'username'，像這樣，「add-jxtsai.txt」。
+    在檔案裡寫下你的 GitHub 帳號名稱。例如，我就會寫 'jxtsai'。
+    將檔案存到在 Patchwork 裡的 'contributors' 資料夾： Patchwork/contributors/add-jxtsai.txt
+    接著，把你的修改記錄下來！
+
