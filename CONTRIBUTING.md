@@ -1,5 +1,7 @@
 # Contributing
 
+**Note: I'm not actively maintaining this app but good bug fixes are always welcome!**
+
 Details on the [app](https://github.com/jlord/git-it/blob/master/CONTRIBUTING.md#the-app) and the [guide](https://github.com/jlord/git-it/blob/master/CONTRIBUTING.md#the-guide) —
 
 ## The App
