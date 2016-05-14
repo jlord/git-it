@@ -1,2 +1,0 @@
-a1, a2, a3, a4, a5, a6, a7, 2, 4, 6, 7, 8
-What are the values of a1 - a7?
