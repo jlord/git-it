@@ -1,0 +1,1 @@
+**NOTE** I do not get notifications for new issues created in this repository (because there are so many PRs coming through as people do the challenges it would flood my inbox) so if you open an issue you must ping me, @jlord. If you don't delete these lines then it'll be done for you :smile: thanks!
