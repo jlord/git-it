@@ -7,4 +7,4 @@ Hi, there! This is the repository for the original Git-it, the version that runs
 
 | :computer: | README |
 | --- | --- |
-| ![ss](https://raw.githubusercontent.com/jlord/git-it/master/git-it-ss.png) | The original `readme` is now avilable as [original-readme.md](original-readme.md). |
+| ![ss](https://raw.githubusercontent.com/jlord/git-it/master/git-it-ss.png) | The original `readme` is now available as [original-readme.md](original-readme.md). |
