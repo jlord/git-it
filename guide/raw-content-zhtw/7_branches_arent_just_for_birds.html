@@ -37,7 +37,7 @@
         <ul>
           <li>新增一個檔案並命名為 <span style="white-space: nowrap;">「add-&#60;USERNAME&#62;.txt」</span>，請用你的帳號名稱替換 'username'，像這樣，「add-jlord.txt」。</li>
           <li>在檔案裡寫下你的 GitHub 帳號名稱。例如，我就會寫 'jlord'。</li>
-          <li>將檔案存到在 Patchwork 裡的 'contributors' 資料夾： <strong>Patchwork/contributors/add-yourusername.txt</strong></li>
+          <li>將檔案存到在 patchwork 裡的 'contributors' 資料夾： <strong>patchwork/contributors/add-yourusername.txt</strong></li>
           <li>接著，把你的修改記錄下來！</li>
         </ul>
 
@@ -61,7 +61,7 @@
         <h2><code>git-it verify</code> 的時候沒有通過？</h2>
 
         <h4>File NOT in contributors folder</h4>
-        <p>剛才新增的檔案應該要放到 Patchwork <n>repository</n> 的 'contributors'
+        <p>剛才新增的檔案應該要放到 patchwork <n>repository</n> 的 'contributors'
           資料夾裡。如果不小心放到別的地方，請打開 Finder 或是 Windows 的檔案總管將該檔案移到
           'contributors' 資料夾，然後可以用 <code>git status</code> 看你剛才移動檔案之後所造成的結果。用以下的指令 <v>Stage</v> 並且 <v>commit</v> 全部的修改（加上 -A，會將新增檔案跟刪除檔案的動作一起記錄下來）：</p>
         <p><code>$ git add -A</code></p>
