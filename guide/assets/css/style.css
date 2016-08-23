@@ -44,7 +44,7 @@ li {
 }
 
 .wrapper {
-  width: 600px;
+  max-width: 600px;
   margin: 30px auto;
   padding: 0 20px;
 }
