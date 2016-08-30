@@ -1,4 +1,0 @@
-$git status
-$git add add-clovelee.txt
-$git commit -m add-clovelee
-$git jjj
