@@ -136,7 +136,7 @@ p, .textcontainer {
 }
 
 .large-container {
-  overflow: auto;
+  overflow: hidden;
   display: block;
   text-align: center;
   margin: 0 auto;
@@ -206,6 +206,12 @@ ul.what-next-list {
   padding-bottom: 6px;
   padding-left: 0px;
 
+}
+
+.totalwow {
+  font-size: 88px;
+  font-weight: 600;
+  padding: 28px 0;
 }
 
 #user-name span {
