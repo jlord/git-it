@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+Shoker
+=======
+uegamashoki
+>>>>>>> ef83ca29ae9d7ed5e7a4398689365e79f36b314d
