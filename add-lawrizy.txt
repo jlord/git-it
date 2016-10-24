@@ -1,0 +1,4 @@
+test off adding a file in a branch 
+git branch
+git checkout
+
