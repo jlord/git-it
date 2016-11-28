@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="patchwork, git, github, open source">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Patchwork: Git, GitHub and the Pursuit of Open Source</title>
+    <link rel="shortcut icon" href="https://raw2.github.com/jlord/patchwork/gh-pages/favicon.png"/>
+    <link href='style.css' rel='stylesheet'>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+   <div class="large-container">
+    <div id="welcome-name">
+      <h1>Congrats, you did it!</h1>
+      <div id="user-name" class="swing animated" style="display: block;">
+        <pre><code>{{#featured}}{{userArt}}{{/featured}}</code></pre>
+      </div>
+    </div>
+  </div>
+    <div class="container">
+      <h2 style="text-align: center;">You <strong>pull request</strong> with the best of 'em.</h2>
+      <h3>You now know alternate meanings for the words <strong>fork</strong> and <strong>branch</strong> and you've <strong>collaborated</strong> with someone (or robot) elsewhere.  Below are the <strong>last 100</strong> to have completed Git-it.</h3>
+
+      <div id="compatriots">
+        <ul class="compatriots-list">
+          {{#everyone}}<li><span class="userdetail"><a href="https://www.github.com/{{username}}" target="_blank">@{{username}}</a></span> <span class="userdate">{{time}}</span></li>{{/everyone}}
+        </ul>
+      </div>
+
+      <div class="textcontainer">
+        <div id="about" class="halvsies">
+          <h4>About</h4>
+          <p>{{total}} fine humans have completed <a href="https://www.github.com/jlord/git-it" target="_blank">Git-it</a>, an open source terminal app for learning Git and GitHub.</p> <p>The <a href="https://www.github.com/jlord/git-it" target="_blank">Git-it</a> challenges are self directed so one can do it on their own, but it also makes for a great <a href="http://nodeschool.io/" target="_blank">nodeschool.io</a> type of workshop.</p>
+        </div>
+
+        <div id="next" class="halvsies">
+          <h4>What next?</h4>
+          <p>Don't stop now, keep going! Here are some ideas for what to work on next.</p>
+          <ul class="what-next-list">
+            <li>Make a repository on GitHub  named `ghusername.github.io` and fill it with web site files -- GitHub will host for free at the same address: ghusername.github.io</li>
+            <li>Open up an issue in one of your repositories and create a <a href="https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments" target="_blank">to-do list</a>.</li>
+            <li>Find interesting open source projects to work with in <a href="https://www.github.com/explore" target="_blank">Explore</a>.</li>
+            <li>Checkout the GitHub <a href="https://guides.github.com/activities/hello-world">Hello World Guide</a> for more GitHub basics.</li>
+         </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
