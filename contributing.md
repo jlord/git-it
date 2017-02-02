@@ -2,7 +2,7 @@
 
 ### Git-it Challenge Completions
 
-If you're working through the challenges in [Git-it](http://www.github.com/jlord/git-it), you'll know most of this, but for the record: 
+If you're working through the challenges in [Git-it](http://www.github.com/jlord/git-it-electron), you'll know most of this, but for the record: 
 
 - Fork this repository.
 
