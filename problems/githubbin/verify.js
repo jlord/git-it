@@ -8,7 +8,7 @@ var user = ""
 // verify that user exists on GitHub (not case sensitve)
 // compare the two to make sure cases match
 
-exec('git config user.username', function(err, stdout, stderr) {
+exec('git config user.name', function(err, stdout, stderr) {
   if (err) return console.log(err)
   user = stdout.trim()
   if (user === "") console.error("No username found.")
