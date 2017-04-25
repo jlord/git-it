@@ -8,8 +8,30 @@ var user = ""
 // verify that user exists on GitHub (not case sensitve)
 // compare the two to make sure cases match
 
+function verify(err, stdout, stderr) {
+  if (err) return console.log(err);
+  user = stdout.trim()
+  if (user === "") console.error("No username found.")
+  else {
+    console.log("Username added to Git config!")
+    checkGitHub(user)
+  }
+}
+
+// Update: user.name is now the standard, not user.username
+// Both are still supported here, though.
 exec('git config user.username', function(err, stdout, stderr) {
-  if (err) return console.log(err)
+  if (err) {
+    // Is the error because they don't have a user.username field in git config?
+    var noUserUsername = err.toString().includes("Command failed: git config user.username");
+    if (noUserUsername) {
+      exec('git config user.name', verify);
+      return;
+    } else {
+      return console.log(err);
+    }
+  }
+  // Still works if they have user.username
   user = stdout.trim()
   if (user === "") console.error("No username found.")
   else {
