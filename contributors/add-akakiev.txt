@@ -1,1 +1,2 @@
 akakiev
+move file into contributors folder
