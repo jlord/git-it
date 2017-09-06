@@ -1,67 +1,66 @@
-hello
-2 LenaLenaLenaLenaLenaLen                                aLe na       
- LenaLenaLenaLenaLenaLen                                aLe naL      
- enaLenaLenaLenaLena  L                                 enaLena      
- LenaLenaLenaLenaLe  n                                   aLenaL      
- enaLenaLe naLenaL  e                                    naLenaL     
- enaLenaLe naLena                                        LenaLen     
- aLenaLena LenaL                                         enaLena     
- LenaLenaL enaL                                          enaLenaL    
- enaLenaLe  na                                            LenaLen    
- aLenaLenaL e                                             naLenaL    
- enaLenaLenaL                                              enaLen    
- aLenaL enaL                                               enaLena   
- LenaLenaLe n                                              aLenaLe   
- naLenaLen                a                                LenaLen   
- aLenaLena L             enaLen                           aLenaLen   
- aLenaLen                     aLen                      aLenaLenaL   
- enaLena                       LenaLe                 naLenaLenaLe   
- naLena              L     e   naLena                  LenaLenaLen   
- aLenaL             enaLenaLenaLenaLe                naLenaLenaLen   
- aLena            LenaLenaLenaLenaLena            LenaLenaLenaLena   
- Lena            LenaLenaLen  aLenaLen          aLenaL enaLenaLena   
- Lena            LenaLenaLen    aLenaLe         naLe n  aLenaLenaL   
- ena            LenaLenaLena     LenaLe        naLenaL  enaLenaLena  
- Len           aL enaLe naL      enaLen          aLen   aLenaLenaLe  
- na                 Len           aLena           Le   naLenaLenaLe  
- n                    a L            en               aLenaLenaLena  
- L                       e                         naLenaLenaLenaLe  
-           n                                         aLenaLenaLenaL  
-  e       na                                         LenaLenaLenaLe  
- na      Len                                          aLenaLenaLena  
- L      enaLe                                         naLenaLenaLen  
-       aLenaL                                         enaLenaLenaLe  
-      naLenaLe                                        naLenaLenaLen  
-     aLenaLena                                        Le naLenaLena  
-     LenaLenaL                                           enaLenaLen  
-    aLenaLenaL                                           enaLenaLen  
-   aLenaLenaLe                                           naLenaLena  
-   LenaLenaLen                         a                 LenaLenaLe  
-  naLenaLenaLen                        aL                enaLenaLen  
- aLenaLenaLenaLe                       na               LenaLenaLen  
- aLenaLenaLenaLe                   n    a               LenaLenaLen  
- aLenaLenaLenaLe                  na                    LenaLenaLen  
- aLenaLenaLenaL                  ena     L             enaLenaLenaL  
- enaLenaLenaLena                  LenaLenaL            enaLenaLenaL  
- enaLenaLenaLena                  LenaLenaLe          naLenaLenaLen  
- aLenaLenaLenaLe                   naLenaLe           naLenaLenaLen  
- aLenaLenaLenaLe                                      naLenaLenaLen  
- aLenaLenaLenaLe                                    naLenaLenaLenaL  
- enaLenaLenaLenaL                                  enaLenaLenaLenaL  
- enaLenaLenaLenaL                                   enaLenaLenaLena  
- LenaLenaLenaLenaL                                  enaLenaLenaLena  
- LenaLenaLenaLenaL                                  enaLenaLenaLena  
- LenaLenaLenaLenaL                             en  aLenaLenaLenaLen  
- aLenaLenaLenaLenaL      enaLenaLenaL      enaLe   naLenaLenaLenaLe  
- naLenaLenaLenaLenaL     enaLenaLenaLenaL enaLen  aLenaLenaLenaLena  
- LenaLenaLenaLenaLena     LenaLenaLen        aLe  naLenaLenaLenaLen  
- aLenaLenaLenaLenaLen      aLenaLe               naLenaLenaLenaLena  
- LenaLenaLenaLenaLena        LenaL             enaLenaLenaLenaLenaL  
- enaLenaLenaLenaLenaLe        naLen            aLenaLenaLenaLenaLen  
- aLenaLenaLenaLenaLenaL       enaLena  Le      naLenaLenaLenaLenaLe  
- naLenaLenaLenaLenaLena        L              enaLenaLenaLenaLenaLe  
- naLenaLenaLenaLenaLenaL                      enaLenaLenaLenaLenaLe  
- naLenaLenaLenaLenaLenaL                     enaLenaLenaLenaLenaLen  
- aLenaLenaLenaLenaLenaLe                     naLenaLenaLenaLenaLena  
- LenaLenaLenaLenaLenaLen                    aLenaLenaLenaLenaLenaLe  
- naLenaLenaLenaLenaLenaL                    enaLenaLenaLenaLenaLena  
+  L e n a L e n a L e n a L e n a L e n a L e n                                                                 a L e   n a               
+  L e n a L e n a L e n a L e n a L e n a L e n                                                                 a L e   n a L             
+  e n a L e n a L e n a L e n a L e n a     L                                                                   e n a L e n a             
+  L e n a L e n a L e n a L e n a L e     n                                                                       a L e n a L             
+  e n a L e n a L e   n a L e n a L     e                                                                         n a L e n a L           
+  e n a L e n a L e   n a L e n a                                                                                 L e n a L e n           
+  a L e n a L e n a   L e n a L                                                                                   e n a L e n a           
+  L e n a L e n a L   e n a L                                                                                     e n a L e n a L         
+  e n a L e n a L e     n a                                                                                         L e n a L e n         
+  a L e n a L e n a L   e                                                                                           n a L e n a L         
+  e n a L e n a L e n a L                                                                                             e n a L e n         
+  a L e n a L   e n a L                                                                                               e n a L e n a       
+  L e n a L e n a L e   n                                                                                             a L e n a L e       
+  n a L e n a L e n                                 a                                                                 L e n a L e n       
+  a L e n a L e n a   L                           e n a L e n                                                       a L e n a L e n       
+  a L e n a L e n                                           a L e n                                             a L e n a L e n a L       
+  e n a L e n a                                               L e n a L e                                   n a L e n a L e n a L e       
+  n a L e n a                             L           e       n a L e n a                                     L e n a L e n a L e n       
+  a L e n a L                           e n a L e n a L e n a L e n a L e                                 n a L e n a L e n a L e n       
+  a L e n a                         L e n a L e n a L e n a L e n a L e n a                         L e n a L e n a L e n a L e n a       
+  L e n a                         L e n a L e n a L e n     a L e n a L e n                     a L e n a L   e n a L e n a L e n a       
+  L e n a                         L e n a L e n a L e n         a L e n a L e                   n a L e   n     a L e n a L e n a L       
+  e n a                         L e n a L e n a L e n a           L e n a L e                 n a L e n a L     e n a L e n a L e n a     
+  L e n                       a L   e n a L e   n a L             e n a L e n                     a L e n       a L e n a L e n a L e     
+  n a                                   L e n                       a L e n a                       L e       n a L e n a L e n a L e     
+  n                                         a   L                         e n                               a L e n a L e n a L e n a     
+  L                                               e                                                   n a L e n a L e n a L e n a L e     
+                      n                                                                                   a L e n a L e n a L e n a L     
+    e               n a                                                                                   L e n a L e n a L e n a L e     
+  n a             L e n                                                                                     a L e n a L e n a L e n a     
+  L             e n a L e                                                                                   n a L e n a L e n a L e n     
+              a L e n a L                                                                                   e n a L e n a L e n a L e     
+            n a L e n a L e                                                                                 n a L e n a L e n a L e n     
+          a L e n a L e n a                                                                                 L e   n a L e n a L e n a     
+          L e n a L e n a L                                                                                       e n a L e n a L e n     
+        a L e n a L e n a L                                                                                       e n a L e n a L e n     
+      a L e n a L e n a L e                                                                                       n a L e n a L e n a     
+      L e n a L e n a L e n                                                   a                                   L e n a L e n a L e     
+    n a L e n a L e n a L e n                                                 a L                                 e n a L e n a L e n     
+  a L e n a L e n a L e n a L e                                               n a                               L e n a L e n a L e n     
+  a L e n a L e n a L e n a L e                                       n         a                               L e n a L e n a L e n     
+  a L e n a L e n a L e n a L e                                     n a                                         L e n a L e n a L e n     
+  a L e n a L e n a L e n a L                                     e n a           L                           e n a L e n a L e n a L     
+  e n a L e n a L e n a L e n a                                     L e n a L e n a L                         e n a L e n a L e n a L     
+  e n a L e n a L e n a L e n a                                     L e n a L e n a L e                     n a L e n a L e n a L e n     
+  a L e n a L e n a L e n a L e                                       n a L e n a L e                       n a L e n a L e n a L e n     
+  a L e n a L e n a L e n a L e                                                                             n a L e n a L e n a L e n     
+  a L e n a L e n a L e n a L e                                                                         n a L e n a L e n a L e n a L     
+  e n a L e n a L e n a L e n a L                                                                     e n a L e n a L e n a L e n a L     
+  e n a L e n a L e n a L e n a L                                                                       e n a L e n a L e n a L e n a     
+  L e n a L e n a L e n a L e n a L                                                                     e n a L e n a L e n a L e n a     
+  L e n a L e n a L e n a L e n a L                                                                     e n a L e n a L e n a L e n a     
+  L e n a L e n a L e n a L e n a L                                                           e n     a L e n a L e n a L e n a L e n     
+  a L e n a L e n a L e n a L e n a L             e n a L e n a L e n a L             e n a L e       n a L e n a L e n a L e n a L e     
+  n a L e n a L e n a L e n a L e n a L           e n a L e n a L e n a L e n a L   e n a L e n     a L e n a L e n a L e n a L e n a     
+  L e n a L e n a L e n a L e n a L e n a           L e n a L e n a L e n                 a L e     n a L e n a L e n a L e n a L e n     
+  a L e n a L e n a L e n a L e n a L e n             a L e n a L e                               n a L e n a L e n a L e n a L e n a     
+  L e n a L e n a L e n a L e n a L e n a                 L e n a L                           e n a L e n a L e n a L e n a L e n a L     
+  e n a L e n a L e n a L e n a L e n a L e                 n a L e n                         a L e n a L e n a L e n a L e n a L e n     
+  a L e n a L e n a L e n a L e n a L e n a L               e n a L e n a     L e             n a L e n a L e n a L e n a L e n a L e     
+  n a L e n a L e n a L e n a L e n a L e n a                 L                             e n a L e n a L e n a L e n a L e n a L e     
+  n a L e n a L e n a L e n a L e n a L e n a L                                             e n a L e n a L e n a L e n a L e n a L e     
+  n a L e n a L e n a L e n a L e n a L e n a L                                           e n a L e n a L e n a L e n a L e n a L e n     
+  a L e n a L e n a L e n a L e n a L e n a L e                                           n a L e n a L e n a L e n a L e n a L e n a     
+  L e n a L e n a L e n a L e n a L e n a L e n                                         a L e n a L e n a L e n a L e n a L e n a L e     
+  n a L e n a L e n a L e n a L e n a L e n a L                                         e n a L e n a L e n a L e n a L e n a L e n a     
