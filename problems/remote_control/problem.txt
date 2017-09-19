@@ -1,0 +1,5 @@
+  Connect your local and remote repositories and push changes.
+
+  Use the guide (see below) for step-by-step instructions.
+
+  ---------------------------------------------------------------------

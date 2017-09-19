@@ -1,0 +1,5 @@
+  Fork a project from GitHub.com and clone it locally.
+  
+  Use the guide (see below) for step-by-step instructions.
+
+  ---------------------------------------------------------------------

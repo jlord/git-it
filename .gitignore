@@ -1,3 +1,21 @@
+<<<<<<< HEAD
 contributors/add-P1xt.txt
 contributors/add-p1xt.txt
 .DS_Store
+=======
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
+
+npm-debug.log
+node_modules
+>>>>>>> ffc35df45b5f1c8c4e06e3e345d802e776f0de02

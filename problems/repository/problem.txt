@@ -1,0 +1,5 @@
+  Create a new Git repository on your computer.
+
+  Use the guide (see below) for step-by-step instructions.
+
+  ---------------------------------------------------------------------

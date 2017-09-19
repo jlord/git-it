@@ -1,0 +1,6 @@
+  Merge your branch locally, delete old branch and pull
+  from upstream for much win!
+
+  Use the guide (see below) for step-by-step instructions.
+
+  ---------------------------------------------------------------------
