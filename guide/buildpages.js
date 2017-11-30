@@ -11,7 +11,7 @@ var thefiles = []
 var lang = process.argv[2]
 var rawFiles = __dirname + (lang ? '/raw-content-' + lang + '/' : '/raw-content/')
 var builtContent = __dirname + (lang ? '/challenges-' + lang + '/' : '/challenges/')
-
+//testing
 // I can probably use glob better to avoid
 // finding the right files within the files
 glob("*.html", {cwd: rawFiles}, function (err, files) {
