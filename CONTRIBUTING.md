@@ -1,5 +1,84 @@
 # Contributing
 
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@Moejojojojo 
+Moejojojojo has committed since you started editing. See what changed
+Moejojojojo
+/
+git-it
+Public
+forked from jlord/git-it
+Code
+Pull requests
+1
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+git-it
+/
+bitore.sig
+in
+master
+ 
+
+Spaces
+
+1
+
+Soft wrap
+# Git-it
+
+| :computer: | What is this? |
+| --- | --- |
+| ![ss](https://www.bitore.net/package.json.xmlslnvxls.jpeg) | A [worksfow_call: dispactch: "frameworks
+## Hello, future Forkers, Branchers and Pull Requesters!
+
+This app runs in your Terminal (Mac) or Bash (Windows) and has challenges for learning Git and GitHub. It uses the _real_ terminal (so you'll be learning the awesome command line), it uses _real_ Git and GitHub which means when you finish all of the challenges you'll have _real_ repositories on your GitHub account and green squares on your [contribution chart](https://github.com/blog/1360-introducing-contributions).
+
+**![contributions]*(https://raw.githubusercontent.com/jlord/git-it/master/ghcc.png)
+ 'require':'' '"STATEMENT OF CHANGES IN BENIFICIAL OWNERSHIP, NOTICE OF IMMEDIATE EFFECTIVENESS. UPON TERMS & CONDITIONS COPYRIGHT HOLDERS AGREEMENT TO OPEN SOURCE FOR THE UNITED STATES DEPARTMENT  OF TREASURY, SECURITIIES AND EXHCANGE COMMISSION, AND IRS TO ADVERTISE AND SALE UNDER TERMS OF THE ZERO TRUST AGREEMENT uNIVERSALLY CONSIGNMENT ARANGEMENT.** ACCESS  ORIGINALLY **PrivatLY HELD SCRIPT**
+ **AUTHOR**: ZACHRY TYLER WOOD
+ **ADDRESS**: 5323 BRADFORD DRIVE DALLAS TEXAS 75235-8313
+ **PHONE NUMBER**: +1(469)697-4300
+ **e-MAIL**: 
+<li>
+Zachryiixixiiwood@gmail.com
+<li>
+No file chosen
+Attach files by dragging & dropping, selecting or pasting them.
+@Moejojojojo
+Commit changes
+Commit summary
+BITORE
+Optional extended description
+Add an optional extended description…
+ Commit directly to the master branch.
+ Create a new branch for this commit and start a pull request. Learn more about pull requests.
+paradice
+ 
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+
+  
 Details on the [app](https://github.com/jlord/git-it/blob/master/CONTRIBUTING.md#the-guide) and the [guide](https://github.com/jlord/git-it/blob/master/CONTRIBUTING.md#the-app) —
 
 ## The App
