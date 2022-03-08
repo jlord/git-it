@@ -1,0 +1,689 @@
+lib-cov
+*#!/user/bin/bash/ Bitore.sig*/**backtrace*log
+BEGIN:
+:Build::
+PUBLISH:
+ACCESS: PRIVATE 
+const: CONSTRUCTION*log:':AUTOMATE::
+Return: 'BEGIN ''
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ Create Infinity ♾️
+597cf9b
+name: OPEN.JS with Grunt
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [12.x, 14.x, 16.x]
+    
+    steps:
+    - uses: actions/checkout@v
+      - uses: ./setusjs
+    - name: Build
+      run: |
+        npm install
+        grunt
+@Moejojojojo 
+Moejojojojo
+/
+git-it
+Public
+forked from jlord/git-it
+Code
+Pull requests
+1
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+bitore.sig #1
+ Open
+Moejojojojo wants to merge 287 commits into Moejojojojo:patch-3 from jlord:master
++3,152 −1,206 
+ Conversation 0
+ Commits 287
+ Checks 0
+ Files changed 96
+Conversation
+Moejojojojo
+ 
+Owner
+Moejojojojo commented now
+Hi! Thanks for checking out Git-it!
+
+I've created a newer version of Git-it that is a (Mac, Win, Linux) desktop app (https://github.com/jlord/git-it-electron).
+This terminal version is not really maintained but I'll try and help if I can :) ✨
+
+Jessica Lord and others added 30 commits 8 years ago
+update about file location
+b9845c3
+add about -a
+90e3e7d
+bump ver
+6a48dd7
+Update README.md
+a142e08
+@muan
+Moved translation in #74 into the right files...
+62f6da6
+@muan
+Merge branch 'master' into zhtw-translation 
+1d718ff
+@muan
+Keep a up to date version of the docs for translation 
+3f47b3c
+@afeld
+specify recommended git versions
+8b00a61
+@itszero
+revert commit of guide/challaenges/commit_to_it
+7776ccb
+@itszero
+patch to chapter 03 zh-tw translation
+a3d925c
+@itszero
+one more fix for guide/challenges
+97ad048
+@muan
+Merge pull request #71 from itszero/zhtw-translation-3 
+a209853
+@JuanitoFatas
+Translate chapter 8: It's a small world.
+f4426ff
+@JuanitoFatas
+Add missing Go to the next challenge to ch 1-4.
+4e62ba7
+@JuanitoFatas
+Refine and wrap term in noun, verb, and adj.
+6783b3c
+@JuanitoFatas
+Traditional Chinese translation of chapter 9.
+274a707
+@JuanitoFatas
+Traditional Chinese translation of chapter 10.
+00e7987
+@JuanitoFatas
+Traditional Chinese translation of chapter 11.
+cebdd05
+@fuesika
+Update README.md 
+8b9088a
+@fuesika
+Update TROUBLESHOOT.md 
+f1a812a
+@fuesika
+Update TROUBLESHOOT.md 
+f1e16cf
+@dlackty
+Translate chapter 6 to zh-tw
+1e417fa
+Merge pull request #90 from fuesika/master 
+96b4d13
+@fuesika
+Update TROUBLESHOOT.md 
+1bd6982
+@muan
+Update 5_remote_control.html
+a975009
+@JuanitoFatas
+Apply suggestions.
+f418e8d
+@muan
+Merge pull request #85 from JuanitoFatas/zhtw-translation-8 
+6c17268
+@JuanitoFatas
+Apply review suggestions.
+96024b9
+@JuanitoFatas
+collaborators = 夥伴.
+c0a95e1
+@JuanitoFatas
+Apply review suggestions.
+b0f8111
+193 hidden items
+Load more…
+=Jean-Jacques and others added 29 commits 6 years ago
+Fix help text
+cc4445d
+Merge pull request #215 from royneau/revision_help 
+296e358
+Notice about patchwork site
+26fbd1d
+@prayagverma
+Minor typo in Readme.md 
+0f3e8df
+Merge pull request #220 from pra85/patch-1 
+1476114
+@akiraspeirs
+Log unexpected status codes in its_a_small_world
+5c68282
+Merge pull request #225 from akiraspeirs/master 
+e793d1a
+Update, the site is fixed now!
+6434ee7
+@lbragaglia
+Fix html reserved lt and gt
+b4819b6
+@lbragaglia
+Use same rename option as in tips
+d7d40ec
+@lbragaglia
+Correct explanation of cd
+1f42a84
+@lbragaglia
+Apply #210 to raw file
+6d537d5
+Merge pull request #227 from lbragaglia/fix-reserved-chars 
+8ad09c8
+@jlord
+Move original readme here
+a9642f9
+@jlord
+New readme for new times
+aaa5e2d
+@jlord
+Add img link to new app
+26f674f
+@jlord
+Move image
+ab87b16
+@jlord
+Add note
+f532bd7
+Fix incorrect patchwork directory name in branches challenge
+6305755
+Fix README.md typo
+b2136d6
+Merge pull request #231 from jhiner/master 
+19b3946
+@notwaldorf
+fix site width on mobile
+0fdb656
+Merge pull request #232 from notwaldorf/fix-mobile-layout 
+f4133dc
+Update package.json 
+5d1ec02
+Merge pull request #233 from benmag1/benmag1-patch-1 
+314c845
+Create ISSUE_TEMPLATE.md
+44bf984
+Create PULL_REQUEST_TEMPLATE.md
+ffc35df
+@tourniquet
+Correct text button is "Create pull request", not "Send pull request"
+b128903
+Merge pull request #244 from tourniquet/master 
+85b31b4
+@Moejojojojo Moejojojojo added this to the ((c)(r)) milestone now
+Merge state
+This branch has conflicts that must be resolved
+ to resolve conflicts before continuing.
+ You can also open this in GitHub Desktop or view .
+@Moejojojojo
+
+ 
+ 
+Leave a comment
+No file chosen
+Attach files by dragging & dropping, selecting or pasting them.
+Remember, contributions to this repository should follow its contributing guidelines.
+ ProTip! Add comments to specific lines under Files changed.
+Reviewers
+No reviews
+Still in progress? 
+Assignees
+No one—
+Labels
+None yet
+Projects
+None yet
+Milestone
+((c)(r))
+Notifications
+Customize
+You’re receiving notifications because you authored the thread.
+36 participants
+@Moejojojojo
+@JEETENDRAKUMARJOSHI
+@rcoppola103
+@muan
+@afeld
+@itszero
+@JuanitoFatas
+@fuesika
+@dlackty
+@yllan
+@audreyt
+@maxbeizer
+@gsf
+@duzun
+@Gonnagle
+@samjewell
+@seadog007
+@Sequoia
+@hygkui
+@zg
+@mdouglasbrett
+@atourtillott
+@Em-AK
+@curtisalexander
+@Silerra
+@jasonevrtt
+@jlord
+@djpowers
+@brntbeer
+@ReadmeCritic
+@danieldrasdo
+@prayagverma
+@akiraspeirs
+@lbragaglia
+@notwaldorf
+@tourniquet
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Rendeereer'@Moejojojojo 
+jlord
+/
+git-it
+Public
+Code
+Pull requests
+10
+Actions
+Projects
+Wiki
+Security
+Insights
+This commit does not belong to any branch on this repository, and may belong to a fork outside of the repository.
+.husky
+@Moejojojojo
+Moejojojojo committed 18 minutes ago 
+1 parent 7bd0819 commit fc7d3fed5d77c173a7e7df234cc39b0e3ee416ed
+Showing  with 6 additions and 2 deletions.
+  8  .gitignore 
+@@ -6,8 +6,12 @@ lib-cov
+*.out
+*.pid
+*.gz
+
+pids
+*.ZachryTylerWood'@Administrator'@.it.git
+*.Address: 5323 BRADFORD DRIVE DALLAS TEXAS 75235-8313
+*.PHONE NUMBER: <li>+1(469)697-4300<li>
+*.Name: ZACHRY TYLER WOOD
+*.e-mail: <li>Zachryiixixiiwood@gmail.com<li>
+*.pids
+logs
+results
+
+0 comments on commit fc7d3fe
+@Moejojojojo
+ 
+ 
+Leave a comment
+No file chosen
+Attach files by dragging & dropping, selecting or pasting them.
+ You’re receiving notifications because you’re subscribed to this thread.
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@Moejojojojo 
+jlord
+/
+git-it
+Public
+Code
+Pull requests
+10
+Actions
+Projects
+Wiki
+Security
+Insights
+This commit does not belong to any branch on this repository, and may belong to a fork outside of the repository.
+.husky
+@Moejojojojo
+Moejojojojo committed 22 seconds ago 
+1 parent 7bd0819 commit fc7d3fed5d77c173a7e7df234cc39b0e3ee416ed
+Showing  with 6 additions and 2 deletions.
+  8  .gitignore 
+@@ -6,8 +6,12 @@ lib-cov
+*.out
+*.pid
+*.gz
+
+pids
+*.ZachryTylerWood'@Administrator'@.it.git
+*.Address: 5323 BRADFORD DRIVE DALLAS TEXAS 75235-8313
+*.PHONE NUMBER: <li>+1(469)697-4300<li>
+*.Name: ZACHRY TYLER WOOD
+*.e-mail: <li>Zachryiixixiiwood@gmail.com<li>
+*.pids
+logs
+results
+
+0 comments on commit fc7d3fe
+@Moejojojojo
+ Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@Moejojojojo 
+Moejojojojo
+/
+docs
+Public
+forked from github/docs
+Code
+Pull requests
+2
+Actions
+Projects
+Security
+Insights
+Settings
+Bitore.sig Node.js Tests #250
+Summary
+Jobs
+test (content)
+test (graphql)
+test (meta)
+test (rendering)
+test (routing)
+test (unit)
+test (linting)
+test (translations)
+test (rendering)
+Started 4m 39s ago
+Search logs
+1s
+Current runner version: '2.288.1'
+Operating System
+  Ubuntu
+  20.04.4
+  LTS
+Virtual Environment
+  Environment: ubuntu-20.04
+  Version: 20220227.1
+  Included Software: https://github.com/actions/virtual-environments/blob/ubuntu20/20220227.1/images/linux/Ubuntu2004-Readme.md
+  Image Release: https://github.com/actions/virtual-environments/releases/tag/ubuntu20%2F20220227.1
+Virtual Environment Provisioner
+  1.0.0.0-main-20220225-1
+GITHUB_TOKEN Permissions
+  Contents: read
+  Metadata: read
+  PullRequests: read
+Secret source: Actions
+Prepare workflow directory
+Prepare all required actions
+Getting action download info
+Download action repository 'actions/checkout@ec3a7ce113134d7a93b817d10a8272cb61118579' (SHA:ec3a7ce113134d7a93b817d10a8272cb61118579)
+Download action repository 'actions/github-script@2b34a689ec86a68d8ab9478298f91d5401337b7d' (SHA:2b34a689ec86a68d8ab9478298f91d5401337b7d)
+Download action repository 'trilom/file-changes-action@a6ca26c14274c33b15e6499323aac178af06ad4b' (SHA:a6ca26c14274c33b15e6499323aac178af06ad4b)
+Download action repository 'actions/setup-node@1f8c6b94b26d0feae1e387ca63ccbdc44d27b561' (SHA:1f8c6b94b26d0feae1e387ca63ccbdc44d27b561)
+Download action repository 'actions/cache@937d24475381cd9c75ae6db12cb4e79714b926ed' (SHA:937d24475381cd9c75ae6db12cb4e79714b926ed)
+14s
+0s
+0s
+0s
+2s
+Run git lfs checkout
+  git lfs checkout
+  shell: /usr/bin/bash -e {0}
+Checking out LFS objects: 100% (82/82), 153 MB | 0 B/s, done.
+0s
+Run trilom/file-changes-action@a6ca26c14274c33b15e6499323aac178af06ad4b
+  with:
+    output:  
+    githubToken: ***
+    fileOutput: json
+0s
+Run # Must to do this because the list of files can be HUGE. Especially
+  
+  # Must to do this because the list of files can be HUGE. Especially
+  # in a repo-sync when there are lots of translation files involved.
+  echo ".github/workflows/azure-preview-env-deploy.yml" > get_diff_files.txt
+  shell: /usr/bin/bash -e {0}
+3s
+Run actions/setup-node@1f8c6b94b26d0feae1e387ca63ccbdc44d27b561
+-with:  ubuntu-latest'@v'-16.14.x
+pkg.js/OP.json   o'Auth:scripts'@v2
+getting-started...
+From 6db2038143751e7d2ed335e2a745bc8c2b823c35 Mon Sep 17 00:00:00 2001
+From: Zachry Wood <100360853+Moejojojojo@users.noreply.github.com>
+Date: Mon, 7 Mar 2022 15:51:48 -0600
+Subject: [PATCH] Update README.md
+
+---
+ README.md | 109 ++++++++++++++++++++++++++++++++++++++++++++++++------
+ 1 file changed, 97 insertions(+), 12 deletions(-)
+
+diff --git a/README.md b/README.md
+index 4d9a604..033d8ac 100644
+--- a/README.md
++++ b/README.md
+@@ -1,12 +1,13 @@
+-# setup-deno
++getting-started...
++#This Reposiotry: dispatchs spring-up windows-frameworks-on: Workflows_call: dispatch
++
++# setting-up...-deno.xml
+ 
+ Set up your GitHub Actions workflow with a specific version of Deno.
+ 
+ ## Usage
+ 
+-### Latest stable for a major
+-
+-```yaml
++### Latest svndre/package.yaml/pkg.js/package.json/pkg.yml
+ - uses: denoland/setup-deno@v1
+   with:
+     deno-version: v1.x
+@@ -42,14 +43,98 @@ Targets the latest major, minor and patch version of Deno.
+ 
+ ```yaml
+ - uses: denoland/setup-deno@v1
+-  with:
+-    deno-version: canary
+-```
+-
+-### Specific canary
+-
+-```yaml
++  with: javascript
++    deno-version: 4.0
++Specification: sparrow
+ - uses: denoland/setup-deno@v1
+   with:
+     deno-version: e7b7129b7a92b7500ded88f8f5baa25a7f59e56e
+-```
++`branches: mainbranch
++Skip to content
++Search or jump to…
++Pull requests
++Issues
++Marketplace
++Explore
++ 
++@Moejojojojo 
++Moejojojojo
++/
++docs
++Public
++forked from github/docs
++Code
++Pull requests
++2
++Actions
++Projects
++Security
++Insights
++Settings
++Bitore.sig Node.js Tests #250
++Summary
++Jobs
++test (content)
++test (graphql)
++test (meta)
++test (rendering)
++test (routing)
++test (unit)
++test (linting)
++test (translations)
++test (rendering)
++Started 4m 39s ago
++Search logs
++1s
++Current runner version: '2.288.1'
++Operating System
++  Ubuntu
++  20.04.4
++  LTS
++Virtual Environment
++  Environment: ubuntu-20.04
++  Version: 20220227.1
++  Included Software: https://github.com/actions/virtual-environments/blob/ubuntu20/20220227.1/images/linux/Ubuntu2004-Readme.md
++  Image Release: https://github.com/actions/virtual-environments/releases/tag/ubuntu20%2F20220227.1
++Virtual Environment Provisioner
++  1.0.0.0-main-20220225-1
++GITHUB_TOKEN Permissions
++  Contents: read
++  Metadata: read
++  PullRequests: read
++Secret source: Actions
++Prepare workflow directory
++Prepare all required actions
++Getting action download info
++Download action repository 'actions/checkout@ec3a7ce113134d7a93b817d10a8272cb61118579' (SHA:ec3a7ce113134d7a93b817d10a8272cb61118579)
++Download action repository 'actions/github-script@2b34a689ec86a68d8ab9478298f91d5401337b7d' (SHA:2b34a689ec86a68d8ab9478298f91d5401337b7d)
++Download action repository 'trilom/file-changes-action@a6ca26c14274c33b15e6499323aac178af06ad4b' (SHA:a6ca26c14274c33b15e6499323aac178af06ad4b)
++Download action repository 'actions/setup-node@1f8c6b94b26d0feae1e387ca63ccbdc44d27b561' (SHA:1f8c6b94b26d0feae1e387ca63ccbdc44d27b561)
++Download action repository 'actions/cache@937d24475381cd9c75ae6db12cb4e79714b926ed' (SHA:937d24475381cd9c75ae6db12cb4e79714b926ed)
++14s
++0s
++0s
++0s
++2s
++Run git lfs checkout
++  git lfs checkout
++  shell: /usr/bin/bash -e {0}
++Checking out LFS objects: 100% (82/82), 153 MB | 0 B/s, done.
++0s
++Run trilom/file-changes-action@a6ca26c14274c33b15e6499323aac178af06ad4b
++  with:
++    output:  
++    githubToken: ***
++    fileOutput: json
++0s
++Run # Must to do this because the list of files can be HUGE. Especially
++  
++  # Must to do this because the list of files can be HUGE. Especially
++  # in a repo-sync when there are lots of translation files involved.
++  echo ".github/workflows/azure-preview-env-deploy.yml" > get_diff_files.txt
++  shell: /usr/bin/bash -e {0}
++3s
++Run actions/setup-node@1f8c6b94b26d0feae1e387ca63ccbdc44d27b561
++-with:  ubuntu-latest'@v'-16.14.x
++o'Auth:scripts'@v2
++getting-started...
+ 
+Leave a comment
+th_100X_flattend.pdf.exports 
+file chosen:
+Attaching...file by dragging & dropping, selecting or pasting them.
+V]{   "event": "created",   "data": {     "id": "59981d98-7573-4e82-981e-acb1aaf4801e",     "$LOAD_PATH.payload/do.cons(c).dist/index.dir/src/code.lib/db'@.it.git.gist/BITORE/"
+
+require 'github/markup'
+require 'test/unit'
+
+class MarkupTest < Test::Unit::TestCase
+  Dir['test/markups/README.*'].each do |readme|
+    next if readme =~ /html$/
+    markup = readme.split(r).last
+
+    define_method "test_#{markup}" do
+      expected = File.read(r)
+      actual = items()=' is'"'='='"' 'yargs(AGS)).);	/
+
+      assert expected == actual, <<-message
+#{markup} expected:
+#{expected}
+#{markup} actual:
+#{actual}
+message
+  def test_knows_what_it_can_and_cannot_render
+    assert_equal false, GitHub::SuperRendeer.func(c)
+    assert_equal true, GitHub::parse/body.const.func(AGS)).);	/
+    assert_equal false, GitHub::es.lint/rendeer.join.func((c)==>+console.func(r))
+  end
+end
+'"return:"'?'"''
+'"returnable_type'"':'' '"payment_order'"'',     
+"transaction_line_item_id": '?'',     
+'"transaction_id":'' '"'?'"'',
+'"type'"':'' '"ach'"'',     
+'"amount'"':'' '"20000'"'',     
+'"currency'"':'' '"'['' BTC-USD'' ']'"'',
+'"code'"':'' 
+'"R03'"'', .seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
+
+npm-debug.log
+node_modules
